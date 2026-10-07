@@ -8,9 +8,9 @@ Complete source snapshot by **homieyangg**, hosted directly in this collection. 
 
 | Mod | Version | Description |
 | --- | --- | --- |
-| [Leftover Tracker](../../integrations/leftover-tracker/) | 0.1.0 | Keeps a ledger of what Claude left running or lying around on your machine and servers |
-| [Plan Bar](../../planning/plan-bar/) | 0.1.0 | Live progress bars above the prompt for multi-step work: one row per plan, with stages, percent, waiting and failed colors, and sounds |
-| [Secret Mask](../../safety/secret-mask/) | 0.1.0 | Mask token-like strings in tool output before they reach the conversation |
+| [Leftover Tracker](../../IntegrationMods/leftover-tracker/) | 0.1.0 | Keeps a ledger of what Claude left running or lying around on your machine and servers |
+| [Plan Bar](../../PlanningMods/plan-bar/) | 0.1.0 | Live progress bars above the prompt for multi-step work: one row per plan, with stages, percent, waiting and failed colors, and sounds |
+| [Secret Mask](../../SafetyMods/secret-mask/) | 0.1.0 | Mask token-like strings in tool output before they reach the conversation |
 
 ## Get the files
 

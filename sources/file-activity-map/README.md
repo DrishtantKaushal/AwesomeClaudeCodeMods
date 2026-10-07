@@ -8,7 +8,7 @@ Complete source snapshot by **y-hirakaw**, hosted directly in this collection. I
 
 | Mod | Version | Description |
 | --- | --- | --- |
-| [File Activity Map](../../files/file-activity-map/) | 0.1.0 | See which files Claude has listed, read, partially read, edited, created or deleted, as a tree and an activity map in a pane. |
+| [File Activity Map](../../FileMods/file-activity-map/) | 0.1.0 | See which files Claude has listed, read, partially read, edited, created or deleted, as a tree and an activity map in a pane. |
 
 ## Get the files
 

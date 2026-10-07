@@ -8,8 +8,8 @@ Complete source snapshot by **galElmalah**, hosted directly in this collection. 
 
 | Mod | Version | Description |
 | --- | --- | --- |
-| [Mermaid Diagrams](../../interface/mermaid-diagrams/) | 0.3.1 | Mermaid diagrams in Claude Code: every ```mermaid block Claude writes is drawn as box art, in colour, right where the fence was in the transcript. Needs function hooks (early access) and an interactive terminal. |
-| [Prompt Queue](../../prompts/prompt-queue/) | 0.4.3 | A prompt typed while Claude is working is held in a stack above the prompt instead of landing in the running turn, and sent once the turn ends. Reorder the stack, edit a row in place, send one first, remove one, flush the lot. Needs function hooks (early access) and an interactive terminal. |
+| [Mermaid Diagrams](../../InterfaceMods/mermaid-diagrams/) | 0.3.1 | Mermaid diagrams in Claude Code: every ```mermaid block Claude writes is drawn as box art, in colour, right where the fence was in the transcript. Needs function hooks (early access) and an interactive terminal. |
+| [Prompt Queue](../../PromptMods/prompt-queue/) | 0.4.3 | A prompt typed while Claude is working is held in a stack above the prompt instead of landing in the running turn, and sent once the turn ends. Reorder the stack, edit a row in place, send one first, remove one, flush the lot. Needs function hooks (early access) and an interactive terminal. |
 
 ## Get the files
 

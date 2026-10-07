@@ -8,7 +8,7 @@ Complete source snapshot by **scasella**, available directly in this collection.
 
 | Mod | Version | Description |
 | --- | --- | --- |
-| [Agent Dashboard](../../agents/agent-dashboard/) | 0.3.2 | Flightdeck: a live agent dashboard for Claude Code. Main model vitals, an on-call architect, every permission check, subagent cards and swimlanes, a turn receipt and a session log, all from real session events |
+| [Agent Dashboard](../../AgentMods/agent-dashboard/) | 0.3.2 | Flightdeck: a live agent dashboard for Claude Code. Main model vitals, an on-call architect, every permission check, subagent cards and swimlanes, a turn receipt and a session log, all from real session events |
 
 ## Get the files
 

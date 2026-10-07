@@ -8,7 +8,7 @@ Complete source snapshot by **halluton**, available directly in this collection.
 
 | Mod | Version | Description |
 | --- | --- | --- |
-| [Breathing Exercises](../../focus/breathing-exercises/) | 2.0.0 | Guided breathing exercises above the prompt while Claude works: coherent, box, 4-7-8 and the physiological sigh, four animation styles, and the spinner reads the breath. Appears when Claude starts, disappears when Claude answers. Needs function hooks (early access) and an interactive terminal. |
+| [Breathing Exercises](../../FocusMods/breathing-exercises/) | 2.0.0 | Guided breathing exercises above the prompt while Claude works: coherent, box, 4-7-8 and the physiological sigh, four animation styles, and the spinner reads the breath. Appears when Claude starts, disappears when Claude answers. Needs function hooks (early access) and an interactive terminal. |
 
 ## Get the files
 

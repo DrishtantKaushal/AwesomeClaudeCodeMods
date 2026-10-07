@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "sezaakgun/cc-pr-tracker:.",
+  "name": "cc-pr-tracker",
+  "displayName": "PR Tracker",
+  "version": "0.2.0",
+  "description": "Watch GitHub PRs from a Claude Code session: merge state, review and required checks above the prompt, with alerts when they change",
+  "author": "Seza Akg\u00fcn",
+  "repository": "sezaakgun/cc-pr-tracker",
+  "modPath": ".",
+  "category": {
+    "id": "git",
+    "label": "Git Mods",
+    "folder": "GitMods",
+    "basis": "exact-catalogue-repository-and-mod-path"
+  },
+  "sourceCommit": "514da1edb4877cdb812ae1a25f79aa81fb6aa6db",
+  "sourcePath": "sources/pr-tracker/source",
+  "sourceManifest": "sources/pr-tracker/source/.claude-plugin/plugin.json",
+  "page": "GitMods/pr-tracker/",
+  "runtimeTested": false
+}

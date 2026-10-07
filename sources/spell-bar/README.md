@@ -8,7 +8,7 @@ Complete source snapshot by **powerofjinbo**, available directly in this collect
 
 | Mod | Version | Description |
 | --- | --- | --- |
-| [Spell Bar](../../games/spell-bar/) | 1.0.0 | An animated effort bar for Claude Code: Clawd casts Avada Kedavra at six ranks, one per effort level from low to ultracode, with Voldemort looming behind. |
+| [Spell Bar](../../GameMods/spell-bar/) | 1.0.0 | An animated effort bar for Claude Code: Clawd casts Avada Kedavra at six ranks, one per effort level from low to ultracode, with Voldemort looming behind. |
 
 ## Get the files
 

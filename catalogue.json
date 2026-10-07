@@ -2,20 +2,36 @@
   "schemaVersion": 1,
   "updatedAt": "2026-10-07",
   "categories": {
-    "usage": "Usage & costs",
-    "agents": "Agents & orchestration",
-    "planning": "Planning & tasks",
-    "files": "Files & navigation",
-    "git": "Git & code review",
-    "safety": "Safety & permissions",
-    "memory": "Memory & context",
-    "interface": "Interface & themes",
-    "prompts": "Prompts & input",
-    "testing": "Testing & debugging",
-    "web": "Browser & web",
-    "focus": "Notifications & focus",
-    "games": "Games & entertainment",
-    "integrations": "Integrations & utilities"
+    "usage": "Usage Mods",
+    "agents": "Agent Mods",
+    "planning": "Planning Mods",
+    "files": "File Mods",
+    "git": "Git Mods",
+    "safety": "Safety Mods",
+    "memory": "Memory Mods",
+    "interface": "Interface Mods",
+    "prompts": "Prompt Mods",
+    "testing": "Testing Mods",
+    "web": "Web Mods",
+    "focus": "Focus Mods",
+    "games": "Game Mods",
+    "integrations": "Integration Mods"
+  },
+  "categoryFolders": {
+    "usage": "UsageMods",
+    "agents": "AgentMods",
+    "planning": "PlanningMods",
+    "files": "FileMods",
+    "git": "GitMods",
+    "safety": "SafetyMods",
+    "memory": "MemoryMods",
+    "interface": "InterfaceMods",
+    "prompts": "PromptMods",
+    "testing": "TestingMods",
+    "web": "WebMods",
+    "focus": "FocusMods",
+    "games": "GameMods",
+    "integrations": "IntegrationMods"
   },
   "mods": [
     {
@@ -30,13 +46,14 @@
       "modPath": ".",
       "category": {
         "id": "agents",
-        "label": "Agents & orchestration",
+        "label": "Agent Mods",
+        "folder": "AgentMods",
         "basis": "exact-catalogue-repository-and-mod-path"
       },
       "sourceCommit": "6d0ce80575a92f8f6c8c2493c2bf20413e255622",
       "sourcePath": "sources/agent-cartoons/source",
       "sourceManifest": "sources/agent-cartoons/source/.claude-plugin/plugin.json",
-      "page": "agents/agent-cartoons/",
+      "page": "AgentMods/agent-cartoons/",
       "runtimeTested": false
     },
     {
@@ -51,13 +68,14 @@
       "modPath": ".",
       "category": {
         "id": "agents",
-        "label": "Agents & orchestration",
+        "label": "Agent Mods",
+        "folder": "AgentMods",
         "basis": "exact-catalogue-repository-and-mod-path"
       },
       "sourceCommit": "f31daca523d36c501cd0df23a737a44c7dc56ad6",
       "sourcePath": "sources/agent-dashboard/source",
       "sourceManifest": "sources/agent-dashboard/source/.claude-plugin/plugin.json",
-      "page": "agents/agent-dashboard/",
+      "page": "AgentMods/agent-dashboard/",
       "runtimeTested": false
     },
     {
@@ -72,13 +90,14 @@
       "modPath": ".",
       "category": {
         "id": "interface",
-        "label": "Interface & themes",
+        "label": "Interface Mods",
+        "folder": "InterfaceMods",
         "basis": "exact-catalogue-repository-and-mod-path"
       },
       "sourceCommit": "799edab93dddfe74a4978c9c474d3c6b0d5ae690",
       "sourcePath": "sources/animated-spinner/source",
       "sourceManifest": "sources/animated-spinner/source/.claude-plugin/plugin.json",
-      "page": "interface/animated-spinner/",
+      "page": "InterfaceMods/animated-spinner/",
       "runtimeTested": false
     },
     {
@@ -93,13 +112,14 @@
       "modPath": ".",
       "category": {
         "id": "usage",
-        "label": "Usage & costs",
+        "label": "Usage Mods",
+        "folder": "UsageMods",
         "basis": "exact-catalogue-repository-and-mod-path"
       },
       "sourceCommit": "5227efe6956a0a7b9a06244535e5e9496887d82c",
       "sourcePath": "sources/braille-usage/source",
       "sourceManifest": "sources/braille-usage/source/.claude-plugin/plugin.json",
-      "page": "usage/braille-usage/",
+      "page": "UsageMods/braille-usage/",
       "runtimeTested": false
     },
     {
@@ -114,13 +134,14 @@
       "modPath": ".",
       "category": {
         "id": "focus",
-        "label": "Notifications & focus",
+        "label": "Focus Mods",
+        "folder": "FocusMods",
         "basis": "exact-catalogue-repository-and-mod-path"
       },
       "sourceCommit": "411c9c4f4f1c3d128159be7315823341ae7d9e2d",
       "sourcePath": "sources/breathing-exercises/source",
       "sourceManifest": "sources/breathing-exercises/source/.claude-plugin/plugin.json",
-      "page": "focus/breathing-exercises/",
+      "page": "FocusMods/breathing-exercises/",
       "runtimeTested": false
     },
     {
@@ -135,13 +156,14 @@
       "modPath": ".",
       "category": {
         "id": "memory",
-        "label": "Memory & context",
+        "label": "Memory Mods",
+        "folder": "MemoryMods",
         "basis": "exact-catalogue-repository-and-mod-path"
       },
       "sourceCommit": "969036d679b102dfb757a98b8ecaee7ef5af62fc",
       "sourcePath": "sources/cache-countdown/source",
       "sourceManifest": "sources/cache-countdown/source/.claude-plugin/plugin.json",
-      "page": "memory/cache-countdown/",
+      "page": "MemoryMods/cache-countdown/",
       "runtimeTested": false
     },
     {
@@ -156,13 +178,14 @@
       "modPath": ".",
       "category": {
         "id": "memory",
-        "label": "Memory & context",
+        "label": "Memory Mods",
+        "folder": "MemoryMods",
         "basis": "exact-catalogue-repository-and-mod-path"
       },
       "sourceCommit": "2c4388cbecf115dc6209fcec1a10446123fc8ae5",
       "sourcePath": "sources/cold-cache-guard/source",
       "sourceManifest": "sources/cold-cache-guard/source/.claude-plugin/plugin.json",
-      "page": "memory/cold-cache-guard/",
+      "page": "MemoryMods/cold-cache-guard/",
       "runtimeTested": false
     },
     {
@@ -177,13 +200,14 @@
       "modPath": ".",
       "category": {
         "id": "planning",
-        "label": "Planning & tasks",
+        "label": "Planning Mods",
+        "folder": "PlanningMods",
         "basis": "exact-catalogue-repository-and-mod-path"
       },
       "sourceCommit": "ce089d547ff82bca801566dd47925affa30eedc9",
       "sourcePath": "sources/completion-checklist/source",
       "sourceManifest": "sources/completion-checklist/source/.claude-plugin/plugin.json",
-      "page": "planning/completion-checklist/",
+      "page": "PlanningMods/completion-checklist/",
       "runtimeTested": false
     },
     {
@@ -198,13 +222,14 @@
       "modPath": ".",
       "category": {
         "id": "memory",
-        "label": "Memory & context",
+        "label": "Memory Mods",
+        "folder": "MemoryMods",
         "basis": "exact-catalogue-repository-and-mod-path"
       },
       "sourceCommit": "576153e41df11e80d5b7778fa81887db7678f2e8",
       "sourcePath": "sources/context-relay/source",
       "sourceManifest": "sources/context-relay/source/.claude-plugin/plugin.json",
-      "page": "memory/context-relay/",
+      "page": "MemoryMods/context-relay/",
       "runtimeTested": false
     },
     {
@@ -219,13 +244,14 @@
       "modPath": "agent-narrator",
       "category": {
         "id": "agents",
-        "label": "Agents & orchestration",
+        "label": "Agent Mods",
+        "folder": "AgentMods",
         "basis": "exact-catalogue-repository-and-mod-path"
       },
       "sourceCommit": "e6da26ca36a88eec3be25605d30fa20f2c1c0cec",
       "sourcePath": "sources/creative-toolkit/source/agent-narrator",
       "sourceManifest": "sources/creative-toolkit/source/agent-narrator/.claude-plugin/plugin.json",
-      "page": "agents/agent-narrator/",
+      "page": "AgentMods/agent-narrator/",
       "runtimeTested": false
     },
     {
@@ -240,13 +266,14 @@
       "modPath": "agent-race",
       "category": {
         "id": "agents",
-        "label": "Agents & orchestration",
+        "label": "Agent Mods",
+        "folder": "AgentMods",
         "basis": "exact-catalogue-repository-and-mod-path"
       },
       "sourceCommit": "e6da26ca36a88eec3be25605d30fa20f2c1c0cec",
       "sourcePath": "sources/creative-toolkit/source/agent-race",
       "sourceManifest": "sources/creative-toolkit/source/agent-race/.claude-plugin/plugin.json",
-      "page": "agents/agent-race/",
+      "page": "AgentMods/agent-race/",
       "runtimeTested": false
     },
     {
@@ -261,13 +288,14 @@
       "modPath": "boss-fight",
       "category": {
         "id": "games",
-        "label": "Games & entertainment",
+        "label": "Game Mods",
+        "folder": "GameMods",
         "basis": "exact-catalogue-repository-and-mod-path"
       },
       "sourceCommit": "e6da26ca36a88eec3be25605d30fa20f2c1c0cec",
       "sourcePath": "sources/creative-toolkit/source/boss-fight",
       "sourceManifest": "sources/creative-toolkit/source/boss-fight/.claude-plugin/plugin.json",
-      "page": "games/boss-fight/",
+      "page": "GameMods/boss-fight/",
       "runtimeTested": false
     },
     {
@@ -282,13 +310,14 @@
       "modPath": "burn-meter",
       "category": {
         "id": "usage",
-        "label": "Usage & costs",
+        "label": "Usage Mods",
+        "folder": "UsageMods",
         "basis": "exact-catalogue-repository-and-mod-path"
       },
       "sourceCommit": "e6da26ca36a88eec3be25605d30fa20f2c1c0cec",
       "sourcePath": "sources/creative-toolkit/source/burn-meter",
       "sourceManifest": "sources/creative-toolkit/source/burn-meter/.claude-plugin/plugin.json",
-      "page": "usage/burn-meter/",
+      "page": "UsageMods/burn-meter/",
       "runtimeTested": false
     },
     {
@@ -303,13 +332,14 @@
       "modPath": "code-pet",
       "category": {
         "id": "games",
-        "label": "Games & entertainment",
+        "label": "Game Mods",
+        "folder": "GameMods",
         "basis": "exact-catalogue-repository-and-mod-path"
       },
       "sourceCommit": "e6da26ca36a88eec3be25605d30fa20f2c1c0cec",
       "sourcePath": "sources/creative-toolkit/source/code-pet",
       "sourceManifest": "sources/creative-toolkit/source/code-pet/.claude-plugin/plugin.json",
-      "page": "games/code-pet/",
+      "page": "GameMods/code-pet/",
       "runtimeTested": false
     },
     {
@@ -324,13 +354,14 @@
       "modPath": "inbox-alerts",
       "category": {
         "id": "focus",
-        "label": "Notifications & focus",
+        "label": "Focus Mods",
+        "folder": "FocusMods",
         "basis": "exact-catalogue-repository-and-mod-path"
       },
       "sourceCommit": "e6da26ca36a88eec3be25605d30fa20f2c1c0cec",
       "sourcePath": "sources/creative-toolkit/source/inbox-alerts",
       "sourceManifest": "sources/creative-toolkit/source/inbox-alerts/.claude-plugin/plugin.json",
-      "page": "focus/inbox-alerts/",
+      "page": "FocusMods/inbox-alerts/",
       "runtimeTested": false
     },
     {
@@ -345,13 +376,14 @@
       "modPath": "inner-monologue",
       "category": {
         "id": "interface",
-        "label": "Interface & themes",
+        "label": "Interface Mods",
+        "folder": "InterfaceMods",
         "basis": "exact-catalogue-repository-and-mod-path"
       },
       "sourceCommit": "e6da26ca36a88eec3be25605d30fa20f2c1c0cec",
       "sourcePath": "sources/creative-toolkit/source/inner-monologue",
       "sourceManifest": "sources/creative-toolkit/source/inner-monologue/.claude-plugin/plugin.json",
-      "page": "interface/inner-monologue/",
+      "page": "InterfaceMods/inner-monologue/",
       "runtimeTested": false
     },
     {
@@ -366,13 +398,14 @@
       "modPath": "launch-codes",
       "category": {
         "id": "interface",
-        "label": "Interface & themes",
+        "label": "Interface Mods",
+        "folder": "InterfaceMods",
         "basis": "exact-catalogue-repository-and-mod-path"
       },
       "sourceCommit": "e6da26ca36a88eec3be25605d30fa20f2c1c0cec",
       "sourcePath": "sources/creative-toolkit/source/launch-codes",
       "sourceManifest": "sources/creative-toolkit/source/launch-codes/.claude-plugin/plugin.json",
-      "page": "interface/launch-codes/",
+      "page": "InterfaceMods/launch-codes/",
       "runtimeTested": false
     },
     {
@@ -387,13 +420,14 @@
       "modPath": "session-wrapped",
       "category": {
         "id": "integrations",
-        "label": "Integrations & utilities",
+        "label": "Integration Mods",
+        "folder": "IntegrationMods",
         "basis": "exact-catalogue-repository-and-mod-path"
       },
       "sourceCommit": "e6da26ca36a88eec3be25605d30fa20f2c1c0cec",
       "sourcePath": "sources/creative-toolkit/source/session-wrapped",
       "sourceManifest": "sources/creative-toolkit/source/session-wrapped/.claude-plugin/plugin.json",
-      "page": "integrations/session-wrapped/",
+      "page": "IntegrationMods/session-wrapped/",
       "runtimeTested": false
     },
     {
@@ -408,13 +442,14 @@
       "modPath": "sportscaster",
       "category": {
         "id": "games",
-        "label": "Games & entertainment",
+        "label": "Game Mods",
+        "folder": "GameMods",
         "basis": "exact-catalogue-repository-and-mod-path"
       },
       "sourceCommit": "e6da26ca36a88eec3be25605d30fa20f2c1c0cec",
       "sourcePath": "sources/creative-toolkit/source/sportscaster",
       "sourceManifest": "sources/creative-toolkit/source/sportscaster/.claude-plugin/plugin.json",
-      "page": "games/sportscaster/",
+      "page": "GameMods/sportscaster/",
       "runtimeTested": false
     },
     {
@@ -429,13 +464,14 @@
       "modPath": "swarm",
       "category": {
         "id": "agents",
-        "label": "Agents & orchestration",
+        "label": "Agent Mods",
+        "folder": "AgentMods",
         "basis": "individual-pinned-manifest-and-source-review"
       },
       "sourceCommit": "e6da26ca36a88eec3be25605d30fa20f2c1c0cec",
       "sourcePath": "sources/creative-toolkit/source/swarm",
       "sourceManifest": "sources/creative-toolkit/source/swarm/.claude-plugin/plugin.json",
-      "page": "agents/agent-team-monitor/",
+      "page": "AgentMods/agent-team-monitor/",
       "runtimeTested": false
     },
     {
@@ -450,13 +486,14 @@
       "modPath": "claude-mermaid",
       "category": {
         "id": "interface",
-        "label": "Interface & themes",
+        "label": "Interface Mods",
+        "folder": "InterfaceMods",
         "basis": "individual-pinned-manifest-and-source-review"
       },
       "sourceCommit": "b19a0f0d09bf214c010b15cc2849c0c1a11d7b0d",
       "sourcePath": "sources/diagrams-and-queue/source/claude-mermaid",
       "sourceManifest": "sources/diagrams-and-queue/source/claude-mermaid/.claude-plugin/plugin.json",
-      "page": "interface/mermaid-diagrams/",
+      "page": "InterfaceMods/mermaid-diagrams/",
       "runtimeTested": false
     },
     {
@@ -471,13 +508,14 @@
       "modPath": "claude-queue",
       "category": {
         "id": "prompts",
-        "label": "Prompts & input",
+        "label": "Prompt Mods",
+        "folder": "PromptMods",
         "basis": "individual-pinned-manifest-and-source-review"
       },
       "sourceCommit": "b19a0f0d09bf214c010b15cc2849c0c1a11d7b0d",
       "sourcePath": "sources/diagrams-and-queue/source/claude-queue",
       "sourceManifest": "sources/diagrams-and-queue/source/claude-queue/.claude-plugin/plugin.json",
-      "page": "prompts/prompt-queue/",
+      "page": "PromptMods/prompt-queue/",
       "runtimeTested": false
     },
     {
@@ -492,13 +530,14 @@
       "modPath": ".",
       "category": {
         "id": "games",
-        "label": "Games & entertainment",
+        "label": "Game Mods",
+        "folder": "GameMods",
         "basis": "exact-catalogue-repository-and-mod-path"
       },
       "sourceCommit": "fe5c0b64b550242449cc8b5861771fcdac2f5993",
       "sourcePath": "sources/dino-game/source",
       "sourceManifest": "sources/dino-game/source/.claude-plugin/plugin.json",
-      "page": "games/dino-game/",
+      "page": "GameMods/dino-game/",
       "runtimeTested": false
     },
     {
@@ -513,13 +552,14 @@
       "modPath": ".",
       "category": {
         "id": "games",
-        "label": "Games & entertainment",
+        "label": "Game Mods",
+        "folder": "GameMods",
         "basis": "exact-catalogue-repository-and-mod-path"
       },
       "sourceCommit": "2d0221b6650ebe6287114cf9deec13b0b30850ec",
       "sourcePath": "sources/dino-runner/source",
       "sourceManifest": "sources/dino-runner/source/.claude-plugin/plugin.json",
-      "page": "games/dino-runner/",
+      "page": "GameMods/dino-runner/",
       "runtimeTested": false
     },
     {
@@ -534,13 +574,14 @@
       "modPath": ".",
       "category": {
         "id": "safety",
-        "label": "Safety & permissions",
+        "label": "Safety Mods",
+        "folder": "SafetyMods",
         "basis": "exact-catalogue-repository-and-mod-path"
       },
       "sourceCommit": "fcf98fea2b24c1d1483cff947b3d40cc031bfa4c",
       "sourcePath": "sources/effort-guard/source",
       "sourceManifest": "sources/effort-guard/source/.claude-plugin/plugin.json",
-      "page": "safety/effort-guard/",
+      "page": "SafetyMods/effort-guard/",
       "runtimeTested": false
     },
     {
@@ -555,13 +596,14 @@
       "modPath": ".",
       "category": {
         "id": "safety",
-        "label": "Safety & permissions",
+        "label": "Safety Mods",
+        "folder": "SafetyMods",
         "basis": "exact-catalogue-repository-and-mod-path"
       },
       "sourceCommit": "304036789298d13f951183abe0fc46d6c6c43bfc",
       "sourcePath": "sources/evidence-guardrails/source",
       "sourceManifest": "sources/evidence-guardrails/source/.claude-plugin/plugin.json",
-      "page": "safety/evidence-guardrails/",
+      "page": "SafetyMods/evidence-guardrails/",
       "runtimeTested": false
     },
     {
@@ -576,13 +618,14 @@
       "modPath": "touch-map",
       "category": {
         "id": "files",
-        "label": "Files & navigation",
+        "label": "File Mods",
+        "folder": "FileMods",
         "basis": "individual-pinned-manifest-and-source-review"
       },
       "sourceCommit": "ac362939126aaff53b1a1d22da196e4ec5137c66",
       "sourcePath": "sources/file-activity-map/source/touch-map",
       "sourceManifest": "sources/file-activity-map/source/touch-map/.claude-plugin/plugin.json",
-      "page": "files/file-activity-map/",
+      "page": "FileMods/file-activity-map/",
       "runtimeTested": false
     },
     {
@@ -597,13 +640,14 @@
       "modPath": ".",
       "category": {
         "id": "web",
-        "label": "Browser & web",
+        "label": "Web Mods",
+        "folder": "WebMods",
         "basis": "exact-catalogue-repository-and-mod-path"
       },
       "sourceCommit": "12893f47e1c5641aae3abf811bc26ba1ab6a4bad",
       "sourcePath": "sources/html-preview/source",
       "sourceManifest": "sources/html-preview/source/.claude-plugin/plugin.json",
-      "page": "web/html-preview/",
+      "page": "WebMods/html-preview/",
       "runtimeTested": false
     },
     {
@@ -618,13 +662,14 @@
       "modPath": ".",
       "category": {
         "id": "interface",
-        "label": "Interface & themes",
+        "label": "Interface Mods",
+        "folder": "InterfaceMods",
         "basis": "exact-catalogue-repository-and-mod-path"
       },
       "sourceCommit": "b3c412bb6d167cafade79148e95f9114ee1aad7c",
       "sourcePath": "sources/image-viewer/source",
       "sourceManifest": "sources/image-viewer/source/.claude-plugin/plugin.json",
-      "page": "interface/image-viewer/",
+      "page": "InterfaceMods/image-viewer/",
       "runtimeTested": false
     },
     {
@@ -639,13 +684,14 @@
       "modPath": ".",
       "category": {
         "id": "memory",
-        "label": "Memory & context",
+        "label": "Memory Mods",
+        "folder": "MemoryMods",
         "basis": "exact-catalogue-repository-and-mod-path"
       },
       "sourceCommit": "baa1cb3e14436dcfe1f390d332e8c4b0ff48840b",
       "sourcePath": "sources/japanese-session-names/source",
       "sourceManifest": "sources/japanese-session-names/source/.claude-plugin/plugin.json",
-      "page": "memory/japanese-session-names/",
+      "page": "MemoryMods/japanese-session-names/",
       "runtimeTested": false
     },
     {
@@ -660,13 +706,14 @@
       "modPath": ".",
       "category": {
         "id": "usage",
-        "label": "Usage & costs",
+        "label": "Usage Mods",
+        "folder": "UsageMods",
         "basis": "exact-catalogue-repository-and-mod-path"
       },
       "sourceCommit": "6c1d03e068ebe9ada43bb182857c425605cccee1",
       "sourcePath": "sources/model-shortcuts/source",
       "sourceManifest": "sources/model-shortcuts/source/.claude-plugin/plugin.json",
-      "page": "usage/model-shortcuts/",
+      "page": "UsageMods/model-shortcuts/",
       "runtimeTested": false
     },
     {
@@ -681,13 +728,14 @@
       "modPath": ".",
       "category": {
         "id": "agents",
-        "label": "Agents & orchestration",
+        "label": "Agent Mods",
+        "folder": "AgentMods",
         "basis": "exact-catalogue-repository-and-mod-path"
       },
       "sourceCommit": "0878de6d69b06324ff6515b63d5daf73de90f601",
       "sourcePath": "sources/pi-agent/source",
       "sourceManifest": "sources/pi-agent/source/.claude-plugin/plugin.json",
-      "page": "agents/pi-agent/",
+      "page": "AgentMods/pi-agent/",
       "runtimeTested": false
     },
     {
@@ -702,13 +750,14 @@
       "modPath": "plugins/plan-progress",
       "category": {
         "id": "planning",
-        "label": "Planning & tasks",
+        "label": "Planning Mods",
+        "folder": "PlanningMods",
         "basis": "exact-catalogue-repository-and-mod-path"
       },
       "sourceCommit": "2febbf82b6d933971f19d79892a586cb036fc199",
       "sourcePath": "sources/plan-progress/source/plugins/plan-progress",
       "sourceManifest": "sources/plan-progress/source/plugins/plan-progress/.claude-plugin/plugin.json",
-      "page": "planning/plan-progress/",
+      "page": "PlanningMods/plan-progress/",
       "runtimeTested": false
     },
     {
@@ -723,13 +772,14 @@
       "modPath": ".",
       "category": {
         "id": "git",
-        "label": "Git & code review",
+        "label": "Git Mods",
+        "folder": "GitMods",
         "basis": "exact-catalogue-repository-and-mod-path"
       },
       "sourceCommit": "514da1edb4877cdb812ae1a25f79aa81fb6aa6db",
       "sourcePath": "sources/pr-tracker/source",
       "sourceManifest": "sources/pr-tracker/source/.claude-plugin/plugin.json",
-      "page": "git/pr-tracker/",
+      "page": "GitMods/pr-tracker/",
       "runtimeTested": false
     },
     {
@@ -744,13 +794,14 @@
       "modPath": ".",
       "category": {
         "id": "prompts",
-        "label": "Prompts & input",
+        "label": "Prompt Mods",
+        "folder": "PromptMods",
         "basis": "exact-catalogue-repository-and-mod-path"
       },
       "sourceCommit": "a1912c72088b156ffbd18a73137ffc9a2d429dc6",
       "sourcePath": "sources/prompt-jump/source",
       "sourceManifest": "sources/prompt-jump/source/.claude-plugin/plugin.json",
-      "page": "prompts/prompt-jump/",
+      "page": "PromptMods/prompt-jump/",
       "runtimeTested": false
     },
     {
@@ -765,13 +816,14 @@
       "modPath": ".",
       "category": {
         "id": "integrations",
-        "label": "Integrations & utilities",
+        "label": "Integration Mods",
+        "folder": "IntegrationMods",
         "basis": "individual-pinned-manifest-and-source-review"
       },
       "sourceCommit": "bb22df267f68a8ff14ae097ab56facc64c716102",
       "sourcePath": "sources/pumpfun-portfolio/source",
       "sourceManifest": "sources/pumpfun-portfolio/source/.claude-plugin/plugin.json",
-      "page": "integrations/pumpfun-portfolio/",
+      "page": "IntegrationMods/pumpfun-portfolio/",
       "runtimeTested": false
     },
     {
@@ -786,13 +838,14 @@
       "modPath": ".",
       "category": {
         "id": "interface",
-        "label": "Interface & themes",
+        "label": "Interface Mods",
+        "folder": "InterfaceMods",
         "basis": "exact-catalogue-repository-and-mod-path"
       },
       "sourceCommit": "bbdc70f782f6fcd00347081c7fe2e688725d64a4",
       "sourcePath": "sources/question-picker/source",
       "sourceManifest": "sources/question-picker/source/.claude-plugin/plugin.json",
-      "page": "interface/question-picker/",
+      "page": "InterfaceMods/question-picker/",
       "runtimeTested": false
     },
     {
@@ -807,13 +860,14 @@
       "modPath": ".",
       "category": {
         "id": "focus",
-        "label": "Notifications & focus",
+        "label": "Focus Mods",
+        "folder": "FocusMods",
         "basis": "exact-catalogue-repository-and-mod-path"
       },
       "sourceCommit": "68dac31198731c2414a77e0dcb5211f40ac66b4e",
       "sourcePath": "sources/read-aloud/source",
       "sourceManifest": "sources/read-aloud/source/.claude-plugin/plugin.json",
-      "page": "focus/read-aloud/",
+      "page": "FocusMods/read-aloud/",
       "runtimeTested": false
     },
     {
@@ -828,13 +882,14 @@
       "modPath": "cache-keeper",
       "category": {
         "id": "memory",
-        "label": "Memory & context",
+        "label": "Memory Mods",
+        "folder": "MemoryMods",
         "basis": "exact-catalogue-repository-and-mod-path"
       },
       "sourceCommit": "33a936f2ec6bbfea5a30a1a4d71d992487a5c769",
       "sourcePath": "sources/session-coordination/source/cache-keeper",
       "sourceManifest": "sources/session-coordination/source/cache-keeper/.claude-plugin/plugin.json",
-      "page": "memory/cache-keeper/",
+      "page": "MemoryMods/cache-keeper/",
       "runtimeTested": false
     },
     {
@@ -849,13 +904,14 @@
       "modPath": "collision-guard",
       "category": {
         "id": "safety",
-        "label": "Safety & permissions",
+        "label": "Safety Mods",
+        "folder": "SafetyMods",
         "basis": "exact-catalogue-repository-and-mod-path"
       },
       "sourceCommit": "33a936f2ec6bbfea5a30a1a4d71d992487a5c769",
       "sourcePath": "sources/session-coordination/source/collision-guard",
       "sourceManifest": "sources/session-coordination/source/collision-guard/.claude-plugin/plugin.json",
-      "page": "safety/collision-guard/",
+      "page": "SafetyMods/collision-guard/",
       "runtimeTested": false
     },
     {
@@ -870,13 +926,14 @@
       "modPath": "goal-meter",
       "category": {
         "id": "planning",
-        "label": "Planning & tasks",
+        "label": "Planning Mods",
+        "folder": "PlanningMods",
         "basis": "exact-catalogue-repository-and-mod-path"
       },
       "sourceCommit": "33a936f2ec6bbfea5a30a1a4d71d992487a5c769",
       "sourcePath": "sources/session-coordination/source/goal-meter",
       "sourceManifest": "sources/session-coordination/source/goal-meter/.claude-plugin/plugin.json",
-      "page": "planning/goal-meter/",
+      "page": "PlanningMods/goal-meter/",
       "runtimeTested": false
     },
     {
@@ -891,13 +948,14 @@
       "modPath": "recording-mode",
       "category": {
         "id": "files",
-        "label": "Files & navigation",
+        "label": "File Mods",
+        "folder": "FileMods",
         "basis": "exact-catalogue-repository-and-mod-path"
       },
       "sourceCommit": "33a936f2ec6bbfea5a30a1a4d71d992487a5c769",
       "sourcePath": "sources/session-coordination/source/recording-mode",
       "sourceManifest": "sources/session-coordination/source/recording-mode/.claude-plugin/plugin.json",
-      "page": "files/private-recording/",
+      "page": "FileMods/private-recording/",
       "runtimeTested": false
     },
     {
@@ -912,13 +970,14 @@
       "modPath": ".",
       "category": {
         "id": "interface",
-        "label": "Interface & themes",
+        "label": "Interface Mods",
+        "folder": "InterfaceMods",
         "basis": "exact-catalogue-repository-and-mod-path"
       },
       "sourceCommit": "d3f429a057cb62e3e9a20c261502b22f781e01d1",
       "sourcePath": "sources/session-notes/source",
       "sourceManifest": "sources/session-notes/source/.claude-plugin/plugin.json",
-      "page": "interface/session-notes/",
+      "page": "InterfaceMods/session-notes/",
       "runtimeTested": false
     },
     {
@@ -933,13 +992,14 @@
       "modPath": "cache-timer",
       "category": {
         "id": "memory",
-        "label": "Memory & context",
+        "label": "Memory Mods",
+        "folder": "MemoryMods",
         "basis": "exact-catalogue-repository-and-mod-path"
       },
       "sourceCommit": "1df1cad9661fd001b749c6a5a1821c2914d01469",
       "sourcePath": "sources/session-toolkit/source/cache-timer",
       "sourceManifest": "sources/session-toolkit/source/cache-timer/.claude-plugin/plugin.json",
-      "page": "memory/cache-timer/",
+      "page": "MemoryMods/cache-timer/",
       "runtimeTested": false
     },
     {
@@ -954,13 +1014,14 @@
       "modPath": "change-ledger",
       "category": {
         "id": "usage",
-        "label": "Usage & costs",
+        "label": "Usage Mods",
+        "folder": "UsageMods",
         "basis": "exact-catalogue-repository-and-mod-path"
       },
       "sourceCommit": "1df1cad9661fd001b749c6a5a1821c2914d01469",
       "sourcePath": "sources/session-toolkit/source/change-ledger",
       "sourceManifest": "sources/session-toolkit/source/change-ledger/.claude-plugin/plugin.json",
-      "page": "usage/change-ledger/",
+      "page": "UsageMods/change-ledger/",
       "runtimeTested": false
     },
     {
@@ -975,13 +1036,14 @@
       "modPath": "ci-watch",
       "category": {
         "id": "git",
-        "label": "Git & code review",
+        "label": "Git Mods",
+        "folder": "GitMods",
         "basis": "individual-pinned-manifest-and-source-review"
       },
       "sourceCommit": "1df1cad9661fd001b749c6a5a1821c2914d01469",
       "sourcePath": "sources/session-toolkit/source/ci-watch",
       "sourceManifest": "sources/session-toolkit/source/ci-watch/.claude-plugin/plugin.json",
-      "page": "git/ci-watch/",
+      "page": "GitMods/ci-watch/",
       "runtimeTested": false
     },
     {
@@ -996,13 +1058,14 @@
       "modPath": "compact-keeper",
       "category": {
         "id": "memory",
-        "label": "Memory & context",
+        "label": "Memory Mods",
+        "folder": "MemoryMods",
         "basis": "exact-catalogue-repository-and-mod-path"
       },
       "sourceCommit": "1df1cad9661fd001b749c6a5a1821c2914d01469",
       "sourcePath": "sources/session-toolkit/source/compact-keeper",
       "sourceManifest": "sources/session-toolkit/source/compact-keeper/.claude-plugin/plugin.json",
-      "page": "memory/compaction-history/",
+      "page": "MemoryMods/compaction-history/",
       "runtimeTested": false
     },
     {
@@ -1017,13 +1080,14 @@
       "modPath": "guardrails",
       "category": {
         "id": "safety",
-        "label": "Safety & permissions",
+        "label": "Safety Mods",
+        "folder": "SafetyMods",
         "basis": "individual-pinned-manifest-and-source-review"
       },
       "sourceCommit": "1df1cad9661fd001b749c6a5a1821c2914d01469",
       "sourcePath": "sources/session-toolkit/source/guardrails",
       "sourceManifest": "sources/session-toolkit/source/guardrails/.claude-plugin/plugin.json",
-      "page": "safety/guardrails/",
+      "page": "SafetyMods/guardrails/",
       "runtimeTested": false
     },
     {
@@ -1038,13 +1102,14 @@
       "modPath": "image-peek",
       "category": {
         "id": "interface",
-        "label": "Interface & themes",
+        "label": "Interface Mods",
+        "folder": "InterfaceMods",
         "basis": "individual-pinned-manifest-and-source-review"
       },
       "sourceCommit": "1df1cad9661fd001b749c6a5a1821c2914d01469",
       "sourcePath": "sources/session-toolkit/source/image-peek",
       "sourceManifest": "sources/session-toolkit/source/image-peek/.claude-plugin/plugin.json",
-      "page": "interface/image-peek/",
+      "page": "InterfaceMods/image-peek/",
       "runtimeTested": false
     },
     {
@@ -1059,13 +1124,14 @@
       "modPath": "loop-guard",
       "category": {
         "id": "safety",
-        "label": "Safety & permissions",
+        "label": "Safety Mods",
+        "folder": "SafetyMods",
         "basis": "exact-catalogue-repository-and-mod-path"
       },
       "sourceCommit": "1df1cad9661fd001b749c6a5a1821c2914d01469",
       "sourcePath": "sources/session-toolkit/source/loop-guard",
       "sourceManifest": "sources/session-toolkit/source/loop-guard/.claude-plugin/plugin.json",
-      "page": "safety/loop-guard/",
+      "page": "SafetyMods/loop-guard/",
       "runtimeTested": false
     },
     {
@@ -1080,13 +1146,14 @@
       "modPath": "pin-board",
       "category": {
         "id": "memory",
-        "label": "Memory & context",
+        "label": "Memory Mods",
+        "folder": "MemoryMods",
         "basis": "individual-pinned-manifest-and-source-review"
       },
       "sourceCommit": "1df1cad9661fd001b749c6a5a1821c2914d01469",
       "sourcePath": "sources/session-toolkit/source/pin-board",
       "sourceManifest": "sources/session-toolkit/source/pin-board/.claude-plugin/plugin.json",
-      "page": "memory/persistent-notes/",
+      "page": "MemoryMods/persistent-notes/",
       "runtimeTested": false
     },
     {
@@ -1101,13 +1168,14 @@
       "modPath": "search-meter",
       "category": {
         "id": "files",
-        "label": "Files & navigation",
+        "label": "File Mods",
+        "folder": "FileMods",
         "basis": "exact-catalogue-repository-and-mod-path"
       },
       "sourceCommit": "1df1cad9661fd001b749c6a5a1821c2914d01469",
       "sourcePath": "sources/session-toolkit/source/search-meter",
       "sourceManifest": "sources/session-toolkit/source/search-meter/.claude-plugin/plugin.json",
-      "page": "files/search-meter/",
+      "page": "FileMods/search-meter/",
       "runtimeTested": false
     },
     {
@@ -1122,13 +1190,14 @@
       "modPath": "secret-guard",
       "category": {
         "id": "safety",
-        "label": "Safety & permissions",
+        "label": "Safety Mods",
+        "folder": "SafetyMods",
         "basis": "exact-catalogue-repository-and-mod-path"
       },
       "sourceCommit": "1df1cad9661fd001b749c6a5a1821c2914d01469",
       "sourcePath": "sources/session-toolkit/source/secret-guard",
       "sourceManifest": "sources/session-toolkit/source/secret-guard/.claude-plugin/plugin.json",
-      "page": "safety/secret-guard/",
+      "page": "SafetyMods/secret-guard/",
       "runtimeTested": false
     },
     {
@@ -1143,13 +1212,14 @@
       "modPath": "session-meter",
       "category": {
         "id": "memory",
-        "label": "Memory & context",
+        "label": "Memory Mods",
+        "folder": "MemoryMods",
         "basis": "exact-catalogue-repository-and-mod-path"
       },
       "sourceCommit": "1df1cad9661fd001b749c6a5a1821c2914d01469",
       "sourcePath": "sources/session-toolkit/source/session-meter",
       "sourceManifest": "sources/session-toolkit/source/session-meter/.claude-plugin/plugin.json",
-      "page": "memory/session-meter/",
+      "page": "MemoryMods/session-meter/",
       "runtimeTested": false
     },
     {
@@ -1164,13 +1234,14 @@
       "modPath": "show-me",
       "category": {
         "id": "interface",
-        "label": "Interface & themes",
+        "label": "Interface Mods",
+        "folder": "InterfaceMods",
         "basis": "exact-catalogue-repository-and-mod-path"
       },
       "sourceCommit": "1df1cad9661fd001b749c6a5a1821c2914d01469",
       "sourcePath": "sources/session-toolkit/source/show-me",
       "sourceManifest": "sources/session-toolkit/source/show-me/.claude-plugin/plugin.json",
-      "page": "interface/diagram-viewer/",
+      "page": "InterfaceMods/diagram-viewer/",
       "runtimeTested": false
     },
     {
@@ -1185,13 +1256,14 @@
       "modPath": "turn-footer",
       "category": {
         "id": "usage",
-        "label": "Usage & costs",
+        "label": "Usage Mods",
+        "folder": "UsageMods",
         "basis": "exact-catalogue-repository-and-mod-path"
       },
       "sourceCommit": "1df1cad9661fd001b749c6a5a1821c2914d01469",
       "sourcePath": "sources/session-toolkit/source/turn-footer",
       "sourceManifest": "sources/session-toolkit/source/turn-footer/.claude-plugin/plugin.json",
-      "page": "usage/turn-summary/",
+      "page": "UsageMods/turn-summary/",
       "runtimeTested": false
     },
     {
@@ -1206,13 +1278,14 @@
       "modPath": "turn-timeline",
       "category": {
         "id": "interface",
-        "label": "Interface & themes",
+        "label": "Interface Mods",
+        "folder": "InterfaceMods",
         "basis": "exact-catalogue-repository-and-mod-path"
       },
       "sourceCommit": "1df1cad9661fd001b749c6a5a1821c2914d01469",
       "sourcePath": "sources/session-toolkit/source/turn-timeline",
       "sourceManifest": "sources/session-toolkit/source/turn-timeline/.claude-plugin/plugin.json",
-      "page": "interface/turn-timeline/",
+      "page": "InterfaceMods/turn-timeline/",
       "runtimeTested": false
     },
     {
@@ -1227,13 +1300,14 @@
       "modPath": "leftovers",
       "category": {
         "id": "integrations",
-        "label": "Integrations & utilities",
+        "label": "Integration Mods",
+        "folder": "IntegrationMods",
         "basis": "individual-pinned-manifest-and-source-review"
       },
       "sourceCommit": "3c7b24720bcc831165502d73d1631b6fb197bbcf",
       "sourcePath": "sources/session-utilities/source/leftovers",
       "sourceManifest": "sources/session-utilities/source/leftovers/.claude-plugin/plugin.json",
-      "page": "integrations/leftover-tracker/",
+      "page": "IntegrationMods/leftover-tracker/",
       "runtimeTested": false
     },
     {
@@ -1248,13 +1322,14 @@
       "modPath": "plan-bar",
       "category": {
         "id": "planning",
-        "label": "Planning & tasks",
+        "label": "Planning Mods",
+        "folder": "PlanningMods",
         "basis": "individual-pinned-manifest-and-source-review"
       },
       "sourceCommit": "3c7b24720bcc831165502d73d1631b6fb197bbcf",
       "sourcePath": "sources/session-utilities/source/plan-bar",
       "sourceManifest": "sources/session-utilities/source/plan-bar/.claude-plugin/plugin.json",
-      "page": "planning/plan-bar/",
+      "page": "PlanningMods/plan-bar/",
       "runtimeTested": false
     },
     {
@@ -1269,13 +1344,14 @@
       "modPath": "secret-mask",
       "category": {
         "id": "safety",
-        "label": "Safety & permissions",
+        "label": "Safety Mods",
+        "folder": "SafetyMods",
         "basis": "individual-pinned-manifest-and-source-review"
       },
       "sourceCommit": "3c7b24720bcc831165502d73d1631b6fb197bbcf",
       "sourcePath": "sources/session-utilities/source/secret-mask",
       "sourceManifest": "sources/session-utilities/source/secret-mask/.claude-plugin/plugin.json",
-      "page": "safety/secret-mask/",
+      "page": "SafetyMods/secret-mask/",
       "runtimeTested": false
     },
     {
@@ -1290,13 +1366,14 @@
       "modPath": ".",
       "category": {
         "id": "interface",
-        "label": "Interface & themes",
+        "label": "Interface Mods",
+        "folder": "InterfaceMods",
         "basis": "exact-catalogue-repository-and-mod-path"
       },
       "sourceCommit": "09ef77a4f09948bcc42851d9ec690f53fe899ec1",
       "sourcePath": "sources/shell-highlight/source",
       "sourceManifest": "sources/shell-highlight/source/.claude-plugin/plugin.json",
-      "page": "interface/shell-highlight/",
+      "page": "InterfaceMods/shell-highlight/",
       "runtimeTested": false
     },
     {
@@ -1311,13 +1388,14 @@
       "modPath": "plugins/spell-bar",
       "category": {
         "id": "games",
-        "label": "Games & entertainment",
+        "label": "Game Mods",
+        "folder": "GameMods",
         "basis": "exact-catalogue-repository-and-mod-path"
       },
       "sourceCommit": "1b0494cadcd4e98542147b321250d55d38696553",
       "sourcePath": "sources/spell-bar/source/plugins/spell-bar",
       "sourceManifest": "sources/spell-bar/source/plugins/spell-bar/.claude-plugin/plugin.json",
-      "page": "games/spell-bar/",
+      "page": "GameMods/spell-bar/",
       "runtimeTested": false
     },
     {
@@ -1332,13 +1410,14 @@
       "modPath": ".",
       "category": {
         "id": "games",
-        "label": "Games & entertainment",
+        "label": "Game Mods",
+        "folder": "GameMods",
         "basis": "exact-catalogue-repository-and-mod-path"
       },
       "sourceCommit": "0baff06d31295850283c2eebe052f39bbc35473f",
       "sourcePath": "sources/terminal-arcade/source",
       "sourceManifest": "sources/terminal-arcade/source/.claude-plugin/plugin.json",
-      "page": "games/terminal-arcade/",
+      "page": "GameMods/terminal-arcade/",
       "runtimeTested": false
     },
     {
@@ -1353,13 +1432,14 @@
       "modPath": ".",
       "category": {
         "id": "memory",
-        "label": "Memory & context",
+        "label": "Memory Mods",
+        "folder": "MemoryMods",
         "basis": "exact-catalogue-repository-and-mod-path"
       },
       "sourceCommit": "c2cf3d808da1ea6e968974c2aed39079dfe4ee95",
       "sourcePath": "sources/tool-trim-compaction/source",
       "sourceManifest": "sources/tool-trim-compaction/source/.claude-plugin/plugin.json",
-      "page": "memory/tool-trim-compaction/",
+      "page": "MemoryMods/tool-trim-compaction/",
       "runtimeTested": false
     },
     {
@@ -1374,13 +1454,14 @@
       "modPath": ".",
       "category": {
         "id": "usage",
-        "label": "Usage & costs",
+        "label": "Usage Mods",
+        "folder": "UsageMods",
         "basis": "exact-catalogue-repository-and-mod-path"
       },
       "sourceCommit": "d73e0862b94caa06d366df687447c29c0f694548",
       "sourcePath": "sources/usage-report/source",
       "sourceManifest": "sources/usage-report/source/.claude-plugin/plugin.json",
-      "page": "usage/usage-report/",
+      "page": "UsageMods/usage-report/",
       "runtimeTested": false
     },
     {
@@ -1395,13 +1476,14 @@
       "modPath": ".",
       "category": {
         "id": "usage",
-        "label": "Usage & costs",
+        "label": "Usage Mods",
+        "folder": "UsageMods",
         "basis": "exact-catalogue-repository-and-mod-path"
       },
       "sourceCommit": "c94766d10b1a32e97e4ff14c094c7c2007d1575b",
       "sourcePath": "sources/usage-wrapup/source",
       "sourceManifest": "sources/usage-wrapup/source/.claude-plugin/plugin.json",
-      "page": "usage/usage-wrapup/",
+      "page": "UsageMods/usage-wrapup/",
       "runtimeTested": false
     },
     {
@@ -1416,13 +1498,14 @@
       "modPath": "mods/agent-radar",
       "category": {
         "id": "agents",
-        "label": "Agents & orchestration",
+        "label": "Agent Mods",
+        "folder": "AgentMods",
         "basis": "exact-catalogue-repository-and-mod-path"
       },
       "sourceCommit": "fc5130427799f69852055add193161080bd054d6",
       "sourcePath": "sources/workspace-toolkit/source/mods/agent-radar",
       "sourceManifest": "sources/workspace-toolkit/source/mods/agent-radar/.claude-plugin/plugin.json",
-      "page": "agents/agent-radar/",
+      "page": "AgentMods/agent-radar/",
       "runtimeTested": false
     },
     {
@@ -1437,13 +1520,14 @@
       "modPath": "mods/blast-radius",
       "category": {
         "id": "safety",
-        "label": "Safety & permissions",
+        "label": "Safety Mods",
+        "folder": "SafetyMods",
         "basis": "exact-catalogue-repository-and-mod-path"
       },
       "sourceCommit": "fc5130427799f69852055add193161080bd054d6",
       "sourcePath": "sources/workspace-toolkit/source/mods/blast-radius",
       "sourceManifest": "sources/workspace-toolkit/source/mods/blast-radius/.claude-plugin/plugin.json",
-      "page": "safety/command-impact/",
+      "page": "SafetyMods/command-impact/",
       "runtimeTested": false
     },
     {
@@ -1458,13 +1542,14 @@
       "modPath": "mods/browser-lanes",
       "category": {
         "id": "web",
-        "label": "Browser & web",
+        "label": "Web Mods",
+        "folder": "WebMods",
         "basis": "exact-catalogue-repository-and-mod-path"
       },
       "sourceCommit": "fc5130427799f69852055add193161080bd054d6",
       "sourcePath": "sources/workspace-toolkit/source/mods/browser-lanes",
       "sourceManifest": "sources/workspace-toolkit/source/mods/browser-lanes/.claude-plugin/plugin.json",
-      "page": "web/browser-coordination/",
+      "page": "WebMods/browser-coordination/",
       "runtimeTested": false
     },
     {
@@ -1479,13 +1564,14 @@
       "modPath": "mods/glance",
       "category": {
         "id": "focus",
-        "label": "Notifications & focus",
+        "label": "Focus Mods",
+        "folder": "FocusMods",
         "basis": "individual-pinned-manifest-and-source-review"
       },
       "sourceCommit": "fc5130427799f69852055add193161080bd054d6",
       "sourcePath": "sources/workspace-toolkit/source/mods/glance",
       "sourceManifest": "sources/workspace-toolkit/source/mods/glance/.claude-plugin/plugin.json",
-      "page": "focus/attention-summary/",
+      "page": "FocusMods/attention-summary/",
       "runtimeTested": false
     },
     {
@@ -1500,13 +1586,14 @@
       "modPath": "mods/md-preview",
       "category": {
         "id": "files",
-        "label": "Files & navigation",
+        "label": "File Mods",
+        "folder": "FileMods",
         "basis": "individual-pinned-manifest-and-source-review"
       },
       "sourceCommit": "fc5130427799f69852055add193161080bd054d6",
       "sourcePath": "sources/workspace-toolkit/source/mods/md-preview",
       "sourceManifest": "sources/workspace-toolkit/source/mods/md-preview/.claude-plugin/plugin.json",
-      "page": "files/markdown-preview/",
+      "page": "FileMods/markdown-preview/",
       "runtimeTested": false
     },
     {
@@ -1521,13 +1608,14 @@
       "modPath": "mods/merge-gate",
       "category": {
         "id": "git",
-        "label": "Git & code review",
+        "label": "Git Mods",
+        "folder": "GitMods",
         "basis": "exact-catalogue-repository-and-mod-path"
       },
       "sourceCommit": "fc5130427799f69852055add193161080bd054d6",
       "sourcePath": "sources/workspace-toolkit/source/mods/merge-gate",
       "sourceManifest": "sources/workspace-toolkit/source/mods/merge-gate/.claude-plugin/plugin.json",
-      "page": "git/merge-gate/",
+      "page": "GitMods/merge-gate/",
       "runtimeTested": false
     },
     {
@@ -1542,13 +1630,14 @@
       "modPath": "mods/mission-control",
       "category": {
         "id": "agents",
-        "label": "Agents & orchestration",
+        "label": "Agent Mods",
+        "folder": "AgentMods",
         "basis": "exact-catalogue-repository-and-mod-path"
       },
       "sourceCommit": "fc5130427799f69852055add193161080bd054d6",
       "sourcePath": "sources/workspace-toolkit/source/mods/mission-control",
       "sourceManifest": "sources/workspace-toolkit/source/mods/mission-control/.claude-plugin/plugin.json",
-      "page": "agents/mission-control/",
+      "page": "AgentMods/mission-control/",
       "runtimeTested": false
     },
     {
@@ -1563,13 +1652,14 @@
       "modPath": "mods/next-steps",
       "category": {
         "id": "prompts",
-        "label": "Prompts & input",
+        "label": "Prompt Mods",
+        "folder": "PromptMods",
         "basis": "individual-pinned-manifest-and-source-review"
       },
       "sourceCommit": "fc5130427799f69852055add193161080bd054d6",
       "sourcePath": "sources/workspace-toolkit/source/mods/next-steps",
       "sourceManifest": "sources/workspace-toolkit/source/mods/next-steps/.claude-plugin/plugin.json",
-      "page": "prompts/next-steps/",
+      "page": "PromptMods/next-steps/",
       "runtimeTested": false
     },
     {
@@ -1584,13 +1674,14 @@
       "modPath": "mods/reels",
       "category": {
         "id": "interface",
-        "label": "Interface & themes",
+        "label": "Interface Mods",
+        "folder": "InterfaceMods",
         "basis": "exact-catalogue-repository-and-mod-path"
       },
       "sourceCommit": "fc5130427799f69852055add193161080bd054d6",
       "sourcePath": "sources/workspace-toolkit/source/mods/reels",
       "sourceManifest": "sources/workspace-toolkit/source/mods/reels/.claude-plugin/plugin.json",
-      "page": "interface/video-breaks/",
+      "page": "InterfaceMods/video-breaks/",
       "runtimeTested": false
     },
     {
@@ -1605,13 +1696,14 @@
       "modPath": "mods/replay-theater",
       "category": {
         "id": "testing",
-        "label": "Testing & debugging",
+        "label": "Testing Mods",
+        "folder": "TestingMods",
         "basis": "exact-catalogue-repository-and-mod-path"
       },
       "sourceCommit": "fc5130427799f69852055add193161080bd054d6",
       "sourcePath": "sources/workspace-toolkit/source/mods/replay-theater",
       "sourceManifest": "sources/workspace-toolkit/source/mods/replay-theater/.claude-plugin/plugin.json",
-      "page": "testing/edit-replay/",
+      "page": "TestingMods/edit-replay/",
       "runtimeTested": false
     },
     {
@@ -1626,13 +1718,14 @@
       "modPath": "mods/rulebook-guard",
       "category": {
         "id": "safety",
-        "label": "Safety & permissions",
+        "label": "Safety Mods",
+        "folder": "SafetyMods",
         "basis": "exact-catalogue-repository-and-mod-path"
       },
       "sourceCommit": "fc5130427799f69852055add193161080bd054d6",
       "sourcePath": "sources/workspace-toolkit/source/mods/rulebook-guard",
       "sourceManifest": "sources/workspace-toolkit/source/mods/rulebook-guard/.claude-plugin/plugin.json",
-      "page": "safety/rulebook-guard/",
+      "page": "SafetyMods/rulebook-guard/",
       "runtimeTested": false
     },
     {
@@ -1647,13 +1740,14 @@
       "modPath": "mods/session-saver",
       "category": {
         "id": "memory",
-        "label": "Memory & context",
+        "label": "Memory Mods",
+        "folder": "MemoryMods",
         "basis": "exact-catalogue-repository-and-mod-path"
       },
       "sourceCommit": "fc5130427799f69852055add193161080bd054d6",
       "sourcePath": "sources/workspace-toolkit/source/mods/session-saver",
       "sourceManifest": "sources/workspace-toolkit/source/mods/session-saver/.claude-plugin/plugin.json",
-      "page": "memory/session-saver/",
+      "page": "MemoryMods/session-saver/",
       "runtimeTested": false
     },
     {
@@ -1668,13 +1762,14 @@
       "modPath": "mods/snake",
       "category": {
         "id": "games",
-        "label": "Games & entertainment",
+        "label": "Game Mods",
+        "folder": "GameMods",
         "basis": "exact-catalogue-repository-and-mod-path"
       },
       "sourceCommit": "fc5130427799f69852055add193161080bd054d6",
       "sourcePath": "sources/workspace-toolkit/source/mods/snake",
       "sourceManifest": "sources/workspace-toolkit/source/mods/snake/.claude-plugin/plugin.json",
-      "page": "games/snake-game/",
+      "page": "GameMods/snake-game/",
       "runtimeTested": false
     },
     {
@@ -1689,13 +1784,14 @@
       "modPath": "mods/token-weather",
       "category": {
         "id": "usage",
-        "label": "Usage & costs",
+        "label": "Usage Mods",
+        "folder": "UsageMods",
         "basis": "exact-catalogue-repository-and-mod-path"
       },
       "sourceCommit": "fc5130427799f69852055add193161080bd054d6",
       "sourcePath": "sources/workspace-toolkit/source/mods/token-weather",
       "sourceManifest": "sources/workspace-toolkit/source/mods/token-weather/.claude-plugin/plugin.json",
-      "page": "usage/token-weather/",
+      "page": "UsageMods/token-weather/",
       "runtimeTested": false
     },
     {
@@ -1710,13 +1806,14 @@
       "modPath": "mods/usage-meter",
       "category": {
         "id": "usage",
-        "label": "Usage & costs",
+        "label": "Usage Mods",
+        "folder": "UsageMods",
         "basis": "individual-pinned-manifest-and-source-review"
       },
       "sourceCommit": "fc5130427799f69852055add193161080bd054d6",
       "sourcePath": "sources/workspace-toolkit/source/mods/usage-meter",
       "sourceManifest": "sources/workspace-toolkit/source/mods/usage-meter/.claude-plugin/plugin.json",
-      "page": "usage/usage-bars/",
+      "page": "UsageMods/usage-bars/",
       "runtimeTested": false
     },
     {
@@ -1731,13 +1828,14 @@
       "modPath": "mods/where-am-i",
       "category": {
         "id": "planning",
-        "label": "Planning & tasks",
+        "label": "Planning Mods",
+        "folder": "PlanningMods",
         "basis": "exact-catalogue-repository-and-mod-path"
       },
       "sourceCommit": "fc5130427799f69852055add193161080bd054d6",
       "sourcePath": "sources/workspace-toolkit/source/mods/where-am-i",
       "sourceManifest": "sources/workspace-toolkit/source/mods/where-am-i/.claude-plugin/plugin.json",
-      "page": "planning/task-recap/",
+      "page": "PlanningMods/task-recap/",
       "runtimeTested": false
     }
   ]

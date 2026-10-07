@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "arasovic/claude-code-mods:loop-guard",
+  "name": "loop-guard",
+  "displayName": "Loop Guard",
+  "version": "0.1.0",
+  "description": "Tells the model, out of the user's sight, to stop when the same call fails twice with the same error",
+  "author": "Mehmet Aras",
+  "repository": "arasovic/claude-code-mods",
+  "modPath": "loop-guard",
+  "category": {
+    "id": "safety",
+    "label": "Safety Mods",
+    "folder": "SafetyMods",
+    "basis": "exact-catalogue-repository-and-mod-path"
+  },
+  "sourceCommit": "1df1cad9661fd001b749c6a5a1821c2914d01469",
+  "sourcePath": "sources/session-toolkit/source/loop-guard",
+  "sourceManifest": "sources/session-toolkit/source/loop-guard/.claude-plugin/plugin.json",
+  "page": "SafetyMods/loop-guard/",
+  "runtimeTested": false
+}

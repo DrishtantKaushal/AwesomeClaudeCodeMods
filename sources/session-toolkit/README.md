@@ -8,20 +8,20 @@ Complete source snapshot by **arasovic**, hosted directly in this collection. In
 
 | Mod | Version | Description |
 | --- | --- | --- |
-| [Cache Timer](../../memory/cache-timer/) | 0.1.0 | Counts down to when the prompt cache expires, so you can send the next message before the whole conversation has to be cached again |
-| [Change Ledger](../../usage/change-ledger/) | 0.1.2 | Lists the files this session edited in a pane (/changes), with line counts and who edited them, beside the git working tree |
-| [CI Watch](../../git/ci-watch/) | 0.1.3 | Watches GitHub Actions in a band above the prompt after Claude pushes, opens a PR or pushes a tag: a progress bar per run, then pass or fail; optionally flags failed scheduled workflows at start |
-| [Compaction History](../../memory/compaction-history/) | 0.1.1 | Saves each compaction's summary, with the files edited before it, to ~/.claude/handoffs so the context before /compact can be recovered |
-| [Guardrails](../../safety/guardrails/) | 0.3.1 | Blocks Cloudflare write commands, attribution lines in commits and PRs, and claude/ branch names |
-| [Image Peek](../../interface/image-peek/) | 0.1.3 | Shows the images you paste: thumbnails above the prompt, and larger pictures under each sent message in the chat; needs a kitty-graphics terminal such as Ghostty |
-| [Loop Guard](../../safety/loop-guard/) | 0.1.0 | Tells the model, out of the user's sight, to stop when the same call fails twice with the same error |
-| [Persistent Notes](../../memory/persistent-notes/) | 0.1.1 | Pins standing notes with /pin that Claude keeps following after /compact and /clear; shows them in one row above the prompt or as a counter, and keeps them per folder with --keep |
-| [Search Meter](../../files/search-meter/) | 0.1.0 | Counts the model's searches and colors each one: green found first try, yellow found after misses, red found nothing |
-| [Secret Guard](../../safety/secret-guard/) | 0.1.2 | Keeps secrets out of the conversation: hides API keys and private keys before the model or the transcript sees them, and blocks reads of credential files and commands that print secrets |
-| [Session Meter](../../memory/session-meter/) | 0.3.0 | Shows a live session pane (/ctx): context breakdown, usage limits with pace, tool calls and model requests; sends the model a one-time note when limits or context cross a threshold |
-| [Diagram Viewer](../../interface/diagram-viewer/) | 0.4.4 | Draws the mermaid diagrams of each answer as images in a pane (/show-me); needs mmdc and a kitty-graphics terminal such as Ghostty |
-| [Turn Summary](../../usage/turn-summary/) | 0.1.0 | Turns the line under each answer into a turn summary (tools, requests, tokens, cache hit) and shows the running tool in the spinner |
-| [Turn Timeline](../../interface/turn-timeline/) | 0.1.3 | Draws the current turn as a timeline in a pane (/timeline): model requests and tool calls per loop, where the time went, and the slowest steps |
+| [Cache Timer](../../MemoryMods/cache-timer/) | 0.1.0 | Counts down to when the prompt cache expires, so you can send the next message before the whole conversation has to be cached again |
+| [Change Ledger](../../UsageMods/change-ledger/) | 0.1.2 | Lists the files this session edited in a pane (/changes), with line counts and who edited them, beside the git working tree |
+| [CI Watch](../../GitMods/ci-watch/) | 0.1.3 | Watches GitHub Actions in a band above the prompt after Claude pushes, opens a PR or pushes a tag: a progress bar per run, then pass or fail; optionally flags failed scheduled workflows at start |
+| [Compaction History](../../MemoryMods/compaction-history/) | 0.1.1 | Saves each compaction's summary, with the files edited before it, to ~/.claude/handoffs so the context before /compact can be recovered |
+| [Guardrails](../../SafetyMods/guardrails/) | 0.3.1 | Blocks Cloudflare write commands, attribution lines in commits and PRs, and claude/ branch names |
+| [Image Peek](../../InterfaceMods/image-peek/) | 0.1.3 | Shows the images you paste: thumbnails above the prompt, and larger pictures under each sent message in the chat; needs a kitty-graphics terminal such as Ghostty |
+| [Loop Guard](../../SafetyMods/loop-guard/) | 0.1.0 | Tells the model, out of the user's sight, to stop when the same call fails twice with the same error |
+| [Persistent Notes](../../MemoryMods/persistent-notes/) | 0.1.1 | Pins standing notes with /pin that Claude keeps following after /compact and /clear; shows them in one row above the prompt or as a counter, and keeps them per folder with --keep |
+| [Search Meter](../../FileMods/search-meter/) | 0.1.0 | Counts the model's searches and colors each one: green found first try, yellow found after misses, red found nothing |
+| [Secret Guard](../../SafetyMods/secret-guard/) | 0.1.2 | Keeps secrets out of the conversation: hides API keys and private keys before the model or the transcript sees them, and blocks reads of credential files and commands that print secrets |
+| [Session Meter](../../MemoryMods/session-meter/) | 0.3.0 | Shows a live session pane (/ctx): context breakdown, usage limits with pace, tool calls and model requests; sends the model a one-time note when limits or context cross a threshold |
+| [Diagram Viewer](../../InterfaceMods/diagram-viewer/) | 0.4.4 | Draws the mermaid diagrams of each answer as images in a pane (/show-me); needs mmdc and a kitty-graphics terminal such as Ghostty |
+| [Turn Summary](../../UsageMods/turn-summary/) | 0.1.0 | Turns the line under each answer into a turn summary (tools, requests, tokens, cache hit) and shows the running tool in the spinner |
+| [Turn Timeline](../../InterfaceMods/turn-timeline/) | 0.1.3 | Draws the current turn as a timeline in a pane (/timeline): model requests and tool calls per loop, where the time went, and the slowest steps |
 
 ## Get the files
 

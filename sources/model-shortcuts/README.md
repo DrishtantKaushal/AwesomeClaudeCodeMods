@@ -8,7 +8,7 @@ Complete source snapshot by **richkuo**, hosted directly in this collection. Inc
 
 | Mod | Version | Description |
 | --- | --- | --- |
-| [Model Shortcuts](../../usage/model-shortcuts/) | 0.3.1 | Keyboard shortcuts that step the reasoning effort level and the model up and down; the footer shows what each request uses |
+| [Model Shortcuts](../../UsageMods/model-shortcuts/) | 0.3.1 | Keyboard shortcuts that step the reasoning effort level and the model up and down; the footer shows what each request uses |
 
 ## Get the files
 

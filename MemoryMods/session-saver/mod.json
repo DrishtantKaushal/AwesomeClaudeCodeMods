@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "hamzafer/claude-code-mods:mods/session-saver",
+  "name": "session-saver",
+  "displayName": "Session Saver",
+  "version": "0.1.1",
+  "description": "Names untitled sessions through unpause. /park saves where you left off, and a resumed session shows it.",
+  "author": "Hamza Zafar",
+  "repository": "hamzafer/claude-code-mods",
+  "modPath": "mods/session-saver",
+  "category": {
+    "id": "memory",
+    "label": "Memory Mods",
+    "folder": "MemoryMods",
+    "basis": "exact-catalogue-repository-and-mod-path"
+  },
+  "sourceCommit": "fc5130427799f69852055add193161080bd054d6",
+  "sourcePath": "sources/workspace-toolkit/source/mods/session-saver",
+  "sourceManifest": "sources/workspace-toolkit/source/mods/session-saver/.claude-plugin/plugin.json",
+  "page": "MemoryMods/session-saver/",
+  "runtimeTested": false
+}

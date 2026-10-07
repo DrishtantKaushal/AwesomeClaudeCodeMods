@@ -8,7 +8,7 @@ Complete source snapshot by **tomatoaiu**, hosted directly in this collection. I
 
 | Mod | Version | Description |
 | --- | --- | --- |
-| [Japanese Session Names](../../memory/japanese-session-names/) | 0.1.0 | 引数なしの /rename で、会話内容から日本語のセッション名を生成する。 |
+| [Japanese Session Names](../../MemoryMods/japanese-session-names/) | 0.1.0 | 引数なしの /rename で、会話内容から日本語のセッション名を生成する。 |
 
 ## Get the files
 

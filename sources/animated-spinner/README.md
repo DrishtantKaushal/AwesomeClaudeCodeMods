@@ -8,7 +8,7 @@ Complete source snapshot by **Saiharsharudra03**, hosted directly in this collec
 
 | Mod | Version | Description |
 | --- | --- | --- |
-| [Animated Spinner](../../interface/animated-spinner/) | 0.1.0 | Clawd acts out the spinner's word above it while Claude works: cooking for Sautéing, dancing for Vibing, pacing for Pondering, 11 acts across all 179 words. |
+| [Animated Spinner](../../InterfaceMods/animated-spinner/) | 0.1.0 | Clawd acts out the spinner's word above it while Claude works: cooking for Sautéing, dancing for Vibing, pacing for Pondering, 11 acts across all 179 words. |
 
 ## Get the files
 

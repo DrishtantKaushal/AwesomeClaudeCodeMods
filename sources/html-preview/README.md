@@ -8,7 +8,7 @@ Complete source snapshot by **JAICHANGPARK**, hosted directly in this collection
 
 | Mod | Version | Description |
 | --- | --- | --- |
-| [HTML Preview](../../web/html-preview/) | 0.3.1 | Shows HTML files Claude writes (or /preview <file>) like a browser: terminal-browser when installed, else a built-in Chrome-rendered pane |
+| [HTML Preview](../../WebMods/html-preview/) | 0.3.1 | Shows HTML files Claude writes (or /preview <file>) like a browser: terminal-browser when installed, else a built-in Chrome-rendered pane |
 
 ## Get the files
 

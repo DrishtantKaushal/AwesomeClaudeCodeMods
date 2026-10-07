@@ -8,7 +8,7 @@ Complete source snapshot by **togishima**, hosted directly in this collection. I
 
 | Mod | Version | Description |
 | --- | --- | --- |
-| [Question Picker](../../interface/question-picker/) | 0.1.0 | Ask the user a question in a dedicated pane: show every option on one screen with a summary, single or multi-select, no 4-option limit. |
+| [Question Picker](../../InterfaceMods/question-picker/) | 0.1.0 | Ask the user a question in a dedicated pane: show every option on one screen with a summary, single or multi-select, no 4-option limit. |
 
 ## Included skills
 

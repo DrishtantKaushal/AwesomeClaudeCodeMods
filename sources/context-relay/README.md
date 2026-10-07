@@ -8,7 +8,7 @@ Complete source snapshot by **retrocodes12**, hosted directly in this collection
 
 | Mod | Version | Description |
 | --- | --- | --- |
-| [Context Relay](../../memory/context-relay/) | 0.1.0 | Hands the work to a fresh session before a long context degrades the model, and carries on there. |
+| [Context Relay](../../MemoryMods/context-relay/) | 0.1.0 | Hands the work to a fresh session before a long context degrades the model, and carries on there. |
 
 ## Get the files
 

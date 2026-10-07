@@ -226,7 +226,7 @@
       "sameRevisionAsDiscovery": true,
       "localPackage": "sources/breathing-exercises/",
       "localSource": "sources/breathing-exercises/source/",
-      "categoryPage": "focus/breathing-exercises/"
+      "categoryPage": "FocusMods/breathing-exercises/"
     },
     {
       "id": "IAmUnbounded/save-token-jev-clean:plugins/claude-save-token-jev",
@@ -385,7 +385,7 @@
       "sameRevisionAsDiscovery": true,
       "localPackage": "sources/terminal-arcade/",
       "localSource": "sources/terminal-arcade/source/",
-      "categoryPage": "games/terminal-arcade/"
+      "categoryPage": "GameMods/terminal-arcade/"
     },
     {
       "id": "saadshahd/moo.md:hope",
@@ -454,7 +454,7 @@
       "sameRevisionAsDiscovery": false,
       "localPackage": "sources/image-viewer/",
       "localSource": "sources/image-viewer/source/",
-      "categoryPage": "interface/image-viewer/"
+      "categoryPage": "InterfaceMods/image-viewer/"
     },
     {
       "id": "data-goblin/claude-code-filetree:.",
@@ -475,7 +475,7 @@
       "sameRevisionAsDiscovery": true,
       "localPackage": "sources/pi-agent/",
       "localSource": "sources/pi-agent/source/",
-      "categoryPage": "agents/pi-agent/"
+      "categoryPage": "AgentMods/pi-agent/"
     },
     {
       "id": "Nasrallah-AL/jev-cli:plugin",
@@ -774,7 +774,7 @@
       "sameRevisionAsDiscovery": true,
       "localPackage": "sources/agent-cartoons/",
       "localSource": "sources/agent-cartoons/source/",
-      "categoryPage": "agents/agent-cartoons/"
+      "categoryPage": "AgentMods/agent-cartoons/"
     },
     {
       "id": "Intai/story-flow:plugins/story-flow",
@@ -907,7 +907,7 @@
       "sameRevisionAsDiscovery": true,
       "localPackage": "sources/evidence-guardrails/",
       "localSource": "sources/evidence-guardrails/source/",
-      "categoryPage": "safety/evidence-guardrails/"
+      "categoryPage": "SafetyMods/evidence-guardrails/"
     },
     {
       "id": "roshbhatia/sysinit:modules/home/programs/llm/harnesses/claude/diff-mod",
@@ -946,7 +946,7 @@
       "sameRevisionAsDiscovery": false,
       "localPackage": "sources/plan-progress/",
       "localSource": "sources/plan-progress/source/plugins/plan-progress/",
-      "categoryPage": "planning/plan-progress/"
+      "categoryPage": "PlanningMods/plan-progress/"
     },
     {
       "id": "Akramovic1/jev-pilot:.",
@@ -993,7 +993,7 @@
       "sameRevisionAsDiscovery": false,
       "localPackage": "sources/workspace-toolkit/",
       "localSource": "sources/workspace-toolkit/source/mods/agent-radar/",
-      "categoryPage": "agents/agent-radar/"
+      "categoryPage": "AgentMods/agent-radar/"
     },
     {
       "id": "hamzafer/claude-code-mods:mods/blast-radius",
@@ -1006,7 +1006,7 @@
       "sameRevisionAsDiscovery": false,
       "localPackage": "sources/workspace-toolkit/",
       "localSource": "sources/workspace-toolkit/source/mods/blast-radius/",
-      "categoryPage": "safety/command-impact/"
+      "categoryPage": "SafetyMods/command-impact/"
     },
     {
       "id": "hamzafer/claude-code-mods:mods/browser-lanes",
@@ -1019,7 +1019,7 @@
       "sameRevisionAsDiscovery": false,
       "localPackage": "sources/workspace-toolkit/",
       "localSource": "sources/workspace-toolkit/source/mods/browser-lanes/",
-      "categoryPage": "web/browser-coordination/"
+      "categoryPage": "WebMods/browser-coordination/"
     },
     {
       "id": "hamzafer/claude-code-mods:mods/merge-gate",
@@ -1032,7 +1032,7 @@
       "sameRevisionAsDiscovery": false,
       "localPackage": "sources/workspace-toolkit/",
       "localSource": "sources/workspace-toolkit/source/mods/merge-gate/",
-      "categoryPage": "git/merge-gate/"
+      "categoryPage": "GitMods/merge-gate/"
     },
     {
       "id": "hamzafer/claude-code-mods:mods/mission-control",
@@ -1045,7 +1045,7 @@
       "sameRevisionAsDiscovery": false,
       "localPackage": "sources/workspace-toolkit/",
       "localSource": "sources/workspace-toolkit/source/mods/mission-control/",
-      "categoryPage": "agents/mission-control/"
+      "categoryPage": "AgentMods/mission-control/"
     },
     {
       "id": "hamzafer/claude-code-mods:mods/oneform-line",
@@ -1067,7 +1067,7 @@
       "sameRevisionAsDiscovery": false,
       "localPackage": "sources/workspace-toolkit/",
       "localSource": "sources/workspace-toolkit/source/mods/reels/",
-      "categoryPage": "interface/video-breaks/"
+      "categoryPage": "InterfaceMods/video-breaks/"
     },
     {
       "id": "hamzafer/claude-code-mods:mods/replay-theater",
@@ -1080,7 +1080,7 @@
       "sameRevisionAsDiscovery": false,
       "localPackage": "sources/workspace-toolkit/",
       "localSource": "sources/workspace-toolkit/source/mods/replay-theater/",
-      "categoryPage": "testing/edit-replay/"
+      "categoryPage": "TestingMods/edit-replay/"
     },
     {
       "id": "hamzafer/claude-code-mods:mods/rulebook-guard",
@@ -1093,7 +1093,7 @@
       "sameRevisionAsDiscovery": false,
       "localPackage": "sources/workspace-toolkit/",
       "localSource": "sources/workspace-toolkit/source/mods/rulebook-guard/",
-      "categoryPage": "safety/rulebook-guard/"
+      "categoryPage": "SafetyMods/rulebook-guard/"
     },
     {
       "id": "hamzafer/claude-code-mods:mods/session-saver",
@@ -1106,7 +1106,7 @@
       "sameRevisionAsDiscovery": false,
       "localPackage": "sources/workspace-toolkit/",
       "localSource": "sources/workspace-toolkit/source/mods/session-saver/",
-      "categoryPage": "memory/session-saver/"
+      "categoryPage": "MemoryMods/session-saver/"
     },
     {
       "id": "hamzafer/claude-code-mods:mods/snake",
@@ -1119,7 +1119,7 @@
       "sameRevisionAsDiscovery": false,
       "localPackage": "sources/workspace-toolkit/",
       "localSource": "sources/workspace-toolkit/source/mods/snake/",
-      "categoryPage": "games/snake-game/"
+      "categoryPage": "GameMods/snake-game/"
     },
     {
       "id": "hamzafer/claude-code-mods:mods/token-weather",
@@ -1132,7 +1132,7 @@
       "sameRevisionAsDiscovery": false,
       "localPackage": "sources/workspace-toolkit/",
       "localSource": "sources/workspace-toolkit/source/mods/token-weather/",
-      "categoryPage": "usage/token-weather/"
+      "categoryPage": "UsageMods/token-weather/"
     },
     {
       "id": "hamzafer/claude-code-mods:mods/where-am-i",
@@ -1145,7 +1145,7 @@
       "sameRevisionAsDiscovery": false,
       "localPackage": "sources/workspace-toolkit/",
       "localSource": "sources/workspace-toolkit/source/mods/where-am-i/",
-      "categoryPage": "planning/task-recap/"
+      "categoryPage": "PlanningMods/task-recap/"
     },
     {
       "id": "mukiwu/jev-search-mcp:.",
@@ -1784,7 +1784,7 @@
       "sameRevisionAsDiscovery": false,
       "localPackage": "sources/session-toolkit/",
       "localSource": "sources/session-toolkit/source/cache-timer/",
-      "categoryPage": "memory/cache-timer/"
+      "categoryPage": "MemoryMods/cache-timer/"
     },
     {
       "id": "arasovic/claude-code-mods:change-ledger",
@@ -1797,7 +1797,7 @@
       "sameRevisionAsDiscovery": false,
       "localPackage": "sources/session-toolkit/",
       "localSource": "sources/session-toolkit/source/change-ledger/",
-      "categoryPage": "usage/change-ledger/"
+      "categoryPage": "UsageMods/change-ledger/"
     },
     {
       "id": "arasovic/claude-code-mods:compact-keeper",
@@ -1810,7 +1810,7 @@
       "sameRevisionAsDiscovery": false,
       "localPackage": "sources/session-toolkit/",
       "localSource": "sources/session-toolkit/source/compact-keeper/",
-      "categoryPage": "memory/compaction-history/"
+      "categoryPage": "MemoryMods/compaction-history/"
     },
     {
       "id": "arasovic/claude-code-mods:loop-guard",
@@ -1823,7 +1823,7 @@
       "sameRevisionAsDiscovery": false,
       "localPackage": "sources/session-toolkit/",
       "localSource": "sources/session-toolkit/source/loop-guard/",
-      "categoryPage": "safety/loop-guard/"
+      "categoryPage": "SafetyMods/loop-guard/"
     },
     {
       "id": "arasovic/claude-code-mods:search-meter",
@@ -1836,7 +1836,7 @@
       "sameRevisionAsDiscovery": false,
       "localPackage": "sources/session-toolkit/",
       "localSource": "sources/session-toolkit/source/search-meter/",
-      "categoryPage": "files/search-meter/"
+      "categoryPage": "FileMods/search-meter/"
     },
     {
       "id": "arasovic/claude-code-mods:secret-guard",
@@ -1849,7 +1849,7 @@
       "sameRevisionAsDiscovery": false,
       "localPackage": "sources/session-toolkit/",
       "localSource": "sources/session-toolkit/source/secret-guard/",
-      "categoryPage": "safety/secret-guard/"
+      "categoryPage": "SafetyMods/secret-guard/"
     },
     {
       "id": "arasovic/claude-code-mods:session-meter",
@@ -1862,7 +1862,7 @@
       "sameRevisionAsDiscovery": false,
       "localPackage": "sources/session-toolkit/",
       "localSource": "sources/session-toolkit/source/session-meter/",
-      "categoryPage": "memory/session-meter/"
+      "categoryPage": "MemoryMods/session-meter/"
     },
     {
       "id": "arasovic/claude-code-mods:show-me",
@@ -1875,7 +1875,7 @@
       "sameRevisionAsDiscovery": false,
       "localPackage": "sources/session-toolkit/",
       "localSource": "sources/session-toolkit/source/show-me/",
-      "categoryPage": "interface/diagram-viewer/"
+      "categoryPage": "InterfaceMods/diagram-viewer/"
     },
     {
       "id": "arasovic/claude-code-mods:turn-footer",
@@ -1888,7 +1888,7 @@
       "sameRevisionAsDiscovery": false,
       "localPackage": "sources/session-toolkit/",
       "localSource": "sources/session-toolkit/source/turn-footer/",
-      "categoryPage": "usage/turn-summary/"
+      "categoryPage": "UsageMods/turn-summary/"
     },
     {
       "id": "arasovic/claude-code-mods:turn-timeline",
@@ -1901,7 +1901,7 @@
       "sameRevisionAsDiscovery": false,
       "localPackage": "sources/session-toolkit/",
       "localSource": "sources/session-toolkit/source/turn-timeline/",
-      "categoryPage": "interface/turn-timeline/"
+      "categoryPage": "InterfaceMods/turn-timeline/"
     },
     {
       "id": "Arunjay4213/claude-mods:plugins/budget-guard",
@@ -2035,7 +2035,7 @@
       "sameRevisionAsDiscovery": true,
       "localPackage": "sources/session-coordination/",
       "localSource": "sources/session-coordination/source/cache-keeper/",
-      "categoryPage": "memory/cache-keeper/"
+      "categoryPage": "MemoryMods/cache-keeper/"
     },
     {
       "id": "nateherkai/claude-code-mods:collision-guard",
@@ -2048,7 +2048,7 @@
       "sameRevisionAsDiscovery": true,
       "localPackage": "sources/session-coordination/",
       "localSource": "sources/session-coordination/source/collision-guard/",
-      "categoryPage": "safety/collision-guard/"
+      "categoryPage": "SafetyMods/collision-guard/"
     },
     {
       "id": "nateherkai/claude-code-mods:goal-meter",
@@ -2061,7 +2061,7 @@
       "sameRevisionAsDiscovery": true,
       "localPackage": "sources/session-coordination/",
       "localSource": "sources/session-coordination/source/goal-meter/",
-      "categoryPage": "planning/goal-meter/"
+      "categoryPage": "PlanningMods/goal-meter/"
     },
     {
       "id": "nateherkai/claude-code-mods:recording-mode",
@@ -2074,7 +2074,7 @@
       "sameRevisionAsDiscovery": true,
       "localPackage": "sources/session-coordination/",
       "localSource": "sources/session-coordination/source/recording-mode/",
-      "categoryPage": "files/private-recording/"
+      "categoryPage": "FileMods/private-recording/"
     },
     {
       "id": "promptadvisers/claude-mods-starter-kit:plugins/auto-handoff",
@@ -2249,7 +2249,7 @@
       "sameRevisionAsDiscovery": true,
       "localPackage": "sources/pr-tracker/",
       "localSource": "sources/pr-tracker/source/",
-      "categoryPage": "git/pr-tracker/"
+      "categoryPage": "GitMods/pr-tracker/"
     },
     {
       "id": "superfly/sprites-claude-plugin:plugins/sprites",
@@ -2685,7 +2685,7 @@
       "sameRevisionAsDiscovery": true,
       "localPackage": "sources/usage-wrapup/",
       "localSource": "sources/usage-wrapup/source/",
-      "categoryPage": "usage/usage-wrapup/"
+      "categoryPage": "UsageMods/usage-wrapup/"
     },
     {
       "id": "davekiss/env:.",
@@ -2813,7 +2813,7 @@
       "sameRevisionAsDiscovery": true,
       "localPackage": "sources/dino-game/",
       "localSource": "sources/dino-game/source/",
-      "categoryPage": "games/dino-game/"
+      "categoryPage": "GameMods/dino-game/"
     },
     {
       "id": "hamza-siddiq/claude-eta:eta",
@@ -3006,7 +3006,7 @@
       "sameRevisionAsDiscovery": true,
       "localPackage": "sources/dino-runner/",
       "localSource": "sources/dino-runner/source/",
-      "categoryPage": "games/dino-runner/"
+      "categoryPage": "GameMods/dino-runner/"
     },
     {
       "id": "meganemura/pull-request-pane:plugin",
@@ -3068,7 +3068,7 @@
       "sameRevisionAsDiscovery": true,
       "localPackage": "sources/spell-bar/",
       "localSource": "sources/spell-bar/source/plugins/spell-bar/",
-      "categoryPage": "games/spell-bar/"
+      "categoryPage": "GameMods/spell-bar/"
     },
     {
       "id": "refact0r/claude-surf:.",
@@ -3171,7 +3171,7 @@
       "sameRevisionAsDiscovery": true,
       "localPackage": "sources/effort-guard/",
       "localSource": "sources/effort-guard/source/",
-      "categoryPage": "safety/effort-guard/"
+      "categoryPage": "SafetyMods/effort-guard/"
     },
     {
       "id": "synex1437/noctis:.",
@@ -5197,7 +5197,7 @@
       "sameRevisionAsDiscovery": true,
       "localPackage": "sources/read-aloud/",
       "localSource": "sources/read-aloud/source/",
-      "categoryPage": "focus/read-aloud/"
+      "categoryPage": "FocusMods/read-aloud/"
     },
     {
       "id": "gonzalonicolasr/claude-code-forge:.",
@@ -5565,7 +5565,7 @@
       "sameRevisionAsDiscovery": true,
       "localPackage": "sources/html-preview/",
       "localSource": "sources/html-preview/source/",
-      "categoryPage": "web/html-preview/"
+      "categoryPage": "WebMods/html-preview/"
     },
     {
       "id": "japan-da-man/claude-code:plugins/blast-radius",
@@ -5918,7 +5918,7 @@
       "sameRevisionAsDiscovery": true,
       "localPackage": "sources/braille-usage/",
       "localSource": "sources/braille-usage/source/",
-      "categoryPage": "usage/braille-usage/"
+      "categoryPage": "UsageMods/braille-usage/"
     },
     {
       "id": "kawaz/claude-rules-personal:reference/claude-mods/scripts/observe-mod",
@@ -6450,7 +6450,7 @@
       "sameRevisionAsDiscovery": true,
       "localPackage": "sources/cold-cache-guard/",
       "localSource": "sources/cold-cache-guard/source/",
-      "categoryPage": "memory/cold-cache-guard/"
+      "categoryPage": "MemoryMods/cold-cache-guard/"
     },
     {
       "id": "meganemura/buffer-pane:plugin",
@@ -6801,7 +6801,7 @@
       "sameRevisionAsDiscovery": true,
       "localPackage": "sources/tool-trim-compaction/",
       "localSource": "sources/tool-trim-compaction/source/",
-      "categoryPage": "memory/tool-trim-compaction/"
+      "categoryPage": "MemoryMods/tool-trim-compaction/"
     },
     {
       "id": "OneWave-AI/claude-code-mods:agent-narrator",
@@ -6814,7 +6814,7 @@
       "sameRevisionAsDiscovery": false,
       "localPackage": "sources/creative-toolkit/",
       "localSource": "sources/creative-toolkit/source/agent-narrator/",
-      "categoryPage": "agents/agent-narrator/"
+      "categoryPage": "AgentMods/agent-narrator/"
     },
     {
       "id": "OneWave-AI/claude-code-mods:agent-race",
@@ -6827,7 +6827,7 @@
       "sameRevisionAsDiscovery": false,
       "localPackage": "sources/creative-toolkit/",
       "localSource": "sources/creative-toolkit/source/agent-race/",
-      "categoryPage": "agents/agent-race/"
+      "categoryPage": "AgentMods/agent-race/"
     },
     {
       "id": "OneWave-AI/claude-code-mods:boss-fight",
@@ -6840,7 +6840,7 @@
       "sameRevisionAsDiscovery": false,
       "localPackage": "sources/creative-toolkit/",
       "localSource": "sources/creative-toolkit/source/boss-fight/",
-      "categoryPage": "games/boss-fight/"
+      "categoryPage": "GameMods/boss-fight/"
     },
     {
       "id": "OneWave-AI/claude-code-mods:burn-meter",
@@ -6853,7 +6853,7 @@
       "sameRevisionAsDiscovery": false,
       "localPackage": "sources/creative-toolkit/",
       "localSource": "sources/creative-toolkit/source/burn-meter/",
-      "categoryPage": "usage/burn-meter/"
+      "categoryPage": "UsageMods/burn-meter/"
     },
     {
       "id": "OneWave-AI/claude-code-mods:code-pet",
@@ -6866,7 +6866,7 @@
       "sameRevisionAsDiscovery": false,
       "localPackage": "sources/creative-toolkit/",
       "localSource": "sources/creative-toolkit/source/code-pet/",
-      "categoryPage": "games/code-pet/"
+      "categoryPage": "GameMods/code-pet/"
     },
     {
       "id": "OneWave-AI/claude-code-mods:inbox-alerts",
@@ -6879,7 +6879,7 @@
       "sameRevisionAsDiscovery": false,
       "localPackage": "sources/creative-toolkit/",
       "localSource": "sources/creative-toolkit/source/inbox-alerts/",
-      "categoryPage": "focus/inbox-alerts/"
+      "categoryPage": "FocusMods/inbox-alerts/"
     },
     {
       "id": "OneWave-AI/claude-code-mods:inner-monologue",
@@ -6892,7 +6892,7 @@
       "sameRevisionAsDiscovery": false,
       "localPackage": "sources/creative-toolkit/",
       "localSource": "sources/creative-toolkit/source/inner-monologue/",
-      "categoryPage": "interface/inner-monologue/"
+      "categoryPage": "InterfaceMods/inner-monologue/"
     },
     {
       "id": "OneWave-AI/claude-code-mods:launch-codes",
@@ -6905,7 +6905,7 @@
       "sameRevisionAsDiscovery": false,
       "localPackage": "sources/creative-toolkit/",
       "localSource": "sources/creative-toolkit/source/launch-codes/",
-      "categoryPage": "interface/launch-codes/"
+      "categoryPage": "InterfaceMods/launch-codes/"
     },
     {
       "id": "OneWave-AI/claude-code-mods:session-wrapped",
@@ -6918,7 +6918,7 @@
       "sameRevisionAsDiscovery": false,
       "localPackage": "sources/creative-toolkit/",
       "localSource": "sources/creative-toolkit/source/session-wrapped/",
-      "categoryPage": "integrations/session-wrapped/"
+      "categoryPage": "IntegrationMods/session-wrapped/"
     },
     {
       "id": "OneWave-AI/claude-code-mods:sportscaster",
@@ -6931,7 +6931,7 @@
       "sameRevisionAsDiscovery": false,
       "localPackage": "sources/creative-toolkit/",
       "localSource": "sources/creative-toolkit/source/sportscaster/",
-      "categoryPage": "games/sportscaster/"
+      "categoryPage": "GameMods/sportscaster/"
     },
     {
       "id": "Open01277/claude-mods:plugins/quota-pets",
@@ -7235,7 +7235,7 @@
       "sameRevisionAsDiscovery": true,
       "localPackage": "sources/context-relay/",
       "localSource": "sources/context-relay/source/",
-      "categoryPage": "memory/context-relay/"
+      "categoryPage": "MemoryMods/context-relay/"
     },
     {
       "id": "Revono/clawd-pet:plugins/clawd-pet",
@@ -7273,7 +7273,7 @@
       "sameRevisionAsDiscovery": true,
       "localPackage": "sources/model-shortcuts/",
       "localSource": "sources/model-shortcuts/source/",
-      "categoryPage": "usage/model-shortcuts/"
+      "categoryPage": "UsageMods/model-shortcuts/"
     },
     {
       "id": "roaringsoul404/cc-mods:turn-receipt",
@@ -7334,7 +7334,7 @@
       "sameRevisionAsDiscovery": true,
       "localPackage": "sources/prompt-jump/",
       "localSource": "sources/prompt-jump/source/",
-      "categoryPage": "prompts/prompt-jump/"
+      "categoryPage": "PromptMods/prompt-jump/"
     },
     {
       "id": "rudrasecure/claude-mods:review-pane",
@@ -7441,7 +7441,7 @@
       "sameRevisionAsDiscovery": true,
       "localPackage": "sources/animated-spinner/",
       "localSource": "sources/animated-spinner/source/",
-      "categoryPage": "interface/animated-spinner/"
+      "categoryPage": "InterfaceMods/animated-spinner/"
     },
     {
       "id": "Samarth2001/claude-plugins:plugins/buddy",
@@ -7496,7 +7496,7 @@
       "sameRevisionAsDiscovery": true,
       "localPackage": "sources/agent-dashboard/",
       "localSource": "sources/agent-dashboard/source/",
-      "categoryPage": "agents/agent-dashboard/"
+      "categoryPage": "AgentMods/agent-dashboard/"
     },
     {
       "id": "schreibse/claude-code-mods:coderabbit-band",
@@ -7563,7 +7563,7 @@
       "sameRevisionAsDiscovery": true,
       "localPackage": "sources/usage-report/",
       "localSource": "sources/usage-report/source/",
-      "categoryPage": "usage/usage-report/"
+      "categoryPage": "UsageMods/usage-report/"
     },
     {
       "id": "scoobynko/claude-code-mods:plugins/clawd-spinner",
@@ -8008,7 +8008,7 @@
       "sameRevisionAsDiscovery": true,
       "localPackage": "sources/completion-checklist/",
       "localSource": "sources/completion-checklist/source/",
-      "categoryPage": "planning/completion-checklist/"
+      "categoryPage": "PlanningMods/completion-checklist/"
     },
     {
       "id": "Syrul/claudagotchi:.",
@@ -8334,7 +8334,7 @@
       "sameRevisionAsDiscovery": true,
       "localPackage": "sources/question-picker/",
       "localSource": "sources/question-picker/source/",
-      "categoryPage": "interface/question-picker/"
+      "categoryPage": "InterfaceMods/question-picker/"
     },
     {
       "id": "Tolsee/dotfiles:ai/claude/skills/jev-model-router",
@@ -8356,7 +8356,7 @@
       "sameRevisionAsDiscovery": true,
       "localPackage": "sources/japanese-session-names/",
       "localSource": "sources/japanese-session-names/source/",
-      "categoryPage": "memory/japanese-session-names/"
+      "categoryPage": "MemoryMods/japanese-session-names/"
     },
     {
       "id": "Toshkee/clawd-usage:.",
@@ -8412,7 +8412,7 @@
       "sameRevisionAsDiscovery": true,
       "localPackage": "sources/shell-highlight/",
       "localSource": "sources/shell-highlight/source/",
-      "categoryPage": "interface/shell-highlight/"
+      "categoryPage": "InterfaceMods/shell-highlight/"
     },
     {
       "id": "tylergraydev/rail-runner:.",
@@ -8442,7 +8442,7 @@
       "sameRevisionAsDiscovery": true,
       "localPackage": "sources/session-notes/",
       "localSource": "sources/session-notes/source/",
-      "categoryPage": "interface/session-notes/"
+      "categoryPage": "InterfaceMods/session-notes/"
     },
     {
       "id": "UfozDelta/ufoz-harness:.claude/skills/harness-band",
@@ -8637,7 +8637,7 @@
       "sameRevisionAsDiscovery": true,
       "localPackage": "sources/cache-countdown/",
       "localSource": "sources/cache-countdown/source/",
-      "categoryPage": "memory/cache-countdown/"
+      "categoryPage": "MemoryMods/cache-countdown/"
     },
     {
       "id": "XD3an/cc-notify:.",

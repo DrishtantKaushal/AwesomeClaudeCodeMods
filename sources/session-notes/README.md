@@ -8,7 +8,7 @@ Complete source snapshot by **udaaff**, hosted directly in this collection. Incl
 
 | Mod | Version | Description |
 | --- | --- | --- |
-| [Session Notes](../../interface/session-notes/) | 0.1.0 | Project notes in .claude/notes.md: live dev servers, recent artifacts and pinned links, in a side panel and with /notes. |
+| [Session Notes](../../InterfaceMods/session-notes/) | 0.1.0 | Project notes in .claude/notes.md: live dev servers, recent artifacts and pinned links, in a side panel and with /notes. |
 
 ## Get the files
 

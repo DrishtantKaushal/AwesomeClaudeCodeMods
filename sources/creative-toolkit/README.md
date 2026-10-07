@@ -8,17 +8,17 @@ Complete source snapshot by **OneWave-AI**, available directly in this collectio
 
 | Mod | Version | Description |
 | --- | --- | --- |
-| [Agent Narrator](../../agents/agent-narrator/) | 0.1.0 | Watch the agent work: every step in plain English, with a live time-saved counter |
-| [Agent Race](../../agents/agent-race/) | 0.1.0 | Race Claude Code sessions on a task: live split-screen race track scoreboard |
-| [Boss Fight](../../games/boss-fight/) | 0.1.0 | Failing tests spawn a pixel boss; every run that fixes tests lands a hit, zero failures is a KO with loot |
-| [Burn Meter](../../usage/burn-meter/) | 0.1.0 | Live session cost odometer above the prompt: a burning fuse, real-world comparisons, threshold alerts |
-| [Code Pet](../../games/code-pet/) | 0.1.0 | A pixel pet that lives in a pane and reacts to what Claude does: eats on tool calls, gets sick on failures, panics on rm -rf, sleeps when idle, evolves as you ship |
-| [Inbox Alerts](../../focus/inbox-alerts/) | 0.1.0 | Gmail + Slack alerts inside Claude Code: toasts, status count, and an Alerts pane |
-| [Inner Monologue](../../interface/inner-monologue/) | 0.1.0 | A pane of Claude's dry inner thoughts about your session, typed out live |
-| [Launch Codes](../../interface/launch-codes/) | 0.1.0 | Dangerous Bash commands need launch codes: red alert pane, siren, a code to arm and a LAUNCH to fire |
-| [Session Wrapped](../../integrations/session-wrapped/) | 0.1.0 | Spotify Wrapped for a Claude Code session: an animated stat reveal and a shareable PNG card |
-| [Sportscaster](../../games/sportscaster/) | 0.1.0 | Live TV play-by-play of your Claude Code session, spoken aloud with crowd effects |
-| [Agent Team Monitor](../../agents/agent-team-monitor/) | 0.1.0 | Mission control for subagents and agent teams: who is running, what each is doing, who spawned whom, who is talking to whom, and how they overlap |
+| [Agent Narrator](../../AgentMods/agent-narrator/) | 0.1.0 | Watch the agent work: every step in plain English, with a live time-saved counter |
+| [Agent Race](../../AgentMods/agent-race/) | 0.1.0 | Race Claude Code sessions on a task: live split-screen race track scoreboard |
+| [Boss Fight](../../GameMods/boss-fight/) | 0.1.0 | Failing tests spawn a pixel boss; every run that fixes tests lands a hit, zero failures is a KO with loot |
+| [Burn Meter](../../UsageMods/burn-meter/) | 0.1.0 | Live session cost odometer above the prompt: a burning fuse, real-world comparisons, threshold alerts |
+| [Code Pet](../../GameMods/code-pet/) | 0.1.0 | A pixel pet that lives in a pane and reacts to what Claude does: eats on tool calls, gets sick on failures, panics on rm -rf, sleeps when idle, evolves as you ship |
+| [Inbox Alerts](../../FocusMods/inbox-alerts/) | 0.1.0 | Gmail + Slack alerts inside Claude Code: toasts, status count, and an Alerts pane |
+| [Inner Monologue](../../InterfaceMods/inner-monologue/) | 0.1.0 | A pane of Claude's dry inner thoughts about your session, typed out live |
+| [Launch Codes](../../InterfaceMods/launch-codes/) | 0.1.0 | Dangerous Bash commands need launch codes: red alert pane, siren, a code to arm and a LAUNCH to fire |
+| [Session Wrapped](../../IntegrationMods/session-wrapped/) | 0.1.0 | Spotify Wrapped for a Claude Code session: an animated stat reveal and a shareable PNG card |
+| [Sportscaster](../../GameMods/sportscaster/) | 0.1.0 | Live TV play-by-play of your Claude Code session, spoken aloud with crowd effects |
+| [Agent Team Monitor](../../AgentMods/agent-team-monitor/) | 0.1.0 | Mission control for subagents and agent teams: who is running, what each is doing, who spawned whom, who is talking to whom, and how they overlap |
 
 ## Get the files
 

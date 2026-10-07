@@ -8,7 +8,7 @@ Complete source snapshot by **ruanss4**, hosted directly in this collection. Inc
 
 | Mod | Version | Description |
 | --- | --- | --- |
-| [Prompt Jump](../../prompts/prompt-jump/) | 0.1.0 | A bar above the prompt input with a tick for every prompt of the session; hover to read one, click to jump to it |
+| [Prompt Jump](../../PromptMods/prompt-jump/) | 0.1.0 | A bar above the prompt input with a tick for every prompt of the session; hover to read one, click to jump to it |
 
 ## Get the files
 

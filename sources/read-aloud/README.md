@@ -8,7 +8,7 @@ Complete source snapshot by **gnehiur**, hosted directly in this collection. Inc
 
 | Mod | Version | Description |
 | --- | --- | --- |
-| [Read Aloud](../../focus/read-aloud/) | 0.2.0 | 在每段回复下加一个🔊按钮，用火山引擎豆包语音（知性女声 2.0）流式朗读，可暂停、继续、从头念、倍速 |
+| [Read Aloud](../../FocusMods/read-aloud/) | 0.2.0 | 在每段回复下加一个🔊按钮，用火山引擎豆包语音（知性女声 2.0）流式朗读，可暂停、继续、从头念、倍速 |
 
 ## Get the files
 

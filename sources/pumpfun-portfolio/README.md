@@ -8,7 +8,7 @@ Complete source snapshot by **KamiFin**, hosted directly in this collection. Inc
 
 | Mod | Version | Description |
 | --- | --- | --- |
-| [Pump.fun Portfolio](../../integrations/pumpfun-portfolio/) | 0.1.0 | Your open pump.fun positions in a pane while Claude works, and a markdown trade journal that fills itself. Read-only, no keys, no trading |
+| [Pump.fun Portfolio](../../IntegrationMods/pumpfun-portfolio/) | 0.1.0 | Your open pump.fun positions in a pane while Claude works, and a markdown trade journal that fills itself. Read-only, no keys, no trading |
 
 ## Included skills
 

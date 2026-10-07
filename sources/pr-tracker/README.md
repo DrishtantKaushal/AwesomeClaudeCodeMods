@@ -8,7 +8,7 @@ Complete source snapshot by **sezaakgun**, hosted directly in this collection. I
 
 | Mod | Version | Description |
 | --- | --- | --- |
-| [PR Tracker](../../git/pr-tracker/) | 0.2.0 | Watch GitHub PRs from a Claude Code session: merge state, review and required checks above the prompt, with alerts when they change |
+| [PR Tracker](../../GitMods/pr-tracker/) | 0.2.0 | Watch GitHub PRs from a Claude Code session: merge state, review and required checks above the prompt, with alerts when they change |
 
 ## Get the files
 

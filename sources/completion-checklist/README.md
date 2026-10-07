@@ -8,7 +8,7 @@ Complete source snapshot by **swei99386-alt**, hosted directly in this collectio
 
 | Mod | Version | Description |
 | --- | --- | --- |
-| [Completion Checklist](../../planning/completion-checklist/) | 0.1.0 | Before Claude calls a task done, run your checklist. Fail means Claude is sent back to fix it; repeated failure trips a breaker and hands control back to you. |
+| [Completion Checklist](../../PlanningMods/completion-checklist/) | 0.1.0 | Before Claude calls a task done, run your checklist. Fail means Claude is sent back to fix it; repeated failure trips a breaker and hands control back to you. |
 
 ## Get the files
 

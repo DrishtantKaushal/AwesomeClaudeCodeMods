@@ -8,7 +8,7 @@ Complete source snapshot by **Turbo-Thorschten**, hosted directly in this collec
 
 | Mod | Version | Description |
 | --- | --- | --- |
-| [Shell Highlight](../../interface/shell-highlight/) | 0.2.0 | Draws Bash and PowerShell tool calls with syntax-highlighted commands |
+| [Shell Highlight](../../InterfaceMods/shell-highlight/) | 0.2.0 | Draws Bash and PowerShell tool calls with syntax-highlighted commands |
 
 ## Get the files
 

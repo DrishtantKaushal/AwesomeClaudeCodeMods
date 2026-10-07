@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "arasovic/claude-code-mods:image-peek",
+  "name": "image-peek",
+  "displayName": "Image Peek",
+  "version": "0.1.3",
+  "description": "Shows the images you paste: thumbnails above the prompt, and larger pictures under each sent message in the chat; needs a kitty-graphics terminal such as Ghostty",
+  "author": "Mehmet Aras",
+  "repository": "arasovic/claude-code-mods",
+  "modPath": "image-peek",
+  "category": {
+    "id": "interface",
+    "label": "Interface Mods",
+    "folder": "InterfaceMods",
+    "basis": "individual-pinned-manifest-and-source-review"
+  },
+  "sourceCommit": "1df1cad9661fd001b749c6a5a1821c2914d01469",
+  "sourcePath": "sources/session-toolkit/source/image-peek",
+  "sourceManifest": "sources/session-toolkit/source/image-peek/.claude-plugin/plugin.json",
+  "page": "InterfaceMods/image-peek/",
+  "runtimeTested": false
+}

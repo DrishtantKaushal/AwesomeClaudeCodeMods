@@ -8,7 +8,7 @@ Complete source snapshot by **kawase1295**, hosted directly in this collection. 
 
 | Mod | Version | Description |
 | --- | --- | --- |
-| [Braille Usage](../../usage/braille-usage/) | Not specified | Model, context window and rate-limit (5h / 7d) braille meters in a band above the prompt |
+| [Braille Usage](../../UsageMods/braille-usage/) | Not specified | Model, context window and rate-limit (5h / 7d) braille meters in a band above the prompt |
 
 ## Get the files
 

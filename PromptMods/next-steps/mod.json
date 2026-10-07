@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "hamzafer/claude-code-mods:mods/next-steps",
+  "name": "next-steps",
+  "displayName": "Next Steps",
+  "version": "0.1.1",
+  "description": "After each turn, 2 or 3 likely next prompts above the prompt. Press 1, 2 or 3 in an empty prompt to draft one, 0 to dismiss.",
+  "author": "Hamza Zafar",
+  "repository": "hamzafer/claude-code-mods",
+  "modPath": "mods/next-steps",
+  "category": {
+    "id": "prompts",
+    "label": "Prompt Mods",
+    "folder": "PromptMods",
+    "basis": "individual-pinned-manifest-and-source-review"
+  },
+  "sourceCommit": "fc5130427799f69852055add193161080bd054d6",
+  "sourcePath": "sources/workspace-toolkit/source/mods/next-steps",
+  "sourceManifest": "sources/workspace-toolkit/source/mods/next-steps/.claude-plugin/plugin.json",
+  "page": "PromptMods/next-steps/",
+  "runtimeTested": false
+}

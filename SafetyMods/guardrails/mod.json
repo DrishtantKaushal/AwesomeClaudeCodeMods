@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "arasovic/claude-code-mods:guardrails",
+  "name": "guardrails",
+  "displayName": "Guardrails",
+  "version": "0.3.1",
+  "description": "Blocks Cloudflare write commands, attribution lines in commits and PRs, and claude/ branch names",
+  "author": "Mehmet Aras",
+  "repository": "arasovic/claude-code-mods",
+  "modPath": "guardrails",
+  "category": {
+    "id": "safety",
+    "label": "Safety Mods",
+    "folder": "SafetyMods",
+    "basis": "individual-pinned-manifest-and-source-review"
+  },
+  "sourceCommit": "1df1cad9661fd001b749c6a5a1821c2914d01469",
+  "sourcePath": "sources/session-toolkit/source/guardrails",
+  "sourceManifest": "sources/session-toolkit/source/guardrails/.claude-plugin/plugin.json",
+  "page": "SafetyMods/guardrails/",
+  "runtimeTested": false
+}

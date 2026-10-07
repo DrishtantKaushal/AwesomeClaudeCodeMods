@@ -8,7 +8,7 @@ Complete source snapshot by **manfye**, hosted directly in this collection. Incl
 
 | Mod | Version | Description |
 | --- | --- | --- |
-| [Dino Runner](../../games/dino-runner/) | 0.1.0 | The Chrome offline dinosaur, above the Claude Code prompt. Jump the cacti and duck the pterodactyls while Claude works. Needs function hooks (early access) and an interactive terminal. |
+| [Dino Runner](../../GameMods/dino-runner/) | 0.1.0 | The Chrome offline dinosaur, above the Claude Code prompt. Jump the cacti and duck the pterodactyls while Claude works. Needs function hooks (early access) and an interactive terminal. |
 
 ## Get the files
 

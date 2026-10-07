@@ -8,7 +8,7 @@ Complete source snapshot by **sezaakgun**, hosted directly in this collection. I
 
 | Mod | Version | Description |
 | --- | --- | --- |
-| [Terminal Arcade](../../games/terminal-arcade/) | 0.2.0 | Games above the Claude Code prompt (snake, Tetris, 2048, Minesweeper, Flappy, Pong, typing test, Space Invaders, Doom) plus a pet that grows as Claude tests, commits and edits. Clones of the genre, not affiliated with or endorsed by Tetris Holding, Taito, Atari or id Software. Needs function hooks (early access) and an interactive terminal. |
+| [Terminal Arcade](../../GameMods/terminal-arcade/) | 0.2.0 | Games above the Claude Code prompt (snake, Tetris, 2048, Minesweeper, Flappy, Pong, typing test, Space Invaders, Doom) plus a pet that grows as Claude tests, commits and edits. Clones of the genre, not affiliated with or endorsed by Tetris Holding, Taito, Atari or id Software. Needs function hooks (early access) and an interactive terminal. |
 
 ## Get the files
 

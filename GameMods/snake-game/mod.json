@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "hamzafer/claude-code-mods:mods/snake",
+  "name": "snake",
+  "displayName": "Snake Game",
+  "version": "0.2.2",
+  "description": "Snake in a pane while Claude works, paused when it's done. Opt-in, so nothing opens until /snake.",
+  "author": "Hamza Zafar",
+  "repository": "hamzafer/claude-code-mods",
+  "modPath": "mods/snake",
+  "category": {
+    "id": "games",
+    "label": "Game Mods",
+    "folder": "GameMods",
+    "basis": "exact-catalogue-repository-and-mod-path"
+  },
+  "sourceCommit": "fc5130427799f69852055add193161080bd054d6",
+  "sourcePath": "sources/workspace-toolkit/source/mods/snake",
+  "sourceManifest": "sources/workspace-toolkit/source/mods/snake/.claude-plugin/plugin.json",
+  "page": "GameMods/snake-game/",
+  "runtimeTested": false
+}

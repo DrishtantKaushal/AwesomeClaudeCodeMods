@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "OneWave-AI/claude-code-mods:burn-meter",
+  "name": "burn-meter",
+  "displayName": "Burn Meter",
+  "version": "0.1.0",
+  "description": "Live session cost odometer above the prompt: a burning fuse, real-world comparisons, threshold alerts",
+  "author": "OneWave AI",
+  "repository": "OneWave-AI/claude-code-mods",
+  "modPath": "burn-meter",
+  "category": {
+    "id": "usage",
+    "label": "Usage Mods",
+    "folder": "UsageMods",
+    "basis": "exact-catalogue-repository-and-mod-path"
+  },
+  "sourceCommit": "e6da26ca36a88eec3be25605d30fa20f2c1c0cec",
+  "sourcePath": "sources/creative-toolkit/source/burn-meter",
+  "sourceManifest": "sources/creative-toolkit/source/burn-meter/.claude-plugin/plugin.json",
+  "page": "UsageMods/burn-meter/",
+  "runtimeTested": false
+}

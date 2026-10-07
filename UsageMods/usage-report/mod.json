@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "Schweem/usage-report:.",
+  "name": "usage-report",
+  "displayName": "Usage Report",
+  "version": "0.2.0",
+  "description": "Shows context fill, 5-hour and weekly quota, and session cost on the status line under the prompt, with warnings near your limits.",
+  "author": "Schweem",
+  "repository": "Schweem/usage-report",
+  "modPath": ".",
+  "category": {
+    "id": "usage",
+    "label": "Usage Mods",
+    "folder": "UsageMods",
+    "basis": "exact-catalogue-repository-and-mod-path"
+  },
+  "sourceCommit": "d73e0862b94caa06d366df687447c29c0f694548",
+  "sourcePath": "sources/usage-report/source",
+  "sourceManifest": "sources/usage-report/source/.claude-plugin/plugin.json",
+  "page": "UsageMods/usage-report/",
+  "runtimeTested": false
+}

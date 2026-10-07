@@ -8,7 +8,7 @@ Complete source snapshot by **WQGGSEY**, hosted directly in this collection. Inc
 
 | Mod | Version | Description |
 | --- | --- | --- |
-| [Cache Countdown](../../memory/cache-countdown/) | 1.0.0 | A prompt-cache countdown in the prompt footer, beside the model and effort: how long until your next message has to re-cache the whole conversation. |
+| [Cache Countdown](../../MemoryMods/cache-countdown/) | 1.0.0 | A prompt-cache countdown in the prompt footer, beside the model and effort: how long until your next message has to re-cache the whole conversation. |
 
 ## Get the files
 

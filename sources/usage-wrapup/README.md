@@ -8,7 +8,7 @@ Complete source snapshot by **DaKev**, hosted directly in this collection. Inclu
 
 | Mod | Version | Description |
 | --- | --- | --- |
-| [Usage Wrapup](../../usage/usage-wrapup/) | 0.1.0 | When your plan usage gets low, tells every running agent to wrap up before the limit cuts it off. |
+| [Usage Wrapup](../../UsageMods/usage-wrapup/) | 0.1.0 | When your plan usage gets low, tells every running agent to wrap up before the limit cuts it off. |
 
 ## Get the files
 

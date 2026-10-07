@@ -8,7 +8,7 @@ Complete source snapshot by **jarrodwatts**, hosted directly in this collection.
 
 | Mod | Version | Description |
 | --- | --- | --- |
-| [Image Viewer](../../interface/image-viewer/) | 0.1.0 | See the images you paste into Claude Code: thumbnails above the prompt instead of bare [Image #1] tags |
+| [Image Viewer](../../InterfaceMods/image-viewer/) | 0.1.0 | See the images you paste into Claude Code: thumbnails above the prompt instead of bare [Image #1] tags |
 
 ## Get the files
 

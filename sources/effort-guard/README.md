@@ -8,7 +8,7 @@ Complete source snapshot by **stefanochieli**, hosted directly in this collectio
 
 | Mod | Version | Description |
 | --- | --- | --- |
-| [Effort Guard](../../safety/effort-guard/) | 0.1.1 | Claude Code mod: context/token band, escalation signals and per-turn effort log. |
+| [Effort Guard](../../SafetyMods/effort-guard/) | 0.1.1 | Claude Code mod: context/token band, escalation signals and per-turn effort log. |
 
 ## Get the files
 

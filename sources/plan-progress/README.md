@@ -8,7 +8,7 @@ Complete source snapshot by **zycck**, hosted directly in this collection. Inclu
 
 | Mod | Version | Description |
 | --- | --- | --- |
-| [Plan Progress](../../planning/plan-progress/) | 0.7.3 | Live plan progress bars above the Claude Code prompt: stages, steps, a pixel fill and soft sounds for decision, error and done |
+| [Plan Progress](../../PlanningMods/plan-progress/) | 0.7.3 | Live plan progress bars above the Claude Code prompt: stages, steps, a pixel fill and soft sounds for decision, error and done |
 
 ## Included skills
 

@@ -8,7 +8,7 @@ Complete source snapshot by **giovaborgogno**, available directly in this collec
 
 | Mod | Version | Description |
 | --- | --- | --- |
-| [Dino Game](../../games/dino-game/) | 0.1.1 | The T-rex from the browser's offline page, above the Claude Code prompt: jump cacti and duck birds while Claude works. Needs function hooks (early access) and an interactive terminal. |
+| [Dino Game](../../GameMods/dino-game/) | 0.1.1 | The T-rex from the browser's offline page, above the Claude Code prompt: jump cacti and duck birds while Claude works. Needs function hooks (early access) and an interactive terminal. |
 
 ## Get the files
 

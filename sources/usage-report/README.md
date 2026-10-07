@@ -8,7 +8,7 @@ Complete source snapshot by **Schweem**, hosted directly in this collection. Inc
 
 | Mod | Version | Description |
 | --- | --- | --- |
-| [Usage Report](../../usage/usage-report/) | 0.2.0 | Shows context fill, 5-hour and weekly quota, and session cost on the status line under the prompt, with warnings near your limits. |
+| [Usage Report](../../UsageMods/usage-report/) | 0.2.0 | Shows context fill, 5-hour and weekly quota, and session cost on the status line under the prompt, with warnings near your limits. |
 
 ## Get the files
 

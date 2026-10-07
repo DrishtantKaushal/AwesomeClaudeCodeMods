@@ -8,7 +8,7 @@ Complete source snapshot by **okamyuji**, hosted directly in this collection. In
 
 | Mod | Version | Description |
 | --- | --- | --- |
-| [Tool Trim Compaction](../../memory/tool-trim-compaction/) | Not specified | compaction で古いツール呼び出しと結果を消し、発言は原文のまま残す。削減が足りなければ標準の要約に回す |
+| [Tool Trim Compaction](../../MemoryMods/tool-trim-compaction/) | Not specified | compaction で古いツール呼び出しと結果を消し、発言は原文のまま残す。削減が足りなければ標準の要約に回す |
 
 ## Get the files
 

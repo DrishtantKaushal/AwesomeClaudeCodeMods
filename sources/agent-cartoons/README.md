@@ -8,7 +8,7 @@ Complete source snapshot by **henrik-thevibe**, available directly in this colle
 
 | Mod | Version | Description |
 | --- | --- | --- |
-| [Agent Cartoons](../../agents/agent-cartoons/) | 0.1.0 | Claude Fables: turns what the agent is doing into little animated cartoons above the prompt, written live by Sonnet or Haiku. |
+| [Agent Cartoons](../../AgentMods/agent-cartoons/) | 0.1.0 | Claude Fables: turns what the agent is doing into little animated cartoons above the prompt, written live by Sonnet or Haiku. |
 
 ## Get the files
 

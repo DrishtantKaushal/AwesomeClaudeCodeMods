@@ -8,10 +8,10 @@ Complete source snapshot by **nateherkai**, hosted directly in this collection. 
 
 | Mod | Version | Description |
 | --- | --- | --- |
-| [Cache Keeper](../../memory/cache-keeper/) | 1.0.0 | Keeps a big chat's prompt cache warm, warns before an expensive cold restart, shows every local chat on one board (/board), and hands a chat off to a fresh one (/handoff) |
-| [Collision Guard](../../safety/collision-guard/) | 1.0.0 | Asks before Claude edits a file another open chat changed in the last 30 minutes: Proceed, Move to a worktree, or Cancel (/guard) |
-| [Goal Meter](../../planning/goal-meter/) | 1.0.0 | A progress bar for /goal built from Claude's own task plan: tasks done out of the plan, elapsed time, an ETA at the goal's own pace, and every chat's goal in /goals |
-| [Private Recording](../../files/private-recording/) | 1.0.0 | /rec before you record: masks keys, personal details, and business figures on screen and keeps private files closed (/rec strict, /rec off, /rec config) |
+| [Cache Keeper](../../MemoryMods/cache-keeper/) | 1.0.0 | Keeps a big chat's prompt cache warm, warns before an expensive cold restart, shows every local chat on one board (/board), and hands a chat off to a fresh one (/handoff) |
+| [Collision Guard](../../SafetyMods/collision-guard/) | 1.0.0 | Asks before Claude edits a file another open chat changed in the last 30 minutes: Proceed, Move to a worktree, or Cancel (/guard) |
+| [Goal Meter](../../PlanningMods/goal-meter/) | 1.0.0 | A progress bar for /goal built from Claude's own task plan: tasks done out of the plan, elapsed time, an ETA at the goal's own pace, and every chat's goal in /goals |
+| [Private Recording](../../FileMods/private-recording/) | 1.0.0 | /rec before you record: masks keys, personal details, and business figures on screen and keeps private files closed (/rec strict, /rec off, /rec config) |
 
 ## Included skills
 

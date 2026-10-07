@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "hamzafer/claude-code-mods:mods/mission-control",
+  "name": "mission-control",
+  "displayName": "Mission Control",
+  "version": "0.1.2",
+  "description": "/mission opens a live map of the main agent, its subagents and every tool call, plus a code map of the files they touch.",
+  "author": "Hamza Zafar",
+  "repository": "hamzafer/claude-code-mods",
+  "modPath": "mods/mission-control",
+  "category": {
+    "id": "agents",
+    "label": "Agent Mods",
+    "folder": "AgentMods",
+    "basis": "exact-catalogue-repository-and-mod-path"
+  },
+  "sourceCommit": "fc5130427799f69852055add193161080bd054d6",
+  "sourcePath": "sources/workspace-toolkit/source/mods/mission-control",
+  "sourceManifest": "sources/workspace-toolkit/source/mods/mission-control/.claude-plugin/plugin.json",
+  "page": "AgentMods/mission-control/",
+  "runtimeTested": false
+}

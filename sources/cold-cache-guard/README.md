@@ -8,7 +8,7 @@ Complete source snapshot by **mediavee**, hosted directly in this collection. In
 
 | Mod | Version | Description |
 | --- | --- | --- |
-| [Cold Cache Guard](../../memory/cold-cache-guard/) | 0.1.0 | Asks what to do before Claude Code re-sends a large conversation whose prompt cache has expired: on a cold resume, and on the first prompt after an idle spell. |
+| [Cold Cache Guard](../../MemoryMods/cold-cache-guard/) | 0.1.0 | Asks what to do before Claude Code re-sends a large conversation whose prompt cache has expired: on a cold resume, and on the first prompt after an idle spell. |
 
 ## Get the files
 
