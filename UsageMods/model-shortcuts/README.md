@@ -1,6 +1,6 @@
 # Model Shortcuts
 
-Keyboard shortcuts that step the reasoning effort level and the model up and down; the footer shows what each request uses
+Use keyboard shortcuts to switch models and adjust reasoning effort, with the active choices displayed in the prompt footer.
 
 **Category:** [Usage Mods](../) · **Author:** Richard Kuo · **Version:** 0.3.1
 

@@ -4,7 +4,8 @@
   "name": "blast-radius",
   "displayName": "Command Impact",
   "version": "0.2.2",
-  "description": "Holds risky Bash commands and shows what they would change before they run.",
+  "description": "Pause risky shell commands and inspect what they would change before allowing them to run.",
+  "sourceDescription": "Holds risky Bash commands and shows what they would change before they run.",
   "author": "Hamza Zafar",
   "repository": "hamzafer/claude-code-mods",
   "modPath": "mods/blast-radius",
@@ -12,7 +13,7 @@
     "id": "safety",
     "label": "Safety Mods",
     "folder": "SafetyMods",
-    "basis": "exact-catalogue-repository-and-mod-path"
+    "basis": "Checks commands, permissions, privacy or rules before actions."
   },
   "sourceCommit": "fc5130427799f69852055add193161080bd054d6",
   "sourcePath": "sources/workspace-toolkit/source/mods/blast-radius",

@@ -1,6 +1,6 @@
 # Animated Spinner
 
-Clawd acts out the spinner's word above it while Claude works: cooking for Sautéing, dancing for Vibing, pacing for Pondering, 11 acts across all 179 words.
+Replace the standard waiting animation with a character that acts out the spinner’s status, such as cooking, dancing or thinking while Claude works.
 
 **Category:** [Interface Mods](../) · **Author:** Sai Rudra · **Version:** 0.1.0
 

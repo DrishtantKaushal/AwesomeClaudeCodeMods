@@ -1,6 +1,6 @@
 # Session Saver
 
-Names untitled sessions through unpause. /park saves where you left off, and a resumed session shows it.
+Save where you left off, give untitled conversations a name and see the saved handoff when you resume a session.
 
 **Category:** [Memory Mods](../) · **Author:** Hamza Zafar · **Version:** 0.1.1
 

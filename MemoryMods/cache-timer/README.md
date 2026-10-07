@@ -1,6 +1,6 @@
 # Cache Timer
 
-Counts down to when the prompt cache expires, so you can send the next message before the whole conversation has to be cached again
+Watch a countdown to prompt-cache expiry so you can send another message before the full conversation needs to be cached again.
 
 **Category:** [Memory Mods](../) · **Author:** Mehmet Aras · **Version:** 0.1.0
 

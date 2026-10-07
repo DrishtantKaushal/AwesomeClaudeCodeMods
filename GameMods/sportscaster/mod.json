@@ -4,7 +4,8 @@
   "name": "sportscaster",
   "displayName": "Sportscaster",
   "version": "0.1.0",
-  "description": "Live TV play-by-play of your Claude Code session, spoken aloud with crowd effects",
+  "description": "Listen to spoken play-by-play commentary on your coding session, complete with crowd effects that turn the agent\u2019s activity into a sports broadcast.",
+  "sourceDescription": "Live TV play-by-play of your Claude Code session, spoken aloud with crowd effects",
   "author": "OneWave AI",
   "repository": "OneWave-AI/claude-code-mods",
   "modPath": "sportscaster",
@@ -12,7 +13,7 @@
     "id": "games",
     "label": "Game Mods",
     "folder": "GameMods",
-    "basis": "exact-catalogue-repository-and-mod-path"
+    "basis": "Provides games, pets or entertainment while working."
   },
   "sourceCommit": "e6da26ca36a88eec3be25605d30fa20f2c1c0cec",
   "sourcePath": "sources/creative-toolkit/source/sportscaster",

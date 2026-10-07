@@ -4,7 +4,8 @@
   "name": "guardrails",
   "displayName": "Guardrails",
   "version": "0.3.1",
-  "description": "Blocks Cloudflare write commands, attribution lines in commits and PRs, and claude/ branch names",
+  "description": "Enforce the repository\u2019s specific workflow rules by blocking Cloudflare write commands, selected attribution lines in commits or pull requests, and branch names starting with claude/.",
+  "sourceDescription": "Blocks Cloudflare write commands, attribution lines in commits and PRs, and claude/ branch names",
   "author": "Mehmet Aras",
   "repository": "arasovic/claude-code-mods",
   "modPath": "guardrails",
@@ -12,7 +13,7 @@
     "id": "safety",
     "label": "Safety Mods",
     "folder": "SafetyMods",
-    "basis": "individual-pinned-manifest-and-source-review"
+    "basis": "Checks commands, permissions, privacy or rules before actions."
   },
   "sourceCommit": "1df1cad9661fd001b749c6a5a1821c2914d01469",
   "sourcePath": "sources/session-toolkit/source/guardrails",

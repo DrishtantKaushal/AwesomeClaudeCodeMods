@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "OneWave-AI/claude-code-mods:inner-monologue",
+  "name": "inner-monologue",
+  "displayName": "Inner Monologue",
+  "version": "0.1.0",
+  "description": "Read humorous, model-generated commentary on your recent prompts and tool calls in a live pane while Claude works. These are generated summaries, not private model thoughts.",
+  "sourceDescription": "A pane of Claude's dry inner thoughts about your session, typed out live",
+  "author": "OneWave AI",
+  "repository": "OneWave-AI/claude-code-mods",
+  "modPath": "inner-monologue",
+  "category": {
+    "id": "games",
+    "label": "Game Mods",
+    "folder": "GameMods",
+    "basis": "Generated humorous commentary is entertainment, not a technical interface feature."
+  },
+  "sourceCommit": "e6da26ca36a88eec3be25605d30fa20f2c1c0cec",
+  "sourcePath": "sources/creative-toolkit/source/inner-monologue",
+  "sourceManifest": "sources/creative-toolkit/source/inner-monologue/.claude-plugin/plugin.json",
+  "page": "GameMods/inner-monologue/",
+  "runtimeTested": false
+}

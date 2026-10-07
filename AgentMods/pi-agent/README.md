@@ -1,6 +1,6 @@
 # Pi Agent
 
-pi agent for claude: a `pi` subagent type whose model steps run the pi CLI, so pi subagents and agent-team teammates live in Claude Code's own agent UI, streamed live.
+Run Pi-powered subagents and teammates inside Claude Code’s agent interface, with their output streamed into the same workflow as other agents.
 
 **Category:** [Agent Mods](../) · **Author:** Fazal Ali · **Version:** 0.1.0
 

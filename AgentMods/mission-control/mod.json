@@ -4,7 +4,8 @@
   "name": "mission-control",
   "displayName": "Mission Control",
   "version": "0.1.2",
-  "description": "/mission opens a live map of the main agent, its subagents and every tool call, plus a code map of the files they touch.",
+  "description": "Open a live map of the main agent, its subagents and their tool calls, together with the files they are working on.",
+  "sourceDescription": "/mission opens a live map of the main agent, its subagents and every tool call, plus a code map of the files they touch.",
   "author": "Hamza Zafar",
   "repository": "hamzafer/claude-code-mods",
   "modPath": "mods/mission-control",
@@ -12,7 +13,7 @@
     "id": "agents",
     "label": "Agent Mods",
     "folder": "AgentMods",
-    "basis": "exact-catalogue-repository-and-mod-path"
+    "basis": "Coordinates agents or makes their actual work visible."
   },
   "sourceCommit": "fc5130427799f69852055add193161080bd054d6",
   "sourcePath": "sources/workspace-toolkit/source/mods/mission-control",

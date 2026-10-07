@@ -1,5 +1,7 @@
 # Cache Countdown
 
+See how long your prompt cache has left before it expires, so you can time your next message before the conversation needs to be cached again.
+
 Complete source snapshot by **WQGGSEY**, hosted directly in this collection. Includes the original source, documentation, supporting scripts, manifests, skills where present and tracked assets.
 
 [Browse source](source/) · [Original setup and usage](source/README.md) · [License](source/LICENSE) · [File checksums and provenance](UPSTREAM.json)
@@ -8,7 +10,7 @@ Complete source snapshot by **WQGGSEY**, hosted directly in this collection. Inc
 
 | Mod | Version | Description |
 | --- | --- | --- |
-| [Cache Countdown](../../MemoryMods/cache-countdown/) | 1.0.0 | A prompt-cache countdown in the prompt footer, beside the model and effort: how long until your next message has to re-cache the whole conversation. |
+| [Cache Countdown](../../MemoryMods/cache-countdown/) | 1.0.0 | See how long your prompt cache has left before it expires, so you can time your next message before the conversation needs to be cached again. |
 
 ## Get the files
 

@@ -1,6 +1,6 @@
 # Snake Game
 
-Snake in a pane while Claude works, paused when it's done. Opt-in, so nothing opens until /snake.
+Play Snake in a pane while Claude works, with the game pausing when the agent finishes. It opens only when you request it.
 
 **Category:** [Game Mods](../) · **Author:** Hamza Zafar · **Version:** 0.2.2
 

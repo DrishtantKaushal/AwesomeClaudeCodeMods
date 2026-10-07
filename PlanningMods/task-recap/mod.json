@@ -4,7 +4,8 @@
   "name": "where-am-i",
   "displayName": "Task Recap",
   "version": "0.1.3",
-  "description": "A live recap above the prompt: goal, doing now, waiting on you, next. /where for a longer one.",
+  "description": "Keep the current goal, active work, pending decisions and next step visible above the prompt, with a longer recap available on demand.",
+  "sourceDescription": "A live recap above the prompt: goal, doing now, waiting on you, next. /where for a longer one.",
   "author": "Hamza Zafar",
   "repository": "hamzafer/claude-code-mods",
   "modPath": "mods/where-am-i",
@@ -12,7 +13,7 @@
     "id": "planning",
     "label": "Planning Mods",
     "folder": "PlanningMods",
-    "basis": "exact-catalogue-repository-and-mod-path"
+    "basis": "Tracks tasks, plans or progress."
   },
   "sourceCommit": "fc5130427799f69852055add193161080bd054d6",
   "sourcePath": "sources/workspace-toolkit/source/mods/where-am-i",

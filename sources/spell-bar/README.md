@@ -1,5 +1,7 @@
 # Spell Bar
 
+See the selected reasoning effort represented by an animated spell bar, with a different character effect for each supported effort level.
+
 Complete source snapshot by **powerofjinbo**, available directly in this collection. Includes all tracked source, documentation, supporting scripts, manifests and assets at revision `1b0494cadcd4e98542147b321250d55d38696553`.
 
 [Browse source](source/) · [Original setup and usage](source/README.md) · [License](source/LICENSE) · [File checksums and provenance](UPSTREAM.json)
@@ -8,7 +10,7 @@ Complete source snapshot by **powerofjinbo**, available directly in this collect
 
 | Mod | Version | Description |
 | --- | --- | --- |
-| [Spell Bar](../../GameMods/spell-bar/) | 1.0.0 | An animated effort bar for Claude Code: Clawd casts Avada Kedavra at six ranks, one per effort level from low to ultracode, with Voldemort looming behind. |
+| [Spell Bar](../../GameMods/spell-bar/) | 1.0.0 | See the selected reasoning effort represented by an animated spell bar, with a different character effect for each supported effort level. |
 
 ## Get the files
 

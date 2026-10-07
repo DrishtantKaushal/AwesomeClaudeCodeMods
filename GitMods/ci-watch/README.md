@@ -1,6 +1,6 @@
 # CI Watch
 
-Watches GitHub Actions in a band above the prompt after Claude pushes, opens a PR or pushes a tag: a progress bar per run, then pass or fail; optionally flags failed scheduled workflows at start
+Follow GitHub Actions runs after a push, pull request or tag, with live progress and pass or fail results above the prompt.
 
 **Category:** [Git Mods](../) · **Author:** Mehmet Aras · **Version:** 0.1.3
 

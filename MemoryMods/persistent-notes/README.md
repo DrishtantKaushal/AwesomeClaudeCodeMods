@@ -1,6 +1,6 @@
 # Persistent Notes
 
-Pins standing notes with /pin that Claude keeps following after /compact and /clear; shows them in one row above the prompt or as a counter, and keeps them per folder with --keep
+Pin standing instructions that are restored after compaction or clearing the conversation, with optional folder-specific notes that persist between sessions.
 
 **Category:** [Memory Mods](../) · **Author:** Mehmet Aras · **Version:** 0.1.1
 

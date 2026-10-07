@@ -4,7 +4,8 @@
   "name": "cache-timer",
   "displayName": "Cache Timer",
   "version": "0.1.0",
-  "description": "Counts down to when the prompt cache expires, so you can send the next message before the whole conversation has to be cached again",
+  "description": "Watch a countdown to prompt-cache expiry so you can send another message before the full conversation needs to be cached again.",
+  "sourceDescription": "Counts down to when the prompt cache expires, so you can send the next message before the whole conversation has to be cached again",
   "author": "Mehmet Aras",
   "repository": "arasovic/claude-code-mods",
   "modPath": "cache-timer",
@@ -12,7 +13,7 @@
     "id": "memory",
     "label": "Memory Mods",
     "folder": "MemoryMods",
-    "basis": "exact-catalogue-repository-and-mod-path"
+    "basis": "Manages context, cache, saved notes or session handoffs."
   },
   "sourceCommit": "1df1cad9661fd001b749c6a5a1821c2914d01469",
   "sourcePath": "sources/session-toolkit/source/cache-timer",

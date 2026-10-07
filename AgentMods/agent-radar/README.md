@@ -1,6 +1,6 @@
 # Agent Radar
 
-One live line above the prompt per running subagent: time, tool count and what it's doing. /radar shows every agent and its messages.
+Monitor each running subagent’s elapsed time, tool count and current activity above the prompt, then open a detailed view of its messages.
 
 **Category:** [Agent Mods](../) · **Author:** Hamza Zafar · **Version:** 0.1.2
 

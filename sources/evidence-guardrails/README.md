@@ -1,5 +1,7 @@
 # Evidence Guardrails
 
+Score proposed actions against your rules and compare final claims with turn evidence. Calls are allowed through if the external scorer is unavailable.
+
 Complete source snapshot by **muratcakmak**, hosted directly in this collection. Includes the original source, documentation, supporting scripts, manifests, skills where present and tracked assets.
 
 [Browse source](source/) · [Original setup and usage](source/README.md) · [License](source/LICENSE) · [File checksums and provenance](UPSTREAM.json)
@@ -8,7 +10,7 @@ Complete source snapshot by **muratcakmak**, hosted directly in this collection.
 
 | Mod | Version | Description |
 | --- | --- | --- |
-| [Evidence Guardrails](../../SafetyMods/evidence-guardrails/) | 0.1.0 | Probability-scored guardrails for Claude Code: deny rule-breaking edits and unasked-for deploys, route your own docs into each prompt, and check the final answer against the turn's own evidence. |
+| [Evidence Guardrails](../../SafetyMods/evidence-guardrails/) | 0.1.0 | Score proposed actions against your rules and compare final claims with turn evidence. Calls are allowed through if the external scorer is unavailable. |
 
 ## Get the files
 

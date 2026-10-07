@@ -1,6 +1,6 @@
 # Boss Fight
 
-Failing tests spawn a pixel boss; every run that fixes tests lands a hit, zero failures is a KO with loot
+Turn failing tests into a pixel-art boss battle, where each successful fix deals damage and a clean test run defeats the boss.
 
 **Category:** [Game Mods](../) · **Author:** OneWave AI · **Version:** 0.1.0
 

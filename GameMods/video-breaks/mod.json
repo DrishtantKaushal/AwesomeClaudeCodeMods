@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "hamzafer/claude-code-mods:mods/reels",
+  "name": "reels",
+  "displayName": "Video Breaks",
+  "version": "0.1.2",
+  "description": "Watch YouTube Shorts in a terminal pane while Claude works, with playback pausing automatically when the agent finishes.",
+  "sourceDescription": "YouTube Shorts in a terminal pane: plays while Claude works, pauses when Claude is done.",
+  "author": "Hamza Zafar",
+  "repository": "hamzafer/claude-code-mods",
+  "modPath": "mods/reels",
+  "category": {
+    "id": "games",
+    "label": "Game Mods",
+    "folder": "GameMods",
+    "basis": "Short-video playback provides entertainment while waiting."
+  },
+  "sourceCommit": "fc5130427799f69852055add193161080bd054d6",
+  "sourcePath": "sources/workspace-toolkit/source/mods/reels",
+  "sourceManifest": "sources/workspace-toolkit/source/mods/reels/.claude-plugin/plugin.json",
+  "page": "GameMods/video-breaks/",
+  "runtimeTested": false
+}

@@ -4,7 +4,8 @@
   "name": "show-me",
   "displayName": "Diagram Viewer",
   "version": "0.4.4",
-  "description": "Draws the mermaid diagrams of each answer as images in a pane (/show-me); needs mmdc and a kitty-graphics terminal such as Ghostty",
+  "description": "View Mermaid diagrams from Claude\u2019s answers as rendered images in a side pane. It requires the Mermaid command-line renderer and a terminal with Kitty graphics support.",
+  "sourceDescription": "Draws the mermaid diagrams of each answer as images in a pane (/show-me); needs mmdc and a kitty-graphics terminal such as Ghostty",
   "author": "Mehmet Aras",
   "repository": "arasovic/claude-code-mods",
   "modPath": "show-me",
@@ -12,7 +13,7 @@
     "id": "interface",
     "label": "Interface Mods",
     "folder": "InterfaceMods",
-    "basis": "exact-catalogue-repository-and-mod-path"
+    "basis": "Changes conversation presentation or accessibility."
   },
   "sourceCommit": "1df1cad9661fd001b749c6a5a1821c2914d01469",
   "sourcePath": "sources/session-toolkit/source/show-me",

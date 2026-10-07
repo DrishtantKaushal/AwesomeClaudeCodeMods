@@ -4,7 +4,8 @@
   "name": "compact-keeper",
   "displayName": "Compaction History",
   "version": "0.1.1",
-  "description": "Saves each compaction's summary, with the files edited before it, to ~/.claude/handoffs so the context before /compact can be recovered",
+  "description": "Save each compaction summary together with the files edited beforehand, so you can recover context that would otherwise disappear from the conversation.",
+  "sourceDescription": "Saves each compaction's summary, with the files edited before it, to ~/.claude/handoffs so the context before /compact can be recovered",
   "author": "Mehmet Aras",
   "repository": "arasovic/claude-code-mods",
   "modPath": "compact-keeper",
@@ -12,7 +13,7 @@
     "id": "memory",
     "label": "Memory Mods",
     "folder": "MemoryMods",
-    "basis": "exact-catalogue-repository-and-mod-path"
+    "basis": "Manages context, cache, saved notes or session handoffs."
   },
   "sourceCommit": "1df1cad9661fd001b749c6a5a1821c2914d01469",
   "sourcePath": "sources/session-toolkit/source/compact-keeper",

@@ -1,5 +1,7 @@
 # Terminal Arcade
 
+Play games such as Snake, Minesweeper, Pong and 2048 above the prompt, or watch a virtual pet grow as Claude tests, edits and commits code.
+
 Complete source snapshot by **sezaakgun**, hosted directly in this collection. Includes the original source, documentation, supporting scripts, manifests, skills where present and tracked assets.
 
 [Browse source](source/) · [Original setup and usage](source/README.md) · [License](source/LICENSE) · [File checksums and provenance](UPSTREAM.json)
@@ -8,7 +10,7 @@ Complete source snapshot by **sezaakgun**, hosted directly in this collection. I
 
 | Mod | Version | Description |
 | --- | --- | --- |
-| [Terminal Arcade](../../GameMods/terminal-arcade/) | 0.2.0 | Games above the Claude Code prompt (snake, Tetris, 2048, Minesweeper, Flappy, Pong, typing test, Space Invaders, Doom) plus a pet that grows as Claude tests, commits and edits. Clones of the genre, not affiliated with or endorsed by Tetris Holding, Taito, Atari or id Software. Needs function hooks (early access) and an interactive terminal. |
+| [Terminal Arcade](../../GameMods/terminal-arcade/) | 0.2.0 | Play games such as Snake, Minesweeper, Pong and 2048 above the prompt, or watch a virtual pet grow as Claude tests, edits and commits code. |
 
 ## Get the files
 

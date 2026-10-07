@@ -4,7 +4,8 @@
   "name": "agent-narrator",
   "displayName": "Agent Narrator",
   "version": "0.1.0",
-  "description": "Watch the agent work: every step in plain English, with a live time-saved counter",
+  "description": "Follow the agent\u2019s work through plain-English explanations of each step and a live counter showing its estimated time savings.",
+  "sourceDescription": "Watch the agent work: every step in plain English, with a live time-saved counter",
   "author": "OneWave AI",
   "repository": "OneWave-AI/claude-code-mods",
   "modPath": "agent-narrator",
@@ -12,7 +13,7 @@
     "id": "agents",
     "label": "Agent Mods",
     "folder": "AgentMods",
-    "basis": "exact-catalogue-repository-and-mod-path"
+    "basis": "Coordinates agents or makes their actual work visible."
   },
   "sourceCommit": "e6da26ca36a88eec3be25605d30fa20f2c1c0cec",
   "sourcePath": "sources/creative-toolkit/source/agent-narrator",

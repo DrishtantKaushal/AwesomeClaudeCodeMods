@@ -1,6 +1,6 @@
 # Plan Bar
 
-Live progress bars above the prompt for multi-step work: one row per plan, with stages, percent, waiting and failed colors, and sounds
+Follow several plans at once through progress bars showing stages, completion percentages and waiting or failed states above the prompt.
 
 **Category:** [Planning Mods](../) · **Author:** Gary · **Version:** 0.1.0
 

@@ -4,7 +4,8 @@
   "name": "claude-queue",
   "displayName": "Prompt Queue",
   "version": "0.4.3",
-  "description": "A prompt typed while Claude is working is held in a stack above the prompt instead of landing in the running turn, and sent once the turn ends. Reorder the stack, edit a row in place, send one first, remove one, flush the lot. Needs function hooks (early access) and an interactive terminal.",
+  "description": "Queue messages while Claude is working, then edit, reorder or remove them before they are sent after the current turn finishes.",
+  "sourceDescription": "A prompt typed while Claude is working is held in a stack above the prompt instead of landing in the running turn, and sent once the turn ends. Reorder the stack, edit a row in place, send one first, remove one, flush the lot. Needs function hooks (early access) and an interactive terminal.",
   "author": "Gal Elmalah",
   "repository": "galElmalah/claude-mermaid",
   "modPath": "claude-queue",
@@ -12,7 +13,7 @@
     "id": "prompts",
     "label": "Prompt Mods",
     "folder": "PromptMods",
-    "basis": "individual-pinned-manifest-and-source-review"
+    "basis": "Helps compose, select, queue or navigate input."
   },
   "sourceCommit": "b19a0f0d09bf214c010b15cc2849c0c1a11d7b0d",
   "sourcePath": "sources/diagrams-and-queue/source/claude-queue",

@@ -1,5 +1,7 @@
 # Image Viewer
 
+See thumbnails of images you paste above the prompt, so you can identify each attachment without relying on numbered image tags.
+
 Complete source snapshot by **jarrodwatts**, hosted directly in this collection. Includes the original source, documentation, supporting scripts, manifests, skills where present and tracked assets.
 
 [Browse source](source/) · [Original setup and usage](source/README.md) · [License](source/LICENSE) · [File checksums and provenance](UPSTREAM.json)
@@ -8,7 +10,7 @@ Complete source snapshot by **jarrodwatts**, hosted directly in this collection.
 
 | Mod | Version | Description |
 | --- | --- | --- |
-| [Image Viewer](../../InterfaceMods/image-viewer/) | 0.1.0 | See the images you paste into Claude Code: thumbnails above the prompt instead of bare [Image #1] tags |
+| [Image Viewer](../../InterfaceMods/image-viewer/) | 0.1.0 | See thumbnails of images you paste above the prompt, so you can identify each attachment without relying on numbered image tags. |
 
 ## Get the files
 

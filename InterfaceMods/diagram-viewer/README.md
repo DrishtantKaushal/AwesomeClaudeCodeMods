@@ -1,6 +1,6 @@
 # Diagram Viewer
 
-Draws the mermaid diagrams of each answer as images in a pane (/show-me); needs mmdc and a kitty-graphics terminal such as Ghostty
+View Mermaid diagrams from Claude’s answers as rendered images in a side pane. It requires the Mermaid command-line renderer and a terminal with Kitty graphics support.
 
 **Category:** [Interface Mods](../) · **Author:** Mehmet Aras · **Version:** 0.4.4
 

@@ -1,6 +1,6 @@
 # Mermaid Diagrams
 
-Mermaid diagrams in Claude Code: every ```mermaid block Claude writes is drawn as box art, in colour, right where the fence was in the transcript. Needs function hooks (early access) and an interactive terminal.
+Read Mermaid diagrams directly in the conversation as colored text-based drawings, without opening a separate diagram viewer.
 
 **Category:** [Interface Mods](../) · **Author:** Gal Elmalah · **Version:** 0.3.1
 

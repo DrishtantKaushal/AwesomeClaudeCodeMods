@@ -1,6 +1,6 @@
 # Agent Narrator
 
-Watch the agent work: every step in plain English, with a live time-saved counter
+Follow the agent’s work through plain-English explanations of each step and a live counter showing its estimated time savings.
 
 **Category:** [Agent Mods](../) · **Author:** OneWave AI · **Version:** 0.1.0
 

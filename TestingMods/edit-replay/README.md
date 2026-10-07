@@ -1,6 +1,6 @@
 # Edit Replay
 
-Step through the last turn's file edits, one diff at a time.
+Step through the previous turn’s file changes one diff at a time to understand exactly what the agent edited.
 
 **Category:** [Testing Mods](../) · **Author:** Hamza Zafar · **Version:** 0.1.2
 

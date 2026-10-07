@@ -4,7 +4,8 @@
   "name": "merge-gate",
   "displayName": "Merge Gate",
   "version": "0.1.4",
-  "description": "Holds `gh pr merge` until CI passes and one Codex review (OpenAI's luna model) has run. A PR line above the prompt, and /gate shows the PR's status.",
+  "description": "Check CI and Codex review evidence before recognized GitHub CLI merge commands run. If a check is unmet, the gate offers an explicit manual override.",
+  "sourceDescription": "Holds `gh pr merge` until CI passes and one Codex review (OpenAI's luna model) has run. A PR line above the prompt, and /gate shows the PR's status.",
   "author": "Hamza Zafar",
   "repository": "hamzafer/claude-code-mods",
   "modPath": "mods/merge-gate",
@@ -12,7 +13,7 @@
     "id": "git",
     "label": "Git Mods",
     "folder": "GitMods",
-    "basis": "exact-catalogue-repository-and-mod-path"
+    "basis": "Supports Git changes, CI or pull-request review."
   },
   "sourceCommit": "fc5130427799f69852055add193161080bd054d6",
   "sourcePath": "sources/workspace-toolkit/source/mods/merge-gate",

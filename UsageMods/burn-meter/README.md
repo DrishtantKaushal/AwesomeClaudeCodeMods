@@ -1,6 +1,6 @@
 # Burn Meter
 
-Live session cost odometer above the prompt: a burning fuse, real-world comparisons, threshold alerts
+Track the cost of your current session with a live spending display, threshold alerts and comparisons that help put the amount in context.
 
 **Category:** [Usage Mods](../) · **Author:** OneWave AI · **Version:** 0.1.0
 

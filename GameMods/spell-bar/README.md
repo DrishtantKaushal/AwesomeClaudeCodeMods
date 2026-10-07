@@ -1,6 +1,6 @@
 # Spell Bar
 
-An animated effort bar for Claude Code: Clawd casts Avada Kedavra at six ranks, one per effort level from low to ultracode, with Voldemort looming behind.
+See the selected reasoning effort represented by an animated spell bar, with a different character effect for each supported effort level.
 
 **Category:** [Game Mods](../) · **Author:** powerofjinbo · **Version:** 1.0.0
 

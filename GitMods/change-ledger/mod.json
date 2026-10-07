@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "arasovic/claude-code-mods:change-ledger",
+  "name": "change-ledger",
+  "displayName": "Change Ledger",
+  "version": "0.1.2",
+  "description": "Review the files changed during your session, including line counts and which agent edited them, alongside the state of the Git working tree.",
+  "sourceDescription": "Lists the files this session edited in a pane (/changes), with line counts and who edited them, beside the git working tree",
+  "author": "Mehmet Aras",
+  "repository": "arasovic/claude-code-mods",
+  "modPath": "change-ledger",
+  "category": {
+    "id": "git",
+    "label": "Git Mods",
+    "folder": "GitMods",
+    "basis": "Shows code changes beside the Git working tree."
+  },
+  "sourceCommit": "1df1cad9661fd001b749c6a5a1821c2914d01469",
+  "sourcePath": "sources/session-toolkit/source/change-ledger",
+  "sourceManifest": "sources/session-toolkit/source/change-ledger/.claude-plugin/plugin.json",
+  "page": "GitMods/change-ledger/",
+  "runtimeTested": false
+}

@@ -4,7 +4,8 @@
   "name": "cc-dino",
   "displayName": "Dino Runner",
   "version": "0.1.0",
-  "description": "The Chrome offline dinosaur, above the Claude Code prompt. Jump the cacti and duck the pterodactyls while Claude works. Needs function hooks (early access) and an interactive terminal.",
+  "description": "Pass the waiting time with a browser-style dinosaur game above the prompt, using jumps and ducks to avoid cacti and flying obstacles.",
+  "sourceDescription": "The Chrome offline dinosaur, above the Claude Code prompt. Jump the cacti and duck the pterodactyls while Claude works. Needs function hooks (early access) and an interactive terminal.",
   "author": "manfye",
   "repository": "manfye/cc-dino",
   "modPath": ".",
@@ -12,7 +13,7 @@
     "id": "games",
     "label": "Game Mods",
     "folder": "GameMods",
-    "basis": "exact-catalogue-repository-and-mod-path"
+    "basis": "Provides games, pets or entertainment while working."
   },
   "sourceCommit": "2d0221b6650ebe6287114cf9deec13b0b30850ec",
   "sourcePath": "sources/dino-runner/source",

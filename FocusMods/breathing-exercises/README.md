@@ -1,6 +1,6 @@
 # Breathing Exercises
 
-Guided breathing exercises above the prompt while Claude works: coherent, box, 4-7-8 and the physiological sigh, four animation styles, and the spinner reads the breath. Appears when Claude starts, disappears when Claude answers. Needs function hooks (early access) and an interactive terminal.
+Follow guided breathing exercises while Claude works, with animated pacing for box breathing, the physiological sigh and other supported breathing patterns.
 
 **Category:** [Focus Mods](../) · **Author:** Anthony · **Version:** 2.0.0
 

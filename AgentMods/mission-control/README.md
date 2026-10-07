@@ -1,6 +1,6 @@
 # Mission Control
 
-/mission opens a live map of the main agent, its subagents and every tool call, plus a code map of the files they touch.
+Open a live map of the main agent, its subagents and their tool calls, together with the files they are working on.
 
 **Category:** [Agent Mods](../) · **Author:** Hamza Zafar · **Version:** 0.1.2
 

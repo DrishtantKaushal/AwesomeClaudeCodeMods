@@ -1,6 +1,6 @@
 # Plan Progress
 
-Live plan progress bars above the Claude Code prompt: stages, steps, a pixel fill and soft sounds for decision, error and done
+Follow a multi-step plan through live progress bars above the prompt, with stage and step tracking plus optional cues for decisions, errors and completion.
 
 **Category:** [Planning Mods](../) · **Author:** Kirill Serditov · **Version:** 0.7.3
 

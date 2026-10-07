@@ -1,5 +1,7 @@
 # Diagrams and Queue
 
+Read Mermaid diagrams directly in the conversation and queue follow-up prompts while Claude works, then edit or reorder those messages before they are sent.
+
 Complete source snapshot by **galElmalah**, hosted directly in this collection. Includes the original source, documentation, supporting scripts, manifests, skills where present and tracked assets.
 
 [Browse source](source/) · [Original setup and usage](source/README.md) · [License](source/LICENSE) · [File checksums and provenance](UPSTREAM.json)
@@ -8,8 +10,8 @@ Complete source snapshot by **galElmalah**, hosted directly in this collection. 
 
 | Mod | Version | Description |
 | --- | --- | --- |
-| [Mermaid Diagrams](../../InterfaceMods/mermaid-diagrams/) | 0.3.1 | Mermaid diagrams in Claude Code: every ```mermaid block Claude writes is drawn as box art, in colour, right where the fence was in the transcript. Needs function hooks (early access) and an interactive terminal. |
-| [Prompt Queue](../../PromptMods/prompt-queue/) | 0.4.3 | A prompt typed while Claude is working is held in a stack above the prompt instead of landing in the running turn, and sent once the turn ends. Reorder the stack, edit a row in place, send one first, remove one, flush the lot. Needs function hooks (early access) and an interactive terminal. |
+| [Mermaid Diagrams](../../InterfaceMods/mermaid-diagrams/) | 0.3.1 | Read Mermaid diagrams directly in the conversation as colored text-based drawings, without opening a separate diagram viewer. |
+| [Prompt Queue](../../PromptMods/prompt-queue/) | 0.4.3 | Queue messages while Claude is working, then edit, reorder or remove them before they are sent after the current turn finishes. |
 
 ## Get the files
 

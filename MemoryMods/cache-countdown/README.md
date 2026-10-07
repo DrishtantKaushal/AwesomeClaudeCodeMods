@@ -1,6 +1,6 @@
 # Cache Countdown
 
-A prompt-cache countdown in the prompt footer, beside the model and effort: how long until your next message has to re-cache the whole conversation.
+See how long your prompt cache has left before it expires, so you can time your next message before the conversation needs to be cached again.
 
 **Category:** [Memory Mods](../) · **Author:** Seongje Hong · **Version:** 1.0.0
 

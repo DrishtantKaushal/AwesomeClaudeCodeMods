@@ -4,7 +4,8 @@
   "name": "replay-theater",
   "displayName": "Edit Replay",
   "version": "0.1.2",
-  "description": "Step through the last turn's file edits, one diff at a time.",
+  "description": "Step through the previous turn\u2019s file changes one diff at a time to understand exactly what the agent edited.",
+  "sourceDescription": "Step through the last turn's file edits, one diff at a time.",
   "author": "Hamza Zafar",
   "repository": "hamzafer/claude-code-mods",
   "modPath": "mods/replay-theater",
@@ -12,7 +13,7 @@
     "id": "testing",
     "label": "Testing Mods",
     "folder": "TestingMods",
-    "basis": "exact-catalogue-repository-and-mod-path"
+    "basis": "Supports debugging, validation or execution diagnostics."
   },
   "sourceCommit": "fc5130427799f69852055add193161080bd054d6",
   "sourcePath": "sources/workspace-toolkit/source/mods/replay-theater",

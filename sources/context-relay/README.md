@@ -1,5 +1,7 @@
 # Context Relay
 
+Hand an ongoing task to a fresh session with its working context, so you can continue without carrying the entire long conversation forward.
+
 Complete source snapshot by **retrocodes12**, hosted directly in this collection. Includes the original source, documentation, supporting scripts, manifests, skills where present and tracked assets.
 
 [Browse source](source/) · [Original setup and usage](source/README.md) · [License](source/LICENSE) · [File checksums and provenance](UPSTREAM.json)
@@ -8,7 +10,7 @@ Complete source snapshot by **retrocodes12**, hosted directly in this collection
 
 | Mod | Version | Description |
 | --- | --- | --- |
-| [Context Relay](../../MemoryMods/context-relay/) | 0.1.0 | Hands the work to a fresh session before a long context degrades the model, and carries on there. |
+| [Context Relay](../../MemoryMods/context-relay/) | 0.1.0 | Hand an ongoing task to a fresh session with its working context, so you can continue without carrying the entire long conversation forward. |
 
 ## Get the files
 

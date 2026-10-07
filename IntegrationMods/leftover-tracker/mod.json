@@ -4,7 +4,8 @@
   "name": "leftovers",
   "displayName": "Leftover Tracker",
   "version": "0.1.0",
-  "description": "Keeps a ledger of what Claude left running or lying around on your machine and servers",
+  "description": "Keep track of processes and artifacts Claude leaves behind on your computer or servers, so you can review unfinished cleanup after a session.",
+  "sourceDescription": "Keeps a ledger of what Claude left running or lying around on your machine and servers",
   "author": "Gary",
   "repository": "homieyangg/claude-code-mods",
   "modPath": "leftovers",
@@ -12,7 +13,7 @@
     "id": "integrations",
     "label": "Integration Mods",
     "folder": "IntegrationMods",
-    "basis": "individual-pinned-manifest-and-source-review"
+    "basis": "Connects external services or provides general workflow utilities."
   },
   "sourceCommit": "3c7b24720bcc831165502d73d1631b6fb197bbcf",
   "sourcePath": "sources/session-utilities/source/leftovers",

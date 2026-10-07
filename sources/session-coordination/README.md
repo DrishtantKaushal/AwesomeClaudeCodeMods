@@ -1,5 +1,7 @@
 # Session Coordination
 
+Avoid conflicting edits between conversations, mask private details before recording, monitor task progress and manage cached context when handing work to a fresh session.
+
 Complete source snapshot by **nateherkai**, hosted directly in this collection. Includes the original source, documentation, supporting scripts, manifests, skills where present and tracked assets.
 
 [Browse source](source/) · [Original setup and usage](source/README.md) · [License](source/LICENSE) · [File checksums and provenance](UPSTREAM.json)
@@ -8,10 +10,10 @@ Complete source snapshot by **nateherkai**, hosted directly in this collection. 
 
 | Mod | Version | Description |
 | --- | --- | --- |
-| [Cache Keeper](../../MemoryMods/cache-keeper/) | 1.0.0 | Keeps a big chat's prompt cache warm, warns before an expensive cold restart, shows every local chat on one board (/board), and hands a chat off to a fresh one (/handoff) |
-| [Collision Guard](../../SafetyMods/collision-guard/) | 1.0.0 | Asks before Claude edits a file another open chat changed in the last 30 minutes: Proceed, Move to a worktree, or Cancel (/guard) |
-| [Goal Meter](../../PlanningMods/goal-meter/) | 1.0.0 | A progress bar for /goal built from Claude's own task plan: tasks done out of the plan, elapsed time, an ETA at the goal's own pace, and every chat's goal in /goals |
-| [Private Recording](../../FileMods/private-recording/) | 1.0.0 | /rec before you record: masks keys, personal details, and business figures on screen and keeps private files closed (/rec strict, /rec off, /rec config) |
+| [Cache Keeper](../../MemoryMods/cache-keeper/) | 1.0.0 | Keep the prompt cache warm, receive warnings before a cold restart, browse local chats on one board and hand work off to a fresh conversation. |
+| [Collision Guard](../../SafetyMods/collision-guard/) | 1.0.0 | Get a warning before Claude edits a file changed by another active conversation, with options to proceed, use a separate worktree or cancel. |
+| [Goal Meter](../../PlanningMods/goal-meter/) | 1.0.0 | Track completed tasks, elapsed time and estimated time remaining for your active goal, and view goals from other conversations in one place. |
+| [Private Recording](../../SafetyMods/private-recording/) | 1.0.0 | Prepare a session for screen recording by masking keys, personal information and business figures, with a strict mode that also keeps private files closed. |
 
 ## Included skills
 

@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "hamzafer/claude-code-mods:mods/token-weather",
+  "name": "token-weather",
+  "displayName": "Token Weather",
+  "version": "0.2.0",
+  "description": "Watch a live forecast of your context-window usage and a countdown to prompt-cache expiry above the prompt.",
+  "sourceDescription": "A live forecast of the context window, with a prompt-cache countdown, drawn above the prompt.",
+  "author": "Hamza Zafar",
+  "repository": "hamzafer/claude-code-mods",
+  "modPath": "mods/token-weather",
+  "category": {
+    "id": "memory",
+    "label": "Memory Mods",
+    "folder": "MemoryMods",
+    "basis": "Shows context-window capacity and prompt-cache expiry, rather than spending or subscription quotas."
+  },
+  "sourceCommit": "fc5130427799f69852055add193161080bd054d6",
+  "sourcePath": "sources/workspace-toolkit/source/mods/token-weather",
+  "sourceManifest": "sources/workspace-toolkit/source/mods/token-weather/.claude-plugin/plugin.json",
+  "page": "MemoryMods/token-weather/",
+  "runtimeTested": false
+}

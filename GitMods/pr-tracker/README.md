@@ -1,6 +1,6 @@
 # PR Tracker
 
-Watch GitHub PRs from a Claude Code session: merge state, review and required checks above the prompt, with alerts when they change
+Track a GitHub pull request’s review status, required checks and merge state above the prompt, with alerts when those statuses change.
 
 **Category:** [Git Mods](../) · **Author:** Seza Akgün · **Version:** 0.2.0
 

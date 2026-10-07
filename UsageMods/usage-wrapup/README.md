@@ -1,6 +1,6 @@
 # Usage Wrapup
 
-When your plan usage gets low, tells every running agent to wrap up before the limit cuts it off.
+Ask running agents to wrap up when your remaining plan allowance gets low, helping them finish their current work before the usage limit interrupts it.
 
 **Category:** [Usage Mods](../) · **Author:** Kevin Koch · **Version:** 0.1.0
 

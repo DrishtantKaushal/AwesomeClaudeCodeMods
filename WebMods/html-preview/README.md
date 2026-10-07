@@ -1,6 +1,6 @@
 # HTML Preview
 
-Shows HTML files Claude writes (or /preview <file>) like a browser: terminal-browser when installed, else a built-in Chrome-rendered pane
+Preview HTML files inside Claude Code as you build them, using a browser-backed pane or the supported terminal browser instead of opening a separate window.
 
 **Category:** [Web Mods](../) · **Author:** JAICHANGPARK · **Version:** 0.3.1
 

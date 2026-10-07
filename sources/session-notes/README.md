@@ -1,5 +1,7 @@
 # Session Notes
 
+Keep project notes, running development servers, recent artifacts and pinned links in a side panel backed by a local Markdown file.
+
 Complete source snapshot by **udaaff**, hosted directly in this collection. Includes the original source, documentation, supporting scripts, manifests, skills where present and tracked assets.
 
 [Browse source](source/) · [Original setup and usage](source/README.md) · [License](source/LICENSE) · [File checksums and provenance](UPSTREAM.json)
@@ -8,7 +10,7 @@ Complete source snapshot by **udaaff**, hosted directly in this collection. Incl
 
 | Mod | Version | Description |
 | --- | --- | --- |
-| [Session Notes](../../InterfaceMods/session-notes/) | 0.1.0 | Project notes in .claude/notes.md: live dev servers, recent artifacts and pinned links, in a side panel and with /notes. |
+| [Session Notes](../../MemoryMods/session-notes/) | 0.1.0 | Keep project notes, running development servers, recent artifacts and pinned links in a side panel backed by a local Markdown file. |
 
 ## Get the files
 

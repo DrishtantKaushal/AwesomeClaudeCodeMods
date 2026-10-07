@@ -1,6 +1,6 @@
 # Task Recap
 
-A live recap above the prompt: goal, doing now, waiting on you, next. /where for a longer one.
+Keep the current goal, active work, pending decisions and next step visible above the prompt, with a longer recap available on demand.
 
 **Category:** [Planning Mods](../) · **Author:** Hamza Zafar · **Version:** 0.1.3
 

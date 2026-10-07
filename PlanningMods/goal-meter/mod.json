@@ -4,7 +4,8 @@
   "name": "goal-meter",
   "displayName": "Goal Meter",
   "version": "1.0.0",
-  "description": "A progress bar for /goal built from Claude's own task plan: tasks done out of the plan, elapsed time, an ETA at the goal's own pace, and every chat's goal in /goals",
+  "description": "Track completed tasks, elapsed time and estimated time remaining for your active goal, and view goals from other conversations in one place.",
+  "sourceDescription": "A progress bar for /goal built from Claude's own task plan: tasks done out of the plan, elapsed time, an ETA at the goal's own pace, and every chat's goal in /goals",
   "author": "Nate Herk",
   "repository": "nateherkai/claude-code-mods",
   "modPath": "goal-meter",
@@ -12,7 +13,7 @@
     "id": "planning",
     "label": "Planning Mods",
     "folder": "PlanningMods",
-    "basis": "exact-catalogue-repository-and-mod-path"
+    "basis": "Tracks tasks, plans or progress."
   },
   "sourceCommit": "33a936f2ec6bbfea5a30a1a4d71d992487a5c769",
   "sourcePath": "sources/session-coordination/source/goal-meter",

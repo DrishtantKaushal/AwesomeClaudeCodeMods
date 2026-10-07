@@ -1,5 +1,7 @@
 # Dino Runner
 
+Pass the waiting time with a browser-style dinosaur game above the prompt, using jumps and ducks to avoid cacti and flying obstacles.
+
 Complete source snapshot by **manfye**, hosted directly in this collection. Includes the original source, documentation, supporting scripts, manifests, skills where present and tracked assets.
 
 [Browse source](source/) · [Original setup and usage](source/README.md) · [License](source/LICENSE) · [File checksums and provenance](UPSTREAM.json)
@@ -8,7 +10,7 @@ Complete source snapshot by **manfye**, hosted directly in this collection. Incl
 
 | Mod | Version | Description |
 | --- | --- | --- |
-| [Dino Runner](../../GameMods/dino-runner/) | 0.1.0 | The Chrome offline dinosaur, above the Claude Code prompt. Jump the cacti and duck the pterodactyls while Claude works. Needs function hooks (early access) and an interactive terminal. |
+| [Dino Runner](../../GameMods/dino-runner/) | 0.1.0 | Pass the waiting time with a browser-style dinosaur game above the prompt, using jumps and ducks to avoid cacti and flying obstacles. |
 
 ## Get the files
 

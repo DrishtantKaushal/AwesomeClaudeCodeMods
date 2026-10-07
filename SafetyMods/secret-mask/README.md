@@ -1,6 +1,6 @@
 # Secret Mask
 
-Mask token-like strings in tool output before they reach the conversation
+Mask strings that resemble tokens or credentials in tool output before that output is added to the conversation.
 
 **Category:** [Safety Mods](../) · **Author:** Gary · **Version:** 0.1.0
 

@@ -4,7 +4,8 @@
   "name": "collision-guard",
   "displayName": "Collision Guard",
   "version": "1.0.0",
-  "description": "Asks before Claude edits a file another open chat changed in the last 30 minutes: Proceed, Move to a worktree, or Cancel (/guard)",
+  "description": "Get a warning before Claude edits a file changed by another active conversation, with options to proceed, use a separate worktree or cancel.",
+  "sourceDescription": "Asks before Claude edits a file another open chat changed in the last 30 minutes: Proceed, Move to a worktree, or Cancel (/guard)",
   "author": "Nate Herk",
   "repository": "nateherkai/claude-code-mods",
   "modPath": "collision-guard",
@@ -12,7 +13,7 @@
     "id": "safety",
     "label": "Safety Mods",
     "folder": "SafetyMods",
-    "basis": "exact-catalogue-repository-and-mod-path"
+    "basis": "Checks commands, permissions, privacy or rules before actions."
   },
   "sourceCommit": "33a936f2ec6bbfea5a30a1a4d71d992487a5c769",
   "sourcePath": "sources/session-coordination/source/collision-guard",

@@ -4,7 +4,8 @@
   "name": "flightdeck",
   "displayName": "Agent Dashboard",
   "version": "0.3.2",
-  "description": "Flightdeck: a live agent dashboard for Claude Code. Main model vitals, an on-call architect, every permission check, subagent cards and swimlanes, a turn receipt and a session log, all from real session events",
+  "description": "Monitor the main agent and its subagents in a live dashboard that brings together model usage, permission requests, task activity and session logs.",
+  "sourceDescription": "Flightdeck: a live agent dashboard for Claude Code. Main model vitals, an on-call architect, every permission check, subagent cards and swimlanes, a turn receipt and a session log, all from real session events",
   "author": "Stephen Casella",
   "repository": "scasella/claude-flightdeck",
   "modPath": ".",
@@ -12,7 +13,7 @@
     "id": "agents",
     "label": "Agent Mods",
     "folder": "AgentMods",
-    "basis": "exact-catalogue-repository-and-mod-path"
+    "basis": "Coordinates agents or makes their actual work visible."
   },
   "sourceCommit": "f31daca523d36c501cd0df23a737a44c7dc56ad6",
   "sourcePath": "sources/agent-dashboard/source",

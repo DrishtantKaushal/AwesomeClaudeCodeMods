@@ -1,6 +1,6 @@
 # Dino Runner
 
-The Chrome offline dinosaur, above the Claude Code prompt. Jump the cacti and duck the pterodactyls while Claude works. Needs function hooks (early access) and an interactive terminal.
+Pass the waiting time with a browser-style dinosaur game above the prompt, using jumps and ducks to avoid cacti and flying obstacles.
 
 **Category:** [Game Mods](../) · **Author:** manfye · **Version:** 0.1.0
 

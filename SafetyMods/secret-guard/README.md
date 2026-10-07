@@ -1,6 +1,6 @@
 # Secret Guard
 
-Keeps secrets out of the conversation: hides API keys and private keys before the model or the transcript sees them, and blocks reads of credential files and commands that print secrets
+Redact recognized API keys and private keys before they reach the conversation, and block reads or commands that expose protected credential files.
 
 **Category:** [Safety Mods](../) · **Author:** Mehmet Aras · **Version:** 0.1.2
 

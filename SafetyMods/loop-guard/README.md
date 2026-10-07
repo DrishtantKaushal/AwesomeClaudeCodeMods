@@ -1,6 +1,6 @@
 # Loop Guard
 
-Tells the model, out of the user's sight, to stop when the same call fails twice with the same error
+Nudge Claude to stop after the same tool call fails twice with the same error, reducing repeated attempts that make no progress.
 
 **Category:** [Safety Mods](../) · **Author:** Mehmet Aras · **Version:** 0.1.0
 

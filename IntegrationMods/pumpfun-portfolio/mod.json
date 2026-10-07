@@ -4,7 +4,8 @@
   "name": "pumpfun-utilities",
   "displayName": "Pump.fun Portfolio",
   "version": "0.1.0",
-  "description": "Your open pump.fun positions in a pane while Claude works, and a markdown trade journal that fills itself. Read-only, no keys, no trading",
+  "description": "View your open pump.fun positions while you work and keep an automatically updated Markdown trade journal. The integration is read-only and does not place trades.",
+  "sourceDescription": "Your open pump.fun positions in a pane while Claude works, and a markdown trade journal that fills itself. Read-only, no keys, no trading",
   "author": "KamiFin",
   "repository": "KamiFin/pumpfun-utilities",
   "modPath": ".",
@@ -12,7 +13,7 @@
     "id": "integrations",
     "label": "Integration Mods",
     "folder": "IntegrationMods",
-    "basis": "individual-pinned-manifest-and-source-review"
+    "basis": "Connects external services or provides general workflow utilities."
   },
   "sourceCommit": "bb22df267f68a8ff14ae097ab56facc64c716102",
   "sourcePath": "sources/pumpfun-portfolio/source",

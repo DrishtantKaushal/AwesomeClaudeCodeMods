@@ -1,5 +1,7 @@
 # Question Picker
 
+Answer questions in a dedicated pane that shows all available choices at once and supports both single-choice and multiple-choice responses.
+
 Complete source snapshot by **togishima**, hosted directly in this collection. Includes the original source, documentation, supporting scripts, manifests, skills where present and tracked assets.
 
 [Browse source](source/) · [Original setup and usage](source/README.md) · [License](source/LICENSE) · [File checksums and provenance](UPSTREAM.json)
@@ -8,7 +10,7 @@ Complete source snapshot by **togishima**, hosted directly in this collection. I
 
 | Mod | Version | Description |
 | --- | --- | --- |
-| [Question Picker](../../InterfaceMods/question-picker/) | 0.1.0 | Ask the user a question in a dedicated pane: show every option on one screen with a summary, single or multi-select, no 4-option limit. |
+| [Question Picker](../../PromptMods/question-picker/) | 0.1.0 | Answer questions in a dedicated pane that shows all available choices at once and supports both single-choice and multiple-choice responses. |
 
 ## Included skills
 

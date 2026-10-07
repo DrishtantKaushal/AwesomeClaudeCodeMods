@@ -4,7 +4,8 @@
   "name": "clawd-spinner",
   "displayName": "Animated Spinner",
   "version": "0.1.0",
-  "description": "Clawd acts out the spinner's word above it while Claude works: cooking for Saut\u00e9ing, dancing for Vibing, pacing for Pondering, 11 acts across all 179 words.",
+  "description": "Replace the standard waiting animation with a character that acts out the spinner\u2019s status, such as cooking, dancing or thinking while Claude works.",
+  "sourceDescription": "Clawd acts out the spinner's word above it while Claude works: cooking for Saut\u00e9ing, dancing for Vibing, pacing for Pondering, 11 acts across all 179 words.",
   "author": "Sai Rudra",
   "repository": "Saiharsharudra03/clawd-spinner",
   "modPath": ".",
@@ -12,7 +13,7 @@
     "id": "interface",
     "label": "Interface Mods",
     "folder": "InterfaceMods",
-    "basis": "exact-catalogue-repository-and-mod-path"
+    "basis": "Changes conversation presentation or accessibility."
   },
   "sourceCommit": "799edab93dddfe74a4978c9c474d3c6b0d5ae690",
   "sourcePath": "sources/animated-spinner/source",

@@ -4,7 +4,8 @@
   "name": "agent-race",
   "displayName": "Agent Race",
   "version": "0.1.0",
-  "description": "Race Claude Code sessions on a task: live split-screen race track scoreboard",
+  "description": "Compare Claude Code sessions working on the same task through a live split-screen scoreboard that shows their progress side by side.",
+  "sourceDescription": "Race Claude Code sessions on a task: live split-screen race track scoreboard",
   "author": "OneWave AI",
   "repository": "OneWave-AI/claude-code-mods",
   "modPath": "agent-race",
@@ -12,7 +13,7 @@
     "id": "agents",
     "label": "Agent Mods",
     "folder": "AgentMods",
-    "basis": "exact-catalogue-repository-and-mod-path"
+    "basis": "Coordinates agents or makes their actual work visible."
   },
   "sourceCommit": "e6da26ca36a88eec3be25605d30fa20f2c1c0cec",
   "sourcePath": "sources/creative-toolkit/source/agent-race",

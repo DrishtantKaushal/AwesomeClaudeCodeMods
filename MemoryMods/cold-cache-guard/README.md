@@ -1,6 +1,6 @@
 # Cold Cache Guard
 
-Asks what to do before Claude Code re-sends a large conversation whose prompt cache has expired: on a cold resume, and on the first prompt after an idle spell.
+Review your options before Claude resends a large conversation after its prompt cache expires, including when you resume an idle session.
 
 **Category:** [Memory Mods](../) · **Author:** Mediavee · **Version:** 0.1.0
 

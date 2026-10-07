@@ -1,6 +1,6 @@
 # Inbox Alerts
 
-Gmail + Slack alerts inside Claude Code: toasts, status count, and an Alerts pane
+See Gmail and Slack notifications inside Claude Code, with toast alerts, an unread count and a dedicated pane for checking incoming messages.
 
 **Category:** [Focus Mods](../) · **Author:** OneWave AI · **Version:** 0.1.0
 

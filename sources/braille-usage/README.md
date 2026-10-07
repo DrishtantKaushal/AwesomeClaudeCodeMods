@@ -1,5 +1,7 @@
 # Braille Usage
 
+Check your current model, context usage and five-hour or weekly limits in compact text-based meters above the prompt.
+
 Complete source snapshot by **kawase1295**, hosted directly in this collection. Includes the original source, documentation, supporting scripts, manifests, skills where present and tracked assets.
 
 [Browse source](source/) · [Original setup and usage](source/README.md) · [License](source/LICENSE) · [File checksums and provenance](UPSTREAM.json)
@@ -8,7 +10,7 @@ Complete source snapshot by **kawase1295**, hosted directly in this collection. 
 
 | Mod | Version | Description |
 | --- | --- | --- |
-| [Braille Usage](../../UsageMods/braille-usage/) | Not specified | Model, context window and rate-limit (5h / 7d) braille meters in a band above the prompt |
+| [Braille Usage](../../UsageMods/braille-usage/) | Not specified | Check your current model, context usage and five-hour or weekly limits in compact text-based meters above the prompt. |
 
 ## Get the files
 

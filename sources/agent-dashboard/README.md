@@ -1,5 +1,7 @@
 # Agent Dashboard
 
+Monitor the main agent and its subagents in a live dashboard that brings together model usage, permission requests, task activity and session logs.
+
 Complete source snapshot by **scasella**, available directly in this collection. Includes all tracked source, documentation, supporting scripts, manifests and assets at revision `f31daca523d36c501cd0df23a737a44c7dc56ad6`.
 
 [Browse source](source/) · [Original setup and usage](source/README.md) · [License](source/LICENSE) · [File checksums and provenance](UPSTREAM.json)
@@ -8,7 +10,7 @@ Complete source snapshot by **scasella**, available directly in this collection.
 
 | Mod | Version | Description |
 | --- | --- | --- |
-| [Agent Dashboard](../../AgentMods/agent-dashboard/) | 0.3.2 | Flightdeck: a live agent dashboard for Claude Code. Main model vitals, an on-call architect, every permission check, subagent cards and swimlanes, a turn receipt and a session log, all from real session events |
+| [Agent Dashboard](../../AgentMods/agent-dashboard/) | 0.3.2 | Monitor the main agent and its subagents in a live dashboard that brings together model usage, permission requests, task activity and session logs. |
 
 ## Get the files
 

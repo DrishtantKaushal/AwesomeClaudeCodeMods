@@ -1,5 +1,7 @@
 # Pump.fun Portfolio
 
+View your open pump.fun positions while you work and keep an automatically updated Markdown trade journal. The integration is read-only and does not place trades.
+
 Complete source snapshot by **KamiFin**, hosted directly in this collection. Includes the original source, documentation, supporting scripts, manifests, skills where present and tracked assets.
 
 [Browse source](source/) · [Original setup and usage](source/README.md) · [License](source/LICENSE) · [File checksums and provenance](UPSTREAM.json)
@@ -8,7 +10,7 @@ Complete source snapshot by **KamiFin**, hosted directly in this collection. Inc
 
 | Mod | Version | Description |
 | --- | --- | --- |
-| [Pump.fun Portfolio](../../IntegrationMods/pumpfun-portfolio/) | 0.1.0 | Your open pump.fun positions in a pane while Claude works, and a markdown trade journal that fills itself. Read-only, no keys, no trading |
+| [Pump.fun Portfolio](../../IntegrationMods/pumpfun-portfolio/) | 0.1.0 | View your open pump.fun positions while you work and keep an automatically updated Markdown trade journal. The integration is read-only and does not place trades. |
 
 ## Included skills
 

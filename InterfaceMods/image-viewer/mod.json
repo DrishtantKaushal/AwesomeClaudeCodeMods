@@ -4,7 +4,8 @@
   "name": "image-view",
   "displayName": "Image Viewer",
   "version": "0.1.0",
-  "description": "See the images you paste into Claude Code: thumbnails above the prompt instead of bare [Image #1] tags",
+  "description": "See thumbnails of images you paste above the prompt, so you can identify each attachment without relying on numbered image tags.",
+  "sourceDescription": "See the images you paste into Claude Code: thumbnails above the prompt instead of bare [Image #1] tags",
   "author": "Jarrod Watts",
   "repository": "jarrodwatts/claude-image-view",
   "modPath": ".",
@@ -12,7 +13,7 @@
     "id": "interface",
     "label": "Interface Mods",
     "folder": "InterfaceMods",
-    "basis": "exact-catalogue-repository-and-mod-path"
+    "basis": "Changes conversation presentation or accessibility."
   },
   "sourceCommit": "b3c412bb6d167cafade79148e95f9114ee1aad7c",
   "sourcePath": "sources/image-viewer/source",

@@ -4,7 +4,8 @@
   "name": "usage-wrapup",
   "displayName": "Usage Wrapup",
   "version": "0.1.0",
-  "description": "When your plan usage gets low, tells every running agent to wrap up before the limit cuts it off.",
+  "description": "Ask running agents to wrap up when your remaining plan allowance gets low, helping them finish their current work before the usage limit interrupts it.",
+  "sourceDescription": "When your plan usage gets low, tells every running agent to wrap up before the limit cuts it off.",
   "author": "Kevin Koch",
   "repository": "DaKev/usage-wrapup",
   "modPath": ".",
@@ -12,7 +13,7 @@
     "id": "usage",
     "label": "Usage Mods",
     "folder": "UsageMods",
-    "basis": "exact-catalogue-repository-and-mod-path"
+    "basis": "Monitors or controls model usage, cost, effort or quotas."
   },
   "sourceCommit": "c94766d10b1a32e97e4ff14c094c7c2007d1575b",
   "sourcePath": "sources/usage-wrapup/source",

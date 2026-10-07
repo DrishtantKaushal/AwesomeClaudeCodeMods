@@ -1,6 +1,6 @@
 # Command Impact
 
-Holds risky Bash commands and shows what they would change before they run.
+Pause risky shell commands and inspect what they would change before allowing them to run.
 
 **Category:** [Safety Mods](../) · **Author:** Hamza Zafar · **Version:** 0.2.2
 

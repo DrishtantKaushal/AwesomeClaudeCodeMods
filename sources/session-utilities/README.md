@@ -1,5 +1,7 @@
 # Session Utilities
 
+Track processes and artifacts left behind by agents, follow multi-step plans and mask token-like strings before tool output enters the conversation.
+
 Complete source snapshot by **homieyangg**, hosted directly in this collection. Includes the original source, documentation, supporting scripts, manifests, skills where present and tracked assets.
 
 [Browse source](source/) · [Original setup and usage](source/README.md) · [License](source/LICENSE) · [File checksums and provenance](UPSTREAM.json)
@@ -8,9 +10,9 @@ Complete source snapshot by **homieyangg**, hosted directly in this collection. 
 
 | Mod | Version | Description |
 | --- | --- | --- |
-| [Leftover Tracker](../../IntegrationMods/leftover-tracker/) | 0.1.0 | Keeps a ledger of what Claude left running or lying around on your machine and servers |
-| [Plan Bar](../../PlanningMods/plan-bar/) | 0.1.0 | Live progress bars above the prompt for multi-step work: one row per plan, with stages, percent, waiting and failed colors, and sounds |
-| [Secret Mask](../../SafetyMods/secret-mask/) | 0.1.0 | Mask token-like strings in tool output before they reach the conversation |
+| [Leftover Tracker](../../IntegrationMods/leftover-tracker/) | 0.1.0 | Keep track of processes and artifacts Claude leaves behind on your computer or servers, so you can review unfinished cleanup after a session. |
+| [Plan Bar](../../PlanningMods/plan-bar/) | 0.1.0 | Follow several plans at once through progress bars showing stages, completion percentages and waiting or failed states above the prompt. |
+| [Secret Mask](../../SafetyMods/secret-mask/) | 0.1.0 | Mask strings that resemble tokens or credentials in tool output before that output is added to the conversation. |
 
 ## Get the files
 

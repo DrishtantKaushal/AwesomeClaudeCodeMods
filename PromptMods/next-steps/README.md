@@ -1,6 +1,6 @@
 # Next Steps
 
-After each turn, 2 or 3 likely next prompts above the prompt. Press 1, 2 or 3 in an empty prompt to draft one, 0 to dismiss.
+Choose from suggested follow-up prompts after each turn, using number keys to place a suggestion in the input field before sending it.
 
 **Category:** [Prompt Mods](../) · **Author:** Hamza Zafar · **Version:** 0.1.1
 

@@ -1,5 +1,7 @@
 # PR Tracker
 
+Track a GitHub pull request’s review status, required checks and merge state above the prompt, with alerts when those statuses change.
+
 Complete source snapshot by **sezaakgun**, hosted directly in this collection. Includes the original source, documentation, supporting scripts, manifests, skills where present and tracked assets.
 
 [Browse source](source/) · [Original setup and usage](source/README.md) · [License](source/LICENSE) · [File checksums and provenance](UPSTREAM.json)
@@ -8,7 +10,7 @@ Complete source snapshot by **sezaakgun**, hosted directly in this collection. I
 
 | Mod | Version | Description |
 | --- | --- | --- |
-| [PR Tracker](../../GitMods/pr-tracker/) | 0.2.0 | Watch GitHub PRs from a Claude Code session: merge state, review and required checks above the prompt, with alerts when they change |
+| [PR Tracker](../../GitMods/pr-tracker/) | 0.2.0 | Track a GitHub pull request’s review status, required checks and merge state above the prompt, with alerts when those statuses change. |
 
 ## Get the files
 

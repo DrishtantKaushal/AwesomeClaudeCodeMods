@@ -1,6 +1,6 @@
 # Prompt Jump
 
-A bar above the prompt input with a tick for every prompt of the session; hover to read one, click to jump to it
+Browse earlier prompts from a timeline above the input field, preview a message on hover and jump directly to it in the conversation.
 
 **Category:** [Prompt Mods](../) · **Author:** ruanss4 · **Version:** 0.1.0
 

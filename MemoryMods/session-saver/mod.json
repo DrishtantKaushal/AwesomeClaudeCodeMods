@@ -4,7 +4,8 @@
   "name": "session-saver",
   "displayName": "Session Saver",
   "version": "0.1.1",
-  "description": "Names untitled sessions through unpause. /park saves where you left off, and a resumed session shows it.",
+  "description": "Save where you left off, give untitled conversations a name and see the saved handoff when you resume a session.",
+  "sourceDescription": "Names untitled sessions through unpause. /park saves where you left off, and a resumed session shows it.",
   "author": "Hamza Zafar",
   "repository": "hamzafer/claude-code-mods",
   "modPath": "mods/session-saver",
@@ -12,7 +13,7 @@
     "id": "memory",
     "label": "Memory Mods",
     "folder": "MemoryMods",
-    "basis": "exact-catalogue-repository-and-mod-path"
+    "basis": "Manages context, cache, saved notes or session handoffs."
   },
   "sourceCommit": "fc5130427799f69852055add193161080bd054d6",
   "sourcePath": "sources/workspace-toolkit/source/mods/session-saver",

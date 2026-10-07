@@ -1,6 +1,6 @@
 # Sportscaster
 
-Live TV play-by-play of your Claude Code session, spoken aloud with crowd effects
+Listen to spoken play-by-play commentary on your coding session, complete with crowd effects that turn the agent’s activity into a sports broadcast.
 
 **Category:** [Game Mods](../) · **Author:** OneWave AI · **Version:** 0.1.0
 

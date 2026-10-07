@@ -1,5 +1,7 @@
 # Pi Agent
 
+Run Pi-powered subagents and teammates inside Claude Code’s agent interface, with their output streamed into the same workflow as other agents.
+
 Complete source snapshot by **FazalAAli**, available directly in this collection. Includes all tracked source, documentation, supporting scripts, manifests and assets at revision `0878de6d69b06324ff6515b63d5daf73de90f601`.
 
 [Browse source](source/) · [Original setup and usage](source/README.md) · [License](source/LICENSE) · [File checksums and provenance](UPSTREAM.json)
@@ -8,7 +10,7 @@ Complete source snapshot by **FazalAAli**, available directly in this collection
 
 | Mod | Version | Description |
 | --- | --- | --- |
-| [Pi Agent](../../AgentMods/pi-agent/) | 0.1.0 | pi agent for claude: a `pi` subagent type whose model steps run the pi CLI, so pi subagents and agent-team teammates live in Claude Code's own agent UI, streamed live. |
+| [Pi Agent](../../AgentMods/pi-agent/) | 0.1.0 | Run Pi-powered subagents and teammates inside Claude Code’s agent interface, with their output streamed into the same workflow as other agents. |
 
 ## Get the files
 

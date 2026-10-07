@@ -4,7 +4,8 @@
   "name": "pi-agent-for-claude",
   "displayName": "Pi Agent",
   "version": "0.1.0",
-  "description": "pi agent for claude: a `pi` subagent type whose model steps run the pi CLI, so pi subagents and agent-team teammates live in Claude Code's own agent UI, streamed live.",
+  "description": "Run Pi-powered subagents and teammates inside Claude Code\u2019s agent interface, with their output streamed into the same workflow as other agents.",
+  "sourceDescription": "pi agent for claude: a `pi` subagent type whose model steps run the pi CLI, so pi subagents and agent-team teammates live in Claude Code's own agent UI, streamed live.",
   "author": "Fazal Ali",
   "repository": "FazalAAli/pi-agent-for-claude",
   "modPath": ".",
@@ -12,7 +13,7 @@
     "id": "agents",
     "label": "Agent Mods",
     "folder": "AgentMods",
-    "basis": "exact-catalogue-repository-and-mod-path"
+    "basis": "Coordinates agents or makes their actual work visible."
   },
   "sourceCommit": "0878de6d69b06324ff6515b63d5daf73de90f601",
   "sourcePath": "sources/pi-agent/source",

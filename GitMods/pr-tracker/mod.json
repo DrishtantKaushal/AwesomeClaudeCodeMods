@@ -4,7 +4,8 @@
   "name": "cc-pr-tracker",
   "displayName": "PR Tracker",
   "version": "0.2.0",
-  "description": "Watch GitHub PRs from a Claude Code session: merge state, review and required checks above the prompt, with alerts when they change",
+  "description": "Track a GitHub pull request\u2019s review status, required checks and merge state above the prompt, with alerts when those statuses change.",
+  "sourceDescription": "Watch GitHub PRs from a Claude Code session: merge state, review and required checks above the prompt, with alerts when they change",
   "author": "Seza Akg\u00fcn",
   "repository": "sezaakgun/cc-pr-tracker",
   "modPath": ".",
@@ -12,7 +13,7 @@
     "id": "git",
     "label": "Git Mods",
     "folder": "GitMods",
-    "basis": "exact-catalogue-repository-and-mod-path"
+    "basis": "Supports Git changes, CI or pull-request review."
   },
   "sourceCommit": "514da1edb4877cdb812ae1a25f79aa81fb6aa6db",
   "sourcePath": "sources/pr-tracker/source",

@@ -1,5 +1,7 @@
 # Animated Spinner
 
+Replace the standard waiting animation with a character that acts out the spinner’s status, such as cooking, dancing or thinking while Claude works.
+
 Complete source snapshot by **Saiharsharudra03**, hosted directly in this collection. Includes the original source, documentation, supporting scripts, manifests, skills where present and tracked assets.
 
 [Browse source](source/) · [Original setup and usage](source/README.md) · [License](source/LICENSE) · [File checksums and provenance](UPSTREAM.json)
@@ -8,7 +10,7 @@ Complete source snapshot by **Saiharsharudra03**, hosted directly in this collec
 
 | Mod | Version | Description |
 | --- | --- | --- |
-| [Animated Spinner](../../InterfaceMods/animated-spinner/) | 0.1.0 | Clawd acts out the spinner's word above it while Claude works: cooking for Sautéing, dancing for Vibing, pacing for Pondering, 11 acts across all 179 words. |
+| [Animated Spinner](../../InterfaceMods/animated-spinner/) | 0.1.0 | Replace the standard waiting animation with a character that acts out the spinner’s status, such as cooking, dancing or thinking while Claude works. |
 
 ## Get the files
 

@@ -4,7 +4,8 @@
   "name": "usage-meter",
   "displayName": "Braille Usage",
   "version": null,
-  "description": "Model, context window and rate-limit (5h / 7d) braille meters in a band above the prompt",
+  "description": "Check your current model, context usage and five-hour or weekly limits in compact text-based meters above the prompt.",
+  "sourceDescription": "Model, context window and rate-limit (5h / 7d) braille meters in a band above the prompt",
   "author": "kawase1295",
   "repository": "kawase1295/usage-meter",
   "modPath": ".",
@@ -12,7 +13,7 @@
     "id": "usage",
     "label": "Usage Mods",
     "folder": "UsageMods",
-    "basis": "exact-catalogue-repository-and-mod-path"
+    "basis": "Monitors or controls model usage, cost, effort or quotas."
   },
   "sourceCommit": "5227efe6956a0a7b9a06244535e5e9496887d82c",
   "sourcePath": "sources/braille-usage/source",

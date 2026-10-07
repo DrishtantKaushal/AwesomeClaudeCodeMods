@@ -1,6 +1,6 @@
 # Shell Highlight
 
-Draws Bash and PowerShell tool calls with syntax-highlighted commands
+Read Bash and PowerShell tool calls with syntax highlighting, making the commands easier to inspect before following their results.
 
 **Category:** [Interface Mods](../) · **Author:** Turbo-Thorschten · **Version:** 0.2.0
 

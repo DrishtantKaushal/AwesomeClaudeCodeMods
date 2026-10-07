@@ -1,6 +1,6 @@
 # Merge Gate
 
-Holds `gh pr merge` until CI passes and one Codex review (OpenAI's luna model) has run. A PR line above the prompt, and /gate shows the PR's status.
+Check CI and Codex review evidence before recognized GitHub CLI merge commands run. If a check is unmet, the gate offers an explicit manual override.
 
 **Category:** [Git Mods](../) · **Author:** Hamza Zafar · **Version:** 0.1.4
 

@@ -1,5 +1,7 @@
 # Read Aloud
 
+Listen to Claude’s replies through Volcengine’s Doubao speech service, with controls to pause, resume, restart or change the playback speed.
+
 Complete source snapshot by **gnehiur**, hosted directly in this collection. Includes the original source, documentation, supporting scripts, manifests, skills where present and tracked assets.
 
 [Browse source](source/) · [Original setup and usage](source/README.md) · [License](source/LICENSE) · [File checksums and provenance](UPSTREAM.json)
@@ -8,7 +10,7 @@ Complete source snapshot by **gnehiur**, hosted directly in this collection. Inc
 
 | Mod | Version | Description |
 | --- | --- | --- |
-| [Read Aloud](../../FocusMods/read-aloud/) | 0.2.0 | 在每段回复下加一个🔊按钮，用火山引擎豆包语音（知性女声 2.0）流式朗读，可暂停、继续、从头念、倍速 |
+| [Read Aloud](../../InterfaceMods/read-aloud/) | 0.2.0 | Listen to Claude’s replies through Volcengine’s Doubao speech service, with controls to pause, resume, restart or change the playback speed. |
 
 ## Get the files
 

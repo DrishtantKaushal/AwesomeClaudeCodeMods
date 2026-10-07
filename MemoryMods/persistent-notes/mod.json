@@ -4,7 +4,8 @@
   "name": "pin-board",
   "displayName": "Persistent Notes",
   "version": "0.1.1",
-  "description": "Pins standing notes with /pin that Claude keeps following after /compact and /clear; shows them in one row above the prompt or as a counter, and keeps them per folder with --keep",
+  "description": "Pin standing instructions that are restored after compaction or clearing the conversation, with optional folder-specific notes that persist between sessions.",
+  "sourceDescription": "Pins standing notes with /pin that Claude keeps following after /compact and /clear; shows them in one row above the prompt or as a counter, and keeps them per folder with --keep",
   "author": "Mehmet Aras",
   "repository": "arasovic/claude-code-mods",
   "modPath": "pin-board",
@@ -12,7 +13,7 @@
     "id": "memory",
     "label": "Memory Mods",
     "folder": "MemoryMods",
-    "basis": "individual-pinned-manifest-and-source-review"
+    "basis": "Manages context, cache, saved notes or session handoffs."
   },
   "sourceCommit": "1df1cad9661fd001b749c6a5a1821c2914d01469",
   "sourcePath": "sources/session-toolkit/source/pin-board",

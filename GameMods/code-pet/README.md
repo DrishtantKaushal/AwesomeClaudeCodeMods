@@ -1,6 +1,6 @@
 # Code Pet
 
-A pixel pet that lives in a pane and reacts to what Claude does: eats on tool calls, gets sick on failures, panics on rm -rf, sleeps when idle, evolves as you ship
+Keep a pixel pet beside your conversation that eats when tools run, reacts to errors, sleeps during idle periods and evolves as you work.
 
 **Category:** [Game Mods](../) · **Author:** OneWave AI · **Version:** 0.1.0
 

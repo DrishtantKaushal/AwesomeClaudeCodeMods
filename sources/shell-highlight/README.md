@@ -1,5 +1,7 @@
 # Shell Highlight
 
+Read Bash and PowerShell tool calls with syntax highlighting, making the commands easier to inspect before following their results.
+
 Complete source snapshot by **Turbo-Thorschten**, hosted directly in this collection. Includes the original source, documentation, supporting scripts, manifests, skills where present and tracked assets.
 
 [Browse source](source/) · [Original setup and usage](source/README.md) · [License](source/LICENSE) · [File checksums and provenance](UPSTREAM.json)
@@ -8,7 +10,7 @@ Complete source snapshot by **Turbo-Thorschten**, hosted directly in this collec
 
 | Mod | Version | Description |
 | --- | --- | --- |
-| [Shell Highlight](../../InterfaceMods/shell-highlight/) | 0.2.0 | Draws Bash and PowerShell tool calls with syntax-highlighted commands |
+| [Shell Highlight](../../InterfaceMods/shell-highlight/) | 0.2.0 | Read Bash and PowerShell tool calls with syntax highlighting, making the commands easier to inspect before following their results. |
 
 ## Get the files
 

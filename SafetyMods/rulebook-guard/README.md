@@ -1,6 +1,6 @@
 # Rulebook Guard
 
-Writing and git rules: replaces em dashes in prose, and asks before git commit --amend, an unformatted push, or personal info in notes and commits.
+Apply writing and Git rules by replacing em dashes in prose and asking before selected history edits, pushes or commits containing personal information.
 
 **Category:** [Safety Mods](../) · **Author:** Hamza Zafar · **Version:** 0.1.2
 

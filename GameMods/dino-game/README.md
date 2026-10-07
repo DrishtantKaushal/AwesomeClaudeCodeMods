@@ -1,6 +1,6 @@
 # Dino Game
 
-The T-rex from the browser's offline page, above the Claude Code prompt: jump cacti and duck birds while Claude works. Needs function hooks (early access) and an interactive terminal.
+Play a dinosaur runner above the prompt, jumping over cacti and ducking under birds while Claude works on your request.
 
 **Category:** [Game Mods](../) · **Author:** Giovanni Borgogno · **Version:** 0.1.1
 

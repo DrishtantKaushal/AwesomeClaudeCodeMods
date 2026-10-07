@@ -4,7 +4,8 @@
   "name": "tool-trim-compaction",
   "displayName": "Tool Trim Compaction",
   "version": null,
-  "description": "compaction \u3067\u53e4\u3044\u30c4\u30fc\u30eb\u547c\u3073\u51fa\u3057\u3068\u7d50\u679c\u3092\u6d88\u3057\u3001\u767a\u8a00\u306f\u539f\u6587\u306e\u307e\u307e\u6b8b\u3059\u3002\u524a\u6e1b\u304c\u8db3\u308a\u306a\u3051\u308c\u3070\u6a19\u6e96\u306e\u8981\u7d04\u306b\u56de\u3059",
+  "description": "Remove older tool calls and their results during compaction while retaining conversation messages verbatim. If that saves too little space, the normal summary process takes over.",
+  "sourceDescription": "compaction \u3067\u53e4\u3044\u30c4\u30fc\u30eb\u547c\u3073\u51fa\u3057\u3068\u7d50\u679c\u3092\u6d88\u3057\u3001\u767a\u8a00\u306f\u539f\u6587\u306e\u307e\u307e\u6b8b\u3059\u3002\u524a\u6e1b\u304c\u8db3\u308a\u306a\u3051\u308c\u3070\u6a19\u6e96\u306e\u8981\u7d04\u306b\u56de\u3059",
   "author": "okamyuji",
   "repository": "okamyuji/tool-trim-compaction",
   "modPath": ".",
@@ -12,7 +13,7 @@
     "id": "memory",
     "label": "Memory Mods",
     "folder": "MemoryMods",
-    "basis": "exact-catalogue-repository-and-mod-path"
+    "basis": "Manages context, cache, saved notes or session handoffs."
   },
   "sourceCommit": "c2cf3d808da1ea6e968974c2aed39079dfe4ee95",
   "sourcePath": "sources/tool-trim-compaction/source",

@@ -1,6 +1,6 @@
 # Context Relay
 
-Hands the work to a fresh session before a long context degrades the model, and carries on there.
+Hand an ongoing task to a fresh session with its working context, so you can continue without carrying the entire long conversation forward.
 
 **Category:** [Memory Mods](../) · **Author:** retrocodes12 · **Version:** 0.1.0
 

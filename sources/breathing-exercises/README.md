@@ -1,5 +1,7 @@
 # Breathing Exercises
 
+Follow guided breathing exercises while Claude works, with animated pacing for box breathing, the physiological sigh and other supported breathing patterns.
+
 Complete source snapshot by **halluton**, available directly in this collection. Includes all tracked source, documentation, supporting scripts, manifests and assets at revision `411c9c4f4f1c3d128159be7315823341ae7d9e2d`.
 
 [Browse source](source/) · [Original setup and usage](source/README.md) · [License](source/LICENSE) · [File checksums and provenance](UPSTREAM.json)
@@ -8,7 +10,7 @@ Complete source snapshot by **halluton**, available directly in this collection.
 
 | Mod | Version | Description |
 | --- | --- | --- |
-| [Breathing Exercises](../../FocusMods/breathing-exercises/) | 2.0.0 | Guided breathing exercises above the prompt while Claude works: coherent, box, 4-7-8 and the physiological sigh, four animation styles, and the spinner reads the breath. Appears when Claude starts, disappears when Claude answers. Needs function hooks (early access) and an interactive terminal. |
+| [Breathing Exercises](../../FocusMods/breathing-exercises/) | 2.0.0 | Follow guided breathing exercises while Claude works, with animated pacing for box breathing, the physiological sigh and other supported breathing patterns. |
 
 ## Get the files
 

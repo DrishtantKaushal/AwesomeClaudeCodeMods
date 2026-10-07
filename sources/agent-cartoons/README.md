@@ -1,5 +1,7 @@
 # Agent Cartoons
 
+Watch your coding session become a series of animated cartoons above the prompt, with scenes generated from the agent’s current activity.
+
 Complete source snapshot by **henrik-thevibe**, available directly in this collection. Includes all tracked source, documentation, supporting scripts, manifests and assets at revision `6d0ce80575a92f8f6c8c2493c2bf20413e255622`.
 
 [Browse source](source/) · [Original setup and usage](source/README.md) · [License](source/LICENSE) · [File checksums and provenance](UPSTREAM.json)
@@ -8,7 +10,7 @@ Complete source snapshot by **henrik-thevibe**, available directly in this colle
 
 | Mod | Version | Description |
 | --- | --- | --- |
-| [Agent Cartoons](../../AgentMods/agent-cartoons/) | 0.1.0 | Claude Fables: turns what the agent is doing into little animated cartoons above the prompt, written live by Sonnet or Haiku. |
+| [Agent Cartoons](../../GameMods/agent-cartoons/) | 0.1.0 | Watch your coding session become a series of animated cartoons above the prompt, with scenes generated from the agent’s current activity. |
 
 ## Get the files
 

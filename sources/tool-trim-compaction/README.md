@@ -1,5 +1,7 @@
 # Tool Trim Compaction
 
+Remove older tool calls and their results during compaction while retaining conversation messages verbatim. If that saves too little space, the normal summary process takes over.
+
 Complete source snapshot by **okamyuji**, hosted directly in this collection. Includes the original source, documentation, supporting scripts, manifests, skills where present and tracked assets.
 
 [Browse source](source/) · [Original setup and usage](source/README.md) · [License](source/LICENSE) · [File checksums and provenance](UPSTREAM.json)
@@ -8,7 +10,7 @@ Complete source snapshot by **okamyuji**, hosted directly in this collection. In
 
 | Mod | Version | Description |
 | --- | --- | --- |
-| [Tool Trim Compaction](../../MemoryMods/tool-trim-compaction/) | Not specified | compaction で古いツール呼び出しと結果を消し、発言は原文のまま残す。削減が足りなければ標準の要約に回す |
+| [Tool Trim Compaction](../../MemoryMods/tool-trim-compaction/) | Not specified | Remove older tool calls and their results during compaction while retaining conversation messages verbatim. If that saves too little space, the normal summary process takes over. |
 
 ## Get the files
 

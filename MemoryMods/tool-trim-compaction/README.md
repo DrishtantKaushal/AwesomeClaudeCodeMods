@@ -1,6 +1,6 @@
 # Tool Trim Compaction
 
-compaction で古いツール呼び出しと結果を消し、発言は原文のまま残す。削減が足りなければ標準の要約に回す
+Remove older tool calls and their results during compaction while retaining conversation messages verbatim. If that saves too little space, the normal summary process takes over.
 
 **Category:** [Memory Mods](../) · **Author:** okamyuji · **Version:** Not specified
 

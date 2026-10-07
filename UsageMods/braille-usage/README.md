@@ -1,6 +1,6 @@
 # Braille Usage
 
-Model, context window and rate-limit (5h / 7d) braille meters in a band above the prompt
+Check your current model, context usage and five-hour or weekly limits in compact text-based meters above the prompt.
 
 **Category:** [Usage Mods](../) · **Author:** kawase1295 · **Version:** Not specified
 

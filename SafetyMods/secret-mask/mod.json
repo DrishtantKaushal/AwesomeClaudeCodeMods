@@ -4,7 +4,8 @@
   "name": "secret-mask",
   "displayName": "Secret Mask",
   "version": "0.1.0",
-  "description": "Mask token-like strings in tool output before they reach the conversation",
+  "description": "Mask strings that resemble tokens or credentials in tool output before that output is added to the conversation.",
+  "sourceDescription": "Mask token-like strings in tool output before they reach the conversation",
   "author": "Gary",
   "repository": "homieyangg/claude-code-mods",
   "modPath": "secret-mask",
@@ -12,7 +13,7 @@
     "id": "safety",
     "label": "Safety Mods",
     "folder": "SafetyMods",
-    "basis": "individual-pinned-manifest-and-source-review"
+    "basis": "Checks commands, permissions, privacy or rules before actions."
   },
   "sourceCommit": "3c7b24720bcc831165502d73d1631b6fb197bbcf",
   "sourcePath": "sources/session-utilities/source/secret-mask",

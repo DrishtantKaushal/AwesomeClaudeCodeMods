@@ -1,6 +1,6 @@
 # Leftover Tracker
 
-Keeps a ledger of what Claude left running or lying around on your machine and servers
+Keep track of processes and artifacts Claude leaves behind on your computer or servers, so you can review unfinished cleanup after a session.
 
 **Category:** [Integration Mods](../) · **Author:** Gary · **Version:** 0.1.0
 

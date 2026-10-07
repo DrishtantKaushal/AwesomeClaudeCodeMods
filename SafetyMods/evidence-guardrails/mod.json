@@ -4,7 +4,8 @@
   "name": "jev-guard",
   "displayName": "Evidence Guardrails",
   "version": "0.1.0",
-  "description": "Probability-scored guardrails for Claude Code: deny rule-breaking edits and unasked-for deploys, route your own docs into each prompt, and check the final answer against the turn's own evidence.",
+  "description": "Score proposed actions against your rules and compare final claims with turn evidence. Calls are allowed through if the external scorer is unavailable.",
+  "sourceDescription": "Probability-scored guardrails for Claude Code: deny rule-breaking edits and unasked-for deploys, route your own docs into each prompt, and check the final answer against the turn's own evidence.",
   "author": "Oguzhan Cakmak",
   "repository": "muratcakmak/jev-guard",
   "modPath": ".",
@@ -12,7 +13,7 @@
     "id": "safety",
     "label": "Safety Mods",
     "folder": "SafetyMods",
-    "basis": "exact-catalogue-repository-and-mod-path"
+    "basis": "Checks commands, permissions, privacy or rules before actions."
   },
   "sourceCommit": "304036789298d13f951183abe0fc46d6c6c43bfc",
   "sourcePath": "sources/evidence-guardrails/source",

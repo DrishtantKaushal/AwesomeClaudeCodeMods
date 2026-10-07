@@ -1,5 +1,7 @@
 # Model Shortcuts
 
+Use keyboard shortcuts to switch models and adjust reasoning effort, with the active choices displayed in the prompt footer.
+
 Complete source snapshot by **richkuo**, hosted directly in this collection. Includes the original source, documentation, supporting scripts, manifests, skills where present and tracked assets.
 
 [Browse source](source/) · [Original setup and usage](source/README.md) · [License](source/LICENSE) · [File checksums and provenance](UPSTREAM.json)
@@ -8,7 +10,7 @@ Complete source snapshot by **richkuo**, hosted directly in this collection. Inc
 
 | Mod | Version | Description |
 | --- | --- | --- |
-| [Model Shortcuts](../../UsageMods/model-shortcuts/) | 0.3.1 | Keyboard shortcuts that step the reasoning effort level and the model up and down; the footer shows what each request uses |
+| [Model Shortcuts](../../UsageMods/model-shortcuts/) | 0.3.1 | Use keyboard shortcuts to switch models and adjust reasoning effort, with the active choices displayed in the prompt footer. |
 
 ## Get the files
 

@@ -1,6 +1,6 @@
 # Goal Meter
 
-A progress bar for /goal built from Claude's own task plan: tasks done out of the plan, elapsed time, an ETA at the goal's own pace, and every chat's goal in /goals
+Track completed tasks, elapsed time and estimated time remaining for your active goal, and view goals from other conversations in one place.
 
 **Category:** [Planning Mods](../) · **Author:** Nate Herk · **Version:** 1.0.0
 

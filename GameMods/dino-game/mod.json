@@ -4,7 +4,8 @@
   "name": "cc-dino",
   "displayName": "Dino Game",
   "version": "0.1.1",
-  "description": "The T-rex from the browser's offline page, above the Claude Code prompt: jump cacti and duck birds while Claude works. Needs function hooks (early access) and an interactive terminal.",
+  "description": "Play a dinosaur runner above the prompt, jumping over cacti and ducking under birds while Claude works on your request.",
+  "sourceDescription": "The T-rex from the browser's offline page, above the Claude Code prompt: jump cacti and duck birds while Claude works. Needs function hooks (early access) and an interactive terminal.",
   "author": "Giovanni Borgogno",
   "repository": "giovaborgogno/cc-dino",
   "modPath": ".",
@@ -12,7 +13,7 @@
     "id": "games",
     "label": "Game Mods",
     "folder": "GameMods",
-    "basis": "exact-catalogue-repository-and-mod-path"
+    "basis": "Provides games, pets or entertainment while working."
   },
   "sourceCommit": "fe5c0b64b550242449cc8b5861771fcdac2f5993",
   "sourcePath": "sources/dino-game/source",

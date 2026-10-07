@@ -4,7 +4,8 @@
   "name": "agent-radar",
   "displayName": "Agent Radar",
   "version": "0.1.2",
-  "description": "One live line above the prompt per running subagent: time, tool count and what it's doing. /radar shows every agent and its messages.",
+  "description": "Monitor each running subagent\u2019s elapsed time, tool count and current activity above the prompt, then open a detailed view of its messages.",
+  "sourceDescription": "One live line above the prompt per running subagent: time, tool count and what it's doing. /radar shows every agent and its messages.",
   "author": "Hamza Zafar",
   "repository": "hamzafer/claude-code-mods",
   "modPath": "mods/agent-radar",
@@ -12,7 +13,7 @@
     "id": "agents",
     "label": "Agent Mods",
     "folder": "AgentMods",
-    "basis": "exact-catalogue-repository-and-mod-path"
+    "basis": "Coordinates agents or makes their actual work visible."
   },
   "sourceCommit": "fc5130427799f69852055add193161080bd054d6",
   "sourcePath": "sources/workspace-toolkit/source/mods/agent-radar",

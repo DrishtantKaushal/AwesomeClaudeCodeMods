@@ -4,7 +4,8 @@
   "name": "model-effort-shortcuts",
   "displayName": "Model Shortcuts",
   "version": "0.3.1",
-  "description": "Keyboard shortcuts that step the reasoning effort level and the model up and down; the footer shows what each request uses",
+  "description": "Use keyboard shortcuts to switch models and adjust reasoning effort, with the active choices displayed in the prompt footer.",
+  "sourceDescription": "Keyboard shortcuts that step the reasoning effort level and the model up and down; the footer shows what each request uses",
   "author": "Richard Kuo",
   "repository": "richkuo/claude-code-model-effort-shortcuts",
   "modPath": ".",
@@ -12,7 +13,7 @@
     "id": "usage",
     "label": "Usage Mods",
     "folder": "UsageMods",
-    "basis": "exact-catalogue-repository-and-mod-path"
+    "basis": "Monitors or controls model usage, cost, effort or quotas."
   },
   "sourceCommit": "6c1d03e068ebe9ada43bb182857c425605cccee1",
   "sourcePath": "sources/model-shortcuts/source",

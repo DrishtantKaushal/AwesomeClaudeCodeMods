@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "togishima/better-ask-picker:.",
+  "name": "better-ask-picker",
+  "displayName": "Question Picker",
+  "version": "0.1.0",
+  "description": "Answer questions in a dedicated pane that shows all available choices at once and supports both single-choice and multiple-choice responses.",
+  "sourceDescription": "Ask the user a question in a dedicated pane: show every option on one screen with a summary, single or multi-select, no 4-option limit.",
+  "author": "Takashi Ogishima",
+  "repository": "togishima/better-ask-picker",
+  "modPath": ".",
+  "category": {
+    "id": "prompts",
+    "label": "Prompt Mods",
+    "folder": "PromptMods",
+    "basis": "Collects the user\u2019s choices as structured input."
+  },
+  "sourceCommit": "bbdc70f782f6fcd00347081c7fe2e688725d64a4",
+  "sourcePath": "sources/question-picker/source",
+  "sourceManifest": "sources/question-picker/source/.claude-plugin/plugin.json",
+  "page": "PromptMods/question-picker/",
+  "runtimeTested": false
+}

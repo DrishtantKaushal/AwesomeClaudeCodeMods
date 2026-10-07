@@ -4,7 +4,8 @@
   "name": "html-preview",
   "displayName": "HTML Preview",
   "version": "0.3.1",
-  "description": "Shows HTML files Claude writes (or /preview <file>) like a browser: terminal-browser when installed, else a built-in Chrome-rendered pane",
+  "description": "Preview HTML files inside Claude Code as you build them, using a browser-backed pane or the supported terminal browser instead of opening a separate window.",
+  "sourceDescription": "Shows HTML files Claude writes (or /preview <file>) like a browser: terminal-browser when installed, else a built-in Chrome-rendered pane",
   "author": "JAICHANGPARK",
   "repository": "JAICHANGPARK/html-preview",
   "modPath": ".",
@@ -12,7 +13,7 @@
     "id": "web",
     "label": "Web Mods",
     "folder": "WebMods",
-    "basis": "exact-catalogue-repository-and-mod-path"
+    "basis": "Supports browser use, search or web previews."
   },
   "sourceCommit": "12893f47e1c5641aae3abf811bc26ba1ab6a4bad",
   "sourcePath": "sources/html-preview/source",

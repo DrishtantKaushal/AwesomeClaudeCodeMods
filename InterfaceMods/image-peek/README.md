@@ -1,6 +1,6 @@
 # Image Peek
 
-Shows the images you paste: thumbnails above the prompt, and larger pictures under each sent message in the chat; needs a kitty-graphics terminal such as Ghostty
+Preview pasted images above the prompt and beneath sent messages, then open larger inline views. Image display requires a terminal that supports Kitty graphics.
 
 **Category:** [Interface Mods](../) · **Author:** Mehmet Aras · **Version:** 0.1.3
 

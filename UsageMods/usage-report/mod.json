@@ -4,7 +4,8 @@
   "name": "usage-report",
   "displayName": "Usage Report",
   "version": "0.2.0",
-  "description": "Shows context fill, 5-hour and weekly quota, and session cost on the status line under the prompt, with warnings near your limits.",
+  "description": "Monitor context usage, five-hour and weekly quotas, and session cost in the status line, with warnings as you approach your limits.",
+  "sourceDescription": "Shows context fill, 5-hour and weekly quota, and session cost on the status line under the prompt, with warnings near your limits.",
   "author": "Schweem",
   "repository": "Schweem/usage-report",
   "modPath": ".",
@@ -12,7 +13,7 @@
     "id": "usage",
     "label": "Usage Mods",
     "folder": "UsageMods",
-    "basis": "exact-catalogue-repository-and-mod-path"
+    "basis": "Monitors or controls model usage, cost, effort or quotas."
   },
   "sourceCommit": "d73e0862b94caa06d366df687447c29c0f694548",
   "sourcePath": "sources/usage-report/source",

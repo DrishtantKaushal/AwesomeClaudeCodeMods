@@ -4,7 +4,8 @@
   "name": "spell-bar",
   "displayName": "Spell Bar",
   "version": "1.0.0",
-  "description": "An animated effort bar for Claude Code: Clawd casts Avada Kedavra at six ranks, one per effort level from low to ultracode, with Voldemort looming behind.",
+  "description": "See the selected reasoning effort represented by an animated spell bar, with a different character effect for each supported effort level.",
+  "sourceDescription": "An animated effort bar for Claude Code: Clawd casts Avada Kedavra at six ranks, one per effort level from low to ultracode, with Voldemort looming behind.",
   "author": "powerofjinbo",
   "repository": "powerofjinbo/claude-code-spell-bar",
   "modPath": "plugins/spell-bar",
@@ -12,7 +13,7 @@
     "id": "games",
     "label": "Game Mods",
     "folder": "GameMods",
-    "basis": "exact-catalogue-repository-and-mod-path"
+    "basis": "Provides games, pets or entertainment while working."
   },
   "sourceCommit": "1b0494cadcd4e98542147b321250d55d38696553",
   "sourcePath": "sources/spell-bar/source/plugins/spell-bar",

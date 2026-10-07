@@ -4,7 +4,8 @@
   "name": "usage-meter",
   "displayName": "Usage Bars",
   "version": "0.1.0",
-  "description": "Your plan's 5-hour and 7-day usage as small bars above the prompt, with the reset countdown and the session's cost.",
+  "description": "Track your five-hour and weekly plan usage through small progress bars, with reset countdowns and the current session cost nearby.",
+  "sourceDescription": "Your plan's 5-hour and 7-day usage as small bars above the prompt, with the reset countdown and the session's cost.",
   "author": "Hamza Zafar",
   "repository": "hamzafer/claude-code-mods",
   "modPath": "mods/usage-meter",
@@ -12,7 +13,7 @@
     "id": "usage",
     "label": "Usage Mods",
     "folder": "UsageMods",
-    "basis": "individual-pinned-manifest-and-source-review"
+    "basis": "Monitors or controls model usage, cost, effort or quotas."
   },
   "sourceCommit": "fc5130427799f69852055add193161080bd054d6",
   "sourcePath": "sources/workspace-toolkit/source/mods/usage-meter",

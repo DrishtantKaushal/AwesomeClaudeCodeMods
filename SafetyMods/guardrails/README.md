@@ -1,6 +1,6 @@
 # Guardrails
 
-Blocks Cloudflare write commands, attribution lines in commits and PRs, and claude/ branch names
+Enforce the repository’s specific workflow rules by blocking Cloudflare write commands, selected attribution lines in commits or pull requests, and branch names starting with claude/.
 
 **Category:** [Safety Mods](../) · **Author:** Mehmet Aras · **Version:** 0.3.1
 

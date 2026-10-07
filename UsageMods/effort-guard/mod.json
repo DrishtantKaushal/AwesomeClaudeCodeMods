@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "stefanochieli/claude-effort-guard:.",
+  "name": "effort-guard",
+  "displayName": "Effort Guard",
+  "version": "0.1.1",
+  "description": "Track context and token usage, review an effort log for each turn and receive an escalation alert after repeated command or test failures. It observes activity without blocking it.",
+  "sourceDescription": "Claude Code mod: context/token band, escalation signals and per-turn effort log.",
+  "author": "Stefano Chieli",
+  "repository": "stefanochieli/claude-effort-guard",
+  "modPath": ".",
+  "category": {
+    "id": "usage",
+    "label": "Usage Mods",
+    "folder": "UsageMods",
+    "basis": "Pinned README says observation only; reports usage and effort rather than blocking actions."
+  },
+  "sourceCommit": "fcf98fea2b24c1d1483cff947b3d40cc031bfa4c",
+  "sourcePath": "sources/effort-guard/source",
+  "sourceManifest": "sources/effort-guard/source/.claude-plugin/plugin.json",
+  "page": "UsageMods/effort-guard/",
+  "runtimeTested": false
+}

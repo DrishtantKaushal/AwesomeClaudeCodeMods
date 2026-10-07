@@ -1,6 +1,6 @@
 # Collision Guard
 
-Asks before Claude edits a file another open chat changed in the last 30 minutes: Proceed, Move to a worktree, or Cancel (/guard)
+Get a warning before Claude edits a file changed by another active conversation, with options to proceed, use a separate worktree or cancel.
 
 **Category:** [Safety Mods](../) · **Author:** Nate Herk · **Version:** 1.0.0
 

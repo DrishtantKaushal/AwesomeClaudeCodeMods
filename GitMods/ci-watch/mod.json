@@ -4,7 +4,8 @@
   "name": "ci-watch",
   "displayName": "CI Watch",
   "version": "0.1.3",
-  "description": "Watches GitHub Actions in a band above the prompt after Claude pushes, opens a PR or pushes a tag: a progress bar per run, then pass or fail; optionally flags failed scheduled workflows at start",
+  "description": "Follow GitHub Actions runs after a push, pull request or tag, with live progress and pass or fail results above the prompt.",
+  "sourceDescription": "Watches GitHub Actions in a band above the prompt after Claude pushes, opens a PR or pushes a tag: a progress bar per run, then pass or fail; optionally flags failed scheduled workflows at start",
   "author": "Mehmet Aras",
   "repository": "arasovic/claude-code-mods",
   "modPath": "ci-watch",
@@ -12,7 +13,7 @@
     "id": "git",
     "label": "Git Mods",
     "folder": "GitMods",
-    "basis": "individual-pinned-manifest-and-source-review"
+    "basis": "Supports Git changes, CI or pull-request review."
   },
   "sourceCommit": "1df1cad9661fd001b749c6a5a1821c2914d01469",
   "sourcePath": "sources/session-toolkit/source/ci-watch",

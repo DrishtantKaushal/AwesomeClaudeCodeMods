@@ -1,15 +1,16 @@
 # Safety Mods
 
-9 hosted mods. Each entry opens its local mod page, source files and setup instructions.
+10 hosted mods. Each entry opens its local mod page, source files and setup instructions.
 
-- **[Collision Guard](collision-guard/)** by Nate Herk - Asks before Claude edits a file another open chat changed in the last 30 minutes: Proceed, Move to a worktree, or Cancel (/guard)
-- **[Command Impact](command-impact/)** by Hamza Zafar - Holds risky Bash commands and shows what they would change before they run.
-- **[Effort Guard](effort-guard/)** by Stefano Chieli - Claude Code mod: context/token band, escalation signals and per-turn effort log.
-- **[Evidence Guardrails](evidence-guardrails/)** by Oguzhan Cakmak - Probability-scored guardrails for Claude Code: deny rule-breaking edits and unasked-for deploys, route your own docs into each prompt, and check the final answer against the turn's own evidence.
-- **[Guardrails](guardrails/)** by Mehmet Aras - Blocks Cloudflare write commands, attribution lines in commits and PRs, and claude/ branch names
-- **[Loop Guard](loop-guard/)** by Mehmet Aras - Tells the model, out of the user's sight, to stop when the same call fails twice with the same error
-- **[Rulebook Guard](rulebook-guard/)** by Hamza Zafar - Writing and git rules: replaces em dashes in prose, and asks before git commit --amend, an unformatted push, or personal info in notes and commits.
-- **[Secret Guard](secret-guard/)** by Mehmet Aras - Keeps secrets out of the conversation: hides API keys and private keys before the model or the transcript sees them, and blocks reads of credential files and commands that print secrets
-- **[Secret Mask](secret-mask/)** by Gary - Mask token-like strings in tool output before they reach the conversation
+- **[Collision Guard](collision-guard/)** by Nate Herk - Get a warning before Claude edits a file changed by another active conversation, with options to proceed, use a separate worktree or cancel.
+- **[Command Impact](command-impact/)** by Hamza Zafar - Pause risky shell commands and inspect what they would change before allowing them to run.
+- **[Evidence Guardrails](evidence-guardrails/)** by Oguzhan Cakmak - Score proposed actions against your rules and compare final claims with turn evidence. Calls are allowed through if the external scorer is unavailable.
+- **[Guardrails](guardrails/)** by Mehmet Aras - Enforce the repository’s specific workflow rules by blocking Cloudflare write commands, selected attribution lines in commits or pull requests, and branch names starting with claude/.
+- **[Launch Codes](launch-codes/)** by OneWave AI - Add a confirmation step for dangerous shell commands, with an alert pane and a launch code you must enter before allowing the command to run.
+- **[Loop Guard](loop-guard/)** by Mehmet Aras - Nudge Claude to stop after the same tool call fails twice with the same error, reducing repeated attempts that make no progress.
+- **[Private Recording](private-recording/)** by Nate Herk - Prepare a session for screen recording by masking keys, personal information and business figures, with a strict mode that also keeps private files closed.
+- **[Rulebook Guard](rulebook-guard/)** by Hamza Zafar - Apply writing and Git rules by replacing em dashes in prose and asking before selected history edits, pushes or commits containing personal information.
+- **[Secret Guard](secret-guard/)** by Mehmet Aras - Redact recognized API keys and private keys before they reach the conversation, and block reads or commands that expose protected credential files.
+- **[Secret Mask](secret-mask/)** by Gary - Mask strings that resemble tokens or credentials in tool output before that output is added to the conversation.
 
 [All categories](../CATEGORIES.md) · [Source packages](../sources/README.md)

@@ -1,6 +1,6 @@
 # Markdown Preview
 
-Shows the Markdown files Claude edits, rendered like GitHub, in a pane next to the chat. Before and after side by side. /md opens it.
+Read Markdown files in a rendered pane beside the conversation and compare their before-and-after versions while Claude edits them.
 
 **Category:** [File Mods](../) · **Author:** Hamza Zafar · **Version:** 0.1.1
 

@@ -1,5 +1,7 @@
 # Usage Wrapup
 
+Ask running agents to wrap up when your remaining plan allowance gets low, helping them finish their current work before the usage limit interrupts it.
+
 Complete source snapshot by **DaKev**, hosted directly in this collection. Includes the original source, documentation, supporting scripts, manifests, skills where present and tracked assets.
 
 [Browse source](source/) · [Original setup and usage](source/README.md) · [License](source/LICENSE) · [File checksums and provenance](UPSTREAM.json)
@@ -8,7 +10,7 @@ Complete source snapshot by **DaKev**, hosted directly in this collection. Inclu
 
 | Mod | Version | Description |
 | --- | --- | --- |
-| [Usage Wrapup](../../UsageMods/usage-wrapup/) | 0.1.0 | When your plan usage gets low, tells every running agent to wrap up before the limit cuts it off. |
+| [Usage Wrapup](../../UsageMods/usage-wrapup/) | 0.1.0 | Ask running agents to wrap up when your remaining plan allowance gets low, helping them finish their current work before the usage limit interrupts it. |
 
 ## Get the files
 

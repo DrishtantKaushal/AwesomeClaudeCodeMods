@@ -40,20 +40,21 @@
       "name": "fables",
       "displayName": "Agent Cartoons",
       "version": "0.1.0",
-      "description": "Claude Fables: turns what the agent is doing into little animated cartoons above the prompt, written live by Sonnet or Haiku.",
+      "description": "Watch your coding session become a series of animated cartoons above the prompt, with scenes generated from the agent\u2019s current activity.",
+      "sourceDescription": "Claude Fables: turns what the agent is doing into little animated cartoons above the prompt, written live by Sonnet or Haiku.",
       "author": "henrik-thevibe",
       "repository": "henrik-thevibe/Claude-Fables",
       "modPath": ".",
       "category": {
-        "id": "agents",
-        "label": "Agent Mods",
-        "folder": "AgentMods",
-        "basis": "exact-catalogue-repository-and-mod-path"
+        "id": "games",
+        "label": "Game Mods",
+        "folder": "GameMods",
+        "basis": "Animated storytelling is entertainment, not agent orchestration."
       },
       "sourceCommit": "6d0ce80575a92f8f6c8c2493c2bf20413e255622",
       "sourcePath": "sources/agent-cartoons/source",
       "sourceManifest": "sources/agent-cartoons/source/.claude-plugin/plugin.json",
-      "page": "AgentMods/agent-cartoons/",
+      "page": "GameMods/agent-cartoons/",
       "runtimeTested": false
     },
     {
@@ -62,7 +63,8 @@
       "name": "flightdeck",
       "displayName": "Agent Dashboard",
       "version": "0.3.2",
-      "description": "Flightdeck: a live agent dashboard for Claude Code. Main model vitals, an on-call architect, every permission check, subagent cards and swimlanes, a turn receipt and a session log, all from real session events",
+      "description": "Monitor the main agent and its subagents in a live dashboard that brings together model usage, permission requests, task activity and session logs.",
+      "sourceDescription": "Flightdeck: a live agent dashboard for Claude Code. Main model vitals, an on-call architect, every permission check, subagent cards and swimlanes, a turn receipt and a session log, all from real session events",
       "author": "Stephen Casella",
       "repository": "scasella/claude-flightdeck",
       "modPath": ".",
@@ -70,7 +72,7 @@
         "id": "agents",
         "label": "Agent Mods",
         "folder": "AgentMods",
-        "basis": "exact-catalogue-repository-and-mod-path"
+        "basis": "Coordinates agents or makes their actual work visible."
       },
       "sourceCommit": "f31daca523d36c501cd0df23a737a44c7dc56ad6",
       "sourcePath": "sources/agent-dashboard/source",
@@ -84,7 +86,8 @@
       "name": "clawd-spinner",
       "displayName": "Animated Spinner",
       "version": "0.1.0",
-      "description": "Clawd acts out the spinner's word above it while Claude works: cooking for Saut\u00e9ing, dancing for Vibing, pacing for Pondering, 11 acts across all 179 words.",
+      "description": "Replace the standard waiting animation with a character that acts out the spinner\u2019s status, such as cooking, dancing or thinking while Claude works.",
+      "sourceDescription": "Clawd acts out the spinner's word above it while Claude works: cooking for Saut\u00e9ing, dancing for Vibing, pacing for Pondering, 11 acts across all 179 words.",
       "author": "Sai Rudra",
       "repository": "Saiharsharudra03/clawd-spinner",
       "modPath": ".",
@@ -92,7 +95,7 @@
         "id": "interface",
         "label": "Interface Mods",
         "folder": "InterfaceMods",
-        "basis": "exact-catalogue-repository-and-mod-path"
+        "basis": "Changes conversation presentation or accessibility."
       },
       "sourceCommit": "799edab93dddfe74a4978c9c474d3c6b0d5ae690",
       "sourcePath": "sources/animated-spinner/source",
@@ -106,7 +109,8 @@
       "name": "usage-meter",
       "displayName": "Braille Usage",
       "version": null,
-      "description": "Model, context window and rate-limit (5h / 7d) braille meters in a band above the prompt",
+      "description": "Check your current model, context usage and five-hour or weekly limits in compact text-based meters above the prompt.",
+      "sourceDescription": "Model, context window and rate-limit (5h / 7d) braille meters in a band above the prompt",
       "author": "kawase1295",
       "repository": "kawase1295/usage-meter",
       "modPath": ".",
@@ -114,7 +118,7 @@
         "id": "usage",
         "label": "Usage Mods",
         "folder": "UsageMods",
-        "basis": "exact-catalogue-repository-and-mod-path"
+        "basis": "Monitors or controls model usage, cost, effort or quotas."
       },
       "sourceCommit": "5227efe6956a0a7b9a06244535e5e9496887d82c",
       "sourcePath": "sources/braille-usage/source",
@@ -128,7 +132,8 @@
       "name": "mindful-claude",
       "displayName": "Breathing Exercises",
       "version": "2.0.0",
-      "description": "Guided breathing exercises above the prompt while Claude works: coherent, box, 4-7-8 and the physiological sigh, four animation styles, and the spinner reads the breath. Appears when Claude starts, disappears when Claude answers. Needs function hooks (early access) and an interactive terminal.",
+      "description": "Follow guided breathing exercises while Claude works, with animated pacing for box breathing, the physiological sigh and other supported breathing patterns.",
+      "sourceDescription": "Guided breathing exercises above the prompt while Claude works: coherent, box, 4-7-8 and the physiological sigh, four animation styles, and the spinner reads the breath. Appears when Claude starts, disappears when Claude answers. Needs function hooks (early access) and an interactive terminal.",
       "author": "Anthony",
       "repository": "halluton/Mindful-Claude",
       "modPath": ".",
@@ -136,7 +141,7 @@
         "id": "focus",
         "label": "Focus Mods",
         "folder": "FocusMods",
-        "basis": "exact-catalogue-repository-and-mod-path"
+        "basis": "Manages attention, notifications or focused work."
       },
       "sourceCommit": "411c9c4f4f1c3d128159be7315823341ae7d9e2d",
       "sourcePath": "sources/breathing-exercises/source",
@@ -150,7 +155,8 @@
       "name": "cache-ttl-timer",
       "displayName": "Cache Countdown",
       "version": "1.0.0",
-      "description": "A prompt-cache countdown in the prompt footer, beside the model and effort: how long until your next message has to re-cache the whole conversation.",
+      "description": "See how long your prompt cache has left before it expires, so you can time your next message before the conversation needs to be cached again.",
+      "sourceDescription": "A prompt-cache countdown in the prompt footer, beside the model and effort: how long until your next message has to re-cache the whole conversation.",
       "author": "Seongje Hong",
       "repository": "WQGGSEY/cache-ttl-timer",
       "modPath": ".",
@@ -158,7 +164,7 @@
         "id": "memory",
         "label": "Memory Mods",
         "folder": "MemoryMods",
-        "basis": "exact-catalogue-repository-and-mod-path"
+        "basis": "Manages context, cache, saved notes or session handoffs."
       },
       "sourceCommit": "969036d679b102dfb757a98b8ecaee7ef5af62fc",
       "sourcePath": "sources/cache-countdown/source",
@@ -172,7 +178,8 @@
       "name": "cold-cache-guard",
       "displayName": "Cold Cache Guard",
       "version": "0.1.0",
-      "description": "Asks what to do before Claude Code re-sends a large conversation whose prompt cache has expired: on a cold resume, and on the first prompt after an idle spell.",
+      "description": "Review your options before Claude resends a large conversation after its prompt cache expires, including when you resume an idle session.",
+      "sourceDescription": "Asks what to do before Claude Code re-sends a large conversation whose prompt cache has expired: on a cold resume, and on the first prompt after an idle spell.",
       "author": "Mediavee",
       "repository": "mediavee/cold-cache-guard",
       "modPath": ".",
@@ -180,7 +187,7 @@
         "id": "memory",
         "label": "Memory Mods",
         "folder": "MemoryMods",
-        "basis": "exact-catalogue-repository-and-mod-path"
+        "basis": "Manages context, cache, saved notes or session handoffs."
       },
       "sourceCommit": "2c4388cbecf115dc6209fcec1a10446123fc8ae5",
       "sourcePath": "sources/cold-cache-guard/source",
@@ -194,20 +201,21 @@
       "name": "exam-gate",
       "displayName": "Completion Checklist",
       "version": "0.1.0",
-      "description": "Before Claude calls a task done, run your checklist. Fail means Claude is sent back to fix it; repeated failure trips a breaker and hands control back to you.",
+      "description": "Require a checklist to pass before Claude declares a task complete. Failed checks send it back to work, while repeated failures return control to you.",
+      "sourceDescription": "Before Claude calls a task done, run your checklist. Fail means Claude is sent back to fix it; repeated failure trips a breaker and hands control back to you.",
       "author": "swei99386-alt",
       "repository": "swei99386-alt/exam-gate",
       "modPath": ".",
       "category": {
-        "id": "planning",
-        "label": "Planning Mods",
-        "folder": "PlanningMods",
-        "basis": "exact-catalogue-repository-and-mod-path"
+        "id": "testing",
+        "label": "Testing Mods",
+        "folder": "TestingMods",
+        "basis": "Runs acceptance checks and retries failed work before completion."
       },
       "sourceCommit": "ce089d547ff82bca801566dd47925affa30eedc9",
       "sourcePath": "sources/completion-checklist/source",
       "sourceManifest": "sources/completion-checklist/source/.claude-plugin/plugin.json",
-      "page": "PlanningMods/completion-checklist/",
+      "page": "TestingMods/completion-checklist/",
       "runtimeTested": false
     },
     {
@@ -216,7 +224,8 @@
       "name": "context-relay",
       "displayName": "Context Relay",
       "version": "0.1.0",
-      "description": "Hands the work to a fresh session before a long context degrades the model, and carries on there.",
+      "description": "Hand an ongoing task to a fresh session with its working context, so you can continue without carrying the entire long conversation forward.",
+      "sourceDescription": "Hands the work to a fresh session before a long context degrades the model, and carries on there.",
       "author": "retrocodes12",
       "repository": "retrocodes12/context-relay",
       "modPath": ".",
@@ -224,7 +233,7 @@
         "id": "memory",
         "label": "Memory Mods",
         "folder": "MemoryMods",
-        "basis": "exact-catalogue-repository-and-mod-path"
+        "basis": "Manages context, cache, saved notes or session handoffs."
       },
       "sourceCommit": "576153e41df11e80d5b7778fa81887db7678f2e8",
       "sourcePath": "sources/context-relay/source",
@@ -238,7 +247,8 @@
       "name": "agent-narrator",
       "displayName": "Agent Narrator",
       "version": "0.1.0",
-      "description": "Watch the agent work: every step in plain English, with a live time-saved counter",
+      "description": "Follow the agent\u2019s work through plain-English explanations of each step and a live counter showing its estimated time savings.",
+      "sourceDescription": "Watch the agent work: every step in plain English, with a live time-saved counter",
       "author": "OneWave AI",
       "repository": "OneWave-AI/claude-code-mods",
       "modPath": "agent-narrator",
@@ -246,7 +256,7 @@
         "id": "agents",
         "label": "Agent Mods",
         "folder": "AgentMods",
-        "basis": "exact-catalogue-repository-and-mod-path"
+        "basis": "Coordinates agents or makes their actual work visible."
       },
       "sourceCommit": "e6da26ca36a88eec3be25605d30fa20f2c1c0cec",
       "sourcePath": "sources/creative-toolkit/source/agent-narrator",
@@ -260,7 +270,8 @@
       "name": "agent-race",
       "displayName": "Agent Race",
       "version": "0.1.0",
-      "description": "Race Claude Code sessions on a task: live split-screen race track scoreboard",
+      "description": "Compare Claude Code sessions working on the same task through a live split-screen scoreboard that shows their progress side by side.",
+      "sourceDescription": "Race Claude Code sessions on a task: live split-screen race track scoreboard",
       "author": "OneWave AI",
       "repository": "OneWave-AI/claude-code-mods",
       "modPath": "agent-race",
@@ -268,7 +279,7 @@
         "id": "agents",
         "label": "Agent Mods",
         "folder": "AgentMods",
-        "basis": "exact-catalogue-repository-and-mod-path"
+        "basis": "Coordinates agents or makes their actual work visible."
       },
       "sourceCommit": "e6da26ca36a88eec3be25605d30fa20f2c1c0cec",
       "sourcePath": "sources/creative-toolkit/source/agent-race",
@@ -282,7 +293,8 @@
       "name": "boss-fight",
       "displayName": "Boss Fight",
       "version": "0.1.0",
-      "description": "Failing tests spawn a pixel boss; every run that fixes tests lands a hit, zero failures is a KO with loot",
+      "description": "Turn failing tests into a pixel-art boss battle, where each successful fix deals damage and a clean test run defeats the boss.",
+      "sourceDescription": "Failing tests spawn a pixel boss; every run that fixes tests lands a hit, zero failures is a KO with loot",
       "author": "OneWave AI",
       "repository": "OneWave-AI/claude-code-mods",
       "modPath": "boss-fight",
@@ -290,7 +302,7 @@
         "id": "games",
         "label": "Game Mods",
         "folder": "GameMods",
-        "basis": "exact-catalogue-repository-and-mod-path"
+        "basis": "Provides games, pets or entertainment while working."
       },
       "sourceCommit": "e6da26ca36a88eec3be25605d30fa20f2c1c0cec",
       "sourcePath": "sources/creative-toolkit/source/boss-fight",
@@ -304,7 +316,8 @@
       "name": "burn-meter",
       "displayName": "Burn Meter",
       "version": "0.1.0",
-      "description": "Live session cost odometer above the prompt: a burning fuse, real-world comparisons, threshold alerts",
+      "description": "Track the cost of your current session with a live spending display, threshold alerts and comparisons that help put the amount in context.",
+      "sourceDescription": "Live session cost odometer above the prompt: a burning fuse, real-world comparisons, threshold alerts",
       "author": "OneWave AI",
       "repository": "OneWave-AI/claude-code-mods",
       "modPath": "burn-meter",
@@ -312,7 +325,7 @@
         "id": "usage",
         "label": "Usage Mods",
         "folder": "UsageMods",
-        "basis": "exact-catalogue-repository-and-mod-path"
+        "basis": "Monitors or controls model usage, cost, effort or quotas."
       },
       "sourceCommit": "e6da26ca36a88eec3be25605d30fa20f2c1c0cec",
       "sourcePath": "sources/creative-toolkit/source/burn-meter",
@@ -326,7 +339,8 @@
       "name": "code-pet",
       "displayName": "Code Pet",
       "version": "0.1.0",
-      "description": "A pixel pet that lives in a pane and reacts to what Claude does: eats on tool calls, gets sick on failures, panics on rm -rf, sleeps when idle, evolves as you ship",
+      "description": "Keep a pixel pet beside your conversation that eats when tools run, reacts to errors, sleeps during idle periods and evolves as you work.",
+      "sourceDescription": "A pixel pet that lives in a pane and reacts to what Claude does: eats on tool calls, gets sick on failures, panics on rm -rf, sleeps when idle, evolves as you ship",
       "author": "OneWave AI",
       "repository": "OneWave-AI/claude-code-mods",
       "modPath": "code-pet",
@@ -334,7 +348,7 @@
         "id": "games",
         "label": "Game Mods",
         "folder": "GameMods",
-        "basis": "exact-catalogue-repository-and-mod-path"
+        "basis": "Provides games, pets or entertainment while working."
       },
       "sourceCommit": "e6da26ca36a88eec3be25605d30fa20f2c1c0cec",
       "sourcePath": "sources/creative-toolkit/source/code-pet",
@@ -348,7 +362,8 @@
       "name": "inbox-alerts",
       "displayName": "Inbox Alerts",
       "version": "0.1.0",
-      "description": "Gmail + Slack alerts inside Claude Code: toasts, status count, and an Alerts pane",
+      "description": "See Gmail and Slack notifications inside Claude Code, with toast alerts, an unread count and a dedicated pane for checking incoming messages.",
+      "sourceDescription": "Gmail + Slack alerts inside Claude Code: toasts, status count, and an Alerts pane",
       "author": "OneWave AI",
       "repository": "OneWave-AI/claude-code-mods",
       "modPath": "inbox-alerts",
@@ -356,7 +371,7 @@
         "id": "focus",
         "label": "Focus Mods",
         "folder": "FocusMods",
-        "basis": "exact-catalogue-repository-and-mod-path"
+        "basis": "Manages attention, notifications or focused work."
       },
       "sourceCommit": "e6da26ca36a88eec3be25605d30fa20f2c1c0cec",
       "sourcePath": "sources/creative-toolkit/source/inbox-alerts",
@@ -370,20 +385,21 @@
       "name": "inner-monologue",
       "displayName": "Inner Monologue",
       "version": "0.1.0",
-      "description": "A pane of Claude's dry inner thoughts about your session, typed out live",
+      "description": "Read humorous, model-generated commentary on your recent prompts and tool calls in a live pane while Claude works. These are generated summaries, not private model thoughts.",
+      "sourceDescription": "A pane of Claude's dry inner thoughts about your session, typed out live",
       "author": "OneWave AI",
       "repository": "OneWave-AI/claude-code-mods",
       "modPath": "inner-monologue",
       "category": {
-        "id": "interface",
-        "label": "Interface Mods",
-        "folder": "InterfaceMods",
-        "basis": "exact-catalogue-repository-and-mod-path"
+        "id": "games",
+        "label": "Game Mods",
+        "folder": "GameMods",
+        "basis": "Generated humorous commentary is entertainment, not a technical interface feature."
       },
       "sourceCommit": "e6da26ca36a88eec3be25605d30fa20f2c1c0cec",
       "sourcePath": "sources/creative-toolkit/source/inner-monologue",
       "sourceManifest": "sources/creative-toolkit/source/inner-monologue/.claude-plugin/plugin.json",
-      "page": "InterfaceMods/inner-monologue/",
+      "page": "GameMods/inner-monologue/",
       "runtimeTested": false
     },
     {
@@ -392,20 +408,21 @@
       "name": "launch-codes",
       "displayName": "Launch Codes",
       "version": "0.1.0",
-      "description": "Dangerous Bash commands need launch codes: red alert pane, siren, a code to arm and a LAUNCH to fire",
+      "description": "Add a confirmation step for dangerous shell commands, with an alert pane and a launch code you must enter before allowing the command to run.",
+      "sourceDescription": "Dangerous Bash commands need launch codes: red alert pane, siren, a code to arm and a LAUNCH to fire",
       "author": "OneWave AI",
       "repository": "OneWave-AI/claude-code-mods",
       "modPath": "launch-codes",
       "category": {
-        "id": "interface",
-        "label": "Interface Mods",
-        "folder": "InterfaceMods",
-        "basis": "exact-catalogue-repository-and-mod-path"
+        "id": "safety",
+        "label": "Safety Mods",
+        "folder": "SafetyMods",
+        "basis": "Requires approval before dangerous commands can execute."
       },
       "sourceCommit": "e6da26ca36a88eec3be25605d30fa20f2c1c0cec",
       "sourcePath": "sources/creative-toolkit/source/launch-codes",
       "sourceManifest": "sources/creative-toolkit/source/launch-codes/.claude-plugin/plugin.json",
-      "page": "InterfaceMods/launch-codes/",
+      "page": "SafetyMods/launch-codes/",
       "runtimeTested": false
     },
     {
@@ -414,20 +431,21 @@
       "name": "session-wrapped",
       "displayName": "Session Wrapped",
       "version": "0.1.0",
-      "description": "Spotify Wrapped for a Claude Code session: an animated stat reveal and a shareable PNG card",
+      "description": "Review an animated summary of your session\u2019s duration, tool calls, test fixes and cost, then export a PNG card you can share.",
+      "sourceDescription": "Spotify Wrapped for a Claude Code session: an animated stat reveal and a shareable PNG card",
       "author": "OneWave AI",
       "repository": "OneWave-AI/claude-code-mods",
       "modPath": "session-wrapped",
       "category": {
-        "id": "integrations",
-        "label": "Integration Mods",
-        "folder": "IntegrationMods",
-        "basis": "exact-catalogue-repository-and-mod-path"
+        "id": "usage",
+        "label": "Usage Mods",
+        "folder": "UsageMods",
+        "basis": "Summarizes session activity and cost; Spotify is only an analogy."
       },
       "sourceCommit": "e6da26ca36a88eec3be25605d30fa20f2c1c0cec",
       "sourcePath": "sources/creative-toolkit/source/session-wrapped",
       "sourceManifest": "sources/creative-toolkit/source/session-wrapped/.claude-plugin/plugin.json",
-      "page": "IntegrationMods/session-wrapped/",
+      "page": "UsageMods/session-wrapped/",
       "runtimeTested": false
     },
     {
@@ -436,7 +454,8 @@
       "name": "sportscaster",
       "displayName": "Sportscaster",
       "version": "0.1.0",
-      "description": "Live TV play-by-play of your Claude Code session, spoken aloud with crowd effects",
+      "description": "Listen to spoken play-by-play commentary on your coding session, complete with crowd effects that turn the agent\u2019s activity into a sports broadcast.",
+      "sourceDescription": "Live TV play-by-play of your Claude Code session, spoken aloud with crowd effects",
       "author": "OneWave AI",
       "repository": "OneWave-AI/claude-code-mods",
       "modPath": "sportscaster",
@@ -444,7 +463,7 @@
         "id": "games",
         "label": "Game Mods",
         "folder": "GameMods",
-        "basis": "exact-catalogue-repository-and-mod-path"
+        "basis": "Provides games, pets or entertainment while working."
       },
       "sourceCommit": "e6da26ca36a88eec3be25605d30fa20f2c1c0cec",
       "sourcePath": "sources/creative-toolkit/source/sportscaster",
@@ -458,7 +477,8 @@
       "name": "swarm",
       "displayName": "Agent Team Monitor",
       "version": "0.1.0",
-      "description": "Mission control for subagents and agent teams: who is running, what each is doing, who spawned whom, who is talking to whom, and how they overlap",
+      "description": "See which agents are running, what they are doing, who started them and how their messages and work overlap in a shared team view.",
+      "sourceDescription": "Mission control for subagents and agent teams: who is running, what each is doing, who spawned whom, who is talking to whom, and how they overlap",
       "author": "OneWave AI",
       "repository": "OneWave-AI/claude-code-mods",
       "modPath": "swarm",
@@ -466,7 +486,7 @@
         "id": "agents",
         "label": "Agent Mods",
         "folder": "AgentMods",
-        "basis": "individual-pinned-manifest-and-source-review"
+        "basis": "Coordinates agents or makes their actual work visible."
       },
       "sourceCommit": "e6da26ca36a88eec3be25605d30fa20f2c1c0cec",
       "sourcePath": "sources/creative-toolkit/source/swarm",
@@ -480,7 +500,8 @@
       "name": "claude-mermaid",
       "displayName": "Mermaid Diagrams",
       "version": "0.3.1",
-      "description": "Mermaid diagrams in Claude Code: every ```mermaid block Claude writes is drawn as box art, in colour, right where the fence was in the transcript. Needs function hooks (early access) and an interactive terminal.",
+      "description": "Read Mermaid diagrams directly in the conversation as colored text-based drawings, without opening a separate diagram viewer.",
+      "sourceDescription": "Mermaid diagrams in Claude Code: every ```mermaid block Claude writes is drawn as box art, in colour, right where the fence was in the transcript. Needs function hooks (early access) and an interactive terminal.",
       "author": "Gal Elmalah",
       "repository": "galElmalah/claude-mermaid",
       "modPath": "claude-mermaid",
@@ -488,7 +509,7 @@
         "id": "interface",
         "label": "Interface Mods",
         "folder": "InterfaceMods",
-        "basis": "individual-pinned-manifest-and-source-review"
+        "basis": "Changes conversation presentation or accessibility."
       },
       "sourceCommit": "b19a0f0d09bf214c010b15cc2849c0c1a11d7b0d",
       "sourcePath": "sources/diagrams-and-queue/source/claude-mermaid",
@@ -502,7 +523,8 @@
       "name": "claude-queue",
       "displayName": "Prompt Queue",
       "version": "0.4.3",
-      "description": "A prompt typed while Claude is working is held in a stack above the prompt instead of landing in the running turn, and sent once the turn ends. Reorder the stack, edit a row in place, send one first, remove one, flush the lot. Needs function hooks (early access) and an interactive terminal.",
+      "description": "Queue messages while Claude is working, then edit, reorder or remove them before they are sent after the current turn finishes.",
+      "sourceDescription": "A prompt typed while Claude is working is held in a stack above the prompt instead of landing in the running turn, and sent once the turn ends. Reorder the stack, edit a row in place, send one first, remove one, flush the lot. Needs function hooks (early access) and an interactive terminal.",
       "author": "Gal Elmalah",
       "repository": "galElmalah/claude-mermaid",
       "modPath": "claude-queue",
@@ -510,7 +532,7 @@
         "id": "prompts",
         "label": "Prompt Mods",
         "folder": "PromptMods",
-        "basis": "individual-pinned-manifest-and-source-review"
+        "basis": "Helps compose, select, queue or navigate input."
       },
       "sourceCommit": "b19a0f0d09bf214c010b15cc2849c0c1a11d7b0d",
       "sourcePath": "sources/diagrams-and-queue/source/claude-queue",
@@ -524,7 +546,8 @@
       "name": "cc-dino",
       "displayName": "Dino Game",
       "version": "0.1.1",
-      "description": "The T-rex from the browser's offline page, above the Claude Code prompt: jump cacti and duck birds while Claude works. Needs function hooks (early access) and an interactive terminal.",
+      "description": "Play a dinosaur runner above the prompt, jumping over cacti and ducking under birds while Claude works on your request.",
+      "sourceDescription": "The T-rex from the browser's offline page, above the Claude Code prompt: jump cacti and duck birds while Claude works. Needs function hooks (early access) and an interactive terminal.",
       "author": "Giovanni Borgogno",
       "repository": "giovaborgogno/cc-dino",
       "modPath": ".",
@@ -532,7 +555,7 @@
         "id": "games",
         "label": "Game Mods",
         "folder": "GameMods",
-        "basis": "exact-catalogue-repository-and-mod-path"
+        "basis": "Provides games, pets or entertainment while working."
       },
       "sourceCommit": "fe5c0b64b550242449cc8b5861771fcdac2f5993",
       "sourcePath": "sources/dino-game/source",
@@ -546,7 +569,8 @@
       "name": "cc-dino",
       "displayName": "Dino Runner",
       "version": "0.1.0",
-      "description": "The Chrome offline dinosaur, above the Claude Code prompt. Jump the cacti and duck the pterodactyls while Claude works. Needs function hooks (early access) and an interactive terminal.",
+      "description": "Pass the waiting time with a browser-style dinosaur game above the prompt, using jumps and ducks to avoid cacti and flying obstacles.",
+      "sourceDescription": "The Chrome offline dinosaur, above the Claude Code prompt. Jump the cacti and duck the pterodactyls while Claude works. Needs function hooks (early access) and an interactive terminal.",
       "author": "manfye",
       "repository": "manfye/cc-dino",
       "modPath": ".",
@@ -554,7 +578,7 @@
         "id": "games",
         "label": "Game Mods",
         "folder": "GameMods",
-        "basis": "exact-catalogue-repository-and-mod-path"
+        "basis": "Provides games, pets or entertainment while working."
       },
       "sourceCommit": "2d0221b6650ebe6287114cf9deec13b0b30850ec",
       "sourcePath": "sources/dino-runner/source",
@@ -568,20 +592,21 @@
       "name": "effort-guard",
       "displayName": "Effort Guard",
       "version": "0.1.1",
-      "description": "Claude Code mod: context/token band, escalation signals and per-turn effort log.",
+      "description": "Track context and token usage, review an effort log for each turn and receive an escalation alert after repeated command or test failures. It observes activity without blocking it.",
+      "sourceDescription": "Claude Code mod: context/token band, escalation signals and per-turn effort log.",
       "author": "Stefano Chieli",
       "repository": "stefanochieli/claude-effort-guard",
       "modPath": ".",
       "category": {
-        "id": "safety",
-        "label": "Safety Mods",
-        "folder": "SafetyMods",
-        "basis": "exact-catalogue-repository-and-mod-path"
+        "id": "usage",
+        "label": "Usage Mods",
+        "folder": "UsageMods",
+        "basis": "Pinned README says observation only; reports usage and effort rather than blocking actions."
       },
       "sourceCommit": "fcf98fea2b24c1d1483cff947b3d40cc031bfa4c",
       "sourcePath": "sources/effort-guard/source",
       "sourceManifest": "sources/effort-guard/source/.claude-plugin/plugin.json",
-      "page": "SafetyMods/effort-guard/",
+      "page": "UsageMods/effort-guard/",
       "runtimeTested": false
     },
     {
@@ -590,7 +615,8 @@
       "name": "jev-guard",
       "displayName": "Evidence Guardrails",
       "version": "0.1.0",
-      "description": "Probability-scored guardrails for Claude Code: deny rule-breaking edits and unasked-for deploys, route your own docs into each prompt, and check the final answer against the turn's own evidence.",
+      "description": "Score proposed actions against your rules and compare final claims with turn evidence. Calls are allowed through if the external scorer is unavailable.",
+      "sourceDescription": "Probability-scored guardrails for Claude Code: deny rule-breaking edits and unasked-for deploys, route your own docs into each prompt, and check the final answer against the turn's own evidence.",
       "author": "Oguzhan Cakmak",
       "repository": "muratcakmak/jev-guard",
       "modPath": ".",
@@ -598,7 +624,7 @@
         "id": "safety",
         "label": "Safety Mods",
         "folder": "SafetyMods",
-        "basis": "exact-catalogue-repository-and-mod-path"
+        "basis": "Checks commands, permissions, privacy or rules before actions."
       },
       "sourceCommit": "304036789298d13f951183abe0fc46d6c6c43bfc",
       "sourcePath": "sources/evidence-guardrails/source",
@@ -612,7 +638,8 @@
       "name": "touch-map",
       "displayName": "File Activity Map",
       "version": "0.1.0",
-      "description": "See which files Claude has listed, read, partially read, edited, created or deleted, as a tree and an activity map in a pane.",
+      "description": "See which files Claude has listed, read, edited, created or deleted through a project tree and activity map beside the conversation.",
+      "sourceDescription": "See which files Claude has listed, read, partially read, edited, created or deleted, as a tree and an activity map in a pane.",
       "author": "y-hirakaw",
       "repository": "y-hirakaw/claude-code-mods",
       "modPath": "touch-map",
@@ -620,7 +647,7 @@
         "id": "files",
         "label": "File Mods",
         "folder": "FileMods",
-        "basis": "individual-pinned-manifest-and-source-review"
+        "basis": "Helps navigate or inspect project files."
       },
       "sourceCommit": "ac362939126aaff53b1a1d22da196e4ec5137c66",
       "sourcePath": "sources/file-activity-map/source/touch-map",
@@ -634,7 +661,8 @@
       "name": "html-preview",
       "displayName": "HTML Preview",
       "version": "0.3.1",
-      "description": "Shows HTML files Claude writes (or /preview <file>) like a browser: terminal-browser when installed, else a built-in Chrome-rendered pane",
+      "description": "Preview HTML files inside Claude Code as you build them, using a browser-backed pane or the supported terminal browser instead of opening a separate window.",
+      "sourceDescription": "Shows HTML files Claude writes (or /preview <file>) like a browser: terminal-browser when installed, else a built-in Chrome-rendered pane",
       "author": "JAICHANGPARK",
       "repository": "JAICHANGPARK/html-preview",
       "modPath": ".",
@@ -642,7 +670,7 @@
         "id": "web",
         "label": "Web Mods",
         "folder": "WebMods",
-        "basis": "exact-catalogue-repository-and-mod-path"
+        "basis": "Supports browser use, search or web previews."
       },
       "sourceCommit": "12893f47e1c5641aae3abf811bc26ba1ab6a4bad",
       "sourcePath": "sources/html-preview/source",
@@ -656,7 +684,8 @@
       "name": "image-view",
       "displayName": "Image Viewer",
       "version": "0.1.0",
-      "description": "See the images you paste into Claude Code: thumbnails above the prompt instead of bare [Image #1] tags",
+      "description": "See thumbnails of images you paste above the prompt, so you can identify each attachment without relying on numbered image tags.",
+      "sourceDescription": "See the images you paste into Claude Code: thumbnails above the prompt instead of bare [Image #1] tags",
       "author": "Jarrod Watts",
       "repository": "jarrodwatts/claude-image-view",
       "modPath": ".",
@@ -664,7 +693,7 @@
         "id": "interface",
         "label": "Interface Mods",
         "folder": "InterfaceMods",
-        "basis": "exact-catalogue-repository-and-mod-path"
+        "basis": "Changes conversation presentation or accessibility."
       },
       "sourceCommit": "b3c412bb6d167cafade79148e95f9114ee1aad7c",
       "sourcePath": "sources/image-viewer/source",
@@ -678,20 +707,21 @@
       "name": "rename-ja",
       "displayName": "Japanese Session Names",
       "version": "0.1.0",
-      "description": "\u5f15\u6570\u306a\u3057\u306e /rename \u3067\u3001\u4f1a\u8a71\u5185\u5bb9\u304b\u3089\u65e5\u672c\u8a9e\u306e\u30bb\u30c3\u30b7\u30e7\u30f3\u540d\u3092\u751f\u6210\u3059\u308b\u3002",
+      "description": "Generate a Japanese session title from the conversation by running /rename without arguments, making saved sessions easier to recognize.",
+      "sourceDescription": "\u5f15\u6570\u306a\u3057\u306e /rename \u3067\u3001\u4f1a\u8a71\u5185\u5bb9\u304b\u3089\u65e5\u672c\u8a9e\u306e\u30bb\u30c3\u30b7\u30e7\u30f3\u540d\u3092\u751f\u6210\u3059\u308b\u3002",
       "author": "tomatoaiu",
       "repository": "tomatoaiu/rename-ja",
       "modPath": ".",
       "category": {
-        "id": "memory",
-        "label": "Memory Mods",
-        "folder": "MemoryMods",
-        "basis": "exact-catalogue-repository-and-mod-path"
+        "id": "interface",
+        "label": "Interface Mods",
+        "folder": "InterfaceMods",
+        "basis": "Names conversations for recognition rather than managing model memory."
       },
       "sourceCommit": "baa1cb3e14436dcfe1f390d332e8c4b0ff48840b",
       "sourcePath": "sources/japanese-session-names/source",
       "sourceManifest": "sources/japanese-session-names/source/.claude-plugin/plugin.json",
-      "page": "MemoryMods/japanese-session-names/",
+      "page": "InterfaceMods/japanese-session-names/",
       "runtimeTested": false
     },
     {
@@ -700,7 +730,8 @@
       "name": "model-effort-shortcuts",
       "displayName": "Model Shortcuts",
       "version": "0.3.1",
-      "description": "Keyboard shortcuts that step the reasoning effort level and the model up and down; the footer shows what each request uses",
+      "description": "Use keyboard shortcuts to switch models and adjust reasoning effort, with the active choices displayed in the prompt footer.",
+      "sourceDescription": "Keyboard shortcuts that step the reasoning effort level and the model up and down; the footer shows what each request uses",
       "author": "Richard Kuo",
       "repository": "richkuo/claude-code-model-effort-shortcuts",
       "modPath": ".",
@@ -708,7 +739,7 @@
         "id": "usage",
         "label": "Usage Mods",
         "folder": "UsageMods",
-        "basis": "exact-catalogue-repository-and-mod-path"
+        "basis": "Monitors or controls model usage, cost, effort or quotas."
       },
       "sourceCommit": "6c1d03e068ebe9ada43bb182857c425605cccee1",
       "sourcePath": "sources/model-shortcuts/source",
@@ -722,7 +753,8 @@
       "name": "pi-agent-for-claude",
       "displayName": "Pi Agent",
       "version": "0.1.0",
-      "description": "pi agent for claude: a `pi` subagent type whose model steps run the pi CLI, so pi subagents and agent-team teammates live in Claude Code's own agent UI, streamed live.",
+      "description": "Run Pi-powered subagents and teammates inside Claude Code\u2019s agent interface, with their output streamed into the same workflow as other agents.",
+      "sourceDescription": "pi agent for claude: a `pi` subagent type whose model steps run the pi CLI, so pi subagents and agent-team teammates live in Claude Code's own agent UI, streamed live.",
       "author": "Fazal Ali",
       "repository": "FazalAAli/pi-agent-for-claude",
       "modPath": ".",
@@ -730,7 +762,7 @@
         "id": "agents",
         "label": "Agent Mods",
         "folder": "AgentMods",
-        "basis": "exact-catalogue-repository-and-mod-path"
+        "basis": "Coordinates agents or makes their actual work visible."
       },
       "sourceCommit": "0878de6d69b06324ff6515b63d5daf73de90f601",
       "sourcePath": "sources/pi-agent/source",
@@ -744,7 +776,8 @@
       "name": "plan-progress",
       "displayName": "Plan Progress",
       "version": "0.7.3",
-      "description": "Live plan progress bars above the Claude Code prompt: stages, steps, a pixel fill and soft sounds for decision, error and done",
+      "description": "Follow a multi-step plan through live progress bars above the prompt, with stage and step tracking plus optional cues for decisions, errors and completion.",
+      "sourceDescription": "Live plan progress bars above the Claude Code prompt: stages, steps, a pixel fill and soft sounds for decision, error and done",
       "author": "Kirill Serditov",
       "repository": "zycck/claude-mods",
       "modPath": "plugins/plan-progress",
@@ -752,7 +785,7 @@
         "id": "planning",
         "label": "Planning Mods",
         "folder": "PlanningMods",
-        "basis": "exact-catalogue-repository-and-mod-path"
+        "basis": "Tracks tasks, plans or progress."
       },
       "sourceCommit": "2febbf82b6d933971f19d79892a586cb036fc199",
       "sourcePath": "sources/plan-progress/source/plugins/plan-progress",
@@ -766,7 +799,8 @@
       "name": "cc-pr-tracker",
       "displayName": "PR Tracker",
       "version": "0.2.0",
-      "description": "Watch GitHub PRs from a Claude Code session: merge state, review and required checks above the prompt, with alerts when they change",
+      "description": "Track a GitHub pull request\u2019s review status, required checks and merge state above the prompt, with alerts when those statuses change.",
+      "sourceDescription": "Watch GitHub PRs from a Claude Code session: merge state, review and required checks above the prompt, with alerts when they change",
       "author": "Seza Akg\u00fcn",
       "repository": "sezaakgun/cc-pr-tracker",
       "modPath": ".",
@@ -774,7 +808,7 @@
         "id": "git",
         "label": "Git Mods",
         "folder": "GitMods",
-        "basis": "exact-catalogue-repository-and-mod-path"
+        "basis": "Supports Git changes, CI or pull-request review."
       },
       "sourceCommit": "514da1edb4877cdb812ae1a25f79aa81fb6aa6db",
       "sourcePath": "sources/pr-tracker/source",
@@ -788,7 +822,8 @@
       "name": "prompt-jump",
       "displayName": "Prompt Jump",
       "version": "0.1.0",
-      "description": "A bar above the prompt input with a tick for every prompt of the session; hover to read one, click to jump to it",
+      "description": "Browse earlier prompts from a timeline above the input field, preview a message on hover and jump directly to it in the conversation.",
+      "sourceDescription": "A bar above the prompt input with a tick for every prompt of the session; hover to read one, click to jump to it",
       "author": "ruanss4",
       "repository": "ruanss4/prompt-jump",
       "modPath": ".",
@@ -796,7 +831,7 @@
         "id": "prompts",
         "label": "Prompt Mods",
         "folder": "PromptMods",
-        "basis": "exact-catalogue-repository-and-mod-path"
+        "basis": "Helps compose, select, queue or navigate input."
       },
       "sourceCommit": "a1912c72088b156ffbd18a73137ffc9a2d429dc6",
       "sourcePath": "sources/prompt-jump/source",
@@ -810,7 +845,8 @@
       "name": "pumpfun-utilities",
       "displayName": "Pump.fun Portfolio",
       "version": "0.1.0",
-      "description": "Your open pump.fun positions in a pane while Claude works, and a markdown trade journal that fills itself. Read-only, no keys, no trading",
+      "description": "View your open pump.fun positions while you work and keep an automatically updated Markdown trade journal. The integration is read-only and does not place trades.",
+      "sourceDescription": "Your open pump.fun positions in a pane while Claude works, and a markdown trade journal that fills itself. Read-only, no keys, no trading",
       "author": "KamiFin",
       "repository": "KamiFin/pumpfun-utilities",
       "modPath": ".",
@@ -818,7 +854,7 @@
         "id": "integrations",
         "label": "Integration Mods",
         "folder": "IntegrationMods",
-        "basis": "individual-pinned-manifest-and-source-review"
+        "basis": "Connects external services or provides general workflow utilities."
       },
       "sourceCommit": "bb22df267f68a8ff14ae097ab56facc64c716102",
       "sourcePath": "sources/pumpfun-portfolio/source",
@@ -832,20 +868,21 @@
       "name": "better-ask-picker",
       "displayName": "Question Picker",
       "version": "0.1.0",
-      "description": "Ask the user a question in a dedicated pane: show every option on one screen with a summary, single or multi-select, no 4-option limit.",
+      "description": "Answer questions in a dedicated pane that shows all available choices at once and supports both single-choice and multiple-choice responses.",
+      "sourceDescription": "Ask the user a question in a dedicated pane: show every option on one screen with a summary, single or multi-select, no 4-option limit.",
       "author": "Takashi Ogishima",
       "repository": "togishima/better-ask-picker",
       "modPath": ".",
       "category": {
-        "id": "interface",
-        "label": "Interface Mods",
-        "folder": "InterfaceMods",
-        "basis": "exact-catalogue-repository-and-mod-path"
+        "id": "prompts",
+        "label": "Prompt Mods",
+        "folder": "PromptMods",
+        "basis": "Collects the user\u2019s choices as structured input."
       },
       "sourceCommit": "bbdc70f782f6fcd00347081c7fe2e688725d64a4",
       "sourcePath": "sources/question-picker/source",
       "sourceManifest": "sources/question-picker/source/.claude-plugin/plugin.json",
-      "page": "InterfaceMods/question-picker/",
+      "page": "PromptMods/question-picker/",
       "runtimeTested": false
     },
     {
@@ -854,20 +891,21 @@
       "name": "tts",
       "displayName": "Read Aloud",
       "version": "0.2.0",
-      "description": "\u5728\u6bcf\u6bb5\u56de\u590d\u4e0b\u52a0\u4e00\u4e2a\ud83d\udd0a\u6309\u94ae\uff0c\u7528\u706b\u5c71\u5f15\u64ce\u8c46\u5305\u8bed\u97f3\uff08\u77e5\u6027\u5973\u58f0 2.0\uff09\u6d41\u5f0f\u6717\u8bfb\uff0c\u53ef\u6682\u505c\u3001\u7ee7\u7eed\u3001\u4ece\u5934\u5ff5\u3001\u500d\u901f",
+      "description": "Listen to Claude\u2019s replies through Volcengine\u2019s Doubao speech service, with controls to pause, resume, restart or change the playback speed.",
+      "sourceDescription": "\u5728\u6bcf\u6bb5\u56de\u590d\u4e0b\u52a0\u4e00\u4e2a\ud83d\udd0a\u6309\u94ae\uff0c\u7528\u706b\u5c71\u5f15\u64ce\u8c46\u5305\u8bed\u97f3\uff08\u77e5\u6027\u5973\u58f0 2.0\uff09\u6d41\u5f0f\u6717\u8bfb\uff0c\u53ef\u6682\u505c\u3001\u7ee7\u7eed\u3001\u4ece\u5934\u5ff5\u3001\u500d\u901f",
       "author": null,
       "repository": "gnehiur/claude-code-volc-tts",
       "modPath": ".",
       "category": {
-        "id": "focus",
-        "label": "Focus Mods",
-        "folder": "FocusMods",
-        "basis": "exact-catalogue-repository-and-mod-path"
+        "id": "interface",
+        "label": "Interface Mods",
+        "folder": "InterfaceMods",
+        "basis": "Adds reply playback and accessibility controls, not notification alerts."
       },
       "sourceCommit": "68dac31198731c2414a77e0dcb5211f40ac66b4e",
       "sourcePath": "sources/read-aloud/source",
       "sourceManifest": "sources/read-aloud/source/.claude-plugin/plugin.json",
-      "page": "FocusMods/read-aloud/",
+      "page": "InterfaceMods/read-aloud/",
       "runtimeTested": false
     },
     {
@@ -876,7 +914,8 @@
       "name": "cache-keeper",
       "displayName": "Cache Keeper",
       "version": "1.0.0",
-      "description": "Keeps a big chat's prompt cache warm, warns before an expensive cold restart, shows every local chat on one board (/board), and hands a chat off to a fresh one (/handoff)",
+      "description": "Keep the prompt cache warm, receive warnings before a cold restart, browse local chats on one board and hand work off to a fresh conversation.",
+      "sourceDescription": "Keeps a big chat's prompt cache warm, warns before an expensive cold restart, shows every local chat on one board (/board), and hands a chat off to a fresh one (/handoff)",
       "author": "Nate Herk",
       "repository": "nateherkai/claude-code-mods",
       "modPath": "cache-keeper",
@@ -884,7 +923,7 @@
         "id": "memory",
         "label": "Memory Mods",
         "folder": "MemoryMods",
-        "basis": "exact-catalogue-repository-and-mod-path"
+        "basis": "Manages context, cache, saved notes or session handoffs."
       },
       "sourceCommit": "33a936f2ec6bbfea5a30a1a4d71d992487a5c769",
       "sourcePath": "sources/session-coordination/source/cache-keeper",
@@ -898,7 +937,8 @@
       "name": "collision-guard",
       "displayName": "Collision Guard",
       "version": "1.0.0",
-      "description": "Asks before Claude edits a file another open chat changed in the last 30 minutes: Proceed, Move to a worktree, or Cancel (/guard)",
+      "description": "Get a warning before Claude edits a file changed by another active conversation, with options to proceed, use a separate worktree or cancel.",
+      "sourceDescription": "Asks before Claude edits a file another open chat changed in the last 30 minutes: Proceed, Move to a worktree, or Cancel (/guard)",
       "author": "Nate Herk",
       "repository": "nateherkai/claude-code-mods",
       "modPath": "collision-guard",
@@ -906,7 +946,7 @@
         "id": "safety",
         "label": "Safety Mods",
         "folder": "SafetyMods",
-        "basis": "exact-catalogue-repository-and-mod-path"
+        "basis": "Checks commands, permissions, privacy or rules before actions."
       },
       "sourceCommit": "33a936f2ec6bbfea5a30a1a4d71d992487a5c769",
       "sourcePath": "sources/session-coordination/source/collision-guard",
@@ -920,7 +960,8 @@
       "name": "goal-meter",
       "displayName": "Goal Meter",
       "version": "1.0.0",
-      "description": "A progress bar for /goal built from Claude's own task plan: tasks done out of the plan, elapsed time, an ETA at the goal's own pace, and every chat's goal in /goals",
+      "description": "Track completed tasks, elapsed time and estimated time remaining for your active goal, and view goals from other conversations in one place.",
+      "sourceDescription": "A progress bar for /goal built from Claude's own task plan: tasks done out of the plan, elapsed time, an ETA at the goal's own pace, and every chat's goal in /goals",
       "author": "Nate Herk",
       "repository": "nateherkai/claude-code-mods",
       "modPath": "goal-meter",
@@ -928,7 +969,7 @@
         "id": "planning",
         "label": "Planning Mods",
         "folder": "PlanningMods",
-        "basis": "exact-catalogue-repository-and-mod-path"
+        "basis": "Tracks tasks, plans or progress."
       },
       "sourceCommit": "33a936f2ec6bbfea5a30a1a4d71d992487a5c769",
       "sourcePath": "sources/session-coordination/source/goal-meter",
@@ -942,20 +983,21 @@
       "name": "recording-mode",
       "displayName": "Private Recording",
       "version": "1.0.0",
-      "description": "/rec before you record: masks keys, personal details, and business figures on screen and keeps private files closed (/rec strict, /rec off, /rec config)",
+      "description": "Prepare a session for screen recording by masking keys, personal information and business figures, with a strict mode that also keeps private files closed.",
+      "sourceDescription": "/rec before you record: masks keys, personal details, and business figures on screen and keeps private files closed (/rec strict, /rec off, /rec config)",
       "author": "Nate Herk",
       "repository": "nateherkai/claude-code-mods",
       "modPath": "recording-mode",
       "category": {
-        "id": "files",
-        "label": "File Mods",
-        "folder": "FileMods",
-        "basis": "exact-catalogue-repository-and-mod-path"
+        "id": "safety",
+        "label": "Safety Mods",
+        "folder": "SafetyMods",
+        "basis": "Primary purpose is masking private information for recording."
       },
       "sourceCommit": "33a936f2ec6bbfea5a30a1a4d71d992487a5c769",
       "sourcePath": "sources/session-coordination/source/recording-mode",
       "sourceManifest": "sources/session-coordination/source/recording-mode/.claude-plugin/plugin.json",
-      "page": "FileMods/private-recording/",
+      "page": "SafetyMods/private-recording/",
       "runtimeTested": false
     },
     {
@@ -964,20 +1006,21 @@
       "name": "session-notes",
       "displayName": "Session Notes",
       "version": "0.1.0",
-      "description": "Project notes in .claude/notes.md: live dev servers, recent artifacts and pinned links, in a side panel and with /notes.",
+      "description": "Keep project notes, running development servers, recent artifacts and pinned links in a side panel backed by a local Markdown file.",
+      "sourceDescription": "Project notes in .claude/notes.md: live dev servers, recent artifacts and pinned links, in a side panel and with /notes.",
       "author": "udaaff",
       "repository": "udaaff/claude-code-session-notes",
       "modPath": ".",
       "category": {
-        "id": "interface",
-        "label": "Interface Mods",
-        "folder": "InterfaceMods",
-        "basis": "exact-catalogue-repository-and-mod-path"
+        "id": "memory",
+        "label": "Memory Mods",
+        "folder": "MemoryMods",
+        "basis": "Keeps persistent project information accessible across work."
       },
       "sourceCommit": "d3f429a057cb62e3e9a20c261502b22f781e01d1",
       "sourcePath": "sources/session-notes/source",
       "sourceManifest": "sources/session-notes/source/.claude-plugin/plugin.json",
-      "page": "InterfaceMods/session-notes/",
+      "page": "MemoryMods/session-notes/",
       "runtimeTested": false
     },
     {
@@ -986,7 +1029,8 @@
       "name": "cache-timer",
       "displayName": "Cache Timer",
       "version": "0.1.0",
-      "description": "Counts down to when the prompt cache expires, so you can send the next message before the whole conversation has to be cached again",
+      "description": "Watch a countdown to prompt-cache expiry so you can send another message before the full conversation needs to be cached again.",
+      "sourceDescription": "Counts down to when the prompt cache expires, so you can send the next message before the whole conversation has to be cached again",
       "author": "Mehmet Aras",
       "repository": "arasovic/claude-code-mods",
       "modPath": "cache-timer",
@@ -994,7 +1038,7 @@
         "id": "memory",
         "label": "Memory Mods",
         "folder": "MemoryMods",
-        "basis": "exact-catalogue-repository-and-mod-path"
+        "basis": "Manages context, cache, saved notes or session handoffs."
       },
       "sourceCommit": "1df1cad9661fd001b749c6a5a1821c2914d01469",
       "sourcePath": "sources/session-toolkit/source/cache-timer",
@@ -1008,20 +1052,21 @@
       "name": "change-ledger",
       "displayName": "Change Ledger",
       "version": "0.1.2",
-      "description": "Lists the files this session edited in a pane (/changes), with line counts and who edited them, beside the git working tree",
+      "description": "Review the files changed during your session, including line counts and which agent edited them, alongside the state of the Git working tree.",
+      "sourceDescription": "Lists the files this session edited in a pane (/changes), with line counts and who edited them, beside the git working tree",
       "author": "Mehmet Aras",
       "repository": "arasovic/claude-code-mods",
       "modPath": "change-ledger",
       "category": {
-        "id": "usage",
-        "label": "Usage Mods",
-        "folder": "UsageMods",
-        "basis": "exact-catalogue-repository-and-mod-path"
+        "id": "git",
+        "label": "Git Mods",
+        "folder": "GitMods",
+        "basis": "Shows code changes beside the Git working tree."
       },
       "sourceCommit": "1df1cad9661fd001b749c6a5a1821c2914d01469",
       "sourcePath": "sources/session-toolkit/source/change-ledger",
       "sourceManifest": "sources/session-toolkit/source/change-ledger/.claude-plugin/plugin.json",
-      "page": "UsageMods/change-ledger/",
+      "page": "GitMods/change-ledger/",
       "runtimeTested": false
     },
     {
@@ -1030,7 +1075,8 @@
       "name": "ci-watch",
       "displayName": "CI Watch",
       "version": "0.1.3",
-      "description": "Watches GitHub Actions in a band above the prompt after Claude pushes, opens a PR or pushes a tag: a progress bar per run, then pass or fail; optionally flags failed scheduled workflows at start",
+      "description": "Follow GitHub Actions runs after a push, pull request or tag, with live progress and pass or fail results above the prompt.",
+      "sourceDescription": "Watches GitHub Actions in a band above the prompt after Claude pushes, opens a PR or pushes a tag: a progress bar per run, then pass or fail; optionally flags failed scheduled workflows at start",
       "author": "Mehmet Aras",
       "repository": "arasovic/claude-code-mods",
       "modPath": "ci-watch",
@@ -1038,7 +1084,7 @@
         "id": "git",
         "label": "Git Mods",
         "folder": "GitMods",
-        "basis": "individual-pinned-manifest-and-source-review"
+        "basis": "Supports Git changes, CI or pull-request review."
       },
       "sourceCommit": "1df1cad9661fd001b749c6a5a1821c2914d01469",
       "sourcePath": "sources/session-toolkit/source/ci-watch",
@@ -1052,7 +1098,8 @@
       "name": "compact-keeper",
       "displayName": "Compaction History",
       "version": "0.1.1",
-      "description": "Saves each compaction's summary, with the files edited before it, to ~/.claude/handoffs so the context before /compact can be recovered",
+      "description": "Save each compaction summary together with the files edited beforehand, so you can recover context that would otherwise disappear from the conversation.",
+      "sourceDescription": "Saves each compaction's summary, with the files edited before it, to ~/.claude/handoffs so the context before /compact can be recovered",
       "author": "Mehmet Aras",
       "repository": "arasovic/claude-code-mods",
       "modPath": "compact-keeper",
@@ -1060,7 +1107,7 @@
         "id": "memory",
         "label": "Memory Mods",
         "folder": "MemoryMods",
-        "basis": "exact-catalogue-repository-and-mod-path"
+        "basis": "Manages context, cache, saved notes or session handoffs."
       },
       "sourceCommit": "1df1cad9661fd001b749c6a5a1821c2914d01469",
       "sourcePath": "sources/session-toolkit/source/compact-keeper",
@@ -1074,7 +1121,8 @@
       "name": "guardrails",
       "displayName": "Guardrails",
       "version": "0.3.1",
-      "description": "Blocks Cloudflare write commands, attribution lines in commits and PRs, and claude/ branch names",
+      "description": "Enforce the repository\u2019s specific workflow rules by blocking Cloudflare write commands, selected attribution lines in commits or pull requests, and branch names starting with claude/.",
+      "sourceDescription": "Blocks Cloudflare write commands, attribution lines in commits and PRs, and claude/ branch names",
       "author": "Mehmet Aras",
       "repository": "arasovic/claude-code-mods",
       "modPath": "guardrails",
@@ -1082,7 +1130,7 @@
         "id": "safety",
         "label": "Safety Mods",
         "folder": "SafetyMods",
-        "basis": "individual-pinned-manifest-and-source-review"
+        "basis": "Checks commands, permissions, privacy or rules before actions."
       },
       "sourceCommit": "1df1cad9661fd001b749c6a5a1821c2914d01469",
       "sourcePath": "sources/session-toolkit/source/guardrails",
@@ -1096,7 +1144,8 @@
       "name": "image-peek",
       "displayName": "Image Peek",
       "version": "0.1.3",
-      "description": "Shows the images you paste: thumbnails above the prompt, and larger pictures under each sent message in the chat; needs a kitty-graphics terminal such as Ghostty",
+      "description": "Preview pasted images above the prompt and beneath sent messages, then open larger inline views. Image display requires a terminal that supports Kitty graphics.",
+      "sourceDescription": "Shows the images you paste: thumbnails above the prompt, and larger pictures under each sent message in the chat; needs a kitty-graphics terminal such as Ghostty",
       "author": "Mehmet Aras",
       "repository": "arasovic/claude-code-mods",
       "modPath": "image-peek",
@@ -1104,7 +1153,7 @@
         "id": "interface",
         "label": "Interface Mods",
         "folder": "InterfaceMods",
-        "basis": "individual-pinned-manifest-and-source-review"
+        "basis": "Changes conversation presentation or accessibility."
       },
       "sourceCommit": "1df1cad9661fd001b749c6a5a1821c2914d01469",
       "sourcePath": "sources/session-toolkit/source/image-peek",
@@ -1118,7 +1167,8 @@
       "name": "loop-guard",
       "displayName": "Loop Guard",
       "version": "0.1.0",
-      "description": "Tells the model, out of the user's sight, to stop when the same call fails twice with the same error",
+      "description": "Nudge Claude to stop after the same tool call fails twice with the same error, reducing repeated attempts that make no progress.",
+      "sourceDescription": "Tells the model, out of the user's sight, to stop when the same call fails twice with the same error",
       "author": "Mehmet Aras",
       "repository": "arasovic/claude-code-mods",
       "modPath": "loop-guard",
@@ -1126,7 +1176,7 @@
         "id": "safety",
         "label": "Safety Mods",
         "folder": "SafetyMods",
-        "basis": "exact-catalogue-repository-and-mod-path"
+        "basis": "Checks commands, permissions, privacy or rules before actions."
       },
       "sourceCommit": "1df1cad9661fd001b749c6a5a1821c2914d01469",
       "sourcePath": "sources/session-toolkit/source/loop-guard",
@@ -1140,7 +1190,8 @@
       "name": "pin-board",
       "displayName": "Persistent Notes",
       "version": "0.1.1",
-      "description": "Pins standing notes with /pin that Claude keeps following after /compact and /clear; shows them in one row above the prompt or as a counter, and keeps them per folder with --keep",
+      "description": "Pin standing instructions that are restored after compaction or clearing the conversation, with optional folder-specific notes that persist between sessions.",
+      "sourceDescription": "Pins standing notes with /pin that Claude keeps following after /compact and /clear; shows them in one row above the prompt or as a counter, and keeps them per folder with --keep",
       "author": "Mehmet Aras",
       "repository": "arasovic/claude-code-mods",
       "modPath": "pin-board",
@@ -1148,7 +1199,7 @@
         "id": "memory",
         "label": "Memory Mods",
         "folder": "MemoryMods",
-        "basis": "individual-pinned-manifest-and-source-review"
+        "basis": "Manages context, cache, saved notes or session handoffs."
       },
       "sourceCommit": "1df1cad9661fd001b749c6a5a1821c2914d01469",
       "sourcePath": "sources/session-toolkit/source/pin-board",
@@ -1162,20 +1213,21 @@
       "name": "search-meter",
       "displayName": "Search Meter",
       "version": "0.1.0",
-      "description": "Counts the model's searches and colors each one: green found first try, yellow found after misses, red found nothing",
+      "description": "Track shell, web and tool searches with counters for immediate hits, hits following empty results and misses. The colors use output-based heuristics to help you inspect search activity.",
+      "sourceDescription": "Counts the model's searches and colors each one: green found first try, yellow found after misses, red found nothing",
       "author": "Mehmet Aras",
       "repository": "arasovic/claude-code-mods",
       "modPath": "search-meter",
       "category": {
-        "id": "files",
-        "label": "File Mods",
-        "folder": "FileMods",
-        "basis": "exact-catalogue-repository-and-mod-path"
+        "id": "testing",
+        "label": "Testing Mods",
+        "folder": "TestingMods",
+        "basis": "Diagnoses search outcomes and retries across shell, web and tool searches; it does not browse project files."
       },
       "sourceCommit": "1df1cad9661fd001b749c6a5a1821c2914d01469",
       "sourcePath": "sources/session-toolkit/source/search-meter",
       "sourceManifest": "sources/session-toolkit/source/search-meter/.claude-plugin/plugin.json",
-      "page": "FileMods/search-meter/",
+      "page": "TestingMods/search-meter/",
       "runtimeTested": false
     },
     {
@@ -1184,7 +1236,8 @@
       "name": "secret-guard",
       "displayName": "Secret Guard",
       "version": "0.1.2",
-      "description": "Keeps secrets out of the conversation: hides API keys and private keys before the model or the transcript sees them, and blocks reads of credential files and commands that print secrets",
+      "description": "Redact recognized API keys and private keys before they reach the conversation, and block reads or commands that expose protected credential files.",
+      "sourceDescription": "Keeps secrets out of the conversation: hides API keys and private keys before the model or the transcript sees them, and blocks reads of credential files and commands that print secrets",
       "author": "Mehmet Aras",
       "repository": "arasovic/claude-code-mods",
       "modPath": "secret-guard",
@@ -1192,7 +1245,7 @@
         "id": "safety",
         "label": "Safety Mods",
         "folder": "SafetyMods",
-        "basis": "exact-catalogue-repository-and-mod-path"
+        "basis": "Checks commands, permissions, privacy or rules before actions."
       },
       "sourceCommit": "1df1cad9661fd001b749c6a5a1821c2914d01469",
       "sourcePath": "sources/session-toolkit/source/secret-guard",
@@ -1206,20 +1259,21 @@
       "name": "session-meter",
       "displayName": "Session Meter",
       "version": "0.3.0",
-      "description": "Shows a live session pane (/ctx): context breakdown, usage limits with pace, tool calls and model requests; sends the model a one-time note when limits or context cross a threshold",
+      "description": "Inspect context usage, rate limits, tool calls and model requests in a live session pane, with threshold notifications sent to the agent.",
+      "sourceDescription": "Shows a live session pane (/ctx): context breakdown, usage limits with pace, tool calls and model requests; sends the model a one-time note when limits or context cross a threshold",
       "author": "Mehmet Aras",
       "repository": "arasovic/claude-code-mods",
       "modPath": "session-meter",
       "category": {
-        "id": "memory",
-        "label": "Memory Mods",
-        "folder": "MemoryMods",
-        "basis": "exact-catalogue-repository-and-mod-path"
+        "id": "usage",
+        "label": "Usage Mods",
+        "folder": "UsageMods",
+        "basis": "Monitors resource consumption and usage limits."
       },
       "sourceCommit": "1df1cad9661fd001b749c6a5a1821c2914d01469",
       "sourcePath": "sources/session-toolkit/source/session-meter",
       "sourceManifest": "sources/session-toolkit/source/session-meter/.claude-plugin/plugin.json",
-      "page": "MemoryMods/session-meter/",
+      "page": "UsageMods/session-meter/",
       "runtimeTested": false
     },
     {
@@ -1228,7 +1282,8 @@
       "name": "show-me",
       "displayName": "Diagram Viewer",
       "version": "0.4.4",
-      "description": "Draws the mermaid diagrams of each answer as images in a pane (/show-me); needs mmdc and a kitty-graphics terminal such as Ghostty",
+      "description": "View Mermaid diagrams from Claude\u2019s answers as rendered images in a side pane. It requires the Mermaid command-line renderer and a terminal with Kitty graphics support.",
+      "sourceDescription": "Draws the mermaid diagrams of each answer as images in a pane (/show-me); needs mmdc and a kitty-graphics terminal such as Ghostty",
       "author": "Mehmet Aras",
       "repository": "arasovic/claude-code-mods",
       "modPath": "show-me",
@@ -1236,7 +1291,7 @@
         "id": "interface",
         "label": "Interface Mods",
         "folder": "InterfaceMods",
-        "basis": "exact-catalogue-repository-and-mod-path"
+        "basis": "Changes conversation presentation or accessibility."
       },
       "sourceCommit": "1df1cad9661fd001b749c6a5a1821c2914d01469",
       "sourcePath": "sources/session-toolkit/source/show-me",
@@ -1250,7 +1305,8 @@
       "name": "turn-footer",
       "displayName": "Turn Summary",
       "version": "0.1.0",
-      "description": "Turns the line under each answer into a turn summary (tools, requests, tokens, cache hit) and shows the running tool in the spinner",
+      "description": "See a compact summary beneath each answer showing tool calls, model requests, token usage and cache hits, while the spinner identifies the running tool.",
+      "sourceDescription": "Turns the line under each answer into a turn summary (tools, requests, tokens, cache hit) and shows the running tool in the spinner",
       "author": "Mehmet Aras",
       "repository": "arasovic/claude-code-mods",
       "modPath": "turn-footer",
@@ -1258,7 +1314,7 @@
         "id": "usage",
         "label": "Usage Mods",
         "folder": "UsageMods",
-        "basis": "exact-catalogue-repository-and-mod-path"
+        "basis": "Monitors or controls model usage, cost, effort or quotas."
       },
       "sourceCommit": "1df1cad9661fd001b749c6a5a1821c2914d01469",
       "sourcePath": "sources/session-toolkit/source/turn-footer",
@@ -1272,20 +1328,21 @@
       "name": "turn-timeline",
       "displayName": "Turn Timeline",
       "version": "0.1.3",
-      "description": "Draws the current turn as a timeline in a pane (/timeline): model requests and tool calls per loop, where the time went, and the slowest steps",
+      "description": "Inspect a timeline of model requests and tool calls for the current turn, so you can see where time went and identify slow steps.",
+      "sourceDescription": "Draws the current turn as a timeline in a pane (/timeline): model requests and tool calls per loop, where the time went, and the slowest steps",
       "author": "Mehmet Aras",
       "repository": "arasovic/claude-code-mods",
       "modPath": "turn-timeline",
       "category": {
-        "id": "interface",
-        "label": "Interface Mods",
-        "folder": "InterfaceMods",
-        "basis": "exact-catalogue-repository-and-mod-path"
+        "id": "testing",
+        "label": "Testing Mods",
+        "folder": "TestingMods",
+        "basis": "Shows timing diagnostics for model requests and tool calls."
       },
       "sourceCommit": "1df1cad9661fd001b749c6a5a1821c2914d01469",
       "sourcePath": "sources/session-toolkit/source/turn-timeline",
       "sourceManifest": "sources/session-toolkit/source/turn-timeline/.claude-plugin/plugin.json",
-      "page": "InterfaceMods/turn-timeline/",
+      "page": "TestingMods/turn-timeline/",
       "runtimeTested": false
     },
     {
@@ -1294,7 +1351,8 @@
       "name": "leftovers",
       "displayName": "Leftover Tracker",
       "version": "0.1.0",
-      "description": "Keeps a ledger of what Claude left running or lying around on your machine and servers",
+      "description": "Keep track of processes and artifacts Claude leaves behind on your computer or servers, so you can review unfinished cleanup after a session.",
+      "sourceDescription": "Keeps a ledger of what Claude left running or lying around on your machine and servers",
       "author": "Gary",
       "repository": "homieyangg/claude-code-mods",
       "modPath": "leftovers",
@@ -1302,7 +1360,7 @@
         "id": "integrations",
         "label": "Integration Mods",
         "folder": "IntegrationMods",
-        "basis": "individual-pinned-manifest-and-source-review"
+        "basis": "Connects external services or provides general workflow utilities."
       },
       "sourceCommit": "3c7b24720bcc831165502d73d1631b6fb197bbcf",
       "sourcePath": "sources/session-utilities/source/leftovers",
@@ -1316,7 +1374,8 @@
       "name": "plan-bar",
       "displayName": "Plan Bar",
       "version": "0.1.0",
-      "description": "Live progress bars above the prompt for multi-step work: one row per plan, with stages, percent, waiting and failed colors, and sounds",
+      "description": "Follow several plans at once through progress bars showing stages, completion percentages and waiting or failed states above the prompt.",
+      "sourceDescription": "Live progress bars above the prompt for multi-step work: one row per plan, with stages, percent, waiting and failed colors, and sounds",
       "author": "Gary",
       "repository": "homieyangg/claude-code-mods",
       "modPath": "plan-bar",
@@ -1324,7 +1383,7 @@
         "id": "planning",
         "label": "Planning Mods",
         "folder": "PlanningMods",
-        "basis": "individual-pinned-manifest-and-source-review"
+        "basis": "Tracks tasks, plans or progress."
       },
       "sourceCommit": "3c7b24720bcc831165502d73d1631b6fb197bbcf",
       "sourcePath": "sources/session-utilities/source/plan-bar",
@@ -1338,7 +1397,8 @@
       "name": "secret-mask",
       "displayName": "Secret Mask",
       "version": "0.1.0",
-      "description": "Mask token-like strings in tool output before they reach the conversation",
+      "description": "Mask strings that resemble tokens or credentials in tool output before that output is added to the conversation.",
+      "sourceDescription": "Mask token-like strings in tool output before they reach the conversation",
       "author": "Gary",
       "repository": "homieyangg/claude-code-mods",
       "modPath": "secret-mask",
@@ -1346,7 +1406,7 @@
         "id": "safety",
         "label": "Safety Mods",
         "folder": "SafetyMods",
-        "basis": "individual-pinned-manifest-and-source-review"
+        "basis": "Checks commands, permissions, privacy or rules before actions."
       },
       "sourceCommit": "3c7b24720bcc831165502d73d1631b6fb197bbcf",
       "sourcePath": "sources/session-utilities/source/secret-mask",
@@ -1360,7 +1420,8 @@
       "name": "shell-highlight",
       "displayName": "Shell Highlight",
       "version": "0.2.0",
-      "description": "Draws Bash and PowerShell tool calls with syntax-highlighted commands",
+      "description": "Read Bash and PowerShell tool calls with syntax highlighting, making the commands easier to inspect before following their results.",
+      "sourceDescription": "Draws Bash and PowerShell tool calls with syntax-highlighted commands",
       "author": "Turbo-Thorschten",
       "repository": "Turbo-Thorschten/shell-highlight",
       "modPath": ".",
@@ -1368,7 +1429,7 @@
         "id": "interface",
         "label": "Interface Mods",
         "folder": "InterfaceMods",
-        "basis": "exact-catalogue-repository-and-mod-path"
+        "basis": "Changes conversation presentation or accessibility."
       },
       "sourceCommit": "09ef77a4f09948bcc42851d9ec690f53fe899ec1",
       "sourcePath": "sources/shell-highlight/source",
@@ -1382,7 +1443,8 @@
       "name": "spell-bar",
       "displayName": "Spell Bar",
       "version": "1.0.0",
-      "description": "An animated effort bar for Claude Code: Clawd casts Avada Kedavra at six ranks, one per effort level from low to ultracode, with Voldemort looming behind.",
+      "description": "See the selected reasoning effort represented by an animated spell bar, with a different character effect for each supported effort level.",
+      "sourceDescription": "An animated effort bar for Claude Code: Clawd casts Avada Kedavra at six ranks, one per effort level from low to ultracode, with Voldemort looming behind.",
       "author": "powerofjinbo",
       "repository": "powerofjinbo/claude-code-spell-bar",
       "modPath": "plugins/spell-bar",
@@ -1390,7 +1452,7 @@
         "id": "games",
         "label": "Game Mods",
         "folder": "GameMods",
-        "basis": "exact-catalogue-repository-and-mod-path"
+        "basis": "Provides games, pets or entertainment while working."
       },
       "sourceCommit": "1b0494cadcd4e98542147b321250d55d38696553",
       "sourcePath": "sources/spell-bar/source/plugins/spell-bar",
@@ -1404,7 +1466,8 @@
       "name": "cc-arcade",
       "displayName": "Terminal Arcade",
       "version": "0.2.0",
-      "description": "Games above the Claude Code prompt (snake, Tetris, 2048, Minesweeper, Flappy, Pong, typing test, Space Invaders, Doom) plus a pet that grows as Claude tests, commits and edits. Clones of the genre, not affiliated with or endorsed by Tetris Holding, Taito, Atari or id Software. Needs function hooks (early access) and an interactive terminal.",
+      "description": "Play games such as Snake, Minesweeper, Pong and 2048 above the prompt, or watch a virtual pet grow as Claude tests, edits and commits code.",
+      "sourceDescription": "Games above the Claude Code prompt (snake, Tetris, 2048, Minesweeper, Flappy, Pong, typing test, Space Invaders, Doom) plus a pet that grows as Claude tests, commits and edits. Clones of the genre, not affiliated with or endorsed by Tetris Holding, Taito, Atari or id Software. Needs function hooks (early access) and an interactive terminal.",
       "author": "Seza Akg\u00fcn",
       "repository": "sezaakgun/cc-arcade",
       "modPath": ".",
@@ -1412,7 +1475,7 @@
         "id": "games",
         "label": "Game Mods",
         "folder": "GameMods",
-        "basis": "exact-catalogue-repository-and-mod-path"
+        "basis": "Provides games, pets or entertainment while working."
       },
       "sourceCommit": "0baff06d31295850283c2eebe052f39bbc35473f",
       "sourcePath": "sources/terminal-arcade/source",
@@ -1426,7 +1489,8 @@
       "name": "tool-trim-compaction",
       "displayName": "Tool Trim Compaction",
       "version": null,
-      "description": "compaction \u3067\u53e4\u3044\u30c4\u30fc\u30eb\u547c\u3073\u51fa\u3057\u3068\u7d50\u679c\u3092\u6d88\u3057\u3001\u767a\u8a00\u306f\u539f\u6587\u306e\u307e\u307e\u6b8b\u3059\u3002\u524a\u6e1b\u304c\u8db3\u308a\u306a\u3051\u308c\u3070\u6a19\u6e96\u306e\u8981\u7d04\u306b\u56de\u3059",
+      "description": "Remove older tool calls and their results during compaction while retaining conversation messages verbatim. If that saves too little space, the normal summary process takes over.",
+      "sourceDescription": "compaction \u3067\u53e4\u3044\u30c4\u30fc\u30eb\u547c\u3073\u51fa\u3057\u3068\u7d50\u679c\u3092\u6d88\u3057\u3001\u767a\u8a00\u306f\u539f\u6587\u306e\u307e\u307e\u6b8b\u3059\u3002\u524a\u6e1b\u304c\u8db3\u308a\u306a\u3051\u308c\u3070\u6a19\u6e96\u306e\u8981\u7d04\u306b\u56de\u3059",
       "author": "okamyuji",
       "repository": "okamyuji/tool-trim-compaction",
       "modPath": ".",
@@ -1434,7 +1498,7 @@
         "id": "memory",
         "label": "Memory Mods",
         "folder": "MemoryMods",
-        "basis": "exact-catalogue-repository-and-mod-path"
+        "basis": "Manages context, cache, saved notes or session handoffs."
       },
       "sourceCommit": "c2cf3d808da1ea6e968974c2aed39079dfe4ee95",
       "sourcePath": "sources/tool-trim-compaction/source",
@@ -1448,7 +1512,8 @@
       "name": "usage-report",
       "displayName": "Usage Report",
       "version": "0.2.0",
-      "description": "Shows context fill, 5-hour and weekly quota, and session cost on the status line under the prompt, with warnings near your limits.",
+      "description": "Monitor context usage, five-hour and weekly quotas, and session cost in the status line, with warnings as you approach your limits.",
+      "sourceDescription": "Shows context fill, 5-hour and weekly quota, and session cost on the status line under the prompt, with warnings near your limits.",
       "author": "Schweem",
       "repository": "Schweem/usage-report",
       "modPath": ".",
@@ -1456,7 +1521,7 @@
         "id": "usage",
         "label": "Usage Mods",
         "folder": "UsageMods",
-        "basis": "exact-catalogue-repository-and-mod-path"
+        "basis": "Monitors or controls model usage, cost, effort or quotas."
       },
       "sourceCommit": "d73e0862b94caa06d366df687447c29c0f694548",
       "sourcePath": "sources/usage-report/source",
@@ -1470,7 +1535,8 @@
       "name": "usage-wrapup",
       "displayName": "Usage Wrapup",
       "version": "0.1.0",
-      "description": "When your plan usage gets low, tells every running agent to wrap up before the limit cuts it off.",
+      "description": "Ask running agents to wrap up when your remaining plan allowance gets low, helping them finish their current work before the usage limit interrupts it.",
+      "sourceDescription": "When your plan usage gets low, tells every running agent to wrap up before the limit cuts it off.",
       "author": "Kevin Koch",
       "repository": "DaKev/usage-wrapup",
       "modPath": ".",
@@ -1478,7 +1544,7 @@
         "id": "usage",
         "label": "Usage Mods",
         "folder": "UsageMods",
-        "basis": "exact-catalogue-repository-and-mod-path"
+        "basis": "Monitors or controls model usage, cost, effort or quotas."
       },
       "sourceCommit": "c94766d10b1a32e97e4ff14c094c7c2007d1575b",
       "sourcePath": "sources/usage-wrapup/source",
@@ -1492,7 +1558,8 @@
       "name": "agent-radar",
       "displayName": "Agent Radar",
       "version": "0.1.2",
-      "description": "One live line above the prompt per running subagent: time, tool count and what it's doing. /radar shows every agent and its messages.",
+      "description": "Monitor each running subagent\u2019s elapsed time, tool count and current activity above the prompt, then open a detailed view of its messages.",
+      "sourceDescription": "One live line above the prompt per running subagent: time, tool count and what it's doing. /radar shows every agent and its messages.",
       "author": "Hamza Zafar",
       "repository": "hamzafer/claude-code-mods",
       "modPath": "mods/agent-radar",
@@ -1500,7 +1567,7 @@
         "id": "agents",
         "label": "Agent Mods",
         "folder": "AgentMods",
-        "basis": "exact-catalogue-repository-and-mod-path"
+        "basis": "Coordinates agents or makes their actual work visible."
       },
       "sourceCommit": "fc5130427799f69852055add193161080bd054d6",
       "sourcePath": "sources/workspace-toolkit/source/mods/agent-radar",
@@ -1514,7 +1581,8 @@
       "name": "blast-radius",
       "displayName": "Command Impact",
       "version": "0.2.2",
-      "description": "Holds risky Bash commands and shows what they would change before they run.",
+      "description": "Pause risky shell commands and inspect what they would change before allowing them to run.",
+      "sourceDescription": "Holds risky Bash commands and shows what they would change before they run.",
       "author": "Hamza Zafar",
       "repository": "hamzafer/claude-code-mods",
       "modPath": "mods/blast-radius",
@@ -1522,7 +1590,7 @@
         "id": "safety",
         "label": "Safety Mods",
         "folder": "SafetyMods",
-        "basis": "exact-catalogue-repository-and-mod-path"
+        "basis": "Checks commands, permissions, privacy or rules before actions."
       },
       "sourceCommit": "fc5130427799f69852055add193161080bd054d6",
       "sourcePath": "sources/workspace-toolkit/source/mods/blast-radius",
@@ -1536,7 +1604,8 @@
       "name": "browser-lanes",
       "displayName": "Browser Coordination",
       "version": "0.1.2",
-      "description": "Shows if this session has a Playwright browser and who holds it. /browser clean closes leftover browsers. A subagent that wants the browser waits until the one using it is done.",
+      "description": "See which session owns the Playwright browser, coordinate access between agents and close leftover browsers when they are no longer needed.",
+      "sourceDescription": "Shows if this session has a Playwright browser and who holds it. /browser clean closes leftover browsers. A subagent that wants the browser waits until the one using it is done.",
       "author": "Hamza Zafar",
       "repository": "hamzafer/claude-code-mods",
       "modPath": "mods/browser-lanes",
@@ -1544,7 +1613,7 @@
         "id": "web",
         "label": "Web Mods",
         "folder": "WebMods",
-        "basis": "exact-catalogue-repository-and-mod-path"
+        "basis": "Supports browser use, search or web previews."
       },
       "sourceCommit": "fc5130427799f69852055add193161080bd054d6",
       "sourcePath": "sources/workspace-toolkit/source/mods/browser-lanes",
@@ -1558,7 +1627,8 @@
       "name": "glance",
       "displayName": "Attention Summary",
       "version": "0.1.0",
-      "description": "One line above the prompt with what needs you: next meeting, PRs, Linear issues and Slack DMs. /glance lists them all.",
+      "description": "See upcoming meetings, pull requests, Linear issues and Slack messages that need your attention in one summary above the prompt.",
+      "sourceDescription": "One line above the prompt with what needs you: next meeting, PRs, Linear issues and Slack DMs. /glance lists them all.",
       "author": "Hamza Zafar",
       "repository": "hamzafer/claude-code-mods",
       "modPath": "mods/glance",
@@ -1566,7 +1636,7 @@
         "id": "focus",
         "label": "Focus Mods",
         "folder": "FocusMods",
-        "basis": "individual-pinned-manifest-and-source-review"
+        "basis": "Manages attention, notifications or focused work."
       },
       "sourceCommit": "fc5130427799f69852055add193161080bd054d6",
       "sourcePath": "sources/workspace-toolkit/source/mods/glance",
@@ -1580,7 +1650,8 @@
       "name": "md-preview",
       "displayName": "Markdown Preview",
       "version": "0.1.1",
-      "description": "Shows the Markdown files Claude edits, rendered like GitHub, in a pane next to the chat. Before and after side by side. /md opens it.",
+      "description": "Read Markdown files in a rendered pane beside the conversation and compare their before-and-after versions while Claude edits them.",
+      "sourceDescription": "Shows the Markdown files Claude edits, rendered like GitHub, in a pane next to the chat. Before and after side by side. /md opens it.",
       "author": "Hamza Zafar",
       "repository": "hamzafer/claude-code-mods",
       "modPath": "mods/md-preview",
@@ -1588,7 +1659,7 @@
         "id": "files",
         "label": "File Mods",
         "folder": "FileMods",
-        "basis": "individual-pinned-manifest-and-source-review"
+        "basis": "Helps navigate or inspect project files."
       },
       "sourceCommit": "fc5130427799f69852055add193161080bd054d6",
       "sourcePath": "sources/workspace-toolkit/source/mods/md-preview",
@@ -1602,7 +1673,8 @@
       "name": "merge-gate",
       "displayName": "Merge Gate",
       "version": "0.1.4",
-      "description": "Holds `gh pr merge` until CI passes and one Codex review (OpenAI's luna model) has run. A PR line above the prompt, and /gate shows the PR's status.",
+      "description": "Check CI and Codex review evidence before recognized GitHub CLI merge commands run. If a check is unmet, the gate offers an explicit manual override.",
+      "sourceDescription": "Holds `gh pr merge` until CI passes and one Codex review (OpenAI's luna model) has run. A PR line above the prompt, and /gate shows the PR's status.",
       "author": "Hamza Zafar",
       "repository": "hamzafer/claude-code-mods",
       "modPath": "mods/merge-gate",
@@ -1610,7 +1682,7 @@
         "id": "git",
         "label": "Git Mods",
         "folder": "GitMods",
-        "basis": "exact-catalogue-repository-and-mod-path"
+        "basis": "Supports Git changes, CI or pull-request review."
       },
       "sourceCommit": "fc5130427799f69852055add193161080bd054d6",
       "sourcePath": "sources/workspace-toolkit/source/mods/merge-gate",
@@ -1624,7 +1696,8 @@
       "name": "mission-control",
       "displayName": "Mission Control",
       "version": "0.1.2",
-      "description": "/mission opens a live map of the main agent, its subagents and every tool call, plus a code map of the files they touch.",
+      "description": "Open a live map of the main agent, its subagents and their tool calls, together with the files they are working on.",
+      "sourceDescription": "/mission opens a live map of the main agent, its subagents and every tool call, plus a code map of the files they touch.",
       "author": "Hamza Zafar",
       "repository": "hamzafer/claude-code-mods",
       "modPath": "mods/mission-control",
@@ -1632,7 +1705,7 @@
         "id": "agents",
         "label": "Agent Mods",
         "folder": "AgentMods",
-        "basis": "exact-catalogue-repository-and-mod-path"
+        "basis": "Coordinates agents or makes their actual work visible."
       },
       "sourceCommit": "fc5130427799f69852055add193161080bd054d6",
       "sourcePath": "sources/workspace-toolkit/source/mods/mission-control",
@@ -1646,7 +1719,8 @@
       "name": "next-steps",
       "displayName": "Next Steps",
       "version": "0.1.1",
-      "description": "After each turn, 2 or 3 likely next prompts above the prompt. Press 1, 2 or 3 in an empty prompt to draft one, 0 to dismiss.",
+      "description": "Choose from suggested follow-up prompts after each turn, using number keys to place a suggestion in the input field before sending it.",
+      "sourceDescription": "After each turn, 2 or 3 likely next prompts above the prompt. Press 1, 2 or 3 in an empty prompt to draft one, 0 to dismiss.",
       "author": "Hamza Zafar",
       "repository": "hamzafer/claude-code-mods",
       "modPath": "mods/next-steps",
@@ -1654,7 +1728,7 @@
         "id": "prompts",
         "label": "Prompt Mods",
         "folder": "PromptMods",
-        "basis": "individual-pinned-manifest-and-source-review"
+        "basis": "Helps compose, select, queue or navigate input."
       },
       "sourceCommit": "fc5130427799f69852055add193161080bd054d6",
       "sourcePath": "sources/workspace-toolkit/source/mods/next-steps",
@@ -1668,20 +1742,21 @@
       "name": "reels",
       "displayName": "Video Breaks",
       "version": "0.1.2",
-      "description": "YouTube Shorts in a terminal pane: plays while Claude works, pauses when Claude is done.",
+      "description": "Watch YouTube Shorts in a terminal pane while Claude works, with playback pausing automatically when the agent finishes.",
+      "sourceDescription": "YouTube Shorts in a terminal pane: plays while Claude works, pauses when Claude is done.",
       "author": "Hamza Zafar",
       "repository": "hamzafer/claude-code-mods",
       "modPath": "mods/reels",
       "category": {
-        "id": "interface",
-        "label": "Interface Mods",
-        "folder": "InterfaceMods",
-        "basis": "exact-catalogue-repository-and-mod-path"
+        "id": "games",
+        "label": "Game Mods",
+        "folder": "GameMods",
+        "basis": "Short-video playback provides entertainment while waiting."
       },
       "sourceCommit": "fc5130427799f69852055add193161080bd054d6",
       "sourcePath": "sources/workspace-toolkit/source/mods/reels",
       "sourceManifest": "sources/workspace-toolkit/source/mods/reels/.claude-plugin/plugin.json",
-      "page": "InterfaceMods/video-breaks/",
+      "page": "GameMods/video-breaks/",
       "runtimeTested": false
     },
     {
@@ -1690,7 +1765,8 @@
       "name": "replay-theater",
       "displayName": "Edit Replay",
       "version": "0.1.2",
-      "description": "Step through the last turn's file edits, one diff at a time.",
+      "description": "Step through the previous turn\u2019s file changes one diff at a time to understand exactly what the agent edited.",
+      "sourceDescription": "Step through the last turn's file edits, one diff at a time.",
       "author": "Hamza Zafar",
       "repository": "hamzafer/claude-code-mods",
       "modPath": "mods/replay-theater",
@@ -1698,7 +1774,7 @@
         "id": "testing",
         "label": "Testing Mods",
         "folder": "TestingMods",
-        "basis": "exact-catalogue-repository-and-mod-path"
+        "basis": "Supports debugging, validation or execution diagnostics."
       },
       "sourceCommit": "fc5130427799f69852055add193161080bd054d6",
       "sourcePath": "sources/workspace-toolkit/source/mods/replay-theater",
@@ -1712,7 +1788,8 @@
       "name": "rulebook-guard",
       "displayName": "Rulebook Guard",
       "version": "0.1.2",
-      "description": "Writing and git rules: replaces em dashes in prose, and asks before git commit --amend, an unformatted push, or personal info in notes and commits.",
+      "description": "Apply writing and Git rules by replacing em dashes in prose and asking before selected history edits, pushes or commits containing personal information.",
+      "sourceDescription": "Writing and git rules: replaces em dashes in prose, and asks before git commit --amend, an unformatted push, or personal info in notes and commits.",
       "author": "Hamza Zafar",
       "repository": "hamzafer/claude-code-mods",
       "modPath": "mods/rulebook-guard",
@@ -1720,7 +1797,7 @@
         "id": "safety",
         "label": "Safety Mods",
         "folder": "SafetyMods",
-        "basis": "exact-catalogue-repository-and-mod-path"
+        "basis": "Checks commands, permissions, privacy or rules before actions."
       },
       "sourceCommit": "fc5130427799f69852055add193161080bd054d6",
       "sourcePath": "sources/workspace-toolkit/source/mods/rulebook-guard",
@@ -1734,7 +1811,8 @@
       "name": "session-saver",
       "displayName": "Session Saver",
       "version": "0.1.1",
-      "description": "Names untitled sessions through unpause. /park saves where you left off, and a resumed session shows it.",
+      "description": "Save where you left off, give untitled conversations a name and see the saved handoff when you resume a session.",
+      "sourceDescription": "Names untitled sessions through unpause. /park saves where you left off, and a resumed session shows it.",
       "author": "Hamza Zafar",
       "repository": "hamzafer/claude-code-mods",
       "modPath": "mods/session-saver",
@@ -1742,7 +1820,7 @@
         "id": "memory",
         "label": "Memory Mods",
         "folder": "MemoryMods",
-        "basis": "exact-catalogue-repository-and-mod-path"
+        "basis": "Manages context, cache, saved notes or session handoffs."
       },
       "sourceCommit": "fc5130427799f69852055add193161080bd054d6",
       "sourcePath": "sources/workspace-toolkit/source/mods/session-saver",
@@ -1756,7 +1834,8 @@
       "name": "snake",
       "displayName": "Snake Game",
       "version": "0.2.2",
-      "description": "Snake in a pane while Claude works, paused when it's done. Opt-in, so nothing opens until /snake.",
+      "description": "Play Snake in a pane while Claude works, with the game pausing when the agent finishes. It opens only when you request it.",
+      "sourceDescription": "Snake in a pane while Claude works, paused when it's done. Opt-in, so nothing opens until /snake.",
       "author": "Hamza Zafar",
       "repository": "hamzafer/claude-code-mods",
       "modPath": "mods/snake",
@@ -1764,7 +1843,7 @@
         "id": "games",
         "label": "Game Mods",
         "folder": "GameMods",
-        "basis": "exact-catalogue-repository-and-mod-path"
+        "basis": "Provides games, pets or entertainment while working."
       },
       "sourceCommit": "fc5130427799f69852055add193161080bd054d6",
       "sourcePath": "sources/workspace-toolkit/source/mods/snake",
@@ -1778,20 +1857,21 @@
       "name": "token-weather",
       "displayName": "Token Weather",
       "version": "0.2.0",
-      "description": "A live forecast of the context window, with a prompt-cache countdown, drawn above the prompt.",
+      "description": "Watch a live forecast of your context-window usage and a countdown to prompt-cache expiry above the prompt.",
+      "sourceDescription": "A live forecast of the context window, with a prompt-cache countdown, drawn above the prompt.",
       "author": "Hamza Zafar",
       "repository": "hamzafer/claude-code-mods",
       "modPath": "mods/token-weather",
       "category": {
-        "id": "usage",
-        "label": "Usage Mods",
-        "folder": "UsageMods",
-        "basis": "exact-catalogue-repository-and-mod-path"
+        "id": "memory",
+        "label": "Memory Mods",
+        "folder": "MemoryMods",
+        "basis": "Shows context-window capacity and prompt-cache expiry, rather than spending or subscription quotas."
       },
       "sourceCommit": "fc5130427799f69852055add193161080bd054d6",
       "sourcePath": "sources/workspace-toolkit/source/mods/token-weather",
       "sourceManifest": "sources/workspace-toolkit/source/mods/token-weather/.claude-plugin/plugin.json",
-      "page": "UsageMods/token-weather/",
+      "page": "MemoryMods/token-weather/",
       "runtimeTested": false
     },
     {
@@ -1800,7 +1880,8 @@
       "name": "usage-meter",
       "displayName": "Usage Bars",
       "version": "0.1.0",
-      "description": "Your plan's 5-hour and 7-day usage as small bars above the prompt, with the reset countdown and the session's cost.",
+      "description": "Track your five-hour and weekly plan usage through small progress bars, with reset countdowns and the current session cost nearby.",
+      "sourceDescription": "Your plan's 5-hour and 7-day usage as small bars above the prompt, with the reset countdown and the session's cost.",
       "author": "Hamza Zafar",
       "repository": "hamzafer/claude-code-mods",
       "modPath": "mods/usage-meter",
@@ -1808,7 +1889,7 @@
         "id": "usage",
         "label": "Usage Mods",
         "folder": "UsageMods",
-        "basis": "individual-pinned-manifest-and-source-review"
+        "basis": "Monitors or controls model usage, cost, effort or quotas."
       },
       "sourceCommit": "fc5130427799f69852055add193161080bd054d6",
       "sourcePath": "sources/workspace-toolkit/source/mods/usage-meter",
@@ -1822,7 +1903,8 @@
       "name": "where-am-i",
       "displayName": "Task Recap",
       "version": "0.1.3",
-      "description": "A live recap above the prompt: goal, doing now, waiting on you, next. /where for a longer one.",
+      "description": "Keep the current goal, active work, pending decisions and next step visible above the prompt, with a longer recap available on demand.",
+      "sourceDescription": "A live recap above the prompt: goal, doing now, waiting on you, next. /where for a longer one.",
       "author": "Hamza Zafar",
       "repository": "hamzafer/claude-code-mods",
       "modPath": "mods/where-am-i",
@@ -1830,7 +1912,7 @@
         "id": "planning",
         "label": "Planning Mods",
         "folder": "PlanningMods",
-        "basis": "exact-catalogue-repository-and-mod-path"
+        "basis": "Tracks tasks, plans or progress."
       },
       "sourceCommit": "fc5130427799f69852055add193161080bd054d6",
       "sourcePath": "sources/workspace-toolkit/source/mods/where-am-i",

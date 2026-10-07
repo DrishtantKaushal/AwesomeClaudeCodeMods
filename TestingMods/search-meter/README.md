@@ -1,0 +1,20 @@
+# Search Meter
+
+Track shell, web and tool searches with counters for immediate hits, hits following empty results and misses. The colors use output-based heuristics to help you inspect search activity.
+
+**Category:** [Testing Mods](../) · **Author:** Mehmet Aras · **Version:** 0.1.0
+
+[Source files](../../sources/session-toolkit/source/search-meter/) · [Setup and usage](../../sources/session-toolkit/source/search-meter/README.md) · [Complete source package](../../sources/session-toolkit/) · [License and provenance](../../sources/session-toolkit/UPSTREAM.json)
+
+## Get this mod
+
+```sh
+git clone https://github.com/DrishtantKaushal/AwesomeClaudeCodeMods.git
+cd AwesomeClaudeCodeMods/sources/session-toolkit/source/search-meter
+```
+
+Read the [included setup instructions](../../sources/session-toolkit/source/search-meter/README.md) for prerequisites and local loading. Supporting files, sibling mods and original assets stay together in the shared source package, so their relative paths remain intact. Cloning downloads the files; it does not install dependencies or enable the mod.
+
+Source revision: `1df1cad9661fd001b749c6a5a1821c2914d01469`. License components: MIT. Original notices are retained in the package. Source integrity has been verified; runtime compatibility has not been tested by FindMods.
+
+Upstream mod name: `search-meter`. Attribution: [arasovic/claude-code-mods](https://github.com/arasovic/claude-code-mods). [Back to all categories](../../CATEGORIES.md).

@@ -1,5 +1,7 @@
 # Japanese Session Names
 
+Generate a Japanese session title from the conversation by running /rename without arguments, making saved sessions easier to recognize.
+
 Complete source snapshot by **tomatoaiu**, hosted directly in this collection. Includes the original source, documentation, supporting scripts, manifests, skills where present and tracked assets.
 
 [Browse source](source/) · [Original setup and usage](source/README.md) · [License](source/LICENSE) · [File checksums and provenance](UPSTREAM.json)
@@ -8,7 +10,7 @@ Complete source snapshot by **tomatoaiu**, hosted directly in this collection. I
 
 | Mod | Version | Description |
 | --- | --- | --- |
-| [Japanese Session Names](../../MemoryMods/japanese-session-names/) | 0.1.0 | 引数なしの /rename で、会話内容から日本語のセッション名を生成する。 |
+| [Japanese Session Names](../../InterfaceMods/japanese-session-names/) | 0.1.0 | Generate a Japanese session title from the conversation by running /rename without arguments, making saved sessions easier to recognize. |
 
 ## Get the files
 

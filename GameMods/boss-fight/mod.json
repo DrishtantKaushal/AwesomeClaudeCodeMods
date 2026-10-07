@@ -4,7 +4,8 @@
   "name": "boss-fight",
   "displayName": "Boss Fight",
   "version": "0.1.0",
-  "description": "Failing tests spawn a pixel boss; every run that fixes tests lands a hit, zero failures is a KO with loot",
+  "description": "Turn failing tests into a pixel-art boss battle, where each successful fix deals damage and a clean test run defeats the boss.",
+  "sourceDescription": "Failing tests spawn a pixel boss; every run that fixes tests lands a hit, zero failures is a KO with loot",
   "author": "OneWave AI",
   "repository": "OneWave-AI/claude-code-mods",
   "modPath": "boss-fight",
@@ -12,7 +13,7 @@
     "id": "games",
     "label": "Game Mods",
     "folder": "GameMods",
-    "basis": "exact-catalogue-repository-and-mod-path"
+    "basis": "Provides games, pets or entertainment while working."
   },
   "sourceCommit": "e6da26ca36a88eec3be25605d30fa20f2c1c0cec",
   "sourcePath": "sources/creative-toolkit/source/boss-fight",

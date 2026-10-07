@@ -1,6 +1,6 @@
 # Agent Team Monitor
 
-Mission control for subagents and agent teams: who is running, what each is doing, who spawned whom, who is talking to whom, and how they overlap
+See which agents are running, what they are doing, who started them and how their messages and work overlap in a shared team view.
 
 **Category:** [Agent Mods](../) · **Author:** OneWave AI · **Version:** 0.1.0
 

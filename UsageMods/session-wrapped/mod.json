@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "OneWave-AI/claude-code-mods:session-wrapped",
+  "name": "session-wrapped",
+  "displayName": "Session Wrapped",
+  "version": "0.1.0",
+  "description": "Review an animated summary of your session\u2019s duration, tool calls, test fixes and cost, then export a PNG card you can share.",
+  "sourceDescription": "Spotify Wrapped for a Claude Code session: an animated stat reveal and a shareable PNG card",
+  "author": "OneWave AI",
+  "repository": "OneWave-AI/claude-code-mods",
+  "modPath": "session-wrapped",
+  "category": {
+    "id": "usage",
+    "label": "Usage Mods",
+    "folder": "UsageMods",
+    "basis": "Summarizes session activity and cost; Spotify is only an analogy."
+  },
+  "sourceCommit": "e6da26ca36a88eec3be25605d30fa20f2c1c0cec",
+  "sourcePath": "sources/creative-toolkit/source/session-wrapped",
+  "sourceManifest": "sources/creative-toolkit/source/session-wrapped/.claude-plugin/plugin.json",
+  "page": "UsageMods/session-wrapped/",
+  "runtimeTested": false
+}

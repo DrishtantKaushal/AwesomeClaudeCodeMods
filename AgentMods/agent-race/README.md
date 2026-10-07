@@ -1,6 +1,6 @@
 # Agent Race
 
-Race Claude Code sessions on a task: live split-screen race track scoreboard
+Compare Claude Code sessions working on the same task through a live split-screen scoreboard that shows their progress side by side.
 
 **Category:** [Agent Mods](../) · **Author:** OneWave AI · **Version:** 0.1.0
 

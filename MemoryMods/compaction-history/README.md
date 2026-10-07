@@ -1,6 +1,6 @@
 # Compaction History
 
-Saves each compaction's summary, with the files edited before it, to ~/.claude/handoffs so the context before /compact can be recovered
+Save each compaction summary together with the files edited beforehand, so you can recover context that would otherwise disappear from the conversation.
 
 **Category:** [Memory Mods](../) · **Author:** Mehmet Aras · **Version:** 0.1.1
 

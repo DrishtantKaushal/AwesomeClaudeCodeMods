@@ -4,7 +4,8 @@
   "name": "cold-cache-guard",
   "displayName": "Cold Cache Guard",
   "version": "0.1.0",
-  "description": "Asks what to do before Claude Code re-sends a large conversation whose prompt cache has expired: on a cold resume, and on the first prompt after an idle spell.",
+  "description": "Review your options before Claude resends a large conversation after its prompt cache expires, including when you resume an idle session.",
+  "sourceDescription": "Asks what to do before Claude Code re-sends a large conversation whose prompt cache has expired: on a cold resume, and on the first prompt after an idle spell.",
   "author": "Mediavee",
   "repository": "mediavee/cold-cache-guard",
   "modPath": ".",
@@ -12,7 +13,7 @@
     "id": "memory",
     "label": "Memory Mods",
     "folder": "MemoryMods",
-    "basis": "exact-catalogue-repository-and-mod-path"
+    "basis": "Manages context, cache, saved notes or session handoffs."
   },
   "sourceCommit": "2c4388cbecf115dc6209fcec1a10446123fc8ae5",
   "sourcePath": "sources/cold-cache-guard/source",

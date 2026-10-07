@@ -1,6 +1,6 @@
 # Usage Bars
 
-Your plan's 5-hour and 7-day usage as small bars above the prompt, with the reset countdown and the session's cost.
+Track your five-hour and weekly plan usage through small progress bars, with reset countdowns and the current session cost nearby.
 
 **Category:** [Usage Mods](../) · **Author:** Hamza Zafar · **Version:** 0.1.0
 

@@ -1,6 +1,6 @@
 # Browser Coordination
 
-Shows if this session has a Playwright browser and who holds it. /browser clean closes leftover browsers. A subagent that wants the browser waits until the one using it is done.
+See which session owns the Playwright browser, coordinate access between agents and close leftover browsers when they are no longer needed.
 
 **Category:** [Web Mods](../) · **Author:** Hamza Zafar · **Version:** 0.1.2
 

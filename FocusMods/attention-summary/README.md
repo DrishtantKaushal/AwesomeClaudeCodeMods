@@ -1,6 +1,6 @@
 # Attention Summary
 
-One line above the prompt with what needs you: next meeting, PRs, Linear issues and Slack DMs. /glance lists them all.
+See upcoming meetings, pull requests, Linear issues and Slack messages that need your attention in one summary above the prompt.
 
 **Category:** [Focus Mods](../) · **Author:** Hamza Zafar · **Version:** 0.1.0
 

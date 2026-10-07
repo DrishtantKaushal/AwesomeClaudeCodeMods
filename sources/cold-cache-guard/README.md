@@ -1,5 +1,7 @@
 # Cold Cache Guard
 
+Review your options before Claude resends a large conversation after its prompt cache expires, including when you resume an idle session.
+
 Complete source snapshot by **mediavee**, hosted directly in this collection. Includes the original source, documentation, supporting scripts, manifests, skills where present and tracked assets.
 
 [Browse source](source/) · [Original setup and usage](source/README.md) · [License](source/LICENSE) · [File checksums and provenance](UPSTREAM.json)
@@ -8,7 +10,7 @@ Complete source snapshot by **mediavee**, hosted directly in this collection. In
 
 | Mod | Version | Description |
 | --- | --- | --- |
-| [Cold Cache Guard](../../MemoryMods/cold-cache-guard/) | 0.1.0 | Asks what to do before Claude Code re-sends a large conversation whose prompt cache has expired: on a cold resume, and on the first prompt after an idle spell. |
+| [Cold Cache Guard](../../MemoryMods/cold-cache-guard/) | 0.1.0 | Review your options before Claude resends a large conversation after its prompt cache expires, including when you resume an idle session. |
 
 ## Get the files
 

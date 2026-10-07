@@ -4,7 +4,8 @@
   "name": "cache-ttl-timer",
   "displayName": "Cache Countdown",
   "version": "1.0.0",
-  "description": "A prompt-cache countdown in the prompt footer, beside the model and effort: how long until your next message has to re-cache the whole conversation.",
+  "description": "See how long your prompt cache has left before it expires, so you can time your next message before the conversation needs to be cached again.",
+  "sourceDescription": "A prompt-cache countdown in the prompt footer, beside the model and effort: how long until your next message has to re-cache the whole conversation.",
   "author": "Seongje Hong",
   "repository": "WQGGSEY/cache-ttl-timer",
   "modPath": ".",
@@ -12,7 +13,7 @@
     "id": "memory",
     "label": "Memory Mods",
     "folder": "MemoryMods",
-    "basis": "exact-catalogue-repository-and-mod-path"
+    "basis": "Manages context, cache, saved notes or session handoffs."
   },
   "sourceCommit": "969036d679b102dfb757a98b8ecaee7ef5af62fc",
   "sourcePath": "sources/cache-countdown/source",

@@ -1,6 +1,6 @@
 # Turn Summary
 
-Turns the line under each answer into a turn summary (tools, requests, tokens, cache hit) and shows the running tool in the spinner
+See a compact summary beneath each answer showing tool calls, model requests, token usage and cache hits, while the spinner identifies the running tool.
 
 **Category:** [Usage Mods](../) · **Author:** Mehmet Aras · **Version:** 0.1.0
 

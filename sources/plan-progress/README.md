@@ -1,5 +1,7 @@
 # Plan Progress
 
+Follow a multi-step plan through live progress bars above the prompt, with stage and step tracking plus optional cues for decisions, errors and completion.
+
 Complete source snapshot by **zycck**, hosted directly in this collection. Includes the original source, documentation, supporting scripts, manifests, skills where present and tracked assets.
 
 [Browse source](source/) · [Original setup and usage](source/README.md) · [License](source/LICENSE) · [File checksums and provenance](UPSTREAM.json)
@@ -8,7 +10,7 @@ Complete source snapshot by **zycck**, hosted directly in this collection. Inclu
 
 | Mod | Version | Description |
 | --- | --- | --- |
-| [Plan Progress](../../PlanningMods/plan-progress/) | 0.7.3 | Live plan progress bars above the Claude Code prompt: stages, steps, a pixel fill and soft sounds for decision, error and done |
+| [Plan Progress](../../PlanningMods/plan-progress/) | 0.7.3 | Follow a multi-step plan through live progress bars above the prompt, with stage and step tracking plus optional cues for decisions, errors and completion. |
 
 ## Included skills
 

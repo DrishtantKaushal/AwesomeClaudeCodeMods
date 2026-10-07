@@ -4,7 +4,8 @@
   "name": "secret-guard",
   "displayName": "Secret Guard",
   "version": "0.1.2",
-  "description": "Keeps secrets out of the conversation: hides API keys and private keys before the model or the transcript sees them, and blocks reads of credential files and commands that print secrets",
+  "description": "Redact recognized API keys and private keys before they reach the conversation, and block reads or commands that expose protected credential files.",
+  "sourceDescription": "Keeps secrets out of the conversation: hides API keys and private keys before the model or the transcript sees them, and blocks reads of credential files and commands that print secrets",
   "author": "Mehmet Aras",
   "repository": "arasovic/claude-code-mods",
   "modPath": "secret-guard",
@@ -12,7 +13,7 @@
     "id": "safety",
     "label": "Safety Mods",
     "folder": "SafetyMods",
-    "basis": "exact-catalogue-repository-and-mod-path"
+    "basis": "Checks commands, permissions, privacy or rules before actions."
   },
   "sourceCommit": "1df1cad9661fd001b749c6a5a1821c2914d01469",
   "sourcePath": "sources/session-toolkit/source/secret-guard",

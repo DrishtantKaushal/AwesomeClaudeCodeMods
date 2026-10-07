@@ -2,7 +2,7 @@
 
 2 hosted mods. Each entry opens its local mod page, source files and setup instructions.
 
-- **[Browser Coordination](browser-coordination/)** by Hamza Zafar - Shows if this session has a Playwright browser and who holds it. /browser clean closes leftover browsers. A subagent that wants the browser waits until the one using it is done.
-- **[HTML Preview](html-preview/)** by JAICHANGPARK - Shows HTML files Claude writes (or /preview <file>) like a browser: terminal-browser when installed, else a built-in Chrome-rendered pane
+- **[Browser Coordination](browser-coordination/)** by Hamza Zafar - See which session owns the Playwright browser, coordinate access between agents and close leftover browsers when they are no longer needed.
+- **[HTML Preview](html-preview/)** by JAICHANGPARK - Preview HTML files inside Claude Code as you build them, using a browser-backed pane or the supported terminal browser instead of opening a separate window.
 
 [All categories](../CATEGORIES.md) · [Source packages](../sources/README.md)

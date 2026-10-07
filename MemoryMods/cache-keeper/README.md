@@ -1,6 +1,6 @@
 # Cache Keeper
 
-Keeps a big chat's prompt cache warm, warns before an expensive cold restart, shows every local chat on one board (/board), and hands a chat off to a fresh one (/handoff)
+Keep the prompt cache warm, receive warnings before a cold restart, browse local chats on one board and hand work off to a fresh conversation.
 
 **Category:** [Memory Mods](../) · **Author:** Nate Herk · **Version:** 1.0.0
 

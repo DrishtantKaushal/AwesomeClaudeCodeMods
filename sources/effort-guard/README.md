@@ -1,5 +1,7 @@
 # Effort Guard
 
+Track context and token usage, review an effort log for each turn and receive an escalation alert after repeated command or test failures. It observes activity without blocking it.
+
 Complete source snapshot by **stefanochieli**, hosted directly in this collection. Includes the original source, documentation, supporting scripts, manifests, skills where present and tracked assets.
 
 [Browse source](source/) · [Original setup and usage](source/README.md) · [License](source/LICENSE) · [File checksums and provenance](UPSTREAM.json)
@@ -8,7 +10,7 @@ Complete source snapshot by **stefanochieli**, hosted directly in this collectio
 
 | Mod | Version | Description |
 | --- | --- | --- |
-| [Effort Guard](../../SafetyMods/effort-guard/) | 0.1.1 | Claude Code mod: context/token band, escalation signals and per-turn effort log. |
+| [Effort Guard](../../UsageMods/effort-guard/) | 0.1.1 | Track context and token usage, review an effort log for each turn and receive an escalation alert after repeated command or test failures. It observes activity without blocking it. |
 
 ## Get the files
 

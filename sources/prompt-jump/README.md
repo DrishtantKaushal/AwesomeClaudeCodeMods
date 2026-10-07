@@ -1,5 +1,7 @@
 # Prompt Jump
 
+Browse earlier prompts from a timeline above the input field, preview a message on hover and jump directly to it in the conversation.
+
 Complete source snapshot by **ruanss4**, hosted directly in this collection. Includes the original source, documentation, supporting scripts, manifests, skills where present and tracked assets.
 
 [Browse source](source/) · [Original setup and usage](source/README.md) · [License](source/LICENSE) · [File checksums and provenance](UPSTREAM.json)
@@ -8,7 +10,7 @@ Complete source snapshot by **ruanss4**, hosted directly in this collection. Inc
 
 | Mod | Version | Description |
 | --- | --- | --- |
-| [Prompt Jump](../../PromptMods/prompt-jump/) | 0.1.0 | A bar above the prompt input with a tick for every prompt of the session; hover to read one, click to jump to it |
+| [Prompt Jump](../../PromptMods/prompt-jump/) | 0.1.0 | Browse earlier prompts from a timeline above the input field, preview a message on hover and jump directly to it in the conversation. |
 
 ## Get the files
 

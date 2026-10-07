@@ -1,5 +1,7 @@
 # Usage Report
 
+Monitor context usage, five-hour and weekly quotas, and session cost in the status line, with warnings as you approach your limits.
+
 Complete source snapshot by **Schweem**, hosted directly in this collection. Includes the original source, documentation, supporting scripts, manifests, skills where present and tracked assets.
 
 [Browse source](source/) · [Original setup and usage](source/README.md) · [License](source/LICENSE) · [File checksums and provenance](UPSTREAM.json)
@@ -8,7 +10,7 @@ Complete source snapshot by **Schweem**, hosted directly in this collection. Inc
 
 | Mod | Version | Description |
 | --- | --- | --- |
-| [Usage Report](../../UsageMods/usage-report/) | 0.2.0 | Shows context fill, 5-hour and weekly quota, and session cost on the status line under the prompt, with warnings near your limits. |
+| [Usage Report](../../UsageMods/usage-report/) | 0.2.0 | Monitor context usage, five-hour and weekly quotas, and session cost in the status line, with warnings as you approach your limits. |
 
 ## Get the files
 

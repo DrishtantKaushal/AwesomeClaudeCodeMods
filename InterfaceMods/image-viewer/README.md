@@ -1,6 +1,6 @@
 # Image Viewer
 
-See the images you paste into Claude Code: thumbnails above the prompt instead of bare [Image #1] tags
+See thumbnails of images you paste above the prompt, so you can identify each attachment without relying on numbered image tags.
 
 **Category:** [Interface Mods](../) · **Author:** Jarrod Watts · **Version:** 0.1.0
 

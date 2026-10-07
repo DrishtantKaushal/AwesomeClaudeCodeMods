@@ -4,7 +4,8 @@
   "name": "cc-arcade",
   "displayName": "Terminal Arcade",
   "version": "0.2.0",
-  "description": "Games above the Claude Code prompt (snake, Tetris, 2048, Minesweeper, Flappy, Pong, typing test, Space Invaders, Doom) plus a pet that grows as Claude tests, commits and edits. Clones of the genre, not affiliated with or endorsed by Tetris Holding, Taito, Atari or id Software. Needs function hooks (early access) and an interactive terminal.",
+  "description": "Play games such as Snake, Minesweeper, Pong and 2048 above the prompt, or watch a virtual pet grow as Claude tests, edits and commits code.",
+  "sourceDescription": "Games above the Claude Code prompt (snake, Tetris, 2048, Minesweeper, Flappy, Pong, typing test, Space Invaders, Doom) plus a pet that grows as Claude tests, commits and edits. Clones of the genre, not affiliated with or endorsed by Tetris Holding, Taito, Atari or id Software. Needs function hooks (early access) and an interactive terminal.",
   "author": "Seza Akg\u00fcn",
   "repository": "sezaakgun/cc-arcade",
   "modPath": ".",
@@ -12,7 +13,7 @@
     "id": "games",
     "label": "Game Mods",
     "folder": "GameMods",
-    "basis": "exact-catalogue-repository-and-mod-path"
+    "basis": "Provides games, pets or entertainment while working."
   },
   "sourceCommit": "0baff06d31295850283c2eebe052f39bbc35473f",
   "sourcePath": "sources/terminal-arcade/source",

@@ -1,6 +1,6 @@
 # Evidence Guardrails
 
-Probability-scored guardrails for Claude Code: deny rule-breaking edits and unasked-for deploys, route your own docs into each prompt, and check the final answer against the turn's own evidence.
+Score proposed actions against your rules and compare final claims with turn evidence. Calls are allowed through if the external scorer is unavailable.
 
 **Category:** [Safety Mods](../) · **Author:** Oguzhan Cakmak · **Version:** 0.1.0
 

@@ -1,6 +1,6 @@
 # Prompt Queue
 
-A prompt typed while Claude is working is held in a stack above the prompt instead of landing in the running turn, and sent once the turn ends. Reorder the stack, edit a row in place, send one first, remove one, flush the lot. Needs function hooks (early access) and an interactive terminal.
+Queue messages while Claude is working, then edit, reorder or remove them before they are sent after the current turn finishes.
 
 **Category:** [Prompt Mods](../) · **Author:** Gal Elmalah · **Version:** 0.4.3
 

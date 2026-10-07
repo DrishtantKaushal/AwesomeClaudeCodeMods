@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "henrik-thevibe/Claude-Fables:.",
+  "name": "fables",
+  "displayName": "Agent Cartoons",
+  "version": "0.1.0",
+  "description": "Watch your coding session become a series of animated cartoons above the prompt, with scenes generated from the agent\u2019s current activity.",
+  "sourceDescription": "Claude Fables: turns what the agent is doing into little animated cartoons above the prompt, written live by Sonnet or Haiku.",
+  "author": "henrik-thevibe",
+  "repository": "henrik-thevibe/Claude-Fables",
+  "modPath": ".",
+  "category": {
+    "id": "games",
+    "label": "Game Mods",
+    "folder": "GameMods",
+    "basis": "Animated storytelling is entertainment, not agent orchestration."
+  },
+  "sourceCommit": "6d0ce80575a92f8f6c8c2493c2bf20413e255622",
+  "sourcePath": "sources/agent-cartoons/source",
+  "sourceManifest": "sources/agent-cartoons/source/.claude-plugin/plugin.json",
+  "page": "GameMods/agent-cartoons/",
+  "runtimeTested": false
+}

@@ -1,6 +1,6 @@
 # Usage Report
 
-Shows context fill, 5-hour and weekly quota, and session cost on the status line under the prompt, with warnings near your limits.
+Monitor context usage, five-hour and weekly quotas, and session cost in the status line, with warnings as you approach your limits.
 
 **Category:** [Usage Mods](../) · **Author:** Schweem · **Version:** 0.2.0
 

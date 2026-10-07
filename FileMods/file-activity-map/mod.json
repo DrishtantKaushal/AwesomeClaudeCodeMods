@@ -4,7 +4,8 @@
   "name": "touch-map",
   "displayName": "File Activity Map",
   "version": "0.1.0",
-  "description": "See which files Claude has listed, read, partially read, edited, created or deleted, as a tree and an activity map in a pane.",
+  "description": "See which files Claude has listed, read, edited, created or deleted through a project tree and activity map beside the conversation.",
+  "sourceDescription": "See which files Claude has listed, read, partially read, edited, created or deleted, as a tree and an activity map in a pane.",
   "author": "y-hirakaw",
   "repository": "y-hirakaw/claude-code-mods",
   "modPath": "touch-map",
@@ -12,7 +13,7 @@
     "id": "files",
     "label": "File Mods",
     "folder": "FileMods",
-    "basis": "individual-pinned-manifest-and-source-review"
+    "basis": "Helps navigate or inspect project files."
   },
   "sourceCommit": "ac362939126aaff53b1a1d22da196e4ec5137c66",
   "sourcePath": "sources/file-activity-map/source/touch-map",

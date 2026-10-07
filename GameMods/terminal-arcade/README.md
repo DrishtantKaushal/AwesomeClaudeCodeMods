@@ -1,6 +1,6 @@
 # Terminal Arcade
 
-Games above the Claude Code prompt (snake, Tetris, 2048, Minesweeper, Flappy, Pong, typing test, Space Invaders, Doom) plus a pet that grows as Claude tests, commits and edits. Clones of the genre, not affiliated with or endorsed by Tetris Holding, Taito, Atari or id Software. Needs function hooks (early access) and an interactive terminal.
+Play games such as Snake, Minesweeper, Pong and 2048 above the prompt, or watch a virtual pet grow as Claude tests, edits and commits code.
 
 **Category:** [Game Mods](../) · **Author:** Seza Akgün · **Version:** 0.2.0
 

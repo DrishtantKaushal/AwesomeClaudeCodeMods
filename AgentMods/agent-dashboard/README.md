@@ -1,6 +1,6 @@
 # Agent Dashboard
 
-Flightdeck: a live agent dashboard for Claude Code. Main model vitals, an on-call architect, every permission check, subagent cards and swimlanes, a turn receipt and a session log, all from real session events
+Monitor the main agent and its subagents in a live dashboard that brings together model usage, permission requests, task activity and session logs.
 
 **Category:** [Agent Mods](../) · **Author:** Stephen Casella · **Version:** 0.3.2
 

@@ -4,7 +4,8 @@
   "name": "shell-highlight",
   "displayName": "Shell Highlight",
   "version": "0.2.0",
-  "description": "Draws Bash and PowerShell tool calls with syntax-highlighted commands",
+  "description": "Read Bash and PowerShell tool calls with syntax highlighting, making the commands easier to inspect before following their results.",
+  "sourceDescription": "Draws Bash and PowerShell tool calls with syntax-highlighted commands",
   "author": "Turbo-Thorschten",
   "repository": "Turbo-Thorschten/shell-highlight",
   "modPath": ".",
@@ -12,7 +13,7 @@
     "id": "interface",
     "label": "Interface Mods",
     "folder": "InterfaceMods",
-    "basis": "exact-catalogue-repository-and-mod-path"
+    "basis": "Changes conversation presentation or accessibility."
   },
   "sourceCommit": "09ef77a4f09948bcc42851d9ec690f53fe899ec1",
   "sourcePath": "sources/shell-highlight/source",

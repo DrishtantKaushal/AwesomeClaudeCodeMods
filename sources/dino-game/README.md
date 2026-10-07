@@ -1,5 +1,7 @@
 # Dino Game
 
+Play a dinosaur runner above the prompt, jumping over cacti and ducking under birds while Claude works on your request.
+
 Complete source snapshot by **giovaborgogno**, available directly in this collection. Includes all tracked source, documentation, supporting scripts, manifests and assets at revision `fe5c0b64b550242449cc8b5861771fcdac2f5993`.
 
 [Browse source](source/) · [Original setup and usage](source/README.md) · [License](source/LICENSE) · [File checksums and provenance](UPSTREAM.json)
@@ -8,7 +10,7 @@ Complete source snapshot by **giovaborgogno**, available directly in this collec
 
 | Mod | Version | Description |
 | --- | --- | --- |
-| [Dino Game](../../GameMods/dino-game/) | 0.1.1 | The T-rex from the browser's offline page, above the Claude Code prompt: jump cacti and duck birds while Claude works. Needs function hooks (early access) and an interactive terminal. |
+| [Dino Game](../../GameMods/dino-game/) | 0.1.1 | Play a dinosaur runner above the prompt, jumping over cacti and ducking under birds while Claude works on your request. |
 
 ## Get the files
 

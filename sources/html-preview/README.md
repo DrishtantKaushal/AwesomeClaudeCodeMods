@@ -1,5 +1,7 @@
 # HTML Preview
 
+Preview HTML files inside Claude Code as you build them, using a browser-backed pane or the supported terminal browser instead of opening a separate window.
+
 Complete source snapshot by **JAICHANGPARK**, hosted directly in this collection. Includes the original source, documentation, supporting scripts, manifests, skills where present and tracked assets.
 
 [Browse source](source/) · [Original setup and usage](source/README.md) · [License](source/LICENSE) · [File checksums and provenance](UPSTREAM.json)
@@ -8,7 +10,7 @@ Complete source snapshot by **JAICHANGPARK**, hosted directly in this collection
 
 | Mod | Version | Description |
 | --- | --- | --- |
-| [HTML Preview](../../WebMods/html-preview/) | 0.3.1 | Shows HTML files Claude writes (or /preview <file>) like a browser: terminal-browser when installed, else a built-in Chrome-rendered pane |
+| [HTML Preview](../../WebMods/html-preview/) | 0.3.1 | Preview HTML files inside Claude Code as you build them, using a browser-backed pane or the supported terminal browser instead of opening a separate window. |
 
 ## Get the files
 

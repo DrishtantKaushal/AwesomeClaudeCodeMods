@@ -1,6 +1,6 @@
 # Pump.fun Portfolio
 
-Your open pump.fun positions in a pane while Claude works, and a markdown trade journal that fills itself. Read-only, no keys, no trading
+View your open pump.fun positions while you work and keep an automatically updated Markdown trade journal. The integration is read-only and does not place trades.
 
 **Category:** [Integration Mods](../) · **Author:** KamiFin · **Version:** 0.1.0
 

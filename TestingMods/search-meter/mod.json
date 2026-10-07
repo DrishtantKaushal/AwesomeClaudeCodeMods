@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "arasovic/claude-code-mods:search-meter",
+  "name": "search-meter",
+  "displayName": "Search Meter",
+  "version": "0.1.0",
+  "description": "Track shell, web and tool searches with counters for immediate hits, hits following empty results and misses. The colors use output-based heuristics to help you inspect search activity.",
+  "sourceDescription": "Counts the model's searches and colors each one: green found first try, yellow found after misses, red found nothing",
+  "author": "Mehmet Aras",
+  "repository": "arasovic/claude-code-mods",
+  "modPath": "search-meter",
+  "category": {
+    "id": "testing",
+    "label": "Testing Mods",
+    "folder": "TestingMods",
+    "basis": "Diagnoses search outcomes and retries across shell, web and tool searches; it does not browse project files."
+  },
+  "sourceCommit": "1df1cad9661fd001b749c6a5a1821c2914d01469",
+  "sourcePath": "sources/session-toolkit/source/search-meter",
+  "sourceManifest": "sources/session-toolkit/source/search-meter/.claude-plugin/plugin.json",
+  "page": "TestingMods/search-meter/",
+  "runtimeTested": false
+}

@@ -1,6 +1,6 @@
 # File Activity Map
 
-See which files Claude has listed, read, partially read, edited, created or deleted, as a tree and an activity map in a pane.
+See which files Claude has listed, read, edited, created or deleted through a project tree and activity map beside the conversation.
 
 **Category:** [File Mods](../) · **Author:** y-hirakaw · **Version:** 0.1.0
 
