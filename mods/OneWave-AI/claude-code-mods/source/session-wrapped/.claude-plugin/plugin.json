@@ -1,0 +1,19 @@
+{
+  "name": "session-wrapped",
+  "version": "0.1.0",
+  "description": "Spotify Wrapped for a Claude Code session: an animated stat reveal and a shareable PNG card",
+  "types": "./types/index.d.ts",
+  "license": "MIT",
+  "author": {
+    "name": "OneWave AI",
+    "url": "https://www.onewave-ai.com"
+  },
+  "homepage": "https://github.com/OneWave-AI/claude-code-mods/tree/main/session-wrapped",
+  "repository": "https://github.com/OneWave-AI/claude-code-mods",
+  "displayName": "Session Wrapped",
+  "icon": "./.claude-plugin/icon.png",
+  "documentationUrl": "https://github.com/OneWave-AI/claude-code-mods/blob/main/session-wrapped/README.md",
+  "supportUrl": "https://www.onewave-ai.com/contact",
+  "privacyPolicyUrl": "https://www.onewave-ai.com/privacy",
+  "termsOfServiceUrl": "https://www.onewave-ai.com/terms"
+}

@@ -1,0 +1,14 @@
+{
+  "name": "spell-bar",
+  "version": "1.0.0",
+  "description": "An animated effort bar for Claude Code: Clawd casts Avada Kedavra at six ranks, one per effort level from low to ultracode, with Voldemort looming behind.",
+  "author": {
+    "name": "powerofjinbo",
+    "url": "https://github.com/powerofjinbo"
+  },
+  "homepage": "https://github.com/powerofjinbo/claude-code-spell-bar",
+  "repository": "https://github.com/powerofjinbo/claude-code-spell-bar",
+  "license": "MIT",
+  "keywords": ["mod", "effort", "status-bar", "animation", "harry-potter", "clawd"],
+  "types": "./types/index.d.ts"
+}

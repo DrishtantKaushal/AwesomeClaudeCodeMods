@@ -1,0 +1,8 @@
+# Written by Claude Code when it loads the plugin: the API declarations it is
+# typed against. /plugin-types writes them again.
+.claude-plugin/types/
+.claude/types/
+
+node_modules/
+.DS_Store
+*.log

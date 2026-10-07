@@ -1,0 +1,10 @@
+{
+  "name": "cc-dino",
+  "version": "0.1.1",
+  "description": "The T-rex from the browser's offline page, above the Claude Code prompt: jump cacti and duck birds while Claude works. Needs function hooks (early access) and an interactive terminal.",
+  "author": { "name": "Giovanni Borgogno", "url": "https://giovaborgogno.com" },
+  "homepage": "https://giovaborgogno.com",
+  "repository": "https://github.com/giovaborgogno/cc-dino",
+  "license": "MIT",
+  "keywords": ["dino", "t-rex", "game", "terminal", "tui", "function-hooks"]
+}

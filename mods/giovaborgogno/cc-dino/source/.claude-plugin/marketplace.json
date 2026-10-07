@@ -1,0 +1,15 @@
+{
+  "name": "cc-dino",
+  "owner": { "name": "Giovanni Borgogno", "url": "https://giovaborgogno.com" },
+  "metadata": { "description": "cc-dino: the offline T-rex inside Claude Code" },
+  "plugins": [
+    {
+      "name": "cc-dino",
+      "source": "./",
+      "description": "The T-rex from the browser's offline page, above the Claude Code prompt, paused when Claude finishes a turn",
+      "homepage": "https://giovaborgogno.com",
+      "repository": "https://github.com/giovaborgogno/cc-dino",
+      "license": "MIT"
+    }
+  ]
+}

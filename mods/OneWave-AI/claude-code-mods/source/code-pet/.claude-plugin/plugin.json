@@ -1,0 +1,19 @@
+{
+  "name": "code-pet",
+  "version": "0.1.0",
+  "description": "A pixel pet that lives in a pane and reacts to what Claude does: eats on tool calls, gets sick on failures, panics on rm -rf, sleeps when idle, evolves as you ship",
+  "types": "./types/index.d.ts",
+  "license": "MIT",
+  "author": {
+    "name": "OneWave AI",
+    "url": "https://www.onewave-ai.com"
+  },
+  "homepage": "https://github.com/OneWave-AI/claude-code-mods/tree/main/code-pet",
+  "repository": "https://github.com/OneWave-AI/claude-code-mods",
+  "displayName": "Code Pet",
+  "icon": "./.claude-plugin/icon.png",
+  "documentationUrl": "https://github.com/OneWave-AI/claude-code-mods/blob/main/code-pet/README.md",
+  "supportUrl": "https://www.onewave-ai.com/contact",
+  "privacyPolicyUrl": "https://www.onewave-ai.com/privacy",
+  "termsOfServiceUrl": "https://www.onewave-ai.com/terms"
+}

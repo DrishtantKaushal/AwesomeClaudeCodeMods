@@ -1,0 +1,300 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-10-07",
+  "status": "partial-import",
+  "packages": [
+    {
+      "repository": "FazalAAli/pi-agent-for-claude",
+      "commit": "0878de6d69b06324ff6515b63d5daf73de90f601",
+      "treeSha": "18a810aa82044338e0e9c4d6067640a6d5ecb8a3",
+      "fileCount": 8,
+      "sourceBytes": 35543,
+      "componentLicenses": [
+        {
+          "license": "MIT",
+          "scope": "source snapshot; no explicit nested exception found"
+        }
+      ],
+      "mods": [
+        {
+          "name": "pi-agent-for-claude",
+          "manifest_path": ".claude-plugin/plugin.json",
+          "version": "0.1.0",
+          "path": ".",
+          "author": {
+            "name": "Fazal Ali"
+          },
+          "description": "pi agent for claude: a `pi` subagent type whose model steps run the pi CLI, so pi subagents and agent-team teammates live in Claude Code's own agent UI, streamed live."
+        }
+      ]
+    },
+    {
+      "repository": "halluton/Mindful-Claude",
+      "commit": "411c9c4f4f1c3d128159be7315823341ae7d9e2d",
+      "treeSha": "7a7292c4799e56c6b32de484bc2bb25ca9fd6a5a",
+      "fileCount": 26,
+      "sourceBytes": 1541299,
+      "componentLicenses": [
+        {
+          "license": "MIT",
+          "scope": "source snapshot; no explicit nested exception found"
+        }
+      ],
+      "mods": [
+        {
+          "name": "mindful-claude",
+          "manifest_path": ".claude-plugin/plugin.json",
+          "version": "2.0.0",
+          "path": ".",
+          "author": {
+            "name": "Anthony"
+          },
+          "description": "Guided breathing exercises above the prompt while Claude works: coherent, box, 4-7-8 and the physiological sigh, four animation styles, and the spinner reads the breath. Appears when Claude starts, disappears when Claude answers. Needs function hooks (early access) and an interactive terminal."
+        }
+      ]
+    },
+    {
+      "repository": "OneWave-AI/claude-code-mods",
+      "commit": "e6da26ca36a88eec3be25605d30fa20f2c1c0cec",
+      "treeSha": "b858748088952cc43c218e672347b15fe8160915",
+      "fileCount": 136,
+      "sourceBytes": 7399042,
+      "componentLicenses": [
+        {
+          "license": "MIT",
+          "scope": "source snapshot; no explicit nested exception found"
+        }
+      ],
+      "mods": [
+        {
+          "name": "agent-narrator",
+          "manifest_path": "agent-narrator/.claude-plugin/plugin.json",
+          "version": "0.1.0",
+          "path": "agent-narrator",
+          "author": {
+            "name": "OneWave AI",
+            "url": "https://www.onewave-ai.com"
+          },
+          "description": "Watch the agent work: every step in plain English, with a live time-saved counter"
+        },
+        {
+          "name": "agent-race",
+          "manifest_path": "agent-race/.claude-plugin/plugin.json",
+          "version": "0.1.0",
+          "path": "agent-race",
+          "author": {
+            "name": "OneWave AI",
+            "url": "https://www.onewave-ai.com"
+          },
+          "description": "Race Claude Code sessions on a task: live split-screen race track scoreboard"
+        },
+        {
+          "name": "boss-fight",
+          "manifest_path": "boss-fight/.claude-plugin/plugin.json",
+          "version": "0.1.0",
+          "path": "boss-fight",
+          "author": {
+            "name": "OneWave AI",
+            "url": "https://www.onewave-ai.com"
+          },
+          "description": "Failing tests spawn a pixel boss; every run that fixes tests lands a hit, zero failures is a KO with loot"
+        },
+        {
+          "name": "burn-meter",
+          "manifest_path": "burn-meter/.claude-plugin/plugin.json",
+          "version": "0.1.0",
+          "path": "burn-meter",
+          "author": {
+            "name": "OneWave AI",
+            "url": "https://www.onewave-ai.com"
+          },
+          "description": "Live session cost odometer above the prompt: a burning fuse, real-world comparisons, threshold alerts"
+        },
+        {
+          "name": "code-pet",
+          "manifest_path": "code-pet/.claude-plugin/plugin.json",
+          "version": "0.1.0",
+          "path": "code-pet",
+          "author": {
+            "name": "OneWave AI",
+            "url": "https://www.onewave-ai.com"
+          },
+          "description": "A pixel pet that lives in a pane and reacts to what Claude does: eats on tool calls, gets sick on failures, panics on rm -rf, sleeps when idle, evolves as you ship"
+        },
+        {
+          "name": "inbox-alerts",
+          "manifest_path": "inbox-alerts/.claude-plugin/plugin.json",
+          "version": "0.1.0",
+          "path": "inbox-alerts",
+          "author": {
+            "name": "OneWave AI",
+            "url": "https://www.onewave-ai.com"
+          },
+          "description": "Gmail + Slack alerts inside Claude Code: toasts, status count, and an Alerts pane"
+        },
+        {
+          "name": "inner-monologue",
+          "manifest_path": "inner-monologue/.claude-plugin/plugin.json",
+          "version": "0.1.0",
+          "path": "inner-monologue",
+          "author": {
+            "name": "OneWave AI",
+            "url": "https://www.onewave-ai.com"
+          },
+          "description": "A pane of Claude's dry inner thoughts about your session, typed out live"
+        },
+        {
+          "name": "launch-codes",
+          "manifest_path": "launch-codes/.claude-plugin/plugin.json",
+          "version": "0.1.0",
+          "path": "launch-codes",
+          "author": {
+            "name": "OneWave AI",
+            "url": "https://www.onewave-ai.com"
+          },
+          "description": "Dangerous Bash commands need launch codes: red alert pane, siren, a code to arm and a LAUNCH to fire"
+        },
+        {
+          "name": "session-wrapped",
+          "manifest_path": "session-wrapped/.claude-plugin/plugin.json",
+          "version": "0.1.0",
+          "path": "session-wrapped",
+          "author": {
+            "name": "OneWave AI",
+            "url": "https://www.onewave-ai.com"
+          },
+          "description": "Spotify Wrapped for a Claude Code session: an animated stat reveal and a shareable PNG card"
+        },
+        {
+          "name": "sportscaster",
+          "manifest_path": "sportscaster/.claude-plugin/plugin.json",
+          "version": "0.1.0",
+          "path": "sportscaster",
+          "author": {
+            "name": "OneWave AI",
+            "url": "https://www.onewave-ai.com"
+          },
+          "description": "Live TV play-by-play of your Claude Code session, spoken aloud with crowd effects"
+        },
+        {
+          "name": "swarm",
+          "manifest_path": "swarm/.claude-plugin/plugin.json",
+          "version": "0.1.0",
+          "path": "swarm",
+          "author": {
+            "name": "OneWave AI",
+            "url": "https://www.onewave-ai.com"
+          },
+          "description": "Mission control for subagents and agent teams: who is running, what each is doing, who spawned whom, who is talking to whom, and how they overlap"
+        }
+      ]
+    },
+    {
+      "repository": "henrik-thevibe/Claude-Fables",
+      "commit": "6d0ce80575a92f8f6c8c2493c2bf20413e255622",
+      "treeSha": "478ade0ab8f37491d5b5617bf179d1f85cea15f7",
+      "fileCount": 59,
+      "sourceBytes": 8237145,
+      "componentLicenses": [
+        {
+          "license": "MIT",
+          "scope": "root source; credited ChetasLua/Henrik model and gallery styles"
+        },
+        {
+          "license": "OFL-1.1",
+          "scope": "Monocraft regular/bold subsets embedded in hooks/monocraft.ts"
+        }
+      ],
+      "mods": [
+        {
+          "name": "fables",
+          "manifest_path": ".claude-plugin/plugin.json",
+          "version": "0.1.0",
+          "path": ".",
+          "author": {
+            "name": "henrik-thevibe"
+          },
+          "description": "Claude Fables: turns what the agent is doing into little animated cartoons above the prompt, written live by Sonnet or Haiku."
+        }
+      ]
+    },
+    {
+      "repository": "giovaborgogno/cc-dino",
+      "commit": "fe5c0b64b550242449cc8b5861771fcdac2f5993",
+      "treeSha": "35c76fd281f529e85d2c5e92e60a9d45631c6f8a",
+      "fileCount": 20,
+      "sourceBytes": 1849394,
+      "componentLicenses": [
+        {
+          "license": "MIT",
+          "scope": "source snapshot; no explicit nested exception found"
+        }
+      ],
+      "mods": [
+        {
+          "name": "cc-dino",
+          "manifest_path": ".claude-plugin/plugin.json",
+          "version": "0.1.1",
+          "path": ".",
+          "author": {
+            "name": "Giovanni Borgogno",
+            "url": "https://giovaborgogno.com"
+          },
+          "description": "The T-rex from the browser's offline page, above the Claude Code prompt: jump cacti and duck birds while Claude works. Needs function hooks (early access) and an interactive terminal."
+        }
+      ]
+    },
+    {
+      "repository": "powerofjinbo/claude-code-spell-bar",
+      "commit": "1b0494cadcd4e98542147b321250d55d38696553",
+      "treeSha": "647dc8aa9b97ecc3ab56a1c840b73b1b67626e65",
+      "fileCount": 22,
+      "sourceBytes": 6921845,
+      "componentLicenses": [
+        {
+          "license": "MIT",
+          "scope": "source snapshot; no explicit nested exception found"
+        }
+      ],
+      "mods": [
+        {
+          "name": "spell-bar",
+          "manifest_path": "plugins/spell-bar/.claude-plugin/plugin.json",
+          "version": "1.0.0",
+          "path": "plugins/spell-bar",
+          "author": {
+            "name": "powerofjinbo",
+            "url": "https://github.com/powerofjinbo"
+          },
+          "description": "An animated effort bar for Claude Code: Clawd casts Avada Kedavra at six ranks, one per effort level from low to ultracode, with Voldemort looming behind."
+        }
+      ]
+    },
+    {
+      "repository": "scasella/claude-flightdeck",
+      "commit": "f31daca523d36c501cd0df23a737a44c7dc56ad6",
+      "treeSha": "9bf6c96d68e94bd20fd08f4c29f93d1138c55f05",
+      "fileCount": 21,
+      "sourceBytes": 3609663,
+      "componentLicenses": [
+        {
+          "license": "MIT",
+          "scope": "source snapshot; no explicit nested exception found"
+        }
+      ],
+      "mods": [
+        {
+          "name": "flightdeck",
+          "manifest_path": ".claude-plugin/plugin.json",
+          "version": "0.3.2",
+          "path": ".",
+          "author": {
+            "name": "Stephen Casella",
+            "url": "https://github.com/scasella"
+          },
+          "description": "Flightdeck: a live agent dashboard for Claude Code. Main model vitals, an on-call architect, every permission check, subagent cards and swimlanes, a turn receipt and a session log, all from real session events"
+        }
+      ]
+    }
+  ]
+}

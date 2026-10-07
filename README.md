@@ -3,7 +3,7 @@
 <p align="center"><a href="https://findmods.dev"><img src="assets/banner-v3.gif" width="100%" alt="Awesome Claude Code Mods, powered by FindMods.dev. Animated clouds behind fixed branding."></a></p>
 
 <p align="center"><strong>Browse the latest mods. Discover your next upgrade.</strong></p>
-<p align="center">A community collection of <strong>Claude Code mods, plugins and extensions</strong>. Find terminal dashboards, agent tools, workflow improvements and games, with visual demos and links to the original repositories.</p>
+<p align="center">A community collection of <strong>Claude Code mods, plugins and extensions</strong>. Find terminal dashboards, agent tools, workflow improvements and games, with visual demos, locally hosted source packages and original author credits.</p>
 <p align="center"><a href="#showcase">See the showcase</a> · <a href="#browse-by-category">Browse categories</a> · <a href="#faq">FAQ</a> · <a href="#contribute">Contribute a mod</a> · <a href="https://findmods.dev">FindMods.dev ↗</a></p>
 <p align="center"><sub>Independent community collection. Not affiliated with, sponsored by, or endorsed by Anthropic or Claude.</sub></p>
 
@@ -12,9 +12,9 @@
 ## Mod showcase
 
 <table>
-<tr><td width="33%" align="center" valign="top"><p><a href="https://github.com/therahul-yo/clawdman"><img src="assets/showcase-01.gif" width="100%" alt="Clawdman: An animated companion that reacts to your coding session. Demo · 10×."></a></p><p><strong><a href="https://github.com/therahul-yo/clawdman">Clawdman</a></strong></p></td><td width="33%" align="center" valign="top"><p><a href="https://github.com/FazalAAli/pi-agent-for-claude"><img src="assets/showcase-02.gif" width="100%" alt="pi agent for Claude: Run pi-powered models as native Claude Code subagents. Demo · 10×."></a></p><p><strong><a href="https://github.com/FazalAAli/pi-agent-for-claude">pi agent for Claude</a></strong></p></td><td width="33%" align="center" valign="top"><p><a href="https://github.com/halluton/Mindful-Claude"><img src="assets/showcase-03.gif" width="100%" alt="Mindful Claude: A guided breathing animation while Claude works."></a></p><p><strong><a href="https://github.com/halluton/Mindful-Claude">Mindful Claude</a></strong></p></td></tr>
-<tr><td width="33%" align="center" valign="top"><p><a href="https://github.com/OneWave-AI/claude-code-mods"><img src="assets/showcase-04.png" width="100%" alt="Claude Code Mods: A collection of live panels, session tools and playful mods. Code Pet screenshot."></a></p><p><strong><a href="https://github.com/OneWave-AI/claude-code-mods">Claude Code Mods</a></strong></p></td><td width="33%" align="center" valign="top"><p><a href="https://github.com/henrik-thevibe/Claude-Fables"><img src="assets/showcase-05.gif" width="100%" alt="Claude Fables: Coding activity becomes a cartoon in a choice of visual styles."></a></p><p><strong><a href="https://github.com/henrik-thevibe/Claude-Fables">Claude Fables</a></strong></p></td><td width="33%" align="center" valign="top"><p><a href="https://github.com/adamholter/claude-subway-surfers"><img src="assets/showcase-06.gif" width="100%" alt="Claude Subway Surfers: Gameplay beside Claude Desktop while it works. Desktop demo · 10×."></a></p><p><strong><a href="https://github.com/adamholter/claude-subway-surfers">Claude Subway Surfers</a></strong></p></td></tr>
-<tr><td width="33%" align="center" valign="top"><p><a href="https://github.com/giovaborgogno/cc-dino"><img src="assets/showcase-07.gif" width="100%" alt="cc-dino: Play the T-rex runner above your prompt."></a></p><p><strong><a href="https://github.com/giovaborgogno/cc-dino">cc-dino</a></strong></p></td><td width="33%" align="center" valign="top"><p><a href="https://github.com/powerofjinbo/claude-code-spell-bar"><img src="assets/showcase-08.gif" width="100%" alt="Claude Code Spell Bar: An animated spell bar for your selected effort level."></a></p><p><strong><a href="https://github.com/powerofjinbo/claude-code-spell-bar">Claude Code Spell Bar</a></strong></p></td><td width="33%" align="center" valign="top"><p><a href="https://github.com/scasella/claude-flightdeck"><img src="assets/showcase-09.gif" width="100%" alt="Claude Flightdeck: A live dashboard for context, costs, permissions and agents."></a></p><p><strong><a href="https://github.com/scasella/claude-flightdeck">Claude Flightdeck</a></strong></p></td></tr>
+<tr><td width="33%" align="center" valign="top"><p><a href="https://github.com/therahul-yo/clawdman"><img src="assets/showcase-01.gif" width="100%" alt="Clawdman: An animated companion that reacts to your coding session. Demo · 10×."></a></p><p><strong><a href="https://github.com/therahul-yo/clawdman">Clawdman</a></strong></p></td><td width="33%" align="center" valign="top"><p><a href="mods/FazalAAli/pi-agent-for-claude/"><img src="assets/showcase-02.gif" width="100%" alt="pi agent for Claude: Run pi-powered models as native Claude Code subagents. Demo · 10×."></a></p><p><strong><a href="mods/FazalAAli/pi-agent-for-claude/">pi agent for Claude</a></strong></p></td><td width="33%" align="center" valign="top"><p><a href="mods/halluton/Mindful-Claude/"><img src="assets/showcase-03.gif" width="100%" alt="Mindful Claude: A guided breathing animation while Claude works."></a></p><p><strong><a href="mods/halluton/Mindful-Claude/">Mindful Claude</a></strong></p></td></tr>
+<tr><td width="33%" align="center" valign="top"><p><a href="mods/OneWave-AI/claude-code-mods/"><img src="assets/showcase-04.png" width="100%" alt="Claude Code Mods: A collection of live panels, session tools and playful mods. Code Pet screenshot."></a></p><p><strong><a href="mods/OneWave-AI/claude-code-mods/">Claude Code Mods</a></strong></p></td><td width="33%" align="center" valign="top"><p><a href="mods/henrik-thevibe/Claude-Fables/"><img src="assets/showcase-05.gif" width="100%" alt="Claude Fables: Coding activity becomes a cartoon in a choice of visual styles."></a></p><p><strong><a href="mods/henrik-thevibe/Claude-Fables/">Claude Fables</a></strong></p></td><td width="33%" align="center" valign="top"><p><a href="https://github.com/adamholter/claude-subway-surfers"><img src="assets/showcase-06.gif" width="100%" alt="Claude Subway Surfers: Gameplay beside Claude Desktop while it works. Desktop demo · 10×."></a></p><p><strong><a href="https://github.com/adamholter/claude-subway-surfers">Claude Subway Surfers</a></strong></p></td></tr>
+<tr><td width="33%" align="center" valign="top"><p><a href="mods/giovaborgogno/cc-dino/"><img src="assets/showcase-07.gif" width="100%" alt="cc-dino: Play the T-rex runner above your prompt."></a></p><p><strong><a href="mods/giovaborgogno/cc-dino/">cc-dino</a></strong></p></td><td width="33%" align="center" valign="top"><p><a href="mods/powerofjinbo/claude-code-spell-bar/"><img src="assets/showcase-08.gif" width="100%" alt="Claude Code Spell Bar: An animated spell bar for your selected effort level."></a></p><p><strong><a href="mods/powerofjinbo/claude-code-spell-bar/">Claude Code Spell Bar</a></strong></p></td><td width="33%" align="center" valign="top"><p><a href="mods/scasella/claude-flightdeck/"><img src="assets/showcase-09.gif" width="100%" alt="Claude Flightdeck: A live dashboard for context, costs, permissions and agents."></a></p><p><strong><a href="mods/scasella/claude-flightdeck/">Claude Flightdeck</a></strong></p></td></tr>
 </table>
 
 <a id="browse-by-category"></a>
@@ -22,6 +22,8 @@
 <h2>Browse by category <img src="assets/category-magnifier.gif" width="52" height="40" alt="Clawd with a magnifying glass"></h2>
 
 [Usage & costs](#usage) · [Agents & orchestration](#agents) · [Planning & tasks](#planning) · [Files & navigation](#files) · [Git & code review](#git) · [Safety & permissions](#safety) · [Memory & context](#memory) · [Interface & themes](#interface) · [Prompts & input](#prompts) · [Testing & debugging](#testing) · [Browser & web](#web) · [Notifications & focus](#focus) · [Games & entertainment](#games) · [Integrations & utilities](#integrations)
+
+[**Source packages available here**](mods/README.md): 17 mods from seven repositories, with their complete tracked files and notices. Local package links open inside this collection. Other entries currently lead to upstream references while the wider source import is reviewed.
 
 <a id="usage"></a>
 
@@ -124,13 +126,13 @@ Coordinate subagents, compare models and follow agent activity.
 - **[darkautism/ext-agent](https://github.com/darkautism/ext-agent)** - Run Claude Code subagents in pi or opencode instead of a Claude model.
 - **[dipthong7119/TTCS_K8S4_N5](https://github.com/dipthong7119/TTCS_K8S4_N5)** - AGENTS.md as project instructions, by one option.
 - **[estruyf/claude-agent-watch-mod](https://github.com/estruyf/claude-agent-watch-mod)** - Keeps the number of running Claude Code sessions under a limit and shows the ones waiting on you or sitting idle
-- **[FazalAAli/pi-agent-for-claude](https://github.com/FazalAAli/pi-agent-for-claude)** - Run pi-powered models as native Claude Code subagents.
+- **[FazalAAli/pi-agent-for-claude](mods/FazalAAli/pi-agent-for-claude/)** - Run pi-powered models as native Claude Code subagents.
 - **[float-ritual-stack/pi-herdr-outliner](https://github.com/float-ritual-stack/pi-herdr-outliner)** - Pi Outliner integration for Claude Code, following the outline the session folder is bound to: typed outline, workboard and door tools for agents…
 - **[franciscocarloserra/claude-code-multiharness-delegation](https://github.com/franciscocarloserra/claude-code-multiharness-delegation)** - Route Agent calls with subagent_type multiharness-delegation:&lt;harness&gt; to an interactive external harness in tmux
 - **[GastonGelhorn/jevmate](https://github.com/GastonGelhorn/jevmate)** - A fast decision layer for coding agents.
 - **[getexcited/stepwarden](https://github.com/getexcited/stepwarden)** - Every tool call your agent makes, checked before it runs.
 - **[HaoYan-A/claude-code-mods](https://github.com/HaoYan-A/claude-code-mods)** - Run each subagent on any model (gpt-6, grok-4.7, ...) at any reasoning effort, through model and effort parameters on the Agent tool
-- **[henrik-thevibe/Claude-Fables](https://github.com/henrik-thevibe/Claude-Fables)** - Coding activity becomes a cartoon in a choice of visual styles.
+- **[henrik-thevibe/Claude-Fables](mods/henrik-thevibe/Claude-Fables/)** - Coding activity becomes a cartoon in a choice of visual styles.
 - **[HoshimuraYuto/cc-sidecar](https://github.com/HoshimuraYuto/cc-sidecar)** - See what codex, claude and gemini do when Claude Code delegates to them from Bash
 - **[itsArnavPrasad/pixel-office](https://github.com/itsArnavPrasad/pixel-office)** - Every Claude Code session as a pixel character in a shared office you can click and talk to
 - **[jimador/brigade](https://github.com/jimador/brigade)** - Coordinate a fleet of cheap parallel coding agents from any ticket source (Notion, ClickUp, Obsidian vault boards, or a local folder of markdown…
@@ -147,7 +149,7 @@ Coordinate subagents, compare models and follow agent activity.
 - **[rse/ase](https://github.com/rse/ase)** - Agentic Software Engineering (ASE)
 - **[ruvnet/ruflo](https://github.com/ruvnet/ruflo)** - Mods including ruflo-ruos, ruflo-swarm.
 - **[sayre4ux/autopilot](https://github.com/sayre4ux/autopilot)** - Multi-agent orchestrator harness for Claude Code: command loop, ledger, dispatch protocol, review cycle, model-economics, and a registry-driven…
-- **[scasella/claude-flightdeck](https://github.com/scasella/claude-flightdeck)** - A live dashboard for context, costs, permissions and agents.
+- **[scasella/claude-flightdeck](mods/scasella/claude-flightdeck/)** - A live dashboard for context, costs, permissions and agents.
 - **[Tolsee/dotfiles](https://github.com/Tolsee/dotfiles)** - Corrects the model tier of every subagent spawn (agent.spawn) with a live Jev judgment (haiku / sonnet / opus), instead of relying on /delegate's…
 - **[ushironoko/dotfiles](https://github.com/ushironoko/dotfiles)** - Mods including agents-view, file-view, pr-view.
 - **[wickedhardflip/claude-code-mods](https://github.com/wickedhardflip/claude-code-mods)** - Mods including first-mod, run-breakdown, session-recap, subagent-models.
@@ -540,7 +542,7 @@ Get notifications, manage attention and use waiting time well.
 - **[dukechain2333/red-alert](https://github.com/dukechain2333/red-alert)** - Audible alerts for Claude Code: Claude sounds normal/yellow/red alerts on your server's speakers, with an LCARS status band and alert animations
 - **[fixter-dev/session-pings](https://github.com/fixter-dev/session-pings)** - Mac notifications titled with the session name, saying what Claude needs from you: done, a question, or a permission.
 - **[gnehiur/claude-code-volc-tts](https://github.com/gnehiur/claude-code-volc-tts)** - 在每段回复下加一个🔊按钮，用火山引擎豆包语音（知性女声 2.0）流式朗读，可暂停、继续、从头念、倍速
-- **[halluton/Mindful-Claude](https://github.com/halluton/Mindful-Claude)** - A guided breathing animation while Claude works.
+- **[halluton/Mindful-Claude](mods/halluton/Mindful-Claude/)** - A guided breathing animation while Claude works.
 - **[sneycampos/claude-pomodoro](https://github.com/sneycampos/claude-pomodoro)** - Button-first Pomodoro timer above the Claude Code prompt: one-click focus blocks, a live countdown band, break reminders and a config pane
 
 <a id="games"></a>
@@ -552,7 +554,7 @@ Explore terminal games, animated companions and playful side panels.
 - **[851-labs/subway-surfers-claude-code-mod](https://github.com/851-labs/subway-surfers-claude-code-mod)** - Plays Subway Surfers gameplay in a pane while Claude works
 - **[adamholter/claude-subway-surfers](https://github.com/adamholter/claude-subway-surfers)** - Gameplay beside Claude Desktop while it works.
 - **[ChaseWNorton/claude-doom](https://github.com/ChaseWNorton/claude-doom)** - The original Doom engine, with Freedoom Phase 1, playable inside Claude Code.
-- **[giovaborgogno/cc-dino](https://github.com/giovaborgogno/cc-dino)** - Play the T-rex runner above your prompt.
+- **[giovaborgogno/cc-dino](mods/giovaborgogno/cc-dino/)** - Play the T-rex runner above your prompt.
 - **[hathcox/claudomon](https://github.com/hathcox/claudomon)** - A pixel pet that lives on your Claude Code screen, hatched from your project and reacting to everything Claude does
 - **[Interesting-Systems/under-management-claude](https://github.com/Interesting-Systems/under-management-claude)** - Play Under Management while Claude works on a long turn.
 - **[isr431/desk-pet](https://github.com/isr431/desk-pet)** - A small animated pet above the prompt that reacts to what Claude is doing
@@ -563,8 +565,8 @@ Explore terminal games, animated companions and playful side panels.
 - **[manfye/cc-dino](https://github.com/manfye/cc-dino)** - The Chrome offline dinosaur, above the Claude Code prompt.
 - **[mthli/cc-shorts](https://github.com/mthli/cc-shorts)** - Play YouTube Shorts in your Claude Code
 - **[mukiwu/muki-ai-plugins](https://github.com/mukiwu/muki-ai-plugins)** - A virtual pet that lives above your Claude Code prompt and grows from the work Claude does: it evolves by what Claude does most, gets sick from tool…
-- **[OneWave-AI/claude-code-mods](https://github.com/OneWave-AI/claude-code-mods)** - A collection of live panels, session tools and playful mods.
-- **[powerofjinbo/claude-code-spell-bar](https://github.com/powerofjinbo/claude-code-spell-bar)** - An animated spell bar for your selected effort level.
+- **[OneWave-AI/claude-code-mods](mods/OneWave-AI/claude-code-mods/)** - A collection of live panels, session tools and playful mods.
+- **[powerofjinbo/claude-code-spell-bar](mods/powerofjinbo/claude-code-spell-bar/)** - An animated spell bar for your selected effort level.
 - **[refact0r/claude-surf](https://github.com/refact0r/claude-surf)** - Play Subway Surfers (or watch any video) in a pane, rendered as glyphs with a foreground and a background color
 - **[Revono/clawd-pet](https://github.com/Revono/clawd-pet)** - Clawd lives above your prompt and reacts to what Claude Code is doing
 - **[seanmars/my-agent-plugins](https://github.com/seanmars/my-agent-plugins)** - A small ASCII pet that lives in the band above the prompt, fed by /pet
@@ -592,7 +594,7 @@ Connect external tools and add utilities to your development workflow.
 
 ## Before you install
 
-Open the mod’s repository for its current setup steps, supported Claude Code version and license. Some mods require additional tools or early-access features. Installation commands belong to the mod author; this collection does not install or run them for you.
+Open a [local source package](mods/README.md) for its preserved setup instructions, source files, license and pinned revision. Check its supported Claude Code version and prerequisites before use. Source files are verified against upstream, but runtime compatibility has not been tested by FindMods. Entries still under review link to the original repository.
 
 <a id="faq"></a>
 
@@ -600,11 +602,11 @@ Open the mod’s repository for its current setup steps, supported Claude Code v
 
 ### What are Claude Code mods?
 
-Claude Code mods are community-built customizations for your coding environment, such as live dashboards, agent workflows, prompt tools and games. This collection links to their original repositories so you can compare what they do and read the author's instructions.
+Claude Code mods are community-built customizations for your coding environment, such as live dashboards, agent workflows, prompt tools and games. This collection hosts verified source snapshots with the authors' instructions and notices, alongside external references still awaiting source review or with unresolved redistribution terms.
 
 ### How do I install a Claude Code mod?
 
-Open the repository linked under its preview or category entry. Follow that project's current installation steps and check the supported Claude Code version. Some use plugins or function hooks; others require separate tools or a desktop-specific setup.
+Open the package linked under its preview or category entry. For a hosted package, clone this collection and use its included mod directory with the author's documented local setup. The original README and its upstream marketplace commands are preserved unchanged. Some mods require extra tools, credentials or a desktop-specific setup; cloning the collection does not install or enable them automatically.
 
 ### How do I find a mod for my workflow?
 

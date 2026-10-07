@@ -1,0 +1,21 @@
+{
+  "name": "claude-code-spell-bar",
+  "description": "Claude Code mods by powerofjinbo.",
+  "owner": {
+    "name": "powerofjinbo",
+    "url": "https://github.com/powerofjinbo"
+  },
+  "plugins": [
+    {
+      "name": "spell-bar",
+      "source": "./plugins/spell-bar",
+      "description": "An animated effort bar: Clawd casts Avada Kedavra at six ranks, one per effort level from low to ultracode.",
+      "version": "1.0.0",
+      "author": {
+        "name": "powerofjinbo"
+      },
+      "license": "MIT",
+      "tags": ["mod", "effort", "animation", "harry-potter"]
+    }
+  ]
+}

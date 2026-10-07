@@ -1,0 +1,19 @@
+{
+  "name": "launch-codes",
+  "version": "0.1.0",
+  "description": "Dangerous Bash commands need launch codes: red alert pane, siren, a code to arm and a LAUNCH to fire",
+  "types": "./types/index.d.ts",
+  "license": "MIT",
+  "author": {
+    "name": "OneWave AI",
+    "url": "https://www.onewave-ai.com"
+  },
+  "homepage": "https://github.com/OneWave-AI/claude-code-mods/tree/main/launch-codes",
+  "repository": "https://github.com/OneWave-AI/claude-code-mods",
+  "displayName": "Launch Codes",
+  "icon": "./.claude-plugin/icon.png",
+  "documentationUrl": "https://github.com/OneWave-AI/claude-code-mods/blob/main/launch-codes/README.md",
+  "supportUrl": "https://www.onewave-ai.com/contact",
+  "privacyPolicyUrl": "https://www.onewave-ai.com/privacy",
+  "termsOfServiceUrl": "https://www.onewave-ai.com/terms"
+}

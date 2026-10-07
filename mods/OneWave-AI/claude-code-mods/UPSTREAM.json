@@ -1,0 +1,1103 @@
+{
+  "schemaVersion": 1,
+  "repository": "OneWave-AI/claude-code-mods",
+  "upstream": "https://github.com/OneWave-AI/claude-code-mods",
+  "commit": "e6da26ca36a88eec3be25605d30fa20f2c1c0cec",
+  "treeSha": "b858748088952cc43c218e672347b15fe8160915",
+  "importedAt": "2026-10-07",
+  "scope": "Complete tracked source tree at the pinned commit, unmodified.",
+  "verification": "Every file and executable mode matches the upstream Git tree. The reconstructed tree hash matches the pinned commit.",
+  "runtimeTested": false,
+  "componentLicenses": [
+    {
+      "license": "MIT",
+      "scope": "source snapshot; no explicit nested exception found"
+    }
+  ],
+  "licenseFiles": [
+    {
+      "path": "LICENSE",
+      "sha256": "24ce5b9be7641fd76e3b42ee6bc51b6eb304a94dba7cb8c65da0c330c2f5a08b"
+    }
+  ],
+  "mods": [
+    {
+      "name": "agent-narrator",
+      "manifest_path": "agent-narrator/.claude-plugin/plugin.json",
+      "version": "0.1.0",
+      "path": "agent-narrator",
+      "author": {
+        "name": "OneWave AI",
+        "url": "https://www.onewave-ai.com"
+      },
+      "description": "Watch the agent work: every step in plain English, with a live time-saved counter"
+    },
+    {
+      "name": "agent-race",
+      "manifest_path": "agent-race/.claude-plugin/plugin.json",
+      "version": "0.1.0",
+      "path": "agent-race",
+      "author": {
+        "name": "OneWave AI",
+        "url": "https://www.onewave-ai.com"
+      },
+      "description": "Race Claude Code sessions on a task: live split-screen race track scoreboard"
+    },
+    {
+      "name": "boss-fight",
+      "manifest_path": "boss-fight/.claude-plugin/plugin.json",
+      "version": "0.1.0",
+      "path": "boss-fight",
+      "author": {
+        "name": "OneWave AI",
+        "url": "https://www.onewave-ai.com"
+      },
+      "description": "Failing tests spawn a pixel boss; every run that fixes tests lands a hit, zero failures is a KO with loot"
+    },
+    {
+      "name": "burn-meter",
+      "manifest_path": "burn-meter/.claude-plugin/plugin.json",
+      "version": "0.1.0",
+      "path": "burn-meter",
+      "author": {
+        "name": "OneWave AI",
+        "url": "https://www.onewave-ai.com"
+      },
+      "description": "Live session cost odometer above the prompt: a burning fuse, real-world comparisons, threshold alerts"
+    },
+    {
+      "name": "code-pet",
+      "manifest_path": "code-pet/.claude-plugin/plugin.json",
+      "version": "0.1.0",
+      "path": "code-pet",
+      "author": {
+        "name": "OneWave AI",
+        "url": "https://www.onewave-ai.com"
+      },
+      "description": "A pixel pet that lives in a pane and reacts to what Claude does: eats on tool calls, gets sick on failures, panics on rm -rf, sleeps when idle, evolves as you ship"
+    },
+    {
+      "name": "inbox-alerts",
+      "manifest_path": "inbox-alerts/.claude-plugin/plugin.json",
+      "version": "0.1.0",
+      "path": "inbox-alerts",
+      "author": {
+        "name": "OneWave AI",
+        "url": "https://www.onewave-ai.com"
+      },
+      "description": "Gmail + Slack alerts inside Claude Code: toasts, status count, and an Alerts pane"
+    },
+    {
+      "name": "inner-monologue",
+      "manifest_path": "inner-monologue/.claude-plugin/plugin.json",
+      "version": "0.1.0",
+      "path": "inner-monologue",
+      "author": {
+        "name": "OneWave AI",
+        "url": "https://www.onewave-ai.com"
+      },
+      "description": "A pane of Claude's dry inner thoughts about your session, typed out live"
+    },
+    {
+      "name": "launch-codes",
+      "manifest_path": "launch-codes/.claude-plugin/plugin.json",
+      "version": "0.1.0",
+      "path": "launch-codes",
+      "author": {
+        "name": "OneWave AI",
+        "url": "https://www.onewave-ai.com"
+      },
+      "description": "Dangerous Bash commands need launch codes: red alert pane, siren, a code to arm and a LAUNCH to fire"
+    },
+    {
+      "name": "session-wrapped",
+      "manifest_path": "session-wrapped/.claude-plugin/plugin.json",
+      "version": "0.1.0",
+      "path": "session-wrapped",
+      "author": {
+        "name": "OneWave AI",
+        "url": "https://www.onewave-ai.com"
+      },
+      "description": "Spotify Wrapped for a Claude Code session: an animated stat reveal and a shareable PNG card"
+    },
+    {
+      "name": "sportscaster",
+      "manifest_path": "sportscaster/.claude-plugin/plugin.json",
+      "version": "0.1.0",
+      "path": "sportscaster",
+      "author": {
+        "name": "OneWave AI",
+        "url": "https://www.onewave-ai.com"
+      },
+      "description": "Live TV play-by-play of your Claude Code session, spoken aloud with crowd effects"
+    },
+    {
+      "name": "swarm",
+      "manifest_path": "swarm/.claude-plugin/plugin.json",
+      "version": "0.1.0",
+      "path": "swarm",
+      "author": {
+        "name": "OneWave AI",
+        "url": "https://www.onewave-ai.com"
+      },
+      "description": "Mission control for subagents and agent teams: who is running, what each is doing, who spawned whom, who is talking to whom, and how they overlap"
+    }
+  ],
+  "fileCount": 136,
+  "sourceBytes": 7399042,
+  "files": [
+    {
+      "path": ".claude-plugin/marketplace.json",
+      "gitBlobSha1": "78cb5f842740a408853d91d06c1fb9acfd6164c3",
+      "sha256": "f020ca1b59974ded6b7e55a4dfd05c59aed5b8e8e171b7deb69f59541efbbe8d",
+      "bytes": 2422,
+      "mode": "100644"
+    },
+    {
+      "path": ".gitignore",
+      "gitBlobSha1": "d09beb1442078d311fc98230d2cedb0a60d88b7a",
+      "sha256": "6a57afb46efb53e093cc89e332deacd3fd4f1e92e806284c8b08dc13ecce1804",
+      "bytes": 71,
+      "mode": "100644"
+    },
+    {
+      "path": "LICENSE",
+      "gitBlobSha1": "2c7b954708cb60e913c973a3ca9fb862c1fe28b5",
+      "sha256": "24ce5b9be7641fd76e3b42ee6bc51b6eb304a94dba7cb8c65da0c330c2f5a08b",
+      "bytes": 1086,
+      "mode": "100644"
+    },
+    {
+      "path": "README.md",
+      "gitBlobSha1": "164e947a8105ffdc85c0784c37017d5edeef1659",
+      "sha256": "2044aacae5a1e1e31fad48be1c08133581d74009bb7dcfc2bb8650d7376ce648",
+      "bytes": 12412,
+      "mode": "100644"
+    },
+    {
+      "path": "SECURITY.md",
+      "gitBlobSha1": "c0e3cebd0cf7c7ca25571f8119ad2563b905f423",
+      "sha256": "b206504f7e11bd4918db2f25de365c37180c33f292bfb211939bdbc9bc2c3eda",
+      "bytes": 978,
+      "mode": "100644"
+    },
+    {
+      "path": "agent-narrator/.claude-plugin/icon.png",
+      "gitBlobSha1": "6b213101e1103208f3454a664176ff5eb257b5a5",
+      "sha256": "6754f91a09ecd99d620db29f55852d51b24921a28770691cd4f87c13907ef837",
+      "bytes": 274147,
+      "mode": "100644"
+    },
+    {
+      "path": "agent-narrator/.claude-plugin/plugin.json",
+      "gitBlobSha1": "78f8265b89ec9d4730ba31b538f63dcb232e7408",
+      "sha256": "fd33c5386eb713bf49926a3e7644e6cea94855e4b54bc30435927ab8ccd77e5b",
+      "bytes": 802,
+      "mode": "100644"
+    },
+    {
+      "path": "agent-narrator/README.md",
+      "gitBlobSha1": "f3d14a0981ac881874f36beac29d2bdf5fa9aa7e",
+      "sha256": "3e0e011dfd8c8551cdcc584954e7489b917e705ee493707ec1834dc8e705f571",
+      "bytes": 1380,
+      "mode": "100644"
+    },
+    {
+      "path": "agent-narrator/hooks/hooks.json",
+      "gitBlobSha1": "5a63f649593a5d89af8775a8e3d12db0f0940b12",
+      "sha256": "d842d789476d67282d0f04b7e5fdc68a3d981ccec65dd79cfa2d11eed13fb828",
+      "bytes": 34,
+      "mode": "100644"
+    },
+    {
+      "path": "agent-narrator/hooks/narrate.ts",
+      "gitBlobSha1": "71a82afb47d40227ccd31c424424dc038093a47e",
+      "sha256": "397892ecc9b7d6dd8153f118916bb4a49dace33f35c79d986ee7872edb8e36f9",
+      "bytes": 8285,
+      "mode": "100644"
+    },
+    {
+      "path": "agent-narrator/hooks/register.tsx",
+      "gitBlobSha1": "b912e308854afd30248b4ce985b24390981481c0",
+      "sha256": "8142763b3483204f057e9ff8b516af3507cdde93f1f775dc8f1a4ff6f1638390",
+      "bytes": 9075,
+      "mode": "100644"
+    },
+    {
+      "path": "agent-narrator/tests/narrate.test.ts",
+      "gitBlobSha1": "fa2b3d2a4fda82fe762bcf21de80e9de91603171",
+      "sha256": "5d457eeb489a999a3b2ae78382af769399807ed9105f81c354e858714e14029c",
+      "bytes": 2749,
+      "mode": "100644"
+    },
+    {
+      "path": "agent-narrator/tests/pane.test.tsx",
+      "gitBlobSha1": "fac025b512b82be7a37ab1e400e64f1050b89267",
+      "sha256": "5ccc50a50a0d4f73c35f314e70062b6d1d88dc5c8c5364c770ca87f77892b25d",
+      "bytes": 1372,
+      "mode": "100644"
+    },
+    {
+      "path": "agent-narrator/tsconfig.json",
+      "gitBlobSha1": "170d2b655a947bd24e8fef5ae8a3937d9e15947e",
+      "sha256": "88437ec880f7008b5df208a95a7d47330f0e3a8204d78d6c5cc272e5941c3511",
+      "bytes": 54,
+      "mode": "100644"
+    },
+    {
+      "path": "agent-narrator/types/index.d.ts",
+      "gitBlobSha1": "cc5a5a786f2365f84b3174e31529eac14acf9f01",
+      "sha256": "5aa1031e921d50ec7073fef8747780242092e53017fcd23431c50625f1ea2c93",
+      "bytes": 427,
+      "mode": "100644"
+    },
+    {
+      "path": "agent-race/.claude-plugin/icon.png",
+      "gitBlobSha1": "a097dbd5f008536c0d20c872f8c9374c3094fe77",
+      "sha256": "fd1953c387847c9fd196b532acd0ae4c950717dc483878ce5c958e8aaef5add8",
+      "bytes": 297402,
+      "mode": "100644"
+    },
+    {
+      "path": "agent-race/.claude-plugin/plugin.json",
+      "gitBlobSha1": "0740bd1b87e3b244867c5bac08ac9ecb0e2a2fe4",
+      "sha256": "6ad6f8fe5da87c0dcb6fd8b58508a441d4353d4fcbcfa2b7a119d3530922db73",
+      "bytes": 781,
+      "mode": "100644"
+    },
+    {
+      "path": "agent-race/README.md",
+      "gitBlobSha1": "974fabd5ea5fdc40caf69aef673a5e624fb86484",
+      "sha256": "0fb8cffb7c4afa02ad38811372fb66ea1dc7985d32eedcbad24134c6183ce8f0",
+      "bytes": 1167,
+      "mode": "100644"
+    },
+    {
+      "path": "agent-race/hooks/hooks.json",
+      "gitBlobSha1": "5a63f649593a5d89af8775a8e3d12db0f0940b12",
+      "sha256": "d842d789476d67282d0f04b7e5fdc68a3d981ccec65dd79cfa2d11eed13fb828",
+      "bytes": 34,
+      "mode": "100644"
+    },
+    {
+      "path": "agent-race/hooks/race.ts",
+      "gitBlobSha1": "d1e438e5ba14194b566d378abf655cc8dc7a5599",
+      "sha256": "7c0273558fd56e446c104461c4dca69f4058c669a63a4beb40aace73da8d6b59",
+      "bytes": 4931,
+      "mode": "100644"
+    },
+    {
+      "path": "agent-race/hooks/register.tsx",
+      "gitBlobSha1": "fe3bd82d41e6fc8a63458645ed5a373b7a4f4f9c",
+      "sha256": "879d52644714a43d91a425d2c7e078a185edf68770dc2237c921dc74fe731688",
+      "bytes": 9808,
+      "mode": "100644"
+    },
+    {
+      "path": "agent-race/tests/pane.test.tsx",
+      "gitBlobSha1": "f64190043f18929a15a00205294d2b7ea70d99ea",
+      "sha256": "01ff60acce02e37318fd9e02bbd112e1f04c1e8db2c9f29fe3b19277637a7bef",
+      "bytes": 1080,
+      "mode": "100644"
+    },
+    {
+      "path": "agent-race/tests/race.test.ts",
+      "gitBlobSha1": "728f326471e45a9f5d26d09f83344642644df223",
+      "sha256": "6b77ff12ef44a07cf4007e3800ab775a85ff52c9cc1f815af086066dd47034d9",
+      "bytes": 2952,
+      "mode": "100644"
+    },
+    {
+      "path": "agent-race/tsconfig.json",
+      "gitBlobSha1": "170d2b655a947bd24e8fef5ae8a3937d9e15947e",
+      "sha256": "88437ec880f7008b5df208a95a7d47330f0e3a8204d78d6c5cc272e5941c3511",
+      "bytes": 54,
+      "mode": "100644"
+    },
+    {
+      "path": "agent-race/types/index.d.ts",
+      "gitBlobSha1": "e2fd32f2faf0bb36d65f2eeafc511569b65ff8f1",
+      "sha256": "902b1fc27f23c850e07d48e246d3726433863fa4d3b14abc58fbe708d1e8be03",
+      "bytes": 437,
+      "mode": "100644"
+    },
+    {
+      "path": "boss-fight/.claude-plugin/icon.png",
+      "gitBlobSha1": "ba50bd42f683d10a878e92fb45a7326b91f825ab",
+      "sha256": "b1b8aa50c752d17580f5ed0899eb5073bc983de69ba83ad48f8a3b53e00425d5",
+      "bytes": 289784,
+      "mode": "100644"
+    },
+    {
+      "path": "boss-fight/.claude-plugin/plugin.json",
+      "gitBlobSha1": "b742972d17462bd60394c7075f4f1d2f44e69752",
+      "sha256": "bc920257291d96cae21117bea3be4638a7ebaac0e5654c0de2f0c4d76aa7b4ea",
+      "bytes": 810,
+      "mode": "100644"
+    },
+    {
+      "path": "boss-fight/README.md",
+      "gitBlobSha1": "8e164b59dafc023865eb1d73034b244501fb3c26",
+      "sha256": "dcad571bc8ee279659e77520fb1700695d86646462abd33d6380fe0d0d0131a1",
+      "bytes": 1106,
+      "mode": "100644"
+    },
+    {
+      "path": "boss-fight/hooks/arena.ts",
+      "gitBlobSha1": "260a5d859473a3b5b06998ceb19793056b1697a3",
+      "sha256": "f5cd06cbc7879308a02c40b3bce77c793ed95fb69f93d91a13e3725dfc420e84",
+      "bytes": 6263,
+      "mode": "100644"
+    },
+    {
+      "path": "boss-fight/hooks/fight.ts",
+      "gitBlobSha1": "421b9276c55328d34fe8e7d737cb6390f28d2564",
+      "sha256": "5a22544ac7a634bf4224f83a18861f8ed3f5a740ae41f10d7d53edf89f0b7fe9",
+      "bytes": 6800,
+      "mode": "100644"
+    },
+    {
+      "path": "boss-fight/hooks/hooks.json",
+      "gitBlobSha1": "5a63f649593a5d89af8775a8e3d12db0f0940b12",
+      "sha256": "d842d789476d67282d0f04b7e5fdc68a3d981ccec65dd79cfa2d11eed13fb828",
+      "bytes": 34,
+      "mode": "100644"
+    },
+    {
+      "path": "boss-fight/hooks/pixels.ts",
+      "gitBlobSha1": "1c01b07e0a0d75495e6b3ce95eee7bd19fc5317a",
+      "sha256": "e4431c130fadd1ed24fb4f0da4c01a328e309855c24e05b17bf2d062a346b801",
+      "bytes": 3485,
+      "mode": "100644"
+    },
+    {
+      "path": "boss-fight/hooks/register.tsx",
+      "gitBlobSha1": "fe1f0f31cb643f57f06808fc92c654864683514e",
+      "sha256": "1ed22905f2a033f766519ffdc9ed3940e80219dd3f9ec7f81d72f4c2753cd995",
+      "bytes": 7674,
+      "mode": "100644"
+    },
+    {
+      "path": "boss-fight/tests/fight.test.ts",
+      "gitBlobSha1": "07bd9e5e4631a1eb41111dabf7c860e1db783732",
+      "sha256": "417adf67f22e28302237018883c88c613457185f44523f423e51e987216c21da",
+      "bytes": 5533,
+      "mode": "100644"
+    },
+    {
+      "path": "boss-fight/tests/pane.test.tsx",
+      "gitBlobSha1": "489dd56a084e5b844efe43ab68320a0a6497c272",
+      "sha256": "93e11abdcaece2c39186289993651d62fec23070793e804f9cbc975342a785d2",
+      "bytes": 1615,
+      "mode": "100644"
+    },
+    {
+      "path": "boss-fight/tsconfig.json",
+      "gitBlobSha1": "8681ec01da419175c87f8c968c6a5af2d2b4e5ae",
+      "sha256": "4087cf0ba92fde503ed0e7c56f37bcb26ad0c085873f10219d0336c0f19b5a8f",
+      "bytes": 56,
+      "mode": "100644"
+    },
+    {
+      "path": "boss-fight/types/index.d.ts",
+      "gitBlobSha1": "f7685472d7195348320accfcfdebd403b1e0d858",
+      "sha256": "0dff0bef47a274f2176246bb72316a87c4d26524a77750796c98ae87e3b2e8b4",
+      "bytes": 799,
+      "mode": "100644"
+    },
+    {
+      "path": "burn-meter/.claude-plugin/icon.png",
+      "gitBlobSha1": "1ace895d95537d50dff29926e31af43759bd1e11",
+      "sha256": "ce734740ea5b3a58435d4647b34fcaba3f71ab6f303d5354041e2b1867337e01",
+      "bytes": 273816,
+      "mode": "100644"
+    },
+    {
+      "path": "burn-meter/.claude-plugin/plugin.json",
+      "gitBlobSha1": "fd6e3ecf74c45c2d481797c348d56037000a7695",
+      "sha256": "d927347248f9b3d03df3a010b02760dce296c0dee499ba3ba5240100fc6d631f",
+      "bytes": 806,
+      "mode": "100644"
+    },
+    {
+      "path": "burn-meter/README.md",
+      "gitBlobSha1": "704e13e5f34ac74b9b507c3edea1184421080c57",
+      "sha256": "1fbcb40673151c7ae87e14f4201528ab42c93e0a93c7f2da9cf43e0807af340d",
+      "bytes": 2200,
+      "mode": "100644"
+    },
+    {
+      "path": "burn-meter/hooks/burn.ts",
+      "gitBlobSha1": "b985fcda9b2a1d1a48d8190902e5533f704ea09f",
+      "sha256": "195305c6070ca6f1e499079cde30c8b3bef18d4b3bbd4c3ae508fac6dec8b25e",
+      "bytes": 8920,
+      "mode": "100644"
+    },
+    {
+      "path": "burn-meter/hooks/hooks.json",
+      "gitBlobSha1": "5a63f649593a5d89af8775a8e3d12db0f0940b12",
+      "sha256": "d842d789476d67282d0f04b7e5fdc68a3d981ccec65dd79cfa2d11eed13fb828",
+      "bytes": 34,
+      "mode": "100644"
+    },
+    {
+      "path": "burn-meter/hooks/register.tsx",
+      "gitBlobSha1": "3891ab9ac88f6074c093c0379386157e08761caa",
+      "sha256": "931617f31a0a689d8e9b0f3fb435a78b6e77541b8059833a48a9fc573e267827",
+      "bytes": 14153,
+      "mode": "100644"
+    },
+    {
+      "path": "burn-meter/tests/burn.test.ts",
+      "gitBlobSha1": "ae4efa8023b9b9ce5b90e1238aa424a066fdf70c",
+      "sha256": "3632933da9f541715e89b91c057262edfb3300ab6e726bed16dac598e1c533ef",
+      "bytes": 3871,
+      "mode": "100644"
+    },
+    {
+      "path": "burn-meter/tsconfig.json",
+      "gitBlobSha1": "8681ec01da419175c87f8c968c6a5af2d2b4e5ae",
+      "sha256": "4087cf0ba92fde503ed0e7c56f37bcb26ad0c085873f10219d0336c0f19b5a8f",
+      "bytes": 56,
+      "mode": "100644"
+    },
+    {
+      "path": "burn-meter/types/index.d.ts",
+      "gitBlobSha1": "75770e4974ffde67fa5101c74153aaea70b5c613",
+      "sha256": "9f6b6f3e177f383b8cb98d9aa974543d1b5ef093ba2b3cc8fd09a2d1f0f6d02e",
+      "bytes": 830,
+      "mode": "100644"
+    },
+    {
+      "path": "code-pet/.claude-plugin/icon.png",
+      "gitBlobSha1": "a7ac757613437e9fd3bff7d9795a3f0c6e0b3535",
+      "sha256": "fdeffeb6563ac5745115710113f0482d4fa4ddc2083eb1e8cb0671111ba3d133",
+      "bytes": 289197,
+      "mode": "100644"
+    },
+    {
+      "path": "code-pet/.claude-plugin/plugin.json",
+      "gitBlobSha1": "497586c6cb3a61c9541a78560bbf91c8188b1732",
+      "sha256": "c552ac9086c6c121b711097de4edb5309ae3aa16b0cbf3b247e6e295d2da6772",
+      "bytes": 860,
+      "mode": "100644"
+    },
+    {
+      "path": "code-pet/README.md",
+      "gitBlobSha1": "46a4e5bb0ef7c4ee0ad7a8c98cea07eea8e0d37e",
+      "sha256": "6b41639b2fd676ecbd43a19fc7bf5ffa6eb8f169c33612a5c8d259d4d303d454",
+      "bytes": 1160,
+      "mode": "100644"
+    },
+    {
+      "path": "code-pet/hooks/hooks.json",
+      "gitBlobSha1": "5a63f649593a5d89af8775a8e3d12db0f0940b12",
+      "sha256": "d842d789476d67282d0f04b7e5fdc68a3d981ccec65dd79cfa2d11eed13fb828",
+      "bytes": 34,
+      "mode": "100644"
+    },
+    {
+      "path": "code-pet/hooks/pet.ts",
+      "gitBlobSha1": "65709db1df5ce8d6538b7837396a671a4d4aa8c2",
+      "sha256": "532845978dccb70f490d7425c7a053464eb7406f473294dd9ba2ec8c047cf4d8",
+      "bytes": 5573,
+      "mode": "100644"
+    },
+    {
+      "path": "code-pet/hooks/pixels.ts",
+      "gitBlobSha1": "1c01b07e0a0d75495e6b3ce95eee7bd19fc5317a",
+      "sha256": "e4431c130fadd1ed24fb4f0da4c01a328e309855c24e05b17bf2d062a346b801",
+      "bytes": 3485,
+      "mode": "100644"
+    },
+    {
+      "path": "code-pet/hooks/register.tsx",
+      "gitBlobSha1": "b3211241d0201930b6251800caca375351677603",
+      "sha256": "fe92c8aa9bc17b5effc87ea92434d0444b784471a57e70ebc8dc962f03632a32",
+      "bytes": 10042,
+      "mode": "100644"
+    },
+    {
+      "path": "code-pet/hooks/scene.ts",
+      "gitBlobSha1": "803f25fadd155ad99419c5e62c344806617fac67",
+      "sha256": "aa9daca68782d4531d1d003a91433176f68499704485860e6b766a198ea62511",
+      "bytes": 9695,
+      "mode": "100644"
+    },
+    {
+      "path": "code-pet/tests/pane.test.tsx",
+      "gitBlobSha1": "bda3ce38d1436162310ed70e7aed6e7abc08e4ac",
+      "sha256": "49e1561e5543f5e57f4c74831769aa885a75185f95c00a5bf6573f1ef88a3d24",
+      "bytes": 1290,
+      "mode": "100644"
+    },
+    {
+      "path": "code-pet/tests/pet.test.ts",
+      "gitBlobSha1": "54b723dc28f08c9025da268ed56bf0c41d5f6184",
+      "sha256": "6fdb860fb544514a49cafe2d4361ef8112d184668b0f57fbd1367cfc8258988f",
+      "bytes": 4385,
+      "mode": "100644"
+    },
+    {
+      "path": "code-pet/tsconfig.json",
+      "gitBlobSha1": "8681ec01da419175c87f8c968c6a5af2d2b4e5ae",
+      "sha256": "4087cf0ba92fde503ed0e7c56f37bcb26ad0c085873f10219d0336c0f19b5a8f",
+      "bytes": 56,
+      "mode": "100644"
+    },
+    {
+      "path": "code-pet/types/index.d.ts",
+      "gitBlobSha1": "7c5730c0eb8eb8cdee7c1ff7ec40da590a606d76",
+      "sha256": "f7c655381d545fd183acdfb122736f9eedcb5b7f0b7fd619abcaae5634bef331",
+      "bytes": 729,
+      "mode": "100644"
+    },
+    {
+      "path": "inbox-alerts/.claude-plugin/icon.png",
+      "gitBlobSha1": "6991ec3e206a6941c6609c8a099acdcc81272f2f",
+      "sha256": "0b9a2d292049a37c5da764da8bc443f6fc92adb395879970dd1f56a2f39bebc6",
+      "bytes": 292997,
+      "mode": "100644"
+    },
+    {
+      "path": "inbox-alerts/.claude-plugin/plugin.json",
+      "gitBlobSha1": "42ff3e18bc40fe7d4c692c9bba85a40b120868ad",
+      "sha256": "b6cf7570612a588c59fcd903bbc279dc050c40763f653fdf58fc2b36a77c6d77",
+      "bytes": 1185,
+      "mode": "100644"
+    },
+    {
+      "path": "inbox-alerts/README.md",
+      "gitBlobSha1": "439a0c8ecb17f1f304c50c4acca46d6cdca1dc3e",
+      "sha256": "5c9741011e343c2aafcb0e1c8f0b9baf0f28184772f1f85542327dd05a5c0d73",
+      "bytes": 1389,
+      "mode": "100644"
+    },
+    {
+      "path": "inbox-alerts/hooks/hooks.json",
+      "gitBlobSha1": "5a63f649593a5d89af8775a8e3d12db0f0940b12",
+      "sha256": "d842d789476d67282d0f04b7e5fdc68a3d981ccec65dd79cfa2d11eed13fb828",
+      "bytes": 34,
+      "mode": "100644"
+    },
+    {
+      "path": "inbox-alerts/hooks/parse.ts",
+      "gitBlobSha1": "d7fc18c0311988e1125e744bdf3ff21803cb7ff3",
+      "sha256": "e6faa3a0bc0c31ae02eddcb0b10b640fd61679a8dcfdef9ca4afa36b6fa688b5",
+      "bytes": 5643,
+      "mode": "100644"
+    },
+    {
+      "path": "inbox-alerts/hooks/register.tsx",
+      "gitBlobSha1": "3c82ca1e2967fe86a1398401151547d51aecc9ce",
+      "sha256": "f1b69cbf205856b2542268f2d349b17f2f5eb5c677e346a9e09c353626ccb893",
+      "bytes": 18261,
+      "mode": "100644"
+    },
+    {
+      "path": "inbox-alerts/hooks/wave.ts",
+      "gitBlobSha1": "31a92697461020c72fd5016b52a21eaa83b950c6",
+      "sha256": "151663a0ba482876c0d5ecc5b1acc2bc2649e53816df1793414b69180b562941",
+      "bytes": 2171,
+      "mode": "100644"
+    },
+    {
+      "path": "inbox-alerts/tests/alerts.test.ts",
+      "gitBlobSha1": "123cb6c431528bfeae23271fd30461960fc966cd",
+      "sha256": "5963a5d53ccb65e4ece1dbf588b4d4d5060000b15e2572face1674b8d9105ff6",
+      "bytes": 7488,
+      "mode": "100644"
+    },
+    {
+      "path": "inbox-alerts/tsconfig.json",
+      "gitBlobSha1": "8681ec01da419175c87f8c968c6a5af2d2b4e5ae",
+      "sha256": "4087cf0ba92fde503ed0e7c56f37bcb26ad0c085873f10219d0336c0f19b5a8f",
+      "bytes": 56,
+      "mode": "100644"
+    },
+    {
+      "path": "inbox-alerts/types/index.d.ts",
+      "gitBlobSha1": "bcf748a131a75e4fa8763279a453d5a21a1c3f8a",
+      "sha256": "7a657ba629a619aff5d3004c0376c2cfdcb8ef0ba6e2d4c3acdd70d006c0dcb4",
+      "bytes": 705,
+      "mode": "100644"
+    },
+    {
+      "path": "inner-monologue/.claude-plugin/icon.png",
+      "gitBlobSha1": "c6b6d84bcd41470cda1ac39c359a617c4e6e9ad9",
+      "sha256": "df5602ed617dc04fcac0a5f65c086af1f380fffb02be11af5d03e00cd7cae4db",
+      "bytes": 297496,
+      "mode": "100644"
+    },
+    {
+      "path": "inner-monologue/.claude-plugin/plugin.json",
+      "gitBlobSha1": "9423803299162121998faee10499096bc7bdcd87",
+      "sha256": "4ff50cb3c8260462aacf6076708c48e032243af558f1c6fd612997d85eef8007",
+      "bytes": 797,
+      "mode": "100644"
+    },
+    {
+      "path": "inner-monologue/README.md",
+      "gitBlobSha1": "c203e624476bc97382462ff049296d71fc95b58c",
+      "sha256": "5d57a75766c1312c5223e98680685ace4a832b6fa65624242daffd34f0d17424",
+      "bytes": 1227,
+      "mode": "100644"
+    },
+    {
+      "path": "inner-monologue/hooks/hooks.json",
+      "gitBlobSha1": "5a63f649593a5d89af8775a8e3d12db0f0940b12",
+      "sha256": "d842d789476d67282d0f04b7e5fdc68a3d981ccec65dd79cfa2d11eed13fb828",
+      "bytes": 34,
+      "mode": "100644"
+    },
+    {
+      "path": "inner-monologue/hooks/logic.ts",
+      "gitBlobSha1": "a5176e772b942f38658dac92ebcae8f09e4e4854",
+      "sha256": "7c419ece1f215029f577e2735c8ca74c6439470ad86d1c65ba5a5b7a8ed7c99e",
+      "bytes": 4335,
+      "mode": "100644"
+    },
+    {
+      "path": "inner-monologue/hooks/register.tsx",
+      "gitBlobSha1": "645880f481e2bef0a8b6705ce8f05217c5bb4cf8",
+      "sha256": "ac4152de3aec2ba021a0cf36a117d7138f059849ce09fdc4fcbcacd3cae8953c",
+      "bytes": 5265,
+      "mode": "100644"
+    },
+    {
+      "path": "inner-monologue/tests/monologue.test.ts",
+      "gitBlobSha1": "78700d8c264441390d883ab9fee326fe559f2329",
+      "sha256": "82d520e3ba3b270b0ea116f683d81f82d4ab599c793f52fe7e9c91cce2aa4a9f",
+      "bytes": 2136,
+      "mode": "100644"
+    },
+    {
+      "path": "inner-monologue/tests/render.test.tsx",
+      "gitBlobSha1": "85d5164d5556a1a3468a916c9bc32cd34d0a5269",
+      "sha256": "7339131c80e036cac742bb0532841741c9ed39a912d28634114182393f14273f",
+      "bytes": 760,
+      "mode": "100644"
+    },
+    {
+      "path": "inner-monologue/tsconfig.json",
+      "gitBlobSha1": "170d2b655a947bd24e8fef5ae8a3937d9e15947e",
+      "sha256": "88437ec880f7008b5df208a95a7d47330f0e3a8204d78d6c5cc272e5941c3511",
+      "bytes": 54,
+      "mode": "100644"
+    },
+    {
+      "path": "inner-monologue/types/index.d.ts",
+      "gitBlobSha1": "70e2ba9442bf45b5fbb8a08e10a5c3bf05686304",
+      "sha256": "1a05171b5491f79bc8dd03d220a7f5dd765cfb28d0cded47cb25d74cc421bdc3",
+      "bytes": 195,
+      "mode": "100644"
+    },
+    {
+      "path": "launch-codes/.claude-plugin/icon.png",
+      "gitBlobSha1": "eae88cc024ec910dbffe236e97da393260234ed2",
+      "sha256": "4627fc0a3bbc20f61210856baa74ddecb13f4c614ab344b49647aab677dc22f6",
+      "bytes": 283268,
+      "mode": "100644"
+    },
+    {
+      "path": "launch-codes/.claude-plugin/plugin.json",
+      "gitBlobSha1": "3258e4019c38b2f469431568b45b58eae5083813",
+      "sha256": "1881829d81e2bb9dfa8e5c657d5f63773c8ccda1db548b6def04f544f85579cf",
+      "bytes": 813,
+      "mode": "100644"
+    },
+    {
+      "path": "launch-codes/README.md",
+      "gitBlobSha1": "7ba261acb900f942ac0bf918fb32b5d772740237",
+      "sha256": "d2d2a2c81a39a94a3449f09eca34c8c4a059a27f48e6ab0a7220917722343e5c",
+      "bytes": 1524,
+      "mode": "100644"
+    },
+    {
+      "path": "launch-codes/hooks/classify.ts",
+      "gitBlobSha1": "123b85b677e1ac9fb6fb55d0853b7bcc7d2d3893",
+      "sha256": "ab93870562643844bc2d52af1986280a77922c20f2de748325c32fdebc3a3bb6",
+      "bytes": 7445,
+      "mode": "100644"
+    },
+    {
+      "path": "launch-codes/hooks/fx.ts",
+      "gitBlobSha1": "45cbb6cff07439a9fc7e984ee8bdab8000a27185",
+      "sha256": "b9a55afe342d341668d39a19e7a228e634c5c02202f920421c6d48ed0ad83c11",
+      "bytes": 3380,
+      "mode": "100644"
+    },
+    {
+      "path": "launch-codes/hooks/hooks.json",
+      "gitBlobSha1": "5a63f649593a5d89af8775a8e3d12db0f0940b12",
+      "sha256": "d842d789476d67282d0f04b7e5fdc68a3d981ccec65dd79cfa2d11eed13fb828",
+      "bytes": 34,
+      "mode": "100644"
+    },
+    {
+      "path": "launch-codes/hooks/register.tsx",
+      "gitBlobSha1": "01385bc7ac7ccb2f6a4769a0834e75ddcf12eb1a",
+      "sha256": "96538c265b0e78161d64a1ec732e873e1c7ed8c9863afddac9c59c17f8de9d62",
+      "bytes": 8435,
+      "mode": "100644"
+    },
+    {
+      "path": "launch-codes/tests/classify.test.ts",
+      "gitBlobSha1": "195beb1a8940a9617e3eb3861210d11d4c48b617",
+      "sha256": "a44df526c295b1331924a43ea2dd21de764fa313d4d115c56263f907e9fed4da",
+      "bytes": 3716,
+      "mode": "100644"
+    },
+    {
+      "path": "launch-codes/tsconfig.json",
+      "gitBlobSha1": "8681ec01da419175c87f8c968c6a5af2d2b4e5ae",
+      "sha256": "4087cf0ba92fde503ed0e7c56f37bcb26ad0c085873f10219d0336c0f19b5a8f",
+      "bytes": 56,
+      "mode": "100644"
+    },
+    {
+      "path": "launch-codes/types/index.d.ts",
+      "gitBlobSha1": "35b8380455f0545f4aad40d3fca51ad5d28b19de",
+      "sha256": "48dd90cc05ec1c3154f94c5da73de2c90f339a4ecaa2215679b4b5709e15a643",
+      "bytes": 318,
+      "mode": "100644"
+    },
+    {
+      "path": "screenshots/agent-narrator.png",
+      "gitBlobSha1": "51a4da7f3774ef7a18de5d959fd0d15c9bbec23a",
+      "sha256": "653c130e11a5c9d4a7a962003c985b39c34373eace199f9168b0c9d098527f3d",
+      "bytes": 239865,
+      "mode": "100644"
+    },
+    {
+      "path": "screenshots/agent-race.png",
+      "gitBlobSha1": "011d74e31d9f1dce8bb59815e2fe5f1d632586a7",
+      "sha256": "ba7a647246f7561772aef354ef6f5ccfab13d512edd4aad9d01d43c94cb4ab34",
+      "bytes": 164439,
+      "mode": "100644"
+    },
+    {
+      "path": "screenshots/boss-fight.png",
+      "gitBlobSha1": "375fec28372efb09ddef1ae9d474bd977c9cb3fb",
+      "sha256": "928f3b1c7fc1bd3ed07ad2e8cee2a6700da71f93ef29d2358e70affd15f77ea4",
+      "bytes": 198101,
+      "mode": "100644"
+    },
+    {
+      "path": "screenshots/burn-meter.png",
+      "gitBlobSha1": "7c3d74f6c4c0881152b362eeeb0e072d501c6a5b",
+      "sha256": "484f4e604f45d5df989a44ae428ec5ec4822827a43752e16e4fb96de7c7f31fb",
+      "bytes": 261336,
+      "mode": "100644"
+    },
+    {
+      "path": "screenshots/code-pet.png",
+      "gitBlobSha1": "2b2f27d154a8be96f7549abea49e87bd3924f1f6",
+      "sha256": "beef48ea77e7614ddb14622fc522e665f7536e5375eff05b8ccbbc756e232dff",
+      "bytes": 160566,
+      "mode": "100644"
+    },
+    {
+      "path": "screenshots/inner-monologue.png",
+      "gitBlobSha1": "543038f5f50165c57ff0a600ace13fd91077de4b",
+      "sha256": "01b811648c4ca784d38cb9fabb6aeea63d263bad0159366202c21c0a0e28e5ac",
+      "bytes": 190537,
+      "mode": "100644"
+    },
+    {
+      "path": "screenshots/launch-codes.png",
+      "gitBlobSha1": "8c976508790d64e88b5b114f794346fa9a89f2a7",
+      "sha256": "49e30282256b9a2382e0997f928d396aed863b4746f04b56c915dc128a4decbd",
+      "bytes": 213648,
+      "mode": "100644"
+    },
+    {
+      "path": "screenshots/session-wrapped.png",
+      "gitBlobSha1": "84651596b5958ac51b0523a9d4e21be40e7460f9",
+      "sha256": "f2e20c4c0d409d6ba4629daf957ab9ee0469be90dab3d62529d0d85064a6d9b6",
+      "bytes": 2430928,
+      "mode": "100644"
+    },
+    {
+      "path": "screenshots/sportscaster.png",
+      "gitBlobSha1": "088c9d8f282f581828e62ad4300006b200294d7e",
+      "sha256": "6824eae3cca69eb935f7b8f78f6c524f3f9f9113ec2fda16b717407b2801d404",
+      "bytes": 57616,
+      "mode": "100644"
+    },
+    {
+      "path": "screenshots/swarm.png",
+      "gitBlobSha1": "ba1e9d241709c8cbde1246532f717a4bec323af6",
+      "sha256": "763e0352f43b1cbc3408af563ae6f0465bd547febe56878e9fbbb0961334801e",
+      "bytes": 234216,
+      "mode": "100644"
+    },
+    {
+      "path": "session-wrapped/.claude-plugin/icon.png",
+      "gitBlobSha1": "c35266fdcaa5929d387f1ae3dfc8e2b50dd332dd",
+      "sha256": "ac828a46beb45d8e61786932f01256b6691c9508ba640aa11ae715da4261676d",
+      "bytes": 268718,
+      "mode": "100644"
+    },
+    {
+      "path": "session-wrapped/.claude-plugin/plugin.json",
+      "gitBlobSha1": "681b5f383da67829439ff90db50d99c9ad70fafe",
+      "sha256": "fcad65aa3ac76034a3201750f7152e5cde62494752e2061b961dc59bbcf7291d",
+      "bytes": 816,
+      "mode": "100644"
+    },
+    {
+      "path": "session-wrapped/README.md",
+      "gitBlobSha1": "9c93bbe3fd6286ee1ef7245a175d2833172f24fd",
+      "sha256": "6d7f81b7fa7c53648c4cb7797e307b575eebcdeee2c1e8f0bfa7e364d235f96a",
+      "bytes": 1394,
+      "mode": "100644"
+    },
+    {
+      "path": "session-wrapped/hooks/card.ts",
+      "gitBlobSha1": "024c233a016e7c265eab6c0c652b94edf94998cb",
+      "sha256": "90a2fe8a71040c5fd0ba0e1958bbc875de37835f8e386f739e97357a8ad0a92a",
+      "bytes": 2248,
+      "mode": "100644"
+    },
+    {
+      "path": "session-wrapped/hooks/font.ts",
+      "gitBlobSha1": "ab86fbe2373aad6b92b9363f776b6a1fde1ed941",
+      "sha256": "a7703c1e199f245a91f516c2b0227fdeea67ec1c01df6067f1fcfebc6c726a91",
+      "bytes": 3127,
+      "mode": "100644"
+    },
+    {
+      "path": "session-wrapped/hooks/hooks.json",
+      "gitBlobSha1": "5a63f649593a5d89af8775a8e3d12db0f0940b12",
+      "sha256": "d842d789476d67282d0f04b7e5fdc68a3d981ccec65dd79cfa2d11eed13fb828",
+      "bytes": 34,
+      "mode": "100644"
+    },
+    {
+      "path": "session-wrapped/hooks/png.ts",
+      "gitBlobSha1": "1a6a09cde1e2ea41feda82ffad44b62f47e1c66d",
+      "sha256": "edd0b6423c86d7a17ee44a2a2603bf50964453c353b62923f40fc3d36a4bbc30",
+      "bytes": 5314,
+      "mode": "100644"
+    },
+    {
+      "path": "session-wrapped/hooks/register.tsx",
+      "gitBlobSha1": "23be4d4d153947da5f0d6618605100351fb9652c",
+      "sha256": "8acb67d111b3dbe5274059e4161e8cc0df03923af55b5b9156a924dac1271deb",
+      "bytes": 10307,
+      "mode": "100644"
+    },
+    {
+      "path": "session-wrapped/hooks/stats.ts",
+      "gitBlobSha1": "4a506ee7c959e8e65a1f58f5f6da348062c05504",
+      "sha256": "f3cadf5e7d46a86581b0d2027194cfb737948852a855a5ef1e4ac204fa5bbf97",
+      "bytes": 12042,
+      "mode": "100644"
+    },
+    {
+      "path": "session-wrapped/scripts/usage.py",
+      "gitBlobSha1": "b05814448e3a00732df5853dba46373f68772fb7",
+      "sha256": "a084d0e37ff54970f8c8088eb8dacea123ee55bd754d2b016aaaa62e0a31f7ac",
+      "bytes": 7618,
+      "mode": "100644"
+    },
+    {
+      "path": "session-wrapped/scripts/write_b64.py",
+      "gitBlobSha1": "ff2234e1f7886b841c431678fc5a0b74d4da3e96",
+      "sha256": "346c68ecf148c9bade193e2c99a7ff62581dd808b1746fda4ce32bcb18a57063",
+      "bytes": 389,
+      "mode": "100644"
+    },
+    {
+      "path": "session-wrapped/tests/wrapped.test.ts",
+      "gitBlobSha1": "b49f4672366371088abc958fa6e059eb20ef865c",
+      "sha256": "aa86fb924ea24881f5f2cadf8ef34416108d01214e3dce4efdccf5446fa1360c",
+      "bytes": 6241,
+      "mode": "100644"
+    },
+    {
+      "path": "session-wrapped/tsconfig.json",
+      "gitBlobSha1": "8681ec01da419175c87f8c968c6a5af2d2b4e5ae",
+      "sha256": "4087cf0ba92fde503ed0e7c56f37bcb26ad0c085873f10219d0336c0f19b5a8f",
+      "bytes": 56,
+      "mode": "100644"
+    },
+    {
+      "path": "session-wrapped/types/index.d.ts",
+      "gitBlobSha1": "70e450501d006ff8fe8fffb722da1a76c30b26b8",
+      "sha256": "a60071e1ec09b383c53e0dcb5f705a928c6ab29f6059740d5c6d2152bcd8360d",
+      "bytes": 1751,
+      "mode": "100644"
+    },
+    {
+      "path": "sportscaster/.claude-plugin/icon.png",
+      "gitBlobSha1": "335063ab9d8ee9aefe3711bd5d4f01ecf9889cab",
+      "sha256": "12ef2b4b4941b28e36de628db235242e24859feb3dbb72f72446554d52bb20f4",
+      "bytes": 282684,
+      "mode": "100644"
+    },
+    {
+      "path": "sportscaster/.claude-plugin/plugin.json",
+      "gitBlobSha1": "5032ba4d567f57a640928299d82467ab00d10fd2",
+      "sha256": "c9974e921074180c6af4f50a376afe2629e2c3cf4e120a79f5914c3d08b1bd36",
+      "bytes": 794,
+      "mode": "100644"
+    },
+    {
+      "path": "sportscaster/README.md",
+      "gitBlobSha1": "73c2f5d2980b33cb3e5233080b2380c90a99e124",
+      "sha256": "23d22475281ee12601c4f43b6725aeab691c8b5d0b9b7099f53726b4a99decbb",
+      "bytes": 1132,
+      "mode": "100644"
+    },
+    {
+      "path": "sportscaster/hooks/art.ts",
+      "gitBlobSha1": "ddc81a4c345c759c0355a60c1b27d997610a6870",
+      "sha256": "a217f55ff7c2bf050e258b23cafec5d4c2ef413ef9f84872f4229761da751067",
+      "bytes": 2173,
+      "mode": "100644"
+    },
+    {
+      "path": "sportscaster/hooks/hooks.json",
+      "gitBlobSha1": "5a63f649593a5d89af8775a8e3d12db0f0940b12",
+      "sha256": "d842d789476d67282d0f04b7e5fdc68a3d981ccec65dd79cfa2d11eed13fb828",
+      "bytes": 34,
+      "mode": "100644"
+    },
+    {
+      "path": "sportscaster/hooks/logic.ts",
+      "gitBlobSha1": "de3f811eee87eba58c7f08872cc7464b7f1a36d3",
+      "sha256": "973c53769d7c86118b1af4367c9fdaf3b46674d98d6999df3c54ec5f78ca2e7f",
+      "bytes": 10090,
+      "mode": "100644"
+    },
+    {
+      "path": "sportscaster/hooks/register.tsx",
+      "gitBlobSha1": "ae4ecb8ee122bd16a8162204a18b16476da9f8bc",
+      "sha256": "81346cba44644078894a26074a0faae6c724d2ab4f93a7b97ee25ce96b8d3827",
+      "bytes": 10788,
+      "mode": "100644"
+    },
+    {
+      "path": "sportscaster/hooks/wav.ts",
+      "gitBlobSha1": "96d60f4b6ba92b4703aef21bbdee918d2aec35b0",
+      "sha256": "a478c231b7f3d67a50e215226927c6ca358a8d1d05d6b1c7d2ae1aedcb92fccf",
+      "bytes": 4247,
+      "mode": "100644"
+    },
+    {
+      "path": "sportscaster/tests/booth.test.tsx",
+      "gitBlobSha1": "dbc77c3252e3fe1feff7f74ebdba07eeeb00e427",
+      "sha256": "9218db063fd36251c506e28417cddd479429f8cc1480239b57bd25138addf733",
+      "bytes": 1215,
+      "mode": "100644"
+    },
+    {
+      "path": "sportscaster/tests/caster.test.ts",
+      "gitBlobSha1": "8520801a8fe125a2e688ec17e45fc30e38543379",
+      "sha256": "0726d5837fa24fa6b764267b0ee0a7f21ed586af54bdb08123aee2909939eaab",
+      "bytes": 3661,
+      "mode": "100644"
+    },
+    {
+      "path": "sportscaster/tests/command.test.tsx",
+      "gitBlobSha1": "4b1ca5e595a8404b3c216aa4794322774005375d",
+      "sha256": "6a09e6b449695c85c40096c2694144ec6b4695d437a99cc253965b6b873c34ec",
+      "bytes": 566,
+      "mode": "100644"
+    },
+    {
+      "path": "sportscaster/tsconfig.json",
+      "gitBlobSha1": "170d2b655a947bd24e8fef5ae8a3937d9e15947e",
+      "sha256": "88437ec880f7008b5df208a95a7d47330f0e3a8204d78d6c5cc272e5941c3511",
+      "bytes": 54,
+      "mode": "100644"
+    },
+    {
+      "path": "sportscaster/types/index.d.ts",
+      "gitBlobSha1": "2e95aae6a0b5a042c8eadf6e8a7bc6680576f298",
+      "sha256": "2f68b7e86e04562d9a220746f08e6cf7134c6b727eb24884ce6e1e8b1ee7dd36",
+      "bytes": 501,
+      "mode": "100644"
+    },
+    {
+      "path": "swarm/.claude-plugin/icon.png",
+      "gitBlobSha1": "43e482534d71d999359037ff251ea1c3fd489075",
+      "sha256": "de3bd258bd276e6a2adbe0af7de673b759dcb7e26fbcfbe71b38dfaeaef4d9a2",
+      "bytes": 21685,
+      "mode": "100644"
+    },
+    {
+      "path": "swarm/.claude-plugin/plugin.json",
+      "gitBlobSha1": "803b6caeb50e84092291e591128a9698f1cb0545",
+      "sha256": "6764860861fd6afa619c63b6e2cc5deb72d36635c960671bc49f1394896e91d0",
+      "bytes": 830,
+      "mode": "100644"
+    },
+    {
+      "path": "swarm/README.md",
+      "gitBlobSha1": "aa743f9b1d7477cf09d00f9027054e35f665709a",
+      "sha256": "34a77d7f15334c57b7cd26439a3af83066e4915ba3742c7a5fe96d7f3c2abf51",
+      "bytes": 1417,
+      "mode": "100644"
+    },
+    {
+      "path": "swarm/hooks/card.ts",
+      "gitBlobSha1": "7aab96c716564e3ea48b4a96392f8957423b3741",
+      "sha256": "b50477c0c35a3471a79e2d1d137be074a5e01ee85f47473238f6b4a844dfe733",
+      "bytes": 15810,
+      "mode": "100644"
+    },
+    {
+      "path": "swarm/hooks/hooks.json",
+      "gitBlobSha1": "5a63f649593a5d89af8775a8e3d12db0f0940b12",
+      "sha256": "d842d789476d67282d0f04b7e5fdc68a3d981ccec65dd79cfa2d11eed13fb828",
+      "bytes": 34,
+      "mode": "100644"
+    },
+    {
+      "path": "swarm/hooks/model.ts",
+      "gitBlobSha1": "3550b4fdce93f738cf2b4ebfb283b961b5708b4a",
+      "sha256": "cfb5fd11220a042e2250f2ef5f503ceccbe07fc60e6546e7565ff834568a8616",
+      "bytes": 9227,
+      "mode": "100644"
+    },
+    {
+      "path": "swarm/hooks/register.tsx",
+      "gitBlobSha1": "dcdaceb85b99d23c220c4830cd262e65cb19d436",
+      "sha256": "6298d790f72ed9ade4dad5fbcdf33ab37f2f86ae10b14c65fe9f6c8db5dd02c7",
+      "bytes": 14311,
+      "mode": "100644"
+    },
+    {
+      "path": "swarm/tests/model.test.ts",
+      "gitBlobSha1": "e273502d2ee34b403b4438e93ea30a5c1ec84926",
+      "sha256": "81ae704903d8c554cfd9ed5d90df4a7943977128c76e2dfece1cccd3f7230c0d",
+      "bytes": 2279,
+      "mode": "100644"
+    },
+    {
+      "path": "swarm/tests/pane.test.tsx",
+      "gitBlobSha1": "4d5123b268104e20d0aad6273b4dde3b9eeb37c6",
+      "sha256": "dac20af12b26bd820299e862539b900db1589fd530e085fd7b34442e1061c2a9",
+      "bytes": 2265,
+      "mode": "100644"
+    },
+    {
+      "path": "swarm/tsconfig.json",
+      "gitBlobSha1": "170d2b655a947bd24e8fef5ae8a3937d9e15947e",
+      "sha256": "88437ec880f7008b5df208a95a7d47330f0e3a8204d78d6c5cc272e5941c3511",
+      "bytes": 54,
+      "mode": "100644"
+    },
+    {
+      "path": "swarm/types/index.d.ts",
+      "gitBlobSha1": "eef2bd5a257345a439708cd6ea005b7ec57f4d9a",
+      "sha256": "1a55db757e6acd36eddfb43b87be4324016cec5340718badf4d808f828dbeedc",
+      "bytes": 1576,
+      "mode": "100644"
+    }
+  ],
+  "additionalNotices": []
+}

@@ -1,10 +1,18 @@
-# Media credits and license notices
+# Source, media credits and license notices
 
 The collection text and original FindMods contributions use the root MIT license. Third-party demos, character artwork and source material retain their own rights and notices; the root license does not relicense them.
 
+## Mirrored source packages
+
+The [local package index](mods/README.md) lists complete source snapshots at pinned upstream revisions. Each package keeps its original files, copyright and permission notices in `source/`, and an `UPSTREAM.json` recording file hashes, author metadata, versions and verification scope. Collection wrapper pages do not replace the original README or license.
+
+Claude Fables includes MIT code and a separately licensed Monocraft font under OFL-1.1. Its original [font notice](mods/henrik-thevibe/Claude-Fables/source/fonts/Monocraft-OFL.txt) and the [credited gallery MIT notice](mods/henrik-thevibe/Claude-Fables/notices/Claude-Mascot-Style-Gallery-MIT.txt) are retained. Other packages in the initial batch carry their original MIT notices. Source completeness checks are not runtime, security or external media-rights certification.
+
+Clawdman's README explicitly excludes sprites and animations from its MIT grant. Its source package is therefore held. The existing showcase preview depicts those third-party visuals; the code's MIT notice does not establish their reuse rights. The pi-agent demo is an external GitHub attachment, whose media rights are also separate from the source-tree review. No additional media rights are claimed by importing code.
+
 ## Showcase demos
 
-Each preview links to its original repository. Videos were shortened to 10× playback as requested for this gallery; original GIFs retain their timing, with frame-rate conversion for delivery. Resizing and letterboxing provide a consistent grid. Full source URLs, pinned revisions, file hashes and transformations are recorded in [the provenance manifest](assets/provenance.json).
+Previews link to local source packages when available and to upstream references otherwise. Videos were shortened to 10× playback as requested for this gallery; original GIFs retain their timing, with frame-rate conversion for delivery. Resizing and letterboxing provide a consistent grid. Full source URLs, pinned revisions, file hashes and transformations are recorded in [the provenance manifest](assets/provenance.json).
 
 - **[therahul-yo/clawdman](https://github.com/therahul-yo/clawdman)**: [original media](https://raw.githubusercontent.com/therahul-yo/clawdman/b465da697a2268dd7c8578563b0eb3024762f500/docs/clawdman.mp4); [MIT notice](assets/licenses/therahul-yo--clawdman-LICENSE.txt)
 - **[FazalAAli/pi-agent-for-claude](https://github.com/FazalAAli/pi-agent-for-claude)**: [original media](https://github.com/user-attachments/assets/0bd4f5e4-c2d5-4e49-a882-30bf01357248); [MIT notice](assets/licenses/FazalAAli--pi-agent-for-claude-LICENSE.txt)

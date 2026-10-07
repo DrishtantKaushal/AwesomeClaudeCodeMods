@@ -1,0 +1,11 @@
+/** Hand-written scenes in the shape the narrator asks Sonnet for; used by preview.ts. */
+export const SAMPLES: unknown[] = [
+  { backdrop: 'forest', hero: { action: 'walk', from: 5, to: 35 }, props: [{ sprite: 'bug', x: 60, y: 'ground', motion: 'shake', label: 'parseHex' }, { sprite: 'file', x: 85, y: 'ground', label: 'README.md', motion: 'bob' }], particles: { kind: 'leaves', density: 0.3 }, caption: 'And here we see the rare bug in its natural habitat. Quiet now.', title: 'field notes' },
+  { backdrop: 'city', hero: { action: 'run', from: 70, to: 20 }, props: [{ sprite: 'bug', x: 70, y: 'ground', motion: 'shake', label: '#zzzzzz', color: '#e05252' }], caption: 'Pulled over: a color regex that accepts #zzzzzz.' },
+  { backdrop: 'night', hero: { action: 'walk', from: 10, to: 40 }, props: [{ sprite: 'lamp', x: 70, y: 'ground', label: 'zz_probe.test' }], particles: { kind: 'stars', density: 0.3 }, caption: 'Poking the interpreter with everyday JS. Let us see what bites.', title: 'zz_probe.test' },
+  { backdrop: 'space', hero: { action: 'fly', from: 20, to: 45 }, props: [{ sprite: 'planet', x: 85, y: 'air', motion: 'spin' }, { sprite: 'rocket', x: 65, y: 'sky', motion: 'bob' }], particles: { kind: 'stars', density: 0.8 }, caption: 'Fixing switch statements, light years from home.' },
+  { backdrop: 'volcano', hero: { action: 'dig', from: 0, to: 25 }, props: [{ sprite: { pixels: ['.rr.', 'rrrr', '.rr.'], colors: { r: '#e05252' } }, x: 45, y: 'ground', label: 'resp' }], particles: { kind: 'sparks', density: 0.5 }, caption: 'Digging into what the ask loop does with each reply.' },
+  { backdrop: 'city', hero: { action: 'celebrate', from: 0, to: 50 }, props: [{ sprite: 'trophy', x: 80, y: 'ground', label: '17 tests' }], caption: 'All 17 tests pass and the typecheck is clean!', title: 'done' },
+  { backdrop: 'lab', hero: { action: 'think', from: 0, to: 30 }, props: [{ sprite: 'beaker', x: 60, y: 'ground', motion: 'blink' }, { sprite: 'server', x: 90, y: 'ground' }], caption: 'Hmm. Which test is lying to me?' },
+  { backdrop: 'desert', hero: { action: 'inspect', from: 0, to: 55 }, props: [{ sprite: 'cactus', x: 20, y: 'ground' }, { sprite: 'magnifier', x: 90, y: 'air', motion: 'bob' }], caption: 'Scanning effects.ts for loose color regexes.' },
+]
