@@ -1,0 +1,286 @@
+{
+  "schemaVersion": 1,
+  "checkedAt": "2026-10-07",
+  "description": "Source and transformation provenance for the README showcase. Source checks are not runtime compatibility tests.",
+  "showcase": [
+    {
+      "repo": "therahul-yo/clawdman",
+      "name": "Clawdman",
+      "description": "An animated companion that reacts to your coding session.",
+      "url": "https://github.com/therahul-yo/clawdman",
+      "commit": "b465da697a2268dd7c8578563b0eb3024762f500",
+      "sourceMedia": "https://raw.githubusercontent.com/therahul-yo/clawdman/b465da697a2268dd7c8578563b0eb3024762f500/docs/clawdman.mp4",
+      "sourceSha256": "80c177c04a9874adefbf1123d46fdda3163a189639fbfe4ec31963ba1bf1d811",
+      "bytes": 2987155,
+      "sourceSpeed": 10,
+      "asset": "assets/showcase-01.gif",
+      "assetSha256": "ed2f54e56c37a0a2de0a5ad7e57680aacc8d6ffcc002b6abcb80861e0789ec47",
+      "assetBytes": 870722,
+      "frames": 56,
+      "durationSeconds": 3.74,
+      "sourceDurationSeconds": 37.205333,
+      "dimensions": [
+        640,
+        360
+      ],
+      "repositoryLicense": {
+        "repo": "therahul-yo/clawdman",
+        "commit": "b465da697a2268dd7c8578563b0eb3024762f500",
+        "license": "MIT",
+        "sourceUrl": "https://raw.githubusercontent.com/therahul-yo/clawdman/b465da697a2268dd7c8578563b0eb3024762f500/LICENSE",
+        "gitBlobSha1": "b7a6c4988078578821df80ade06260b36c0deb8a",
+        "path": "assets/licenses/therahul-yo--clawdman-LICENSE.txt"
+      }
+    },
+    {
+      "repo": "FazalAAli/pi-agent-for-claude",
+      "name": "pi agent for Claude",
+      "description": "Run pi-powered models as native Claude Code subagents.",
+      "url": "https://github.com/FazalAAli/pi-agent-for-claude",
+      "commit": "0878de6d69b06324ff6515b63d5daf73de90f601",
+      "sourceMedia": "https://github.com/user-attachments/assets/0bd4f5e4-c2d5-4e49-a882-30bf01357248",
+      "sourceSha256": "08ab1c6f1470b0b963dd656da6ef5ea71377e1bcf33d4f1064301e0c2e92acf3",
+      "bytes": 6200663,
+      "sourceSpeed": 10,
+      "asset": "assets/showcase-02.gif",
+      "assetSha256": "7890b5120a6f851663fe5475a025dc3d1effe3d5cba67433fdce0ca71f631a82",
+      "assetBytes": 1071154,
+      "frames": 77,
+      "durationSeconds": 5.14,
+      "sourceDurationSeconds": 51.5987,
+      "dimensions": [
+        640,
+        360
+      ],
+      "repositoryLicense": {
+        "repo": "FazalAAli/pi-agent-for-claude",
+        "commit": "0878de6d69b06324ff6515b63d5daf73de90f601",
+        "license": "MIT",
+        "sourceUrl": "https://raw.githubusercontent.com/FazalAAli/pi-agent-for-claude/0878de6d69b06324ff6515b63d5daf73de90f601/LICENSE",
+        "gitBlobSha1": "deb65246dce94ad138d22d0e24b618dccda7aeb0",
+        "path": "assets/licenses/FazalAAli--pi-agent-for-claude-LICENSE.txt"
+      }
+    },
+    {
+      "repo": "halluton/Mindful-Claude",
+      "name": "Mindful Claude",
+      "description": "A guided breathing animation while Claude works.",
+      "url": "https://github.com/halluton/Mindful-Claude",
+      "commit": "411c9c4f4f1c3d128159be7315823341ae7d9e2d",
+      "sourceMedia": "https://raw.githubusercontent.com/halluton/Mindful-Claude/411c9c4f4f1c3d128159be7315823341ae7d9e2d/demo.gif",
+      "sourceSha256": "75bf7705b8c66e061ebc09ee9556afb0a3d3e598aa3e281b698b9617acbd6f34",
+      "bytes": 1480080,
+      "sourceSpeed": 1,
+      "asset": "assets/showcase-03.gif",
+      "assetSha256": "2940cfccb63649734c5dbed722fc4de988e71cfc63552ed505dbfe07d1c04100",
+      "assetBytes": 521442,
+      "frames": 254,
+      "durationSeconds": 16.94,
+      "sourceDurationSeconds": null,
+      "dimensions": [
+        640,
+        360
+      ],
+      "repositoryLicense": {
+        "repo": "halluton/Mindful-Claude",
+        "commit": "411c9c4f4f1c3d128159be7315823341ae7d9e2d",
+        "license": "MIT",
+        "sourceUrl": "https://raw.githubusercontent.com/halluton/Mindful-Claude/411c9c4f4f1c3d128159be7315823341ae7d9e2d/LICENSE",
+        "gitBlobSha1": "80c93daa90eff8006a47227125d117a17f75a479",
+        "path": "assets/licenses/halluton--Mindful-Claude-LICENSE.txt"
+      }
+    },
+    {
+      "repo": "OneWave-AI/claude-code-mods",
+      "name": "Claude Code Mods",
+      "description": "A collection of live panels, session tools and playful mods.",
+      "url": "https://github.com/OneWave-AI/claude-code-mods",
+      "commit": "e6da26ca36a88eec3be25605d30fa20f2c1c0cec",
+      "sourceMedia": "https://raw.githubusercontent.com/OneWave-AI/claude-code-mods/e6da26ca36a88eec3be25605d30fa20f2c1c0cec/screenshots/code-pet.png",
+      "sourceSha256": "beef48ea77e7614ddb14622fc522e665f7536e5375eff05b8ccbbc756e232dff",
+      "bytes": 160566,
+      "sourceSpeed": 1,
+      "asset": "assets/showcase-04.png",
+      "assetSha256": "bf49252604f55e86c8e5e942ebc257526944e7435ef8e8b183758885b6be55f9",
+      "assetBytes": 29499,
+      "frames": 1,
+      "durationSeconds": null,
+      "sourceDurationSeconds": null,
+      "dimensions": [
+        640,
+        360
+      ],
+      "repositoryLicense": {
+        "repo": "OneWave-AI/claude-code-mods",
+        "commit": "e6da26ca36a88eec3be25605d30fa20f2c1c0cec",
+        "license": "MIT",
+        "sourceUrl": "https://raw.githubusercontent.com/OneWave-AI/claude-code-mods/e6da26ca36a88eec3be25605d30fa20f2c1c0cec/LICENSE",
+        "gitBlobSha1": "2c7b954708cb60e913c973a3ca9fb862c1fe28b5",
+        "path": "assets/licenses/OneWave-AI--claude-code-mods-LICENSE.txt"
+      }
+    },
+    {
+      "repo": "henrik-thevibe/Claude-Fables",
+      "name": "Claude Fables",
+      "description": "Coding activity becomes a cartoon in a choice of visual styles.",
+      "url": "https://github.com/henrik-thevibe/Claude-Fables",
+      "commit": "6d0ce80575a92f8f6c8c2493c2bf20413e255622",
+      "sourceMedia": "https://raw.githubusercontent.com/henrik-thevibe/Claude-Fables/6d0ce80575a92f8f6c8c2493c2bf20413e255622/assets/styles.gif",
+      "sourceSha256": "470f7c227a7f51d88b745d96bdb4c3d8012d7ccdc8174171b4a1bde9549aa3d3",
+      "bytes": 1616983,
+      "sourceSpeed": 1,
+      "asset": "assets/showcase-05.gif",
+      "assetSha256": "5b436e68d01a5900769e39b2c8b76432a67a48d32b9920111cad02325115b610",
+      "assetBytes": 1253467,
+      "frames": 363,
+      "durationSeconds": 24.2,
+      "sourceDurationSeconds": null,
+      "dimensions": [
+        640,
+        360
+      ],
+      "repositoryLicense": {
+        "repo": "henrik-thevibe/Claude-Fables",
+        "commit": "6d0ce80575a92f8f6c8c2493c2bf20413e255622",
+        "license": "MIT",
+        "sourceUrl": "https://raw.githubusercontent.com/henrik-thevibe/Claude-Fables/6d0ce80575a92f8f6c8c2493c2bf20413e255622/LICENSE",
+        "gitBlobSha1": "8e8c28bd83cb029effafa5f4b58d44b977110038",
+        "path": "assets/licenses/henrik-thevibe--Claude-Fables-LICENSE.txt"
+      }
+    },
+    {
+      "repo": "adamholter/claude-subway-surfers",
+      "name": "Claude Subway Surfers",
+      "description": "Gameplay beside Claude Desktop while it works.",
+      "url": "https://github.com/adamholter/claude-subway-surfers",
+      "commit": "7c6002bd64589f683144a9f3969c0c8a53ededf9",
+      "sourceMedia": "https://github.com/adamholter/claude-subway-surfers/releases/download/v1.0.0/claude-subway-surfers-demo.mp4",
+      "sourceSha256": "c0bd2a3049ff92cd8182f575334acfa80e0c155e6a1aa6e042de2291f49b8387",
+      "bytes": 8437766,
+      "sourceSpeed": 10,
+      "asset": "assets/showcase-06.gif",
+      "assetSha256": "83edfed63ad395c826c9ef16b106f3da4bab5c3ebcac0a5e5fe73ed778527338",
+      "assetBytes": 1105658,
+      "frames": 41,
+      "durationSeconds": 2.74,
+      "sourceDurationSeconds": 27.0,
+      "dimensions": [
+        640,
+        360
+      ],
+      "repositoryLicense": {
+        "repo": "adamholter/claude-subway-surfers",
+        "commit": "7c6002bd64589f683144a9f3969c0c8a53ededf9",
+        "license": null
+      }
+    },
+    {
+      "repo": "giovaborgogno/cc-dino",
+      "name": "cc-dino",
+      "description": "Play the T-rex runner above your prompt.",
+      "url": "https://github.com/giovaborgogno/cc-dino",
+      "commit": "fe5c0b64b550242449cc8b5861771fcdac2f5993",
+      "sourceMedia": "https://raw.githubusercontent.com/giovaborgogno/cc-dino/fe5c0b64b550242449cc8b5861771fcdac2f5993/docs/demo.gif",
+      "sourceSha256": "e866c1152de986d0917bb53cb92f149f3aa7ee5cfbd6c397e37d76d99f2ca18f",
+      "bytes": 1471292,
+      "sourceSpeed": 1,
+      "asset": "assets/showcase-07.gif",
+      "assetSha256": "84140d5c52862e194137301d43e57dc2843131f8bee469d2d5ef3ec5b8c67643",
+      "assetBytes": 1477444,
+      "frames": 475,
+      "durationSeconds": 31.67,
+      "sourceDurationSeconds": null,
+      "dimensions": [
+        640,
+        360
+      ],
+      "repositoryLicense": {
+        "repo": "giovaborgogno/cc-dino",
+        "commit": "fe5c0b64b550242449cc8b5861771fcdac2f5993",
+        "license": "MIT",
+        "sourceUrl": "https://raw.githubusercontent.com/giovaborgogno/cc-dino/fe5c0b64b550242449cc8b5861771fcdac2f5993/LICENSE",
+        "gitBlobSha1": "d406a31cd7fe32783b6186f4bdf46a8ed7676882",
+        "path": "assets/licenses/giovaborgogno--cc-dino-LICENSE.txt"
+      }
+    },
+    {
+      "repo": "powerofjinbo/claude-code-spell-bar",
+      "name": "Claude Code Spell Bar",
+      "description": "An animated spell bar for your selected effort level.",
+      "url": "https://github.com/powerofjinbo/claude-code-spell-bar",
+      "commit": "1b0494cadcd4e98542147b321250d55d38696553",
+      "sourceMedia": "https://raw.githubusercontent.com/powerofjinbo/claude-code-spell-bar/1b0494cadcd4e98542147b321250d55d38696553/docs/demo.gif",
+      "sourceSha256": "61854c1c11e4df8d8f42eb8cee75d7ac716a7fdfbfa5035cabf320c5e383b79c",
+      "bytes": 5072302,
+      "sourceSpeed": 1,
+      "asset": "assets/showcase-08.gif",
+      "assetSha256": "730c7e1c0c352394ebdddc5b6edaabb0d5f6af864bb4bd77772b5c89968d41b4",
+      "assetBytes": 1305062,
+      "frames": 66,
+      "durationSeconds": 4.4,
+      "sourceDurationSeconds": null,
+      "dimensions": [
+        640,
+        360
+      ],
+      "repositoryLicense": {
+        "repo": "powerofjinbo/claude-code-spell-bar",
+        "commit": "1b0494cadcd4e98542147b321250d55d38696553",
+        "license": "MIT",
+        "sourceUrl": "https://raw.githubusercontent.com/powerofjinbo/claude-code-spell-bar/1b0494cadcd4e98542147b321250d55d38696553/LICENSE",
+        "gitBlobSha1": "bc879ddac71633e7d1159d8058ecbb6caab49ab5",
+        "path": "assets/licenses/powerofjinbo--claude-code-spell-bar-LICENSE.txt"
+      }
+    },
+    {
+      "repo": "scasella/claude-flightdeck",
+      "name": "Claude Flightdeck",
+      "description": "A live dashboard for context, costs, permissions and agents.",
+      "url": "https://github.com/scasella/claude-flightdeck",
+      "commit": "f31daca523d36c501cd0df23a737a44c7dc56ad6",
+      "sourceMedia": "https://raw.githubusercontent.com/scasella/claude-flightdeck/f31daca523d36c501cd0df23a737a44c7dc56ad6/docs/media/demo.gif",
+      "sourceSha256": "8c83ca6b4347b2f96cdfb1450165430bf7e764b1be6ff46b756c1cf7d8710396",
+      "bytes": 2444983,
+      "sourceSpeed": 1,
+      "asset": "assets/showcase-09.gif",
+      "assetSha256": "ddfe7ea2b876c9821941969589e35820f961e4b5e03b3a9d43748092175afe76",
+      "assetBytes": 1075101,
+      "frames": 288,
+      "durationSeconds": 19.2,
+      "sourceDurationSeconds": null,
+      "dimensions": [
+        640,
+        360
+      ],
+      "repositoryLicense": {
+        "repo": "scasella/claude-flightdeck",
+        "commit": "f31daca523d36c501cd0df23a737a44c7dc56ad6",
+        "license": "MIT",
+        "sourceUrl": "https://raw.githubusercontent.com/scasella/claude-flightdeck/f31daca523d36c501cd0df23a737a44c7dc56ad6/LICENSE",
+        "gitBlobSha1": "1cc6741ba919267e4e55bd5ec8155aecbd8af294",
+        "path": "assets/licenses/scasella--claude-flightdeck-LICENSE.txt"
+      }
+    }
+  ],
+  "banner": {
+    "asset": "assets/banner-v3.gif",
+    "sha256": "0bbf8294e3332a21d0ff8ee392df14d5bdb60deebe5d4371bedf63bd04c6e375",
+    "dimensions": [
+      960,
+      384
+    ],
+    "durationSeconds": 12,
+    "sourceScene": "https://github.com/onlook-dev/onlook/blob/423e2e924366419e418ee049093872d535eea41a/apps/web/client/public/scenes/flow-background.json",
+    "sourceSceneLicense": "Apache-2.0",
+    "changes": "FindMods branding; hidden pointer; enlarged cloud brush and persistence; pointer movement at 0.64 of original speed. Captured animation only; runtime SDK not included."
+  },
+  "categoryMascot": {
+    "asset": "assets/category-magnifier.gif",
+    "sha256": "b6cd136ff326df5a8ac9e22106649e916fc2774c57dd793fdbd217b6f8a4ccf3",
+    "source": "https://github.com/HermannBjorgvin/Clawdmeter/blob/85a06930ea512ff4207840c5ef574a9ed4b72bdd/research/clawd-official/Clawd-Magnifier.gif",
+    "originalSource": "https://claude.ai/images/clawd/persona/Clawd-Magnifier.gif",
+    "sourceSha256": "8470d42d30001a1a214579d270c458b9952592b2583bce473143a2aef20f2c44",
+    "changes": "Cropped and resized onto a white 64 by 48 pixel canvas.",
+    "license": "No reuse license established for this third-party character asset. Not covered by this repository MIT license."
+  }
+}
