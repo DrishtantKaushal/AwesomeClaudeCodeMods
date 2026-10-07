@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "togishima/better-ask-picker:.",
+  "name": "better-ask-picker",
+  "displayName": "Question Picker",
+  "version": "0.1.0",
+  "description": "Ask the user a question in a dedicated pane: show every option on one screen with a summary, single or multi-select, no 4-option limit.",
+  "author": "Takashi Ogishima",
+  "repository": "togishima/better-ask-picker",
+  "modPath": ".",
+  "category": {
+    "id": "interface",
+    "label": "Interface & themes",
+    "basis": "exact-catalogue-repository-and-mod-path"
+  },
+  "sourceCommit": "bbdc70f782f6fcd00347081c7fe2e688725d64a4",
+  "sourcePath": "sources/question-picker/source",
+  "sourceManifest": "sources/question-picker/source/.claude-plugin/plugin.json",
+  "page": "interface/question-picker/",
+  "runtimeTested": false
+}

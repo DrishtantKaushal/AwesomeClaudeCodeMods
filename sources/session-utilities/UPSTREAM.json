@@ -1,0 +1,392 @@
+{
+  "schemaVersion": 1,
+  "repository": "homieyangg/claude-code-mods",
+  "upstream": "https://github.com/homieyangg/claude-code-mods",
+  "commit": "3c7b24720bcc831165502d73d1631b6fb197bbcf",
+  "treeSha": "3de01eea484605e3d6df48cf3c983816df3bc61c",
+  "importedAt": "2026-10-07",
+  "scope": "Complete tracked source tree at the pinned commit, unmodified.",
+  "verification": "Every file and executable/symlink mode matches the upstream Git tree; staged tree identity is checked before publication.",
+  "runtimeTested": false,
+  "componentLicenses": [
+    {
+      "license": "MIT",
+      "scope": "Source snapshot with original and separately credited component notices retained."
+    }
+  ],
+  "licenseFiles": [
+    {
+      "path": "LICENSE",
+      "sha256": "2d70e5afa55746d93f473a0139cd4df5c17254ad66aa2dcaecae1572e512f0ec"
+    }
+  ],
+  "additionalNotices": [],
+  "mods": [
+    {
+      "name": "leftovers",
+      "version": "0.1.0",
+      "manifest_path": "leftovers/.claude-plugin/plugin.json",
+      "path": "leftovers",
+      "author": {
+        "name": "Gary"
+      },
+      "description": "Keeps a ledger of what Claude left running or lying around on your machine and servers"
+    },
+    {
+      "name": "plan-bar",
+      "version": "0.1.0",
+      "manifest_path": "plan-bar/.claude-plugin/plugin.json",
+      "path": "plan-bar",
+      "author": {
+        "name": "Gary"
+      },
+      "description": "Live progress bars above the prompt for multi-step work: one row per plan, with stages, percent, waiting and failed colors, and sounds"
+    },
+    {
+      "name": "secret-mask",
+      "version": "0.1.0",
+      "manifest_path": "secret-mask/.claude-plugin/plugin.json",
+      "path": "secret-mask",
+      "author": {
+        "name": "Gary"
+      },
+      "description": "Mask token-like strings in tool output before they reach the conversation"
+    }
+  ],
+  "fileCount": 47,
+  "sourceBytes": 1990481,
+  "files": [
+    {
+      "path": ".claude-plugin/marketplace.json",
+      "gitBlobSha1": "52864ebfe769f40f7dc244c136dd9fd1ac90275f",
+      "sha256": "10dce2f2d667228281d42213d70a1e7d0c0f2f6f8e84b1c7c92f119ebbdcf2da",
+      "bytes": 661,
+      "mode": "100644"
+    },
+    {
+      "path": ".gitignore",
+      "gitBlobSha1": "be92c1c6b1fa59e3456d6608cd7edcf7e5f6c4f0",
+      "sha256": "8155502bdd06bd30e334896e394bf034ad82e9a2b89d5fece4aaa9374728a163",
+      "bytes": 104,
+      "mode": "100644"
+    },
+    {
+      "path": "LICENSE",
+      "gitBlobSha1": "e267c2d71c9962b1091d8ad20305e3825748fa29",
+      "sha256": "2d70e5afa55746d93f473a0139cd4df5c17254ad66aa2dcaecae1572e512f0ec",
+      "bytes": 1067,
+      "mode": "100644"
+    },
+    {
+      "path": "README.md",
+      "gitBlobSha1": "efa4bd1430e8a1dc7f1c604b9bd6627f3bf8c6cc",
+      "sha256": "9833a5bb20d24168e0c6c26e81a4d9d225c706c2a2d3465e5a259945b2193690",
+      "bytes": 6261,
+      "mode": "100644"
+    },
+    {
+      "path": "README.zh-CN.md",
+      "gitBlobSha1": "08e8c2829cfaafca146601213a032073452e80e9",
+      "sha256": "22025a1d11d66d4bea894cc4afda4c8ab4e69c5763a442b6d72c64c56dfaa6e1",
+      "bytes": 6106,
+      "mode": "100644"
+    },
+    {
+      "path": "README.zh-TW.md",
+      "gitBlobSha1": "d4c554817457e78a989fbf0f1f0ed6308ec7d90f",
+      "sha256": "20605cb032e5ac7651876cebbde697d0ca3b97811e88f39b9fb980352a160d99",
+      "bytes": 5959,
+      "mode": "100644"
+    },
+    {
+      "path": "leftovers/.claude-plugin/plugin.json",
+      "gitBlobSha1": "337a1c4eb24f79fc17c065bd4bbeea2168763904",
+      "sha256": "e3dd534335291a0b8004cac2dd6498e43de33c433605b78adb8a9a7385761431",
+      "bytes": 425,
+      "mode": "100644"
+    },
+    {
+      "path": "leftovers/hooks/detect.ts",
+      "gitBlobSha1": "820c56870dc07d8f6f7aaef9342844794f96bd7e",
+      "sha256": "9486774c2d89489b9a526d7097cf9d8936960fe71d633450139c4bd44d62e45b",
+      "bytes": 13335,
+      "mode": "100644"
+    },
+    {
+      "path": "leftovers/hooks/hooks.json",
+      "gitBlobSha1": "5a63f649593a5d89af8775a8e3d12db0f0940b12",
+      "sha256": "d842d789476d67282d0f04b7e5fdc68a3d981ccec65dd79cfa2d11eed13fb828",
+      "bytes": 34,
+      "mode": "100644"
+    },
+    {
+      "path": "leftovers/hooks/i18n.ts",
+      "gitBlobSha1": "f733cd6f62114aaccc1391238cc69a8de27b804d",
+      "sha256": "b4e8e3004040d5858bd9a9a8be200edbd89d82d1a657d5a1bf00b1c5754bdd48",
+      "bytes": 5465,
+      "mode": "100644"
+    },
+    {
+      "path": "leftovers/hooks/register.tsx",
+      "gitBlobSha1": "285b70d7c0d19aa4ea1334ea222306776f36f54a",
+      "sha256": "49c8d0fd21e2ea6446d08d56a17cff2fcd43e3679565a60b8083e882ca2ed2c0",
+      "bytes": 12908,
+      "mode": "100644"
+    },
+    {
+      "path": "leftovers/tests/leftovers.test.tsx",
+      "gitBlobSha1": "29bfcb17dba27a7eb2b223ca100276a2f405ebb9",
+      "sha256": "84bed73e4277aa113ae31ca6a5a6d1b69aa787ff5d06d9cb1d85e62aab7052dc",
+      "bytes": 14285,
+      "mode": "100644"
+    },
+    {
+      "path": "leftovers/types/index.d.ts",
+      "gitBlobSha1": "21750bba5ac2b894168eeccca724677fc1a7633c",
+      "sha256": "efddca4127c96589f266e670a81c480aee7daadf79bf92dc72c99748b0401b2d",
+      "bytes": 454,
+      "mode": "100644"
+    },
+    {
+      "path": "media/hero.png",
+      "gitBlobSha1": "ff1a1e31f04bff8c8c128fdfbaefbb3f9355c2bb",
+      "sha256": "f925418854e42d4374a8b01b7b173a4ad92e9cab96b008ab5e7fe6cfab53d44d",
+      "bytes": 293575,
+      "mode": "100644"
+    },
+    {
+      "path": "media/leftovers.gif",
+      "gitBlobSha1": "a06fb10ad2b32fadaf4cf61d76b0a5dc9ac87af0",
+      "sha256": "dd87dd2c868f16a742c04a03364a50022ee4517fa9369f5d2e23b2c4a88bb8fc",
+      "bytes": 492867,
+      "mode": "100644"
+    },
+    {
+      "path": "media/leftovers.png",
+      "gitBlobSha1": "3bcef298a35dbfa1bf1a33cf773041c744a6480c",
+      "sha256": "e5acabc140308af977608e7e36b47bb061b630082188b378fcb64a523bfc7896",
+      "bytes": 150379,
+      "mode": "100644"
+    },
+    {
+      "path": "media/plan-bar.gif",
+      "gitBlobSha1": "b09a65dfda0a1726dfccc9d51aca507506fbcf3b",
+      "sha256": "2bd275a63037a6d7557779aa562ea6c5da8e93c567629694ab8b0cd1fbffe76f",
+      "bytes": 282541,
+      "mode": "100644"
+    },
+    {
+      "path": "media/plan-bar.png",
+      "gitBlobSha1": "2166e2034587bd1145c092067ceadf4eabc378c4",
+      "sha256": "cb43ca3e33265573d03a2a19b5af858cf67abae0c6be9cff92a72e077eef6167",
+      "bytes": 101370,
+      "mode": "100644"
+    },
+    {
+      "path": "media/secret-mask.gif",
+      "gitBlobSha1": "5b99aa28879e75b8ef86e015f9a5cf0ff9380110",
+      "sha256": "fff8a75d13f56c1396f9763613ba55fba2472684beda9f8f0c82a0d01806b03d",
+      "bytes": 338708,
+      "mode": "100644"
+    },
+    {
+      "path": "media/secret-mask.png",
+      "gitBlobSha1": "4876952d54f7daf705e577916b43355850e3e36a",
+      "sha256": "1bbed99e569e46cf1caeb6e401757d83176c21c0d7544b4893653f837abf100b",
+      "bytes": 94849,
+      "mode": "100644"
+    },
+    {
+      "path": "media/tapes/common.tape",
+      "gitBlobSha1": "ced4f538fb2fee0da1becd4ae7dbdb8e6926a691",
+      "sha256": "aaca9b0e9495228b27dcf2097252e0b8b422979a27097ba4221cd0531aba9679",
+      "bytes": 215,
+      "mode": "100644"
+    },
+    {
+      "path": "media/tapes/hero.tape",
+      "gitBlobSha1": "cac1af13a9d8aa0ff21086b6d3576c119f385cab",
+      "sha256": "25dabbf26eb725c616b534608fe661289993d9f8ee597bb8114f980d78c45c1e",
+      "bytes": 385,
+      "mode": "100644"
+    },
+    {
+      "path": "media/tapes/leftovers.tape",
+      "gitBlobSha1": "223e14d307340456b33e1a533c155a24a7ac099d",
+      "sha256": "c5986eb6c8f62ff8a06fb6eedf318439031068bd5823c3a1d806c01e9e4237b9",
+      "bytes": 403,
+      "mode": "100644"
+    },
+    {
+      "path": "media/tapes/plan-bar.tape",
+      "gitBlobSha1": "630c460e482721ffaefebeb2f7e28349cd7e74d4",
+      "sha256": "890615e17f8a3a307a782c0e541d45487e8b36a59f4e77225edf59d0c4ca9824",
+      "bytes": 214,
+      "mode": "100644"
+    },
+    {
+      "path": "media/tapes/record.sh",
+      "gitBlobSha1": "1bed07342aee264de8df7d5fb906330f0d83da0a",
+      "sha256": "883f8f0d5485cd561e2730c7011fbab58634766db56c597a68c221f93a9b6bd9",
+      "bytes": 1315,
+      "mode": "100755"
+    },
+    {
+      "path": "media/tapes/scrub-usage.py",
+      "gitBlobSha1": "9146aaeb6d5befa22c1709e97ad0b95997726ae7",
+      "sha256": "7849356b8fa0d7945f214e731461062e684c28f2aa3670a3b32fa87fa3111bc9",
+      "bytes": 1807,
+      "mode": "100644"
+    },
+    {
+      "path": "media/tapes/secret-mask.tape",
+      "gitBlobSha1": "07d141e0283bf84083280b40fa9bac62eeb13809",
+      "sha256": "0bc000e28296ef22eeed76037ac991e04921f51f8b25497fb560d24312b98929",
+      "bytes": 320,
+      "mode": "100644"
+    },
+    {
+      "path": "media/tapes/setup-demo.sh",
+      "gitBlobSha1": "cf65471dbc2692b2bef6564c7ac92263a527b285",
+      "sha256": "afdd9469a97ae79aab169d99f366f49c6f164f655c15e28ef35db78edb0f87f3",
+      "bytes": 1739,
+      "mode": "100755"
+    },
+    {
+      "path": "plan-bar/.claude-plugin/plugin.json",
+      "gitBlobSha1": "8e0a44e4fd768705f018438453e9617d2c1cd28f",
+      "sha256": "bcdc709266243abd23166a92353416017d95fa9e69193e552007ad2151639750",
+      "bytes": 472,
+      "mode": "100644"
+    },
+    {
+      "path": "plan-bar/hooks/bar.ts",
+      "gitBlobSha1": "7d903bb6e13f3fbc69b5dcd45e1806405d7f2182",
+      "sha256": "a1be239a8b108e2d4700b0a8638fc9ee747f25c619d90cbd3ccf339b889b350d",
+      "bytes": 7033,
+      "mode": "100644"
+    },
+    {
+      "path": "plan-bar/hooks/hooks.json",
+      "gitBlobSha1": "5a63f649593a5d89af8775a8e3d12db0f0940b12",
+      "sha256": "d842d789476d67282d0f04b7e5fdc68a3d981ccec65dd79cfa2d11eed13fb828",
+      "bytes": 34,
+      "mode": "100644"
+    },
+    {
+      "path": "plan-bar/hooks/i18n.ts",
+      "gitBlobSha1": "1c40ed845dd3d8f2f294ceb8a7eb5f7b05fa2c50",
+      "sha256": "e4570b876f85865010b22682fcb819b122c30b30db3d9d63e1101a6b901934c7",
+      "bytes": 2853,
+      "mode": "100644"
+    },
+    {
+      "path": "plan-bar/hooks/register.tsx",
+      "gitBlobSha1": "8ce22a0b2f23d8e5bfe9f45ac55df246b4cca911",
+      "sha256": "275648c6e87858e20d6a9479b48672138eab728820d552bcabd5613729237334",
+      "bytes": 8813,
+      "mode": "100644"
+    },
+    {
+      "path": "plan-bar/sounds/done.wav",
+      "gitBlobSha1": "21311010638c7db911576d81d3fe60bf72e50f28",
+      "sha256": "b8af3de2185d56def42655153345cf822a5ff11d27576e4226aac22b7deb0d04",
+      "bytes": 43262,
+      "mode": "100644"
+    },
+    {
+      "path": "plan-bar/sounds/failed.wav",
+      "gitBlobSha1": "4fe7424b4afe4beb9aca2df4b4e27c48eb09ec54",
+      "sha256": "75721a6ac453a1a5f0cc37c68d28a29682f4c7adac6658af8dba0727ed022e3f",
+      "bytes": 33560,
+      "mode": "100644"
+    },
+    {
+      "path": "plan-bar/sounds/make.py",
+      "gitBlobSha1": "1bb69943bb282a0b9a16533184710580c52a18f8",
+      "sha256": "7d5159ceba6524ebd0647c4e3fd2ff801d5c1e51bd845675cf4237ccdb0610a2",
+      "bytes": 1236,
+      "mode": "100644"
+    },
+    {
+      "path": "plan-bar/sounds/stage.wav",
+      "gitBlobSha1": "4ade24ff3d9c97b974aaedc8e832bbed59b8d4fa",
+      "sha256": "0055ca01de18bf12dcfaaaf147a67cf5386bd789ee2abced550e9f566d872e24",
+      "bytes": 20330,
+      "mode": "100644"
+    },
+    {
+      "path": "plan-bar/sounds/waiting.wav",
+      "gitBlobSha1": "6912c0be084acc70850fab9c351774a45a7026f9",
+      "sha256": "2c97ceab672d38da6e9c120e70e50d4aa6758f37d18793a9a1b18a48a33a63b2",
+      "bytes": 24740,
+      "mode": "100644"
+    },
+    {
+      "path": "plan-bar/tests/plan-bar.test.tsx",
+      "gitBlobSha1": "bdd9e6fbe43bef6a7a8ba490e6d448ea89e7d087",
+      "sha256": "c2a8ba497f25b3a839ec3cbe29b431e5975eb3b1806f64947307f21ac3c9ebf9",
+      "bytes": 6954,
+      "mode": "100644"
+    },
+    {
+      "path": "plan-bar/types/index.d.ts",
+      "gitBlobSha1": "7d3f875ad5e4358c2f204194a05336133b39410e",
+      "sha256": "db85dcfc3cb69ac6a5ccd2b9047cba888206e905f19708a3ec6d72befd2ed5d5",
+      "bytes": 348,
+      "mode": "100644"
+    },
+    {
+      "path": "secret-mask/.claude-plugin/plugin.json",
+      "gitBlobSha1": "16a8e112598a13669a0fd499a97ffeac5f724477",
+      "sha256": "a31f2955dffb9f9c3553a0a2dd0917cfe2a2f1b1598e03d8c2e88f3139165aa8",
+      "bytes": 446,
+      "mode": "100644"
+    },
+    {
+      "path": "secret-mask/hooks/hooks.json",
+      "gitBlobSha1": "5fcba7ce39fb8380e1221ae37d1fdf75e25e375e",
+      "sha256": "c835c92d8e1159d20a40ca78ad654da7433942c3694ffeda0b376b0c4dfd52cf",
+      "bytes": 33,
+      "mode": "100644"
+    },
+    {
+      "path": "secret-mask/hooks/i18n.ts",
+      "gitBlobSha1": "0f319cd8b95037bfaf6cb44ab0fdd27729e098ce",
+      "sha256": "cd252472670b5fe829fa724da21b2b644843296ee82a8f70863c26bd542a3adb",
+      "bytes": 1823,
+      "mode": "100644"
+    },
+    {
+      "path": "secret-mask/hooks/mask.ts",
+      "gitBlobSha1": "cdb884a024dcc073cffcce9f9d6f578b3cbb9d3a",
+      "sha256": "b1740a9832e611c734680207581cc8054154aed0dece7ec8829a2093080a1d40",
+      "bytes": 1854,
+      "mode": "100644"
+    },
+    {
+      "path": "secret-mask/hooks/register.ts",
+      "gitBlobSha1": "96181959e955cf1bd064801449d1158bf5844d2a",
+      "sha256": "335df195d001b5eee99303cb659925b43813d88ca5e114089bc34caafb7ddb88",
+      "bytes": 4422,
+      "mode": "100644"
+    },
+    {
+      "path": "secret-mask/tests/secret-mask.test.ts",
+      "gitBlobSha1": "c218298ef7ecf830cefd9d96adc0718ad7e7e174",
+      "sha256": "662fd111b1f1988d82ef0a6fee39a561e2e81606ae3922a12199d4905a8b2361",
+      "bytes": 4329,
+      "mode": "100644"
+    },
+    {
+      "path": "secret-mask/types/index.d.ts",
+      "gitBlobSha1": "d1094862107e8a97208a85e58592c26e742218c0",
+      "sha256": "46d56f14f4c9015b700d877ce688528360667bbe3df7d07f0f8f7552a75e6844",
+      "bytes": 188,
+      "mode": "100644"
+    }
+  ],
+  "discoveredCandidates": [],
+  "packagePath": "sources/session-utilities",
+  "displayName": "Session Utilities"
+}

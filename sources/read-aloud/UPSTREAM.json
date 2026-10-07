@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 1,
+  "repository": "gnehiur/claude-code-volc-tts",
+  "upstream": "https://github.com/gnehiur/claude-code-volc-tts",
+  "commit": "68dac31198731c2414a77e0dcb5211f40ac66b4e",
+  "treeSha": "1091aa56d2b549a98437e000108b0435b031a7fe",
+  "importedAt": "2026-10-07",
+  "scope": "Complete tracked source tree at the pinned commit, unmodified.",
+  "verification": "Every file and executable/symlink mode matches the upstream Git tree; staged tree identity is checked before publication.",
+  "runtimeTested": false,
+  "componentLicenses": [
+    {
+      "license": "MIT",
+      "scope": "Source snapshot with original and separately credited component notices retained."
+    }
+  ],
+  "licenseFiles": [
+    {
+      "path": "LICENSE",
+      "sha256": "260c7df5727554ea39aa4acbf5ef34a69d6c3447c26d0c62008531f5ce0861ec"
+    }
+  ],
+  "additionalNotices": [],
+  "mods": [
+    {
+      "name": "tts",
+      "version": "0.2.0",
+      "manifest_path": ".claude-plugin/plugin.json",
+      "path": ".",
+      "author": null,
+      "description": "\u5728\u6bcf\u6bb5\u56de\u590d\u4e0b\u52a0\u4e00\u4e2a\ud83d\udd0a\u6309\u94ae\uff0c\u7528\u706b\u5c71\u5f15\u64ce\u8c46\u5305\u8bed\u97f3\uff08\u77e5\u6027\u5973\u58f0 2.0\uff09\u6d41\u5f0f\u6717\u8bfb\uff0c\u53ef\u6682\u505c\u3001\u7ee7\u7eed\u3001\u4ece\u5934\u5ff5\u3001\u500d\u901f"
+    }
+  ],
+  "fileCount": 10,
+  "sourceBytes": 34442,
+  "files": [
+    {
+      "path": ".claude-plugin/plugin.json",
+      "gitBlobSha1": "b3ded7985c93e58c2f96b91480939c269a1b4280",
+      "sha256": "495c850cd09b5d89d6d1974ae4e024b88d62e0c71ea04dc41a9f5f163b74e315",
+      "bytes": 239,
+      "mode": "100644"
+    },
+    {
+      "path": ".gitignore",
+      "gitBlobSha1": "e0a1a54fd3e826bf5879b03e15e144422fc196b4",
+      "sha256": "65f78bae2d6e7bfe86f39107b6d8efe58e427d92741c494520690dcdd61468b0",
+      "bytes": 178,
+      "mode": "100644"
+    },
+    {
+      "path": "LICENSE",
+      "gitBlobSha1": "375fcd5fa7bc1694ffa9bb2b76aae13f380ac8f7",
+      "sha256": "260c7df5727554ea39aa4acbf5ef34a69d6c3447c26d0c62008531f5ce0861ec",
+      "bytes": 1064,
+      "mode": "100644"
+    },
+    {
+      "path": "README.md",
+      "gitBlobSha1": "54efc2368abc8f9be7ca5450e97300983a3d5e53",
+      "sha256": "a58d31f2da90109b48e5a5dc81cae4c9a7321a2187d8e9c4886b03dd412b9d86",
+      "bytes": 4859,
+      "mode": "100644"
+    },
+    {
+      "path": "bin/ctl.py",
+      "gitBlobSha1": "eb1f9d048c015d92db561319107c3f7a5788ab0d",
+      "sha256": "c5d87f82605bd0c80cf9a99984752ed458f10d56e9dcae052c832cb492d5d009",
+      "bytes": 1904,
+      "mode": "100644"
+    },
+    {
+      "path": "bin/stream.py",
+      "gitBlobSha1": "fb5c987d4a21f7cf7ac5f2ffc2770e46f8e04e8e",
+      "sha256": "b3960fa79d0325105e9c5656c94b0de57ddb06f8e41aaf325a27c47e40d6ca77",
+      "bytes": 12949,
+      "mode": "100644"
+    },
+    {
+      "path": "hooks/hooks.json",
+      "gitBlobSha1": "5a63f649593a5d89af8775a8e3d12db0f0940b12",
+      "sha256": "d842d789476d67282d0f04b7e5fdc68a3d981ccec65dd79cfa2d11eed13fb828",
+      "bytes": 34,
+      "mode": "100644"
+    },
+    {
+      "path": "hooks/register.tsx",
+      "gitBlobSha1": "890b77ee4130273fd6174ceab20b3e5ff3ce62a9",
+      "sha256": "4a6e68d8640b2cbdce370c0d3b86a10e584538e8978ffb9f6393fffd4aeb32f0",
+      "bytes": 12559,
+      "mode": "100644"
+    },
+    {
+      "path": "tsconfig.json",
+      "gitBlobSha1": "8681ec01da419175c87f8c968c6a5af2d2b4e5ae",
+      "sha256": "4087cf0ba92fde503ed0e7c56f37bcb26ad0c085873f10219d0336c0f19b5a8f",
+      "bytes": 56,
+      "mode": "100644"
+    },
+    {
+      "path": "types/index.d.ts",
+      "gitBlobSha1": "6eb896f1cb74d4b66c21e6e2b63eb200715aa66e",
+      "sha256": "b15bb5067248027b52c3562b9f15c888a008d2130c89e8a497c29e08ac64f7f2",
+      "bytes": 600,
+      "mode": "100644"
+    }
+  ],
+  "discoveredCandidates": [
+    {
+      "id": "gnehiur/claude-code-volc-tts:.",
+      "path": ".",
+      "discoveryCommit": "68dac31198731c2414a77e0dcb5211f40ac66b4e",
+      "discoveryLicense": "MIT",
+      "sameRevisionAsImport": true
+    }
+  ],
+  "packagePath": "sources/read-aloud",
+  "displayName": "Read Aloud"
+}

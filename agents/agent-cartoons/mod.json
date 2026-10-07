@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "henrik-thevibe/Claude-Fables:.",
+  "name": "fables",
+  "displayName": "Agent Cartoons",
+  "version": "0.1.0",
+  "description": "Claude Fables: turns what the agent is doing into little animated cartoons above the prompt, written live by Sonnet or Haiku.",
+  "author": "henrik-thevibe",
+  "repository": "henrik-thevibe/Claude-Fables",
+  "modPath": ".",
+  "category": {
+    "id": "agents",
+    "label": "Agents & orchestration",
+    "basis": "exact-catalogue-repository-and-mod-path"
+  },
+  "sourceCommit": "6d0ce80575a92f8f6c8c2493c2bf20413e255622",
+  "sourcePath": "sources/agent-cartoons/source",
+  "sourceManifest": "sources/agent-cartoons/source/.claude-plugin/plugin.json",
+  "page": "agents/agent-cartoons/",
+  "runtimeTested": false
+}

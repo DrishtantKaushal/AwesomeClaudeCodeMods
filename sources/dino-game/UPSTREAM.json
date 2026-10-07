@@ -1,0 +1,192 @@
+{
+  "schemaVersion": 1,
+  "repository": "giovaborgogno/cc-dino",
+  "upstream": "https://github.com/giovaborgogno/cc-dino",
+  "commit": "fe5c0b64b550242449cc8b5861771fcdac2f5993",
+  "treeSha": "35c76fd281f529e85d2c5e92e60a9d45631c6f8a",
+  "importedAt": "2026-10-07",
+  "scope": "Complete tracked source tree at the pinned commit, unmodified.",
+  "verification": "Every file and executable mode matches the upstream Git tree. The reconstructed tree hash matches the pinned commit.",
+  "runtimeTested": false,
+  "componentLicenses": [
+    {
+      "license": "MIT",
+      "scope": "source snapshot; no explicit nested exception found"
+    }
+  ],
+  "licenseFiles": [
+    {
+      "path": "LICENSE",
+      "sha256": "1facd95a071f2fa96696bb859afd3de83fd53ff37c81a064a68fd1e9b674ef27"
+    }
+  ],
+  "mods": [
+    {
+      "name": "cc-dino",
+      "manifest_path": ".claude-plugin/plugin.json",
+      "version": "0.1.1",
+      "path": ".",
+      "author": {
+        "name": "Giovanni Borgogno",
+        "url": "https://giovaborgogno.com"
+      },
+      "description": "The T-rex from the browser's offline page, above the Claude Code prompt: jump cacti and duck birds while Claude works. Needs function hooks (early access) and an interactive terminal."
+    }
+  ],
+  "fileCount": 20,
+  "sourceBytes": 1849394,
+  "files": [
+    {
+      "path": ".claude-plugin/marketplace.json",
+      "gitBlobSha1": "b9fe3590e0be31fb9ce3d12cd070cb16588c7543",
+      "sha256": "7514e6dd1e68e97826d6465f408b5c1109ab9b61878ab54ab40fbcbb33dc7553",
+      "bytes": 531,
+      "mode": "100644"
+    },
+    {
+      "path": ".claude-plugin/plugin.json",
+      "gitBlobSha1": "5e28e7aa717d67f7dde5b03b74234e89f6576fab",
+      "sha256": "a040364660d1410a292e52fb1369486a543664222d9a795514870aa9c54b0573",
+      "bytes": 532,
+      "mode": "100644"
+    },
+    {
+      "path": ".claude/settings.json",
+      "gitBlobSha1": "1dc33a150707652d299423f424f1b150dd96b2e7",
+      "sha256": "5f13cf4271d83a3ea4e9bb83b607341b7f5bc645fd76aebb51e3329f8d393dbb",
+      "bytes": 64,
+      "mode": "100644"
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "gitBlobSha1": "17a8984aac728c0f96e1d0167f34c65fef11330e",
+      "sha256": "21c0852258bab96eb71ed4395c0bb4f09c61ce89d7f2c564ee545b22e2e17bc5",
+      "bytes": 643,
+      "mode": "100644"
+    },
+    {
+      "path": ".gitignore",
+      "gitBlobSha1": "403645160823010f8009a49c15942c500a6c389d",
+      "sha256": "345dfb3f1ebe042b26a0da90ffde81fcdc7a5067221b2080f8b53535ec18c15d",
+      "bytes": 138,
+      "mode": "100644"
+    },
+    {
+      "path": "LICENSE",
+      "gitBlobSha1": "d406a31cd7fe32783b6186f4bdf46a8ed7676882",
+      "sha256": "1facd95a071f2fa96696bb859afd3de83fd53ff37c81a064a68fd1e9b674ef27",
+      "bytes": 1074,
+      "mode": "100644"
+    },
+    {
+      "path": "README.md",
+      "gitBlobSha1": "cd3fd78012e2e836885f38c0368baee46f3caa17",
+      "sha256": "04cf20caa032c87877e637a2aa76c87816cf603a19bc1b6650cbacf2f69030fb",
+      "bytes": 1321,
+      "mode": "100644"
+    },
+    {
+      "path": "docs/demo.gif",
+      "gitBlobSha1": "dc17874edfeed4e609d9fbab13a816dc523eff5d",
+      "sha256": "e866c1152de986d0917bb53cb92f149f3aa7ee5cfbd6c397e37d76d99f2ca18f",
+      "bytes": 1471292,
+      "mode": "100644"
+    },
+    {
+      "path": "docs/demo.mp4",
+      "gitBlobSha1": "e3ce55612eeb1f1c1857f59c1a32a06bd83df689",
+      "sha256": "cd3a0c280b34c66383bf72c5c37a65a91ec52c72fb7dc80ee0f7bbcb539d8681",
+      "bytes": 327937,
+      "mode": "100644"
+    },
+    {
+      "path": "docs/demo.tape",
+      "gitBlobSha1": "6e9db35c065c6de60b0e1a3d702ea8c23fac36ac",
+      "sha256": "f1673ea04334d869707aa0ae19981120bd71e59f94cb790c0a98f942e456841c",
+      "bytes": 1307,
+      "mode": "100644"
+    },
+    {
+      "path": "hooks/boards/dino.tsx",
+      "gitBlobSha1": "787ff704de90f10d4cb198ed369eade5aebd989e",
+      "sha256": "98f99ce525f8f0fdb461f57e3893e9f9143bc6748eeed54d02597c3d35849fd0",
+      "bytes": 14041,
+      "mode": "100644"
+    },
+    {
+      "path": "hooks/game/autopilot.ts",
+      "gitBlobSha1": "1c21a4540ff7b1ddebd175f00c8d66a6324d3181",
+      "sha256": "2997369a33079827a9d85bc504af9174dfd84435f6f426bef622e9d613b9b6ed",
+      "bytes": 690,
+      "mode": "100644"
+    },
+    {
+      "path": "hooks/game/dino.ts",
+      "gitBlobSha1": "f8524049dd838c4ba1c13d68025b982cb6c6d20d",
+      "sha256": "9296a82b020ea26abf6eebeb43eeca010b07a2fc9296658fd43b53467cafd5f6",
+      "bytes": 8880,
+      "mode": "100644"
+    },
+    {
+      "path": "hooks/game/handle.ts",
+      "gitBlobSha1": "7b83617a2428d04226aca79f8c435b186377d1be",
+      "sha256": "d7ae2341692a39da3732ee360694ecbbaf4b6c62a5827ae35d59ccca126fac02",
+      "bytes": 633,
+      "mode": "100644"
+    },
+    {
+      "path": "hooks/hooks.json",
+      "gitBlobSha1": "623167b521d0d79c4dcad776d7fe89997cd54e5e",
+      "sha256": "e31dd63dae7d191ba8a05f0467b9a48a561af904b97125d7537aeaaa62e46bd4",
+      "bytes": 198,
+      "mode": "100644"
+    },
+    {
+      "path": "hooks/register.tsx",
+      "gitBlobSha1": "05194815eab23f94b3bdc27e90b11499c44f7244",
+      "sha256": "bfacb19eff8cc9281eecf57d139d2d535c32989cc7df2b7e894d7c55dd66ca42",
+      "bytes": 11848,
+      "mode": "100644"
+    },
+    {
+      "path": "tests/dino.test.ts",
+      "gitBlobSha1": "7fbe72fc04e2eb3a7b3532efb854a38857aa1b79",
+      "sha256": "7767506a6fe8fe92e4aedd77f29f96aae08914e63176646bdc642e92e51ce78d",
+      "bytes": 3561,
+      "mode": "100644"
+    },
+    {
+      "path": "tests/handle.test.ts",
+      "gitBlobSha1": "54c6bfba77b74847b0fd936a2ad1cc5299c6585d",
+      "sha256": "53c07b762a6dd5a4000b37f4691e80afc0263cdb6d65ce95ba36aff54fe41f00",
+      "bytes": 947,
+      "mode": "100644"
+    },
+    {
+      "path": "tests/replay.test.ts",
+      "gitBlobSha1": "aff9be51db16bcafca281ba0985400ba9ce71a17",
+      "sha256": "474203e2c8c2ac01287a1167649e728ef86646ec85d45781443e38a7d82059bd",
+      "bytes": 3376,
+      "mode": "100644"
+    },
+    {
+      "path": "tsconfig.json",
+      "gitBlobSha1": "3c9732019e7a0aa40e60633c4d402d169d00f7ab",
+      "sha256": "3fde33f534e2e990acd323708e83507f7d19ef8478fdf381edf55a17bd32ed99",
+      "bytes": 381,
+      "mode": "100644"
+    }
+  ],
+  "additionalNotices": [],
+  "discoveredCandidates": [
+    {
+      "id": "giovaborgogno/cc-dino:.",
+      "path": ".",
+      "discoveryCommit": "fe5c0b64b550242449cc8b5861771fcdac2f5993",
+      "discoveryLicense": "MIT",
+      "sameRevisionAsImport": true
+    }
+  ],
+  "packagePath": "sources/dino-game",
+  "displayName": "Dino Game"
+}

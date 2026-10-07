@@ -1,0 +1,199 @@
+{
+  "schemaVersion": 1,
+  "repository": "scasella/claude-flightdeck",
+  "upstream": "https://github.com/scasella/claude-flightdeck",
+  "commit": "f31daca523d36c501cd0df23a737a44c7dc56ad6",
+  "treeSha": "9bf6c96d68e94bd20fd08f4c29f93d1138c55f05",
+  "importedAt": "2026-10-07",
+  "scope": "Complete tracked source tree at the pinned commit, unmodified.",
+  "verification": "Every file and executable mode matches the upstream Git tree. The reconstructed tree hash matches the pinned commit.",
+  "runtimeTested": false,
+  "componentLicenses": [
+    {
+      "license": "MIT",
+      "scope": "source snapshot; no explicit nested exception found"
+    }
+  ],
+  "licenseFiles": [
+    {
+      "path": "LICENSE",
+      "sha256": "98e532b8434d2a52bb00893b8eb9d2325c6b0528cfdb805d95b351ec1d72034a"
+    }
+  ],
+  "mods": [
+    {
+      "name": "flightdeck",
+      "manifest_path": ".claude-plugin/plugin.json",
+      "version": "0.3.2",
+      "path": ".",
+      "author": {
+        "name": "Stephen Casella",
+        "url": "https://github.com/scasella"
+      },
+      "description": "Flightdeck: a live agent dashboard for Claude Code. Main model vitals, an on-call architect, every permission check, subagent cards and swimlanes, a turn receipt and a session log, all from real session events"
+    }
+  ],
+  "fileCount": 21,
+  "sourceBytes": 3609663,
+  "files": [
+    {
+      "path": ".claude-plugin/marketplace.json",
+      "gitBlobSha1": "f664a67f87ecb195b3b249c2ab3fcff9636c85e4",
+      "sha256": "ab2e3cc62e5a060eff22a974f157c78648c8d21677c0b7c4d06d21626cffefdb",
+      "bytes": 547,
+      "mode": "100644"
+    },
+    {
+      "path": ".claude-plugin/plugin.json",
+      "gitBlobSha1": "7b769e1a43a462ba37c3b00605c2886ea71b18d8",
+      "sha256": "70ab346401dea3e1cae77ee2bde2aaebc37afc9594461efce44609e4d137c77d",
+      "bytes": 3609,
+      "mode": "100644"
+    },
+    {
+      "path": ".gitignore",
+      "gitBlobSha1": "57301a1e34641eb1cfd2ee5e72a412cb60a31046",
+      "sha256": "6aa348f547122c06a9a92c9ff821c8a9419ec0f33751cd9b4ce8f7b8dda7ea27",
+      "bytes": 133,
+      "mode": "100644"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "gitBlobSha1": "cee5fdd835449d9b087b8e19942695a1aca4feaa",
+      "sha256": "3594647a5b9613fe788757e099bb11bc7b70d22d08a89ddb51ae0fa7089e4316",
+      "bytes": 1569,
+      "mode": "100644"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "gitBlobSha1": "7788b6c7127918025ad390151fee998ecbe6c4b1",
+      "sha256": "06fe3fc20c7ddcdd71e680e79107151caaed19bb4b75f2f7261a50f23a7c8ee6",
+      "bytes": 1195,
+      "mode": "100644"
+    },
+    {
+      "path": "LICENSE",
+      "gitBlobSha1": "1cc6741ba919267e4e55bd5ec8155aecbd8af294",
+      "sha256": "98e532b8434d2a52bb00893b8eb9d2325c6b0528cfdb805d95b351ec1d72034a",
+      "bytes": 1072,
+      "mode": "100644"
+    },
+    {
+      "path": "README.md",
+      "gitBlobSha1": "db7a0d04d612838b3b3b6e115f63bd50182977be",
+      "sha256": "6b1d5a1d7a923ad2094c0cf506faf87e9e140dbc1d36f988e52d3508de95f8c8",
+      "bytes": 11271,
+      "mode": "100644"
+    },
+    {
+      "path": "SECURITY.md",
+      "gitBlobSha1": "2dfb01d0f8d889f81cc32bba8e3c6e5f1e36c1f7",
+      "sha256": "9c17afa79340e972bdc8845c1a144b0d29d67a45fea21129d68fee1e99de26a6",
+      "bytes": 471,
+      "mode": "100644"
+    },
+    {
+      "path": "docs/media/demo.gif",
+      "gitBlobSha1": "6c63405a7138370f73f2459cd75ffc63d4e620c8",
+      "sha256": "8c83ca6b4347b2f96cdfb1450165430bf7e764b1be6ff46b756c1cf7d8710396",
+      "bytes": 2444983,
+      "mode": "100644"
+    },
+    {
+      "path": "docs/media/docked-pane.png",
+      "gitBlobSha1": "7251e85ca26051d34bdba0593e630abbe26b342d",
+      "sha256": "8a469184e2e1b57455c2dd999a4c0ff783426694688e5a5eec3fa437b1f2e575",
+      "bytes": 277935,
+      "mode": "100644"
+    },
+    {
+      "path": "docs/media/docked-session.png",
+      "gitBlobSha1": "15f793f25141a4698395623cd4056018d8c53420",
+      "sha256": "823ea164e0271f68cf3bd3034af7fc5a456f6af79ac1fbbd0d5df77210407eac",
+      "bytes": 558849,
+      "mode": "100644"
+    },
+    {
+      "path": "docs/media/inline-mini.png",
+      "gitBlobSha1": "2ceba472b9c1938b33ebc2b084efea183a158a83",
+      "sha256": "f07e9f030a09587a6cf31ced489f9257555ee65673147e6939e5308ab3d684b9",
+      "bytes": 51989,
+      "mode": "100644"
+    },
+    {
+      "path": "docs/media/social-preview.png",
+      "gitBlobSha1": "04d114e6032205f0fc435b5d510970de1a82c3ea",
+      "sha256": "5293b8d289f6a7b4ca7d6689e6a8f2d686751b69df64e5c1fe4892202a92d2b2",
+      "bytes": 161757,
+      "mode": "100644"
+    },
+    {
+      "path": "hooks/core.ts",
+      "gitBlobSha1": "793d586679927eedf7e5bf68650ca50637a6831c",
+      "sha256": "ac1415c8d5bdf82e56c5a10ff438f2054a34654e930db869da1c45b732aa98a6",
+      "bytes": 20046,
+      "mode": "100644"
+    },
+    {
+      "path": "hooks/elapsed.tsx",
+      "gitBlobSha1": "c0cf4440fc6bc00514f08f9dfee5144a88234b46",
+      "sha256": "212ec2954e7d41ffff139791702be8a402eba57b2d9c1119f440a0ebd154c73e",
+      "bytes": 1415,
+      "mode": "100644"
+    },
+    {
+      "path": "hooks/hooks.json",
+      "gitBlobSha1": "5a63f649593a5d89af8775a8e3d12db0f0940b12",
+      "sha256": "d842d789476d67282d0f04b7e5fdc68a3d981ccec65dd79cfa2d11eed13fb828",
+      "bytes": 34,
+      "mode": "100644"
+    },
+    {
+      "path": "hooks/rail.tsx",
+      "gitBlobSha1": "e230bd02d2965d941ade707556dd8eaf6f83958a",
+      "sha256": "6875743b9efb1847f317d96c961000eba658183ab64e8cfc82c344359881ff49",
+      "bytes": 2280,
+      "mode": "100644"
+    },
+    {
+      "path": "hooks/register.tsx",
+      "gitBlobSha1": "6bbf112e4e5c0cc6b4da3a52dd50ab4344e30076",
+      "sha256": "4a7238ecfb040de3afc2370c3787d7a083b13476cba6838813e7ff603c1d39b0",
+      "bytes": 47760,
+      "mode": "100644"
+    },
+    {
+      "path": "tests/flightdeck.test.ts",
+      "gitBlobSha1": "22a7f8f3cf6796d8ef6934189f3fc627431270bb",
+      "sha256": "22a632d1a6278786e4fdc43fca10a591f7276e52dc7fd0ff533556f89e2c3b93",
+      "bytes": 19927,
+      "mode": "100644"
+    },
+    {
+      "path": "tsconfig.json",
+      "gitBlobSha1": "8681ec01da419175c87f8c968c6a5af2d2b4e5ae",
+      "sha256": "4087cf0ba92fde503ed0e7c56f37bcb26ad0c085873f10219d0336c0f19b5a8f",
+      "bytes": 56,
+      "mode": "100644"
+    },
+    {
+      "path": "types/index.d.ts",
+      "gitBlobSha1": "65aad9b77048190c0eef79489cf924aefee82838",
+      "sha256": "4b7c330ef5fc570cb12219d909f5cb9bea4a9e274e0750b3e29dcc7d503cbc52",
+      "bytes": 2765,
+      "mode": "100644"
+    }
+  ],
+  "additionalNotices": [],
+  "discoveredCandidates": [
+    {
+      "id": "scasella/claude-flightdeck:.",
+      "path": ".",
+      "discoveryCommit": "f31daca523d36c501cd0df23a737a44c7dc56ad6",
+      "discoveryLicense": "MIT",
+      "sameRevisionAsImport": true
+    }
+  ],
+  "packagePath": "sources/agent-dashboard",
+  "displayName": "Agent Dashboard"
+}

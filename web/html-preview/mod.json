@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "JAICHANGPARK/html-preview:.",
+  "name": "html-preview",
+  "displayName": "HTML Preview",
+  "version": "0.3.1",
+  "description": "Shows HTML files Claude writes (or /preview <file>) like a browser: terminal-browser when installed, else a built-in Chrome-rendered pane",
+  "author": "JAICHANGPARK",
+  "repository": "JAICHANGPARK/html-preview",
+  "modPath": ".",
+  "category": {
+    "id": "web",
+    "label": "Browser & web",
+    "basis": "exact-catalogue-repository-and-mod-path"
+  },
+  "sourceCommit": "12893f47e1c5641aae3abf811bc26ba1ab6a4bad",
+  "sourcePath": "sources/html-preview/source",
+  "sourceManifest": "sources/html-preview/source/.claude-plugin/plugin.json",
+  "page": "web/html-preview/",
+  "runtimeTested": false
+}

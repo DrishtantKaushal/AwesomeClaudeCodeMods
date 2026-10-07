@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "richkuo/claude-code-model-effort-shortcuts:.",
+  "name": "model-effort-shortcuts",
+  "displayName": "Model Shortcuts",
+  "version": "0.3.1",
+  "description": "Keyboard shortcuts that step the reasoning effort level and the model up and down; the footer shows what each request uses",
+  "author": "Richard Kuo",
+  "repository": "richkuo/claude-code-model-effort-shortcuts",
+  "modPath": ".",
+  "category": {
+    "id": "usage",
+    "label": "Usage & costs",
+    "basis": "exact-catalogue-repository-and-mod-path"
+  },
+  "sourceCommit": "6c1d03e068ebe9ada43bb182857c425605cccee1",
+  "sourcePath": "sources/model-shortcuts/source",
+  "sourceManifest": "sources/model-shortcuts/source/.claude-plugin/plugin.json",
+  "page": "usage/model-shortcuts/",
+  "runtimeTested": false
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "zycck/claude-mods:plugins/plan-progress",
+  "name": "plan-progress",
+  "displayName": "Plan Progress",
+  "version": "0.7.3",
+  "description": "Live plan progress bars above the Claude Code prompt: stages, steps, a pixel fill and soft sounds for decision, error and done",
+  "author": "Kirill Serditov",
+  "repository": "zycck/claude-mods",
+  "modPath": "plugins/plan-progress",
+  "category": {
+    "id": "planning",
+    "label": "Planning & tasks",
+    "basis": "exact-catalogue-repository-and-mod-path"
+  },
+  "sourceCommit": "2febbf82b6d933971f19d79892a586cb036fc199",
+  "sourcePath": "sources/plan-progress/source/plugins/plan-progress",
+  "sourceManifest": "sources/plan-progress/source/plugins/plan-progress/.claude-plugin/plugin.json",
+  "page": "planning/plan-progress/",
+  "runtimeTested": false
+}

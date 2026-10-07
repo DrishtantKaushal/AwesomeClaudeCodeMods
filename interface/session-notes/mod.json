@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "udaaff/claude-code-session-notes:.",
+  "name": "session-notes",
+  "displayName": "Session Notes",
+  "version": "0.1.0",
+  "description": "Project notes in .claude/notes.md: live dev servers, recent artifacts and pinned links, in a side panel and with /notes.",
+  "author": "udaaff",
+  "repository": "udaaff/claude-code-session-notes",
+  "modPath": ".",
+  "category": {
+    "id": "interface",
+    "label": "Interface & themes",
+    "basis": "exact-catalogue-repository-and-mod-path"
+  },
+  "sourceCommit": "d3f429a057cb62e3e9a20c261502b22f781e01d1",
+  "sourcePath": "sources/session-notes/source",
+  "sourceManifest": "sources/session-notes/source/.claude-plugin/plugin.json",
+  "page": "interface/session-notes/",
+  "runtimeTested": false
+}

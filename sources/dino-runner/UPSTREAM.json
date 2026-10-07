@@ -1,0 +1,128 @@
+{
+  "schemaVersion": 1,
+  "repository": "manfye/cc-dino",
+  "upstream": "https://github.com/manfye/cc-dino",
+  "commit": "2d0221b6650ebe6287114cf9deec13b0b30850ec",
+  "treeSha": "b34edb83840eb9c603cd7ab38eb718373680ecb6",
+  "importedAt": "2026-10-07",
+  "scope": "Complete tracked source tree at the pinned commit, unmodified.",
+  "verification": "Every file and executable/symlink mode matches the upstream Git tree; staged tree identity is checked before publication.",
+  "runtimeTested": false,
+  "componentLicenses": [
+    {
+      "license": "MIT",
+      "scope": "Source snapshot with original and separately credited component notices retained."
+    }
+  ],
+  "licenseFiles": [
+    {
+      "path": "LICENSE",
+      "sha256": "eb98e6ebe0e6e6200f643d1d47e84e10f8698e8b691cd12d131c48e7fc7701b6"
+    }
+  ],
+  "additionalNotices": [],
+  "mods": [
+    {
+      "name": "cc-dino",
+      "version": "0.1.0",
+      "manifest_path": ".claude-plugin/plugin.json",
+      "path": ".",
+      "author": {
+        "name": "manfye"
+      },
+      "description": "The Chrome offline dinosaur, above the Claude Code prompt. Jump the cacti and duck the pterodactyls while Claude works. Needs function hooks (early access) and an interactive terminal."
+    }
+  ],
+  "fileCount": 11,
+  "sourceBytes": 29076,
+  "files": [
+    {
+      "path": ".claude-plugin/marketplace.json",
+      "gitBlobSha1": "9bd38225bd57b8c3d22d61f7a165ed23c9d43c62",
+      "sha256": "32339e09aad7bf92939eb9c9375bd9dcff67357c9de42e018724e6afd485179a",
+      "bytes": 554,
+      "mode": "100644"
+    },
+    {
+      "path": ".claude-plugin/plugin.json",
+      "gitBlobSha1": "473c78478bf303b60cac8e230f40f84db1682120",
+      "sha256": "cfcefd3f95c0498120d93ee4623f88d7d1ddb03e4dfeed227a99b7b82b618f1b",
+      "bytes": 508,
+      "mode": "100644"
+    },
+    {
+      "path": ".claude/settings.json",
+      "gitBlobSha1": "1dc33a150707652d299423f424f1b150dd96b2e7",
+      "sha256": "5f13cf4271d83a3ea4e9bb83b607341b7f5bc645fd76aebb51e3329f8d393dbb",
+      "bytes": 64,
+      "mode": "100644"
+    },
+    {
+      "path": ".gitignore",
+      "gitBlobSha1": "ce4eae33635080a713062f37dffeda969a1f37f0",
+      "sha256": "5a4ea545be3da9e292a6f01e1d42c2045cb6d45cd858e574d1a2c57647fc472c",
+      "bytes": 29,
+      "mode": "100644"
+    },
+    {
+      "path": "LICENSE",
+      "gitBlobSha1": "eb86e2e6be58574573621066ad67d94c8a758b89",
+      "sha256": "eb98e6ebe0e6e6200f643d1d47e84e10f8698e8b691cd12d131c48e7fc7701b6",
+      "bytes": 1063,
+      "mode": "100644"
+    },
+    {
+      "path": "README.md",
+      "gitBlobSha1": "70bacae345c902d5a3d834ef15f8ef06340bafa5",
+      "sha256": "2d61d495bdfd97cc574b4537eb60012fa1c678bdd2d939ee15bd2fe5ffdf0f81",
+      "bytes": 6724,
+      "mode": "100644"
+    },
+    {
+      "path": "hooks/boards/dino.tsx",
+      "gitBlobSha1": "6ef728f6579399e2d97679d3454d27c94bde5684",
+      "sha256": "174e8a1a945b9ddf06b4625ae499bac4d9fb7b33aa3b3d3034fefc904e76d497",
+      "bytes": 9281,
+      "mode": "100644"
+    },
+    {
+      "path": "hooks/games/dino.ts",
+      "gitBlobSha1": "89d4812278c14c08826486fae66059d3388f2c88",
+      "sha256": "f78fc59b192ec237deb99861abf8bdd3ff99dd98d6812e57d8057a7b172a646a",
+      "bytes": 6133,
+      "mode": "100644"
+    },
+    {
+      "path": "hooks/hooks.json",
+      "gitBlobSha1": "2ce19cd81919dd2f1098a98f8f67c1906399ec7f",
+      "sha256": "60df62b1b0bc332609ea59eee10f4a96b28e10665ea552534f8a6ce9428c580a",
+      "bytes": 201,
+      "mode": "100644"
+    },
+    {
+      "path": "hooks/register.tsx",
+      "gitBlobSha1": "b0e87608573ad8480ea59686d11dbde157a39829",
+      "sha256": "110c03e47c20e385f814088430f294775d604dea4b73d79990309fe04b79e434",
+      "bytes": 4138,
+      "mode": "100644"
+    },
+    {
+      "path": "tsconfig.json",
+      "gitBlobSha1": "3c9732019e7a0aa40e60633c4d402d169d00f7ab",
+      "sha256": "3fde33f534e2e990acd323708e83507f7d19ef8478fdf381edf55a17bd32ed99",
+      "bytes": 381,
+      "mode": "100644"
+    }
+  ],
+  "discoveredCandidates": [
+    {
+      "id": "manfye/cc-dino:.",
+      "path": ".",
+      "discoveryCommit": "2d0221b6650ebe6287114cf9deec13b0b30850ec",
+      "discoveryLicense": "MIT",
+      "sameRevisionAsImport": true
+    }
+  ],
+  "packagePath": "sources/dino-runner",
+  "displayName": "Dino Runner"
+}

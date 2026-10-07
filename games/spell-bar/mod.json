@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "powerofjinbo/claude-code-spell-bar:plugins/spell-bar",
+  "name": "spell-bar",
+  "displayName": "Spell Bar",
+  "version": "1.0.0",
+  "description": "An animated effort bar for Claude Code: Clawd casts Avada Kedavra at six ranks, one per effort level from low to ultracode, with Voldemort looming behind.",
+  "author": "powerofjinbo",
+  "repository": "powerofjinbo/claude-code-spell-bar",
+  "modPath": "plugins/spell-bar",
+  "category": {
+    "id": "games",
+    "label": "Games & entertainment",
+    "basis": "exact-catalogue-repository-and-mod-path"
+  },
+  "sourceCommit": "1b0494cadcd4e98542147b321250d55d38696553",
+  "sourcePath": "sources/spell-bar/source/plugins/spell-bar",
+  "sourceManifest": "sources/spell-bar/source/plugins/spell-bar/.claude-plugin/plugin.json",
+  "page": "games/spell-bar/",
+  "runtimeTested": false
+}

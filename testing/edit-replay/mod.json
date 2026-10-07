@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "hamzafer/claude-code-mods:mods/replay-theater",
+  "name": "replay-theater",
+  "displayName": "Edit Replay",
+  "version": "0.1.2",
+  "description": "Step through the last turn's file edits, one diff at a time.",
+  "author": "Hamza Zafar",
+  "repository": "hamzafer/claude-code-mods",
+  "modPath": "mods/replay-theater",
+  "category": {
+    "id": "testing",
+    "label": "Testing & debugging",
+    "basis": "exact-catalogue-repository-and-mod-path"
+  },
+  "sourceCommit": "fc5130427799f69852055add193161080bd054d6",
+  "sourcePath": "sources/workspace-toolkit/source/mods/replay-theater",
+  "sourceManifest": "sources/workspace-toolkit/source/mods/replay-theater/.claude-plugin/plugin.json",
+  "page": "testing/edit-replay/",
+  "runtimeTested": false
+}

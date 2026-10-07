@@ -1,0 +1,170 @@
+{
+  "schemaVersion": 1,
+  "repository": "tomatoaiu/rename-ja",
+  "upstream": "https://github.com/tomatoaiu/rename-ja",
+  "commit": "baa1cb3e14436dcfe1f390d332e8c4b0ff48840b",
+  "treeSha": "1e83e8f0356c938a1ebac8b72df36ad11239d0b0",
+  "importedAt": "2026-10-07",
+  "scope": "Complete tracked source tree at the pinned commit, unmodified.",
+  "verification": "Every file and executable/symlink mode matches the upstream Git tree; staged tree identity is checked before publication.",
+  "runtimeTested": false,
+  "componentLicenses": [
+    {
+      "license": "MIT",
+      "scope": "Source snapshot with original and separately credited component notices retained."
+    }
+  ],
+  "licenseFiles": [
+    {
+      "path": "LICENSE",
+      "sha256": "1b9645140196e4107f21924e2ee84b66dcde2dcbec5815f71ba5aa710bf30a28"
+    }
+  ],
+  "additionalNotices": [],
+  "mods": [
+    {
+      "name": "rename-ja",
+      "version": "0.1.0",
+      "manifest_path": ".claude-plugin/plugin.json",
+      "path": ".",
+      "author": {
+        "name": "tomatoaiu"
+      },
+      "description": "\u5f15\u6570\u306a\u3057\u306e /rename \u3067\u3001\u4f1a\u8a71\u5185\u5bb9\u304b\u3089\u65e5\u672c\u8a9e\u306e\u30bb\u30c3\u30b7\u30e7\u30f3\u540d\u3092\u751f\u6210\u3059\u308b\u3002"
+    }
+  ],
+  "fileCount": 17,
+  "sourceBytes": 40005,
+  "files": [
+    {
+      "path": ".claude-plugin/marketplace.json",
+      "gitBlobSha1": "5f1f42417dcd5642380d203933263a960f0bac6f",
+      "sha256": "c1da0a7610d5e53b34ae291d17fb226c4c45d902d4a3cac5b45fc02edc619e18",
+      "bytes": 445,
+      "mode": "100644"
+    },
+    {
+      "path": ".claude-plugin/plugin.json",
+      "gitBlobSha1": "b69e02d4b921e54c6e6d2709a27cf43fef7876b2",
+      "sha256": "d296ae6e7b9ede685ee6991d0dc1cbe32356e7ff26e72c65ac7c791b1199b694",
+      "bytes": 938,
+      "mode": "100644"
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "gitBlobSha1": "f4b068f281e8e37c45cf54a6612216b42ff404be",
+      "sha256": "543fceb00d286a99bf0143aebf8cb580bd8aeb0b67bdb70b5730f8576f890133",
+      "bytes": 712,
+      "mode": "100644"
+    },
+    {
+      "path": ".github/workflows/release-please.yml",
+      "gitBlobSha1": "f9f648a001ef2b34cf3bdd0f19c5fe8e2b96e6b1",
+      "sha256": "d08e173b3234554f1fe8c68120c3ef464e514f38430f1d452144cc7e9cd2f7d9",
+      "bytes": 2085,
+      "mode": "100644"
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "gitBlobSha1": "280942bbbbd866c8e27d8140ad28451a69bebbfa",
+      "sha256": "a07711c08c37fa4f4a2971573bb90ea2b9dc8567e46103466ad854eb6fe4ba0b",
+      "bytes": 11552,
+      "mode": "100644"
+    },
+    {
+      "path": ".gitignore",
+      "gitBlobSha1": "b67c661cfb5cc73f5f68cfe85fd17e954856ea87",
+      "sha256": "b8dcec9564b0475f817eb5ed903e7cc662dd23256bf2a1a926ca48563958ecf7",
+      "bytes": 9,
+      "mode": "100644"
+    },
+    {
+      "path": ".release-please-manifest.json",
+      "gitBlobSha1": "466df71c83b8a7e33fc928e10a3b357954ff91b3",
+      "sha256": "5f2fad2ced4b17aba50a3070f44ce85ae1447e4aa6c16a787a9efcd5a744014b",
+      "bytes": 19,
+      "mode": "100644"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "gitBlobSha1": "eb3775db29189fbe1217ed1db652f348f7cf17d9",
+      "sha256": "9f75f49a61bc5fcf00e6da585b942ad2cdb71e0e47cecc30d856f886d7be50f7",
+      "bytes": 210,
+      "mode": "100644"
+    },
+    {
+      "path": "LICENSE",
+      "gitBlobSha1": "1163aa408c70d3c95466b224e6b26f5486918af7",
+      "sha256": "1b9645140196e4107f21924e2ee84b66dcde2dcbec5815f71ba5aa710bf30a28",
+      "bytes": 1070,
+      "mode": "100644"
+    },
+    {
+      "path": "README.md",
+      "gitBlobSha1": "346ca2cbde1c55a6be851eb798fa421ac39171dd",
+      "sha256": "00b80a5092a11c8006a8d7c20ca170461939de5eac2b7cea550b56730ae3ff6d",
+      "bytes": 6757,
+      "mode": "100644"
+    },
+    {
+      "path": "docs/releasing.md",
+      "gitBlobSha1": "2f2f64ccbc89fa13a44fa5a3ae76dc02940cb6cc",
+      "sha256": "787d8df2460ae38098ca8ce5838ffa26c2eb74fe8c87d49eb242e26cfdb3abd4",
+      "bytes": 8181,
+      "mode": "100644"
+    },
+    {
+      "path": "hooks/hooks.json",
+      "gitBlobSha1": "272ab80081a420be55da8da91e609006a014f6ba",
+      "sha256": "71b934b2a09e24ba1e7c7b886bdd3230a3e2678c424f4478f89b2a83997b5f49",
+      "bytes": 163,
+      "mode": "100644"
+    },
+    {
+      "path": "hooks/register.ts",
+      "gitBlobSha1": "e05a11b283de57b472b3c8e4dad91df638c9ea82",
+      "sha256": "845becd8e97f6ad24821d07488a7450365f97d2f16027a260e40b01fd6118c5e",
+      "bytes": 1355,
+      "mode": "100644"
+    },
+    {
+      "path": "package.json",
+      "gitBlobSha1": "97b8dba24f56ab9cd1f53e5217be97d52a5a9f87",
+      "sha256": "840045f562dc86d2d0bfe58c0e6fe83e1ac621a0dbb91a4881edd5153429149c",
+      "bytes": 220,
+      "mode": "100644"
+    },
+    {
+      "path": "release-please-config.json",
+      "gitBlobSha1": "241e2402fe41511a6611b8be74b950d2d1dbd3fd",
+      "sha256": "852900ab53ded6b52adfd0e909e7e014f7ee66a7d51503687f5a1dac7c7bdcd5",
+      "bytes": 442,
+      "mode": "100644"
+    },
+    {
+      "path": "test/metadata.test.mjs",
+      "gitBlobSha1": "4fddec10a4551d2ff4b235ab288b6b8d6aa6732c",
+      "sha256": "e7e4e50e3e1574ed45b430e455c5bf0322f28baf30d763bc269307d9d010750f",
+      "bytes": 2196,
+      "mode": "100644"
+    },
+    {
+      "path": "test/register.test.mjs",
+      "gitBlobSha1": "5925a9ea12f4f4528ab56713750e05bdbaa3fbbd",
+      "sha256": "9cb51b17f338f656abc9ed658672695d4d3959a9c7d543e6432ae8be4cf6bf9a",
+      "bytes": 3651,
+      "mode": "100644"
+    }
+  ],
+  "discoveredCandidates": [
+    {
+      "id": "tomatoaiu/rename-ja:.",
+      "path": ".",
+      "discoveryCommit": "baa1cb3e14436dcfe1f390d332e8c4b0ff48840b",
+      "discoveryLicense": "MIT",
+      "sameRevisionAsImport": true
+    }
+  ],
+  "packagePath": "sources/japanese-session-names",
+  "displayName": "Japanese Session Names"
+}

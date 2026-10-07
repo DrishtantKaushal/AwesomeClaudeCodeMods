@@ -1,0 +1,122 @@
+{
+  "schemaVersion": 1,
+  "repository": "Turbo-Thorschten/shell-highlight",
+  "upstream": "https://github.com/Turbo-Thorschten/shell-highlight",
+  "commit": "09ef77a4f09948bcc42851d9ec690f53fe899ec1",
+  "treeSha": "44f970350d0a38bef44d07450b04b15bf1d5e5e9",
+  "importedAt": "2026-10-07",
+  "scope": "Complete tracked source tree at the pinned commit, unmodified.",
+  "verification": "Every file and executable/symlink mode matches the upstream Git tree; staged tree identity is checked before publication.",
+  "runtimeTested": false,
+  "componentLicenses": [
+    {
+      "license": "MIT",
+      "scope": "Source snapshot with original and separately credited component notices retained."
+    }
+  ],
+  "licenseFiles": [
+    {
+      "path": "LICENSE",
+      "sha256": "bc68f608b6bf9c7e70d1ff376b0d7ed53e1708aa4075635addb152820ec9e973"
+    }
+  ],
+  "additionalNotices": [],
+  "mods": [
+    {
+      "name": "shell-highlight",
+      "version": "0.2.0",
+      "manifest_path": ".claude-plugin/plugin.json",
+      "path": ".",
+      "author": {
+        "name": "Turbo-Thorschten",
+        "url": "https://github.com/Turbo-Thorschten"
+      },
+      "description": "Draws Bash and PowerShell tool calls with syntax-highlighted commands"
+    }
+  ],
+  "fileCount": 10,
+  "sourceBytes": 47585,
+  "files": [
+    {
+      "path": ".claude-plugin/plugin.json",
+      "gitBlobSha1": "5ca53a91d8f85715ba3794047e653152734aaa26",
+      "sha256": "68a12baeefd215d2ad79dac2b3822d439a4285c4e3c98bc30a4e9ba000c3d2e1",
+      "bytes": 325,
+      "mode": "100644"
+    },
+    {
+      "path": "LICENSE",
+      "gitBlobSha1": "4725c9506625eb08755588776412c485921e43d3",
+      "sha256": "bc68f608b6bf9c7e70d1ff376b0d7ed53e1708aa4075635addb152820ec9e973",
+      "bytes": 1073,
+      "mode": "100644"
+    },
+    {
+      "path": "README.md",
+      "gitBlobSha1": "ad3dee636b6ed46244396162dbb99cfc2bfa007d",
+      "sha256": "9f613e95d467e7c2cbe5b66e7b62c2314dad12153a9330d9f3ea9a496a7c537d",
+      "bytes": 5762,
+      "mode": "100644"
+    },
+    {
+      "path": "docs/demo.svg",
+      "gitBlobSha1": "7136c47d80dcc1398ace85a146c23362b38cfd07",
+      "sha256": "470695b87bd96877a7ecde633dc3e024a159c729f3a13fbb5dba9236f6389964",
+      "bytes": 7744,
+      "mode": "100644"
+    },
+    {
+      "path": "hooks/hooks.json",
+      "gitBlobSha1": "5fcba7ce39fb8380e1221ae37d1fdf75e25e375e",
+      "sha256": "c835c92d8e1159d20a40ca78ad654da7433942c3694ffeda0b376b0c4dfd52cf",
+      "bytes": 33,
+      "mode": "100644"
+    },
+    {
+      "path": "hooks/register.ts",
+      "gitBlobSha1": "b012483bef5340ac2a237e9abe2b245c05bce4a9",
+      "sha256": "37f4ea7036b394048077fd6e96aad36a8a6fa0199af139ca09901ff3b5955464",
+      "bytes": 5688,
+      "mode": "100644"
+    },
+    {
+      "path": "hooks/text.ts",
+      "gitBlobSha1": "88d860cfda22f17d748784dc2f283aaee796e1d1",
+      "sha256": "23d7654102546597a75edc40f2c89971392dcd887d0272ba6b10c40e2fa0d0ad",
+      "bytes": 10262,
+      "mode": "100644"
+    },
+    {
+      "path": "tests/highlight.test.ts",
+      "gitBlobSha1": "719cddde84fc2b6ec52a54f71428eaa67482ff56",
+      "sha256": "5d8ec69f03718a495729bc36b562939fe124626cdc352b1fc8c8489ee79df3e3",
+      "bytes": 9913,
+      "mode": "100644"
+    },
+    {
+      "path": "tests/text.test.ts",
+      "gitBlobSha1": "150a01010751a54f86d4c36c7364149ddffbb5c1",
+      "sha256": "358c1ea15634da92396ee0f753df5290db946581492ef87a8cde1084a516750f",
+      "bytes": 6729,
+      "mode": "100644"
+    },
+    {
+      "path": "tsconfig.json",
+      "gitBlobSha1": "8681ec01da419175c87f8c968c6a5af2d2b4e5ae",
+      "sha256": "4087cf0ba92fde503ed0e7c56f37bcb26ad0c085873f10219d0336c0f19b5a8f",
+      "bytes": 56,
+      "mode": "100644"
+    }
+  ],
+  "discoveredCandidates": [
+    {
+      "id": "Turbo-Thorschten/shell-highlight:.",
+      "path": ".",
+      "discoveryCommit": "09ef77a4f09948bcc42851d9ec690f53fe899ec1",
+      "discoveryLicense": "MIT",
+      "sameRevisionAsImport": true
+    }
+  ],
+  "packagePath": "sources/shell-highlight",
+  "displayName": "Shell Highlight"
+}

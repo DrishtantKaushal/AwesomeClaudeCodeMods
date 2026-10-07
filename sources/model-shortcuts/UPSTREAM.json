@@ -1,0 +1,114 @@
+{
+  "schemaVersion": 1,
+  "repository": "richkuo/claude-code-model-effort-shortcuts",
+  "upstream": "https://github.com/richkuo/claude-code-model-effort-shortcuts",
+  "commit": "6c1d03e068ebe9ada43bb182857c425605cccee1",
+  "treeSha": "66f9f352aebef4de79e1d92b2b6de4659e6831d7",
+  "importedAt": "2026-10-07",
+  "scope": "Complete tracked source tree at the pinned commit, unmodified.",
+  "verification": "Every file and executable/symlink mode matches the upstream Git tree; staged tree identity is checked before publication.",
+  "runtimeTested": false,
+  "componentLicenses": [
+    {
+      "license": "MIT",
+      "scope": "Source snapshot with original and separately credited component notices retained."
+    }
+  ],
+  "licenseFiles": [
+    {
+      "path": "LICENSE",
+      "sha256": "4477e9aeb43fca63041409339939fe9ab1b500a9c12c525026ac8f374753fefc"
+    }
+  ],
+  "additionalNotices": [],
+  "mods": [
+    {
+      "name": "model-effort-shortcuts",
+      "version": "0.3.1",
+      "manifest_path": ".claude-plugin/plugin.json",
+      "path": ".",
+      "author": {
+        "name": "Richard Kuo"
+      },
+      "description": "Keyboard shortcuts that step the reasoning effort level and the model up and down; the footer shows what each request uses"
+    }
+  ],
+  "fileCount": 9,
+  "sourceBytes": 18791,
+  "files": [
+    {
+      "path": ".claude-plugin/marketplace.json",
+      "gitBlobSha1": "f685ecbceea43461bc9c51736a351ccc5f1c4d5a",
+      "sha256": "11126f99b02747d4f6b7b1a57e9633cc426b99fb4a7d0ec93aa20e83fb4a69f5",
+      "bytes": 322,
+      "mode": "100644"
+    },
+    {
+      "path": ".claude-plugin/plugin.json",
+      "gitBlobSha1": "3e6a7e607e67e47290b124ef4a021926fd77f31d",
+      "sha256": "ebbfc4f4dd469b9f31dca01eb87db3349d265090e275fb1e88778801c30a24db",
+      "bytes": 1772,
+      "mode": "100644"
+    },
+    {
+      "path": ".gitignore",
+      "gitBlobSha1": "7fc4d628add666e367047931df33e08765f22bb2",
+      "sha256": "e59738eb685f6144769efd48acf86850e0adec31be50835b166ddc175cc8a9e9",
+      "bytes": 75,
+      "mode": "100644"
+    },
+    {
+      "path": "LICENSE",
+      "gitBlobSha1": "50cec3cb1a277f8d704f9c3ba7bd6efd402b890a",
+      "sha256": "4477e9aeb43fca63041409339939fe9ab1b500a9c12c525026ac8f374753fefc",
+      "bytes": 1068,
+      "mode": "100644"
+    },
+    {
+      "path": "README.md",
+      "gitBlobSha1": "22e5978d9e9cbdd809bb033d08a4054af75079f4",
+      "sha256": "8ada32439fff54889d845f29ad5f2a516547d50e80cdddd629c9c0784f9bdb18",
+      "bytes": 5515,
+      "mode": "100644"
+    },
+    {
+      "path": "hooks/hooks.json",
+      "gitBlobSha1": "5a63f649593a5d89af8775a8e3d12db0f0940b12",
+      "sha256": "d842d789476d67282d0f04b7e5fdc68a3d981ccec65dd79cfa2d11eed13fb828",
+      "bytes": 34,
+      "mode": "100644"
+    },
+    {
+      "path": "hooks/register.tsx",
+      "gitBlobSha1": "db18fae406ee62c7f46295943bd68a686696f86d",
+      "sha256": "0403af43700371c72abe86d9f9f63e7a6da49121678aadc91a5c20f448d7263f",
+      "bytes": 8918,
+      "mode": "100644"
+    },
+    {
+      "path": "package.json",
+      "gitBlobSha1": "8a592619b6c8a89a6e727b127894bdc8efb72f7f",
+      "sha256": "c5a96f4f12c81a825da3de1ec6dbc26fcbf731d76097e1d40fa37dbca5a2c0cc",
+      "bytes": 748,
+      "mode": "100644"
+    },
+    {
+      "path": "types/index.d.ts",
+      "gitBlobSha1": "18095df17f5959a34b6cec911eb0a34381f2aef6",
+      "sha256": "0749ec404871f385d67061c0fb9366e92db4cabdbf11af67e3a0d6657bcb8eb7",
+      "bytes": 339,
+      "mode": "100644"
+    }
+  ],
+  "discoveredCandidates": [
+    {
+      "id": "richkuo/claude-code-model-effort-shortcuts:.",
+      "path": ".",
+      "discoveryCommit": "6c1d03e068ebe9ada43bb182857c425605cccee1",
+      "discoveryLicense": "MIT",
+      "sameRevisionAsImport": true
+    }
+  ],
+  "packagePath": "sources/model-shortcuts",
+  "displayName": "Model Shortcuts"
+}

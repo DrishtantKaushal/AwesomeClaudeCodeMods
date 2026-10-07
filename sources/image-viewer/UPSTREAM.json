@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "repository": "jarrodwatts/claude-image-view",
+  "upstream": "https://github.com/jarrodwatts/claude-image-view",
+  "commit": "b3c412bb6d167cafade79148e95f9114ee1aad7c",
+  "treeSha": "1eb23f0c41d92b0fd2d7353245a6f781320cc8a8",
+  "importedAt": "2026-10-07",
+  "scope": "Complete tracked source tree at the pinned commit, unmodified.",
+  "verification": "Every file and executable/symlink mode matches the upstream Git tree; staged tree identity is checked before publication.",
+  "runtimeTested": false,
+  "componentLicenses": [
+    {
+      "license": "MIT",
+      "scope": "Source snapshot with original and separately credited component notices retained."
+    }
+  ],
+  "licenseFiles": [
+    {
+      "path": "LICENSE",
+      "sha256": "510e16f7421025e2a661e93604c06d82048182b7ad4f30bfc793eda68b3686ff"
+    }
+  ],
+  "additionalNotices": [],
+  "mods": [
+    {
+      "name": "image-view",
+      "version": "0.1.0",
+      "manifest_path": ".claude-plugin/plugin.json",
+      "path": ".",
+      "author": {
+        "name": "Jarrod Watts",
+        "url": "https://github.com/jarrodwatts"
+      },
+      "description": "See the images you paste into Claude Code: thumbnails above the prompt instead of bare [Image #1] tags"
+    }
+  ],
+  "fileCount": 11,
+  "sourceBytes": 389303,
+  "files": [
+    {
+      "path": ".claude-plugin/marketplace.json",
+      "gitBlobSha1": "70184af3f16e8871f93fcd08fd2fb62d92ee70cf",
+      "sha256": "08405e850396e9d8328449b1b559925520afbc9aab8ef24261670e6127f7387f",
+      "bytes": 585,
+      "mode": "100644"
+    },
+    {
+      "path": ".claude-plugin/plugin.json",
+      "gitBlobSha1": "a7db44ea955746df6463341a67b87015b73ebfcb",
+      "sha256": "71b5a1aae51b470c582d7bd55cbf3ec66b4f33d402ed5f5b91f216edd55d87cc",
+      "bytes": 544,
+      "mode": "100644"
+    },
+    {
+      "path": ".gitignore",
+      "gitBlobSha1": "3a7cd441276f21091914cac58576f7cf69c2ee5b",
+      "sha256": "b922df824927e0c897bc5e05d4f1efbe9221be7d177839635978ea9374a6b8ec",
+      "bytes": 107,
+      "mode": "100644"
+    },
+    {
+      "path": "LICENSE",
+      "gitBlobSha1": "7a0b1b9776599ace74a2a8bb6edab488ee660c35",
+      "sha256": "510e16f7421025e2a661e93604c06d82048182b7ad4f30bfc793eda68b3686ff",
+      "bytes": 1069,
+      "mode": "100644"
+    },
+    {
+      "path": "README.md",
+      "gitBlobSha1": "d6cad60f262de56b144b4c6fe5dfefd6f110362e",
+      "sha256": "138e659622f41f4c6a758055e4ab9c8f1843623adcb9d526becc26e6aee99f58",
+      "bytes": 5036,
+      "mode": "100644"
+    },
+    {
+      "path": "claude-image-view.png",
+      "gitBlobSha1": "f9200966c917215e39594907f1ba50ba5fefec88",
+      "sha256": "0d454f5f44df8bab1f35db2c08d082ffec7a235a61c93cacdd1181440a9201ac",
+      "bytes": 370142,
+      "mode": "100644"
+    },
+    {
+      "path": "hooks/hooks.json",
+      "gitBlobSha1": "5a63f649593a5d89af8775a8e3d12db0f0940b12",
+      "sha256": "d842d789476d67282d0f04b7e5fdc68a3d981ccec65dd79cfa2d11eed13fb828",
+      "bytes": 34,
+      "mode": "100644"
+    },
+    {
+      "path": "hooks/layout.ts",
+      "gitBlobSha1": "e77eb8eeac5ef5fdb102b85646a0372bbe36ae47",
+      "sha256": "0435cf42c7224fbdf43fbf60cccfc2d9bab78a913c6d165fe699f67f855d8480",
+      "bytes": 2717,
+      "mode": "100644"
+    },
+    {
+      "path": "hooks/register.tsx",
+      "gitBlobSha1": "5d7ffdf220c078f8a9a40103a40b541e71c83e30",
+      "sha256": "4b298ac6f7d4c93de80b2f350eacb9714b9b4c9d41c80e9e4901be2cd95a2f7d",
+      "bytes": 4529,
+      "mode": "100644"
+    },
+    {
+      "path": "tests/claude-image-view.test.ts",
+      "gitBlobSha1": "d100b6db0e1187ac52ffc623ae4f82502755dc3e",
+      "sha256": "8354c255d323475c37b1cfd3a17d86f8035a9135e35ddbbeb239de356e2e3232",
+      "bytes": 4164,
+      "mode": "100644"
+    },
+    {
+      "path": "types/index.d.ts",
+      "gitBlobSha1": "7bf6e98ecb503320ddbbd11d367c21fae8b1cd62",
+      "sha256": "84fae2757b5a9edc772645054a94129c7c6b68574e8abae1a02b4995809d9233",
+      "bytes": 376,
+      "mode": "100644"
+    }
+  ],
+  "discoveredCandidates": [
+    {
+      "id": "jarrodwatts/claude-image-view:.",
+      "path": ".",
+      "discoveryCommit": "12795b62f1c17f4b36c980e33672fbdff3a6731a",
+      "discoveryLicense": "MIT",
+      "sameRevisionAsImport": false
+    }
+  ],
+  "packagePath": "sources/image-viewer",
+  "displayName": "Image Viewer"
+}

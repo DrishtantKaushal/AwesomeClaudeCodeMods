@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 1,
+  "repository": "DaKev/usage-wrapup",
+  "upstream": "https://github.com/DaKev/usage-wrapup",
+  "commit": "c94766d10b1a32e97e4ff14c094c7c2007d1575b",
+  "treeSha": "16e1b4bbeb2cb170c691e52dbacc926296d3d7ea",
+  "importedAt": "2026-10-07",
+  "scope": "Complete tracked source tree at the pinned commit, unmodified.",
+  "verification": "Every file and executable/symlink mode matches the upstream Git tree; staged tree identity is checked before publication.",
+  "runtimeTested": false,
+  "componentLicenses": [
+    {
+      "license": "MIT",
+      "scope": "Source snapshot with original and separately credited component notices retained."
+    }
+  ],
+  "licenseFiles": [
+    {
+      "path": "LICENSE",
+      "sha256": "efc9d07aca14ab93c8a195df383c2d1793e1048932dd918d1b6dadcf60055547"
+    }
+  ],
+  "additionalNotices": [],
+  "mods": [
+    {
+      "name": "usage-wrapup",
+      "version": "0.1.0",
+      "manifest_path": ".claude-plugin/plugin.json",
+      "path": ".",
+      "author": {
+        "name": "Kevin Koch"
+      },
+      "description": "When your plan usage gets low, tells every running agent to wrap up before the limit cuts it off."
+    }
+  ],
+  "fileCount": 8,
+  "sourceBytes": 7094,
+  "files": [
+    {
+      "path": ".claude-plugin/plugin.json",
+      "gitBlobSha1": "57e7a5e9306b874b18ce61480ae235fcd930c408",
+      "sha256": "a014df4e40d71fcb899ac4c7629a57f4470e73e9e99769e921d61fdc3de3b81c",
+      "bytes": 457,
+      "mode": "100644"
+    },
+    {
+      "path": ".gitignore",
+      "gitBlobSha1": "f152e1c392b6e01c88033807f86e39335ceb1544",
+      "sha256": "7efc803044dde49bcbcdd49c00e32e0dea70c34abf9c39a960d1f4c7e0469427",
+      "bytes": 46,
+      "mode": "100644"
+    },
+    {
+      "path": "LICENSE",
+      "gitBlobSha1": "b0d0eb0a77479cbe048cede274238327ee6bfe61",
+      "sha256": "efc9d07aca14ab93c8a195df383c2d1793e1048932dd918d1b6dadcf60055547",
+      "bytes": 1067,
+      "mode": "100644"
+    },
+    {
+      "path": "README.md",
+      "gitBlobSha1": "6c14123de870fd07e9d78a891a043e7044ac35c6",
+      "sha256": "748b68e895f4aa23f199c11b2739ef81e5e22250d0caea4f2d26a04b96c35d4a",
+      "bytes": 1067,
+      "mode": "100644"
+    },
+    {
+      "path": "hooks/hooks.json",
+      "gitBlobSha1": "5fcba7ce39fb8380e1221ae37d1fdf75e25e375e",
+      "sha256": "c835c92d8e1159d20a40ca78ad654da7433942c3694ffeda0b376b0c4dfd52cf",
+      "bytes": 33,
+      "mode": "100644"
+    },
+    {
+      "path": "hooks/register.ts",
+      "gitBlobSha1": "2a902433da0b4fd6fa91124ec9151b407525ab76",
+      "sha256": "8d2ca8948ab340662a1803b3da2c6a89960634144078aa544f7ee87421cba3a5",
+      "bytes": 2368,
+      "mode": "100644"
+    },
+    {
+      "path": "tests/wrapup.test.ts",
+      "gitBlobSha1": "9f02a799f11ab61452156b9d7f163ac38f04beb4",
+      "sha256": "509e3c153b5a1e10d648e67257ceabe3b72acf05350e217ec345a7153a9da775",
+      "bytes": 2000,
+      "mode": "100644"
+    },
+    {
+      "path": "tsconfig.json",
+      "gitBlobSha1": "8681ec01da419175c87f8c968c6a5af2d2b4e5ae",
+      "sha256": "4087cf0ba92fde503ed0e7c56f37bcb26ad0c085873f10219d0336c0f19b5a8f",
+      "bytes": 56,
+      "mode": "100644"
+    }
+  ],
+  "discoveredCandidates": [
+    {
+      "id": "DaKev/usage-wrapup:.",
+      "path": ".",
+      "discoveryCommit": "c94766d10b1a32e97e4ff14c094c7c2007d1575b",
+      "discoveryLicense": "MIT",
+      "sameRevisionAsImport": true
+    }
+  ],
+  "packagePath": "sources/usage-wrapup",
+  "displayName": "Usage Wrapup"
+}

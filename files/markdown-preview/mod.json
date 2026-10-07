@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "hamzafer/claude-code-mods:mods/md-preview",
+  "name": "md-preview",
+  "displayName": "Markdown Preview",
+  "version": "0.1.1",
+  "description": "Shows the Markdown files Claude edits, rendered like GitHub, in a pane next to the chat. Before and after side by side. /md opens it.",
+  "author": "Hamza Zafar",
+  "repository": "hamzafer/claude-code-mods",
+  "modPath": "mods/md-preview",
+  "category": {
+    "id": "files",
+    "label": "Files & navigation",
+    "basis": "individual-pinned-manifest-and-source-review"
+  },
+  "sourceCommit": "fc5130427799f69852055add193161080bd054d6",
+  "sourcePath": "sources/workspace-toolkit/source/mods/md-preview",
+  "sourceManifest": "sources/workspace-toolkit/source/mods/md-preview/.claude-plugin/plugin.json",
+  "page": "files/markdown-preview/",
+  "runtimeTested": false
+}

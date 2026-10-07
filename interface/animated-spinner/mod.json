@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "Saiharsharudra03/clawd-spinner:.",
+  "name": "clawd-spinner",
+  "displayName": "Animated Spinner",
+  "version": "0.1.0",
+  "description": "Clawd acts out the spinner's word above it while Claude works: cooking for Saut\u00e9ing, dancing for Vibing, pacing for Pondering, 11 acts across all 179 words.",
+  "author": "Sai Rudra",
+  "repository": "Saiharsharudra03/clawd-spinner",
+  "modPath": ".",
+  "category": {
+    "id": "interface",
+    "label": "Interface & themes",
+    "basis": "exact-catalogue-repository-and-mod-path"
+  },
+  "sourceCommit": "799edab93dddfe74a4978c9c474d3c6b0d5ae690",
+  "sourcePath": "sources/animated-spinner/source",
+  "sourceManifest": "sources/animated-spinner/source/.claude-plugin/plugin.json",
+  "page": "interface/animated-spinner/",
+  "runtimeTested": false
+}

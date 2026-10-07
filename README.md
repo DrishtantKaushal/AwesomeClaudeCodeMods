@@ -12,9 +12,9 @@
 ## Mod showcase
 
 <table>
-<tr><td width="33%" align="center" valign="top"><p><a href="https://github.com/therahul-yo/clawdman"><img src="assets/showcase-01.gif" width="100%" alt="Clawdman: An animated companion that reacts to your coding session. Demo · 10×."></a></p><p><strong><a href="https://github.com/therahul-yo/clawdman">Clawdman</a></strong></p></td><td width="33%" align="center" valign="top"><p><a href="mods/agents/FazalAAli--pi-agent-for-claude/"><img src="assets/showcase-02.gif" width="100%" alt="pi agent for Claude: Run pi-powered models as native Claude Code subagents. Demo · 10×."></a></p><p><strong><a href="mods/agents/FazalAAli--pi-agent-for-claude/">pi agent for Claude</a></strong></p></td><td width="33%" align="center" valign="top"><p><a href="mods/focus/halluton--Mindful-Claude/"><img src="assets/showcase-03.gif" width="100%" alt="Mindful Claude: A guided breathing animation while Claude works."></a></p><p><strong><a href="mods/focus/halluton--Mindful-Claude/">Mindful Claude</a></strong></p></td></tr>
-<tr><td width="33%" align="center" valign="top"><p><a href="sources/OneWave-AI/claude-code-mods/"><img src="assets/showcase-04.png" width="100%" alt="Claude Code Mods: A collection of live panels, session tools and playful mods. Code Pet screenshot."></a></p><p><strong><a href="sources/OneWave-AI/claude-code-mods/">Claude Code Mods</a></strong></p></td><td width="33%" align="center" valign="top"><p><a href="mods/agents/henrik-thevibe--Claude-Fables/"><img src="assets/showcase-05.gif" width="100%" alt="Claude Fables: Coding activity becomes a cartoon in a choice of visual styles."></a></p><p><strong><a href="mods/agents/henrik-thevibe--Claude-Fables/">Claude Fables</a></strong></p></td><td width="33%" align="center" valign="top"><p><a href="https://github.com/adamholter/claude-subway-surfers"><img src="assets/showcase-06.gif" width="100%" alt="Claude Subway Surfers: Gameplay beside Claude Desktop while it works. Desktop demo · 10×."></a></p><p><strong><a href="https://github.com/adamholter/claude-subway-surfers">Claude Subway Surfers</a></strong></p></td></tr>
-<tr><td width="33%" align="center" valign="top"><p><a href="mods/games/giovaborgogno--cc-dino/"><img src="assets/showcase-07.gif" width="100%" alt="cc-dino: Play the T-rex runner above your prompt."></a></p><p><strong><a href="mods/games/giovaborgogno--cc-dino/">cc-dino</a></strong></p></td><td width="33%" align="center" valign="top"><p><a href="mods/games/powerofjinbo--claude-code-spell-bar--plugins--spell-bar/"><img src="assets/showcase-08.gif" width="100%" alt="Claude Code Spell Bar: An animated spell bar for your selected effort level."></a></p><p><strong><a href="mods/games/powerofjinbo--claude-code-spell-bar--plugins--spell-bar/">Claude Code Spell Bar</a></strong></p></td><td width="33%" align="center" valign="top"><p><a href="mods/agents/scasella--claude-flightdeck/"><img src="assets/showcase-09.gif" width="100%" alt="Claude Flightdeck: A live dashboard for context, costs, permissions and agents."></a></p><p><strong><a href="mods/agents/scasella--claude-flightdeck/">Claude Flightdeck</a></strong></p></td></tr>
+<tr><td width="33%" align="center" valign="top"><p><a href="https://github.com/therahul-yo/clawdman"><img src="assets/showcase-01.gif" width="100%" alt="Clawdman: An animated companion that reacts to your coding session. Demo · 10×."></a></p><p><strong><a href="https://github.com/therahul-yo/clawdman">Clawdman</a></strong></p></td><td width="33%" align="center" valign="top"><p><a href="agents/pi-agent/"><img src="assets/showcase-02.gif" width="100%" alt="Pi Agent: Run pi-powered models as native Claude Code subagents. Demo · 10×."></a></p><p><strong><a href="agents/pi-agent/">Pi Agent</a></strong></p></td><td width="33%" align="center" valign="top"><p><a href="focus/breathing-exercises/"><img src="assets/showcase-03.gif" width="100%" alt="Breathing Exercises: A guided breathing animation while Claude works."></a></p><p><strong><a href="focus/breathing-exercises/">Breathing Exercises</a></strong></p></td></tr>
+<tr><td width="33%" align="center" valign="top"><p><a href="sources/creative-toolkit/"><img src="assets/showcase-04.png" width="100%" alt="Creative Toolkit: A collection of live panels, session tools and playful mods. Code Pet screenshot."></a></p><p><strong><a href="sources/creative-toolkit/">Creative Toolkit</a></strong></p></td><td width="33%" align="center" valign="top"><p><a href="agents/agent-cartoons/"><img src="assets/showcase-05.gif" width="100%" alt="Agent Cartoons: Coding activity becomes a cartoon in a choice of visual styles."></a></p><p><strong><a href="agents/agent-cartoons/">Agent Cartoons</a></strong></p></td><td width="33%" align="center" valign="top"><p><a href="https://github.com/adamholter/claude-subway-surfers"><img src="assets/showcase-06.gif" width="100%" alt="Claude Subway Surfers: Gameplay beside Claude Desktop while it works. Desktop demo · 10×."></a></p><p><strong><a href="https://github.com/adamholter/claude-subway-surfers">Claude Subway Surfers</a></strong></p></td></tr>
+<tr><td width="33%" align="center" valign="top"><p><a href="games/dino-game/"><img src="assets/showcase-07.gif" width="100%" alt="Dino Game: Play the T-rex runner above your prompt."></a></p><p><strong><a href="games/dino-game/">Dino Game</a></strong></p></td><td width="33%" align="center" valign="top"><p><a href="games/spell-bar/"><img src="assets/showcase-08.gif" width="100%" alt="Spell Bar: An animated spell bar for your selected effort level."></a></p><p><strong><a href="games/spell-bar/">Spell Bar</a></strong></p></td><td width="33%" align="center" valign="top"><p><a href="agents/agent-dashboard/"><img src="assets/showcase-09.gif" width="100%" alt="Agent Dashboard: A live dashboard for context, costs, permissions and agents."></a></p><p><strong><a href="agents/agent-dashboard/">Agent Dashboard</a></strong></p></td></tr>
 </table>
 
 <a id="browse-by-category"></a>
@@ -23,18 +23,18 @@
 
 [Usage & costs](#usage) · [Agents & orchestration](#agents) · [Planning & tasks](#planning) · [Files & navigation](#files) · [Git & code review](#git) · [Safety & permissions](#safety) · [Memory & context](#memory) · [Interface & themes](#interface) · [Prompts & input](#prompts) · [Testing & debugging](#testing) · [Browser & web](#web) · [Notifications & focus](#focus) · [Games & entertainment](#games) · [Integrations & utilities](#integrations)
 
-[**Source packages available here**](mods/README.md): 82 mods from 38 repositories, with their complete tracked files and notices. Local package links open inside this collection. Other entries currently lead to upstream references while the wider source import is reviewed.
+[**Source packages available here**](CATEGORIES.md): 82 mods from 38 repositories, with their complete tracked files and notices. Local package links open inside this collection. Other entries currently lead to upstream references while the wider source import is reviewed.
 
 <a id="usage"></a>
 
 ### Usage & costs
 
-[Open the usage & costs mod folders](mods/usage/)
+[Open the usage & costs mod folders](usage/)
 
 Track token usage, context limits, session costs and model effort.
 
 - **[5dive-ai/5dive-plugins](https://github.com/5dive-ai/5dive-plugins)** - 5dive telemetry producer, seat panel, command surface and tool-call policy guard for Claude Code function hooks (early access).
-- **[arasovic/claude-code-mods](sources/arasovic/claude-code-mods/)** - Mods including compact-keeper, loop-guard, search-meter, turn-footer.
+- **[Session Toolkit](sources/session-toolkit/)** - Mods including compact-keeper, loop-guard, search-meter, turn-footer.
 - **[Arunjay4213/claude-mods](https://github.com/Arunjay4213/claude-mods)** - Mods including budget-guard, context-lens, quota-meter, token-ledger.
 - **[augiefra/claude-mods](https://github.com/augiefra/claude-mods)** - One line above the prompt: context weather, tokens, a bar per recent prompt, then your 5-hour and 7-day limits against the time elapsed, with the…
 - **[aycandv/claude-usage-meter](https://github.com/aycandv/claude-usage-meter)** - A usage board for Claude Code: a weekly pace gauge and a sliding ticker of your spend per model, in the terminal and on the desktop
@@ -47,7 +47,7 @@ Track token usage, context limits, session costs and model effort.
 - **[chrisns/spare10-mod](https://github.com/chrisns/spare10-mod)** - Keeps the last part of your 5-hour and weekly quota for you.
 - **[ChristianBuzzetti/ClaudeMods](https://github.com/ChristianBuzzetti/ClaudeMods)** - Mods including boberto, usage-meters.
 - **[cskwork/claude-code-mods](https://github.com/cskwork/claude-code-mods)** - Mods including blast-radius, token-weather.
-- **[DaKev/usage-wrapup](mods/usage/DaKev--usage-wrapup/)** - When your plan usage gets low, tells every running agent to wrap up before the limit cuts it off
+- **[Usage Wrapup](usage/usage-wrapup/)** - When your plan usage gets low, tells every running agent to wrap up before the limit cuts it off
 - **[DanielPodolsky/tokencraft](https://github.com/DanielPodolsky/tokencraft)** - A Minecraft-inspired world for Claude Code: tool calls become blocks and XP, the sky follows your context, the weather follows your plan limits
 - **[davidurco/cc-tamagotchi](https://github.com/davidurco/cc-tamagotchi)** - A Tamagotchi that lives in Claude Code: it hatches, eats the work Claude does, leaves bugs behind, gets sick, throws tantrums and grows into one of…
 - **[DominickGiordano/claude-mods](https://github.com/DominickGiordano/claude-mods)** - Mods including auth-guard, fleet, handoff, meter and more.
@@ -66,7 +66,7 @@ Track token usage, context limits, session costs and model effort.
 - **[jessetsai1024/claude-mods](https://github.com/jessetsai1024/claude-mods)** - Mods including ctx-panel, maomao, prompts, timeline.
 - **[jetsongdev/jet-router](https://github.com/jetsongdev/jet-router)** - Experimental Claude Code effort router: fake and opt-in Jev shadow
 - **[jumoog/claude_mod_usage](https://github.com/jumoog/claude_mod_usage)** - Always shows your 5-hour and weekly plan usage above the prompt, with when each window resets
-- **[kawase1295/usage-meter](mods/usage/kawase1295--usage-meter/)** - Model, context window and rate-limit (5h / 7d) braille meters in a band above the prompt
+- **[Braille Usage](usage/braille-usage/)** - Model, context window and rate-limit (5h / 7d) braille meters in a band above the prompt
 - **[KhadeerBasha1232/claude-usage-mod](https://github.com/KhadeerBasha1232/claude-usage-mod)** - Your Claude plan usage in one line above the prompt: 5-hour and weekly limits with reset times, context window, model and session cost
 - **[kreddevils18/claude-clawd](https://github.com/kreddevils18/claude-clawd)** - Clawd, a pixel pet that reacts to what Claude Code does: grows with context, tires with rate limits, levels up with hats
 - **[kreddevils18/claude-usage-mod](https://github.com/kreddevils18/claude-usage-mod)** - Your Claude Code usage as colored chips above the prompt: 5h and weekly limits (% left), session cost and spend history. /usage-mod opens the full…
@@ -86,11 +86,11 @@ Track token usage, context limits, session costs and model effort.
 - **[Para-FR/claude-code-mods-fr](https://github.com/Para-FR/claude-code-mods-fr)** - Mods including cockpit, garde-du-corps.
 - **[pawandeepdhall/claude-mods](https://github.com/pawandeepdhall/claude-mods)** - Mods including next-steps, usage-band.
 - **[quango2304/leo_claude_mod](https://github.com/quango2304/leo_claude_mod)** - Leo's Claude Code mods: usage bars, limits, cost, prompt cache countdown, active time and running agents
-- **[richkuo/claude-code-model-effort-shortcuts](mods/usage/richkuo--claude-code-model-effort-shortcuts/)** - Keyboard shortcuts that step the reasoning effort level and the model up and down; the footer shows what each request uses
+- **[Model Shortcuts](usage/model-shortcuts/)** - Keyboard shortcuts that step the reasoning effort level and the model up and down; the footer shows what each request uses
 - **[s-hiraoku/claude-mods](https://github.com/s-hiraoku/claude-mods)** - Shows context, 5-hour and 7-day limit usage as SVG meters above the prompt in the Desktop app
 - **[sahiltalwar88/claude-mods](https://github.com/sahiltalwar88/claude-mods)** - Mods including session-ledger, still-going.
 - **[salatmaster/claude-gamba](https://github.com/salatmaster/claude-gamba)** - A slot machine you spin while your agent works.
-- **[Schweem/usage-report](mods/usage/Schweem--usage-report/)** - Shows context fill, 5-hour and weekly quota, and session cost on the status line under the prompt, with warnings near your limits
+- **[Usage Report](usage/usage-report/)** - Shows context fill, 5-hour and weekly quota, and session cost on the status line under the prompt, with warnings near your limits
 - **[sgmonda/statusbar](https://github.com/sgmonda/statusbar)** - A session status bar for Claude Code Desktop: your 5-hour and weekly usage limits with time to reset, session and turn clocks, and running…
 - **[Sh0ckWaveZero/claude-mods](https://github.com/Sh0ckWaveZero/claude-mods)** - Pill band above the Claude Code prompt: 5h and 7d rate-limit gauges, session tokens and cost.
 - **[ShahriarBijoy/claude-mods](https://github.com/ShahriarBijoy/claude-mods)** - Mods including stack, wartezeit.
@@ -111,7 +111,7 @@ Track token usage, context limits, session costs and model effort.
 
 ### Agents & orchestration
 
-[Open the agents & orchestration mod folders](mods/agents/)
+[Open the agents & orchestration mod folders](agents/)
 
 Coordinate subagents, compare models and follow agent activity.
 
@@ -130,13 +130,13 @@ Coordinate subagents, compare models and follow agent activity.
 - **[darkautism/ext-agent](https://github.com/darkautism/ext-agent)** - Run Claude Code subagents in pi or opencode instead of a Claude model.
 - **[dipthong7119/TTCS_K8S4_N5](https://github.com/dipthong7119/TTCS_K8S4_N5)** - AGENTS.md as project instructions, by one option.
 - **[estruyf/claude-agent-watch-mod](https://github.com/estruyf/claude-agent-watch-mod)** - Keeps the number of running Claude Code sessions under a limit and shows the ones waiting on you or sitting idle
-- **[FazalAAli/pi-agent-for-claude](mods/agents/FazalAAli--pi-agent-for-claude/)** - Run pi-powered models as native Claude Code subagents.
+- **[Pi Agent](agents/pi-agent/)** - Run pi-powered models as native Claude Code subagents.
 - **[float-ritual-stack/pi-herdr-outliner](https://github.com/float-ritual-stack/pi-herdr-outliner)** - Pi Outliner integration for Claude Code, following the outline the session folder is bound to: typed outline, workboard and door tools for agents…
 - **[franciscocarloserra/claude-code-multiharness-delegation](https://github.com/franciscocarloserra/claude-code-multiharness-delegation)** - Route Agent calls with subagent_type multiharness-delegation:&lt;harness&gt; to an interactive external harness in tmux
 - **[GastonGelhorn/jevmate](https://github.com/GastonGelhorn/jevmate)** - A fast decision layer for coding agents.
 - **[getexcited/stepwarden](https://github.com/getexcited/stepwarden)** - Every tool call your agent makes, checked before it runs.
 - **[HaoYan-A/claude-code-mods](https://github.com/HaoYan-A/claude-code-mods)** - Run each subagent on any model (gpt-6, grok-4.7, ...) at any reasoning effort, through model and effort parameters on the Agent tool
-- **[henrik-thevibe/Claude-Fables](mods/agents/henrik-thevibe--Claude-Fables/)** - Coding activity becomes a cartoon in a choice of visual styles.
+- **[Agent Cartoons](agents/agent-cartoons/)** - Coding activity becomes a cartoon in a choice of visual styles.
 - **[HoshimuraYuto/cc-sidecar](https://github.com/HoshimuraYuto/cc-sidecar)** - See what codex, claude and gemini do when Claude Code delegates to them from Bash
 - **[itsArnavPrasad/pixel-office](https://github.com/itsArnavPrasad/pixel-office)** - Every Claude Code session as a pixel character in a shared office you can click and talk to
 - **[jimador/brigade](https://github.com/jimador/brigade)** - Coordinate a fleet of cheap parallel coding agents from any ticket source (Notion, ClickUp, Obsidian vault boards, or a local folder of markdown…
@@ -153,7 +153,7 @@ Coordinate subagents, compare models and follow agent activity.
 - **[rse/ase](https://github.com/rse/ase)** - Agentic Software Engineering (ASE)
 - **[ruvnet/ruflo](https://github.com/ruvnet/ruflo)** - Mods including ruflo-ruos, ruflo-swarm.
 - **[sayre4ux/autopilot](https://github.com/sayre4ux/autopilot)** - Multi-agent orchestrator harness for Claude Code: command loop, ledger, dispatch protocol, review cycle, model-economics, and a registry-driven…
-- **[scasella/claude-flightdeck](mods/agents/scasella--claude-flightdeck/)** - A live dashboard for context, costs, permissions and agents.
+- **[Agent Dashboard](agents/agent-dashboard/)** - A live dashboard for context, costs, permissions and agents.
 - **[Tolsee/dotfiles](https://github.com/Tolsee/dotfiles)** - Corrects the model tier of every subagent spawn (agent.spawn) with a live Jev judgment (haiku / sonnet / opus), instead of relying on /delegate's…
 - **[ushironoko/dotfiles](https://github.com/ushironoko/dotfiles)** - Mods including agents-view, file-view, pr-view.
 - **[wickedhardflip/claude-code-mods](https://github.com/wickedhardflip/claude-code-mods)** - Mods including first-mod, run-breakdown, session-recap, subagent-models.
@@ -164,7 +164,7 @@ Coordinate subagents, compare models and follow agent activity.
 
 ### Planning & tasks
 
-[Open the planning & tasks mod folders](mods/planning/)
+[Open the planning & tasks mod folders](planning/)
 
 Organize tasks, follow plans and keep work moving through checkpoints.
 
@@ -180,14 +180,14 @@ Organize tasks, follow plans and keep work moving through checkpoints.
 - **[JAICHANGPARK/ASD-STE100](https://github.com/JAICHANGPARK/ASD-STE100)** - ASD-STE100 (Simplified Technical English) and 80% Karpathy Mode plugin, mod, and skill for Claude Code.
 - **[konnokai/claude-mods](https://github.com/konnokai/claude-mods)** - Mods including plan-tally, ship-weather.
 - **[mofocm/scope-creep-receipt](https://github.com/mofocm/scope-creep-receipt)** - After every turn, Claude Code prints you a receipt for everything it did while you asked for one thing
-- **[nateherkai/claude-code-mods](sources/nateherkai/claude-code-mods/)** - Mods including cache-keeper, collision-guard, goal-meter, recording-mode.
+- **[Session Coordination](sources/session-coordination/)** - Mods including cache-keeper, collision-guard, goal-meter, recording-mode.
 - **[philm123/claude-code-receipts](https://github.com/philm123/claude-code-receipts)** - Receipts for consultants: a scope creep siren for change orders, and undo receipts that turn rm into a move to trash with a Restore button
 - **[poindexter12/loadout](https://github.com/poindexter12/loadout)** - The Loadout's core work board and orchestration loop for Claude Code.
 - **[roaringsoul404/cc-mods](https://github.com/roaringsoul404/cc-mods)** - Mods including turn-receipt, wasted.
 - **[romtaugranot/issue-map](https://github.com/romtaugranot/issue-map)** - Draws a Project's open Issues as a Map joined by the Links its Tracker records, inside Claude Code
 - **[SaharCarmel/linear-mod](https://github.com/SaharCarmel/linear-mod)** - /linear: your Linear projects, milestones and issues in a pane beside the transcript.
 - **[spiiritual/claude-code-stuff](https://github.com/spiiritual/claude-code-stuff)** - Mods including better-compaction, whiteboard-defense.
-- **[swei99386-alt/exam-gate](mods/planning/swei99386-alt--exam-gate/)** - Before Claude calls a task done, run your checklist.
+- **[Completion Checklist](planning/completion-checklist/)** - Before Claude calls a task done, run your checklist.
 - **[thieung/claude-mods](https://github.com/thieung/claude-mods)** - Mods including ak-cockpit, ghost-proc-guard, worktree-guard.
 - **[threesil/claude-mods](https://github.com/threesil/claude-mods)** - Mods including claw-guard, claw-heartbeat, claw-hud, claw-memory and more.
 - **[tractorjuice/arckit-claude](https://github.com/tractorjuice/arckit-claude)** - The Enterprise Architecture Governance Harness - 76 slash commands across strategy, architecture, delivery, and assurance
@@ -200,7 +200,7 @@ Organize tasks, follow plans and keep work moving through checkpoints.
 
 ### Files & navigation
 
-[Open the files & navigation mod folders](mods/files/)
+[Open the files & navigation mod folders](files/)
 
 Browse files, inspect project structure and navigate your workspace.
 
@@ -228,7 +228,7 @@ Browse files, inspect project structure and navigate your workspace.
 
 ### Git & code review
 
-[Open the git & code review mod folders](mods/git/)
+[Open the git & code review mod folders](git/)
 
 Review changes, follow branches and manage Git workflows.
 
@@ -251,7 +251,7 @@ Review changes, follow branches and manage Git workflows.
 - **[octalide/sift](https://github.com/octalide/sift)** - Typed judgement calls for Claude Code: two primitives, judge and rank, under packs that grade issues, pull requests, plans, commits, releases and…
 - **[OrenSegal/blast-shield](https://github.com/OrenSegal/blast-shield)** - Holds risky shell commands (rm, git reset/clean/force-push, kubectl, terraform, docker, SQL and more), shows what they would change and whether you…
 - **[sevq1993-cyber/claude-code-kids](https://github.com/sevq1993-cyber/claude-code-kids)** - A pane with the tree of child chats spawned from this chat: what each is doing, which branch it sits on, and what is still not merged.
-- **[sezaakgun/cc-pr-tracker](mods/git/sezaakgun--cc-pr-tracker/)** - Watch GitHub PRs from a Claude Code session: merge state, review and required checks above the prompt, with alerts when they change
+- **[PR Tracker](git/pr-tracker/)** - Watch GitHub PRs from a Claude Code session: merge state, review and required checks above the prompt, with alerts when they change
 - **[shuletadev/certbuddycr](https://github.com/shuletadev/certbuddycr)** - Mods including git-status-band, party-pane.
 - **[stefanoshea/diff-review](https://github.com/stefanoshea/diff-review)** - Code review inside Claude Code: the branch diff in a pane, draft comments from you or Claude on any line, sent as a pending GitHub pull-request…
 - **[vmallela0/cc-buddy](https://github.com/vmallela0/cc-buddy)** - Brings back /buddy: the small creature that watched you code, above the prompt again.
@@ -262,7 +262,7 @@ Review changes, follow branches and manage Git workflows.
 
 ### Safety & permissions
 
-[Open the safety & permissions mod folders](mods/safety/)
+[Open the safety & permissions mod folders](safety/)
 
 Add permission controls, command checks and workflow safeguards.
 
@@ -276,7 +276,7 @@ Add permission controls, command checks and workflow safeguards.
 - **[dixonSolutions/ClaudeKeys](https://github.com/dixonSolutions/ClaudeKeys)** - Session-scoped, encrypted, read-only secrets that Claude uses in commands as {{ck:NAME}} without ever seeing them
 - **[Jiang-Yude/pii-shield](https://github.com/Jiang-Yude/pii-shield)** - Replace protected people's names, Taiwan ID numbers, phone numbers and emails with placeholders before the model reads them
 - **[Mar5929/claude-toolkit](https://github.com/Mar5929/claude-toolkit)** - Required workflow checks with Claude Code function hooks.
-- **[muratcakmak/jev-guard](mods/safety/muratcakmak--jev-guard/)** - Probability-scored guardrails for Claude Code: deny rule-breaking edits and unasked-for deploys, route your own docs into each prompt, and check the…
+- **[Evidence Guardrails](safety/evidence-guardrails/)** - Probability-scored guardrails for Claude Code: deny rule-breaking edits and unasked-for deploys, route your own docs into each prompt, and check the…
 - **[myveroai/mask-that-pass](https://github.com/myveroai/mask-that-pass)** - Masks credentials in tool output (URL passwords, *_TOKEN / *_SECRET / *_PASSWORD values, API keys, bearer tokens, private keys) before Claude or the…
 - **[none-ascetic/claude-mods](https://github.com/none-ascetic/claude-mods)** - Mods including house-rules, identity-guard.
 - **[nu0ma/query-guard](https://github.com/nu0ma/query-guard)** - Asks before Claude runs destructive or slow-looking SQL through a DB CLI: DELETE, UPDATE without WHERE, DROP, TRUNCATE, full scans and cartesian joins
@@ -286,7 +286,7 @@ Add permission controls, command checks and workflow safeguards.
 - **[saadshahd/moo.md](https://github.com/saadshahd/moo.md)** - Mods including hope, hunch.
 - **[seanGSISG/ad-ldap-plugin](https://github.com/seanGSISG/ad-ldap-plugin)** - Active Directory administration over LDAPS for Claude Code: an MCP server (FastMCP + ldap3) with 15 tools, admin agents, slash commands, a safety…
 - **[skpersonal/claude-code-block-creds-mod](https://github.com/skpersonal/claude-code-block-creds-mod)** - Redacts or blocks credentials (detected by betterleaks) before they are sent to the LLM
-- **[stefanochieli/claude-effort-guard](mods/safety/stefanochieli--claude-effort-guard/)** - Claude Code mod: context/token band, escalation signals and per-turn effort log
+- **[Effort Guard](safety/effort-guard/)** - Claude Code mod: context/token band, escalation signals and per-turn effort log
 - **[Stoica-Mihai/claude-mods](https://github.com/Stoica-Mihai/claude-mods)** - Mods including guardrails, leftovers.
 - **[thkt/dotclaude](https://github.com/thkt/dotclaude)** - Read ツールの結果に含まれる認証情報の形をした文字列を、モデルが読む前に伏せる。
 - **[TransmuteLabs/Catalyst](https://github.com/TransmuteLabs/Catalyst)** - Mods including catalyst-probes, catalyst-refusal-watch, catalyst-swe-request.
@@ -297,7 +297,7 @@ Add permission controls, command checks and workflow safeguards.
 
 ### Memory & context
 
-[Open the memory & context mod folders](mods/memory/)
+[Open the memory & context mod folders](memory/)
 
 Manage context, compaction, session notes and persistent memory.
 
@@ -340,15 +340,15 @@ Manage context, compaction, session notes and persistent memory.
 - **[lumberroom/lumberroom-claude-code](https://github.com/lumberroom/lumberroom-claude-code)** - lumberroom as Claude Code's memory: the digest in the system prompt, a periodic search-and-write reminder, optional per-prompt recall, built-in…
 - **[m-mizutani/dotfiles](https://github.com/m-mizutani/dotfiles)** - Mods including compact-instructions, idle-compact.
 - **[mahuebel/segmem](https://github.com/mahuebel/segmem)** - Segmented, scoped memory for agents: one file, SQLite, no daemon.
-- **[mediavee/cold-cache-guard](mods/memory/mediavee--cold-cache-guard/)** - Asks what to do before Claude Code re-sends a large conversation whose prompt cache has expired: on a cold resume, and on the first prompt after an…
+- **[Cold Cache Guard](memory/cold-cache-guard/)** - Asks what to do before Claude Code re-sends a large conversation whose prompt cache has expired: on a cold resume, and on the first prompt after an…
 - **[mejba13/session-pulse](https://github.com/mejba13/session-pulse)** - Live band above the prompt: prompt-cache countdown, context fill, re-cache cost, 5h/weekly limits and session cost
 - **[Nasrallah-AL/jev-cli](https://github.com/Nasrallah-AL/jev-cli)** - Cheap, fast, typed AI judgments inside Claude Code via the jevctl CLI (verify, screen, find, classify, extract, rerank, match, route, ask, batch),…
 - **[notque/vexjoy-agent](https://github.com/notque/vexjoy-agent)** - Jev-powered verbatim compaction: once context reaches 60%, prunes stale tool calls with zero generation.
-- **[okamyuji/tool-trim-compaction](mods/memory/okamyuji--tool-trim-compaction/)** - compaction で古いツール呼び出しと結果を消し、発言は原文のまま残す。削減が足りなければ標準の要約に回す
+- **[Tool Trim Compaction](memory/tool-trim-compaction/)** - compaction で古いツール呼び出しと結果を消し、発言は原文のまま残す。削減が足りなければ標準の要約に回す
 - **[petritol/context-statusline](https://github.com/petritol/context-statusline)** - Colorized context-window usage band: model | project | ctx % [bar] used/total
 - **[promptadvisers/claude-mods-starter-kit](https://github.com/promptadvisers/claude-mods-starter-kit)** - Mods including auto-handoff, changes-receipt, context-meter, coral-skin and more.
 - **[radiator-engineering/eventlog](https://github.com/radiator-engineering/eventlog)** - Replaces context compaction in the controller's interactive session of a log-driven repo: the conversation is rebuilt from .context/events.jsonl by…
-- **[retrocodes12/context-relay](mods/memory/retrocodes12--context-relay/)** - Hands the work to a fresh session before a long context degrades the model, and carries on there
+- **[Context Relay](memory/context-relay/)** - Hands the work to a fresh session before a long context degrades the model, and carries on there
 - **[shabier/claude-plugins](https://github.com/shabier/claude-plugins)** - Mods including ambient, arcade, dashboard.
 - **[skysf/skylu-mods](https://github.com/skysf/skylu-mods)** - Your context window as a stacked bar above the prompt, one color per /context category.
 - **[sofanaja44/slash](https://github.com/sofanaja44/slash)** - Memilih model dan effort Claude secara otomatis sesuai tingkat kesulitan tugas, tanpa membuang prompt cache, dengan statistik biaya di status line
@@ -357,18 +357,18 @@ Manage context, compaction, session notes and persistent memory.
 - **[takahirom/takahirom-claude-code-marketplace](https://github.com/takahirom/takahirom-claude-code-marketplace)** - Compact once after 50 idle minutes, while the 1h prompt cache is still warm
 - **[tamaratran/jev-pruner](https://github.com/tamaratran/jev-pruner)** - Mods including fast-jev-output, jev-eval-observer.
 - **[tdimino/claude-code-minoan](https://github.com/tdimino/claude-code-minoan)** - Jev decides when the session compacts, inside a 280k-400k token band; Claude's own summary does the compacting
-- **[tomatoaiu/rename-ja](mods/memory/tomatoaiu--rename-ja/)** - 引数なしの /rename で、会話内容から日本語のセッション名を生成する。
+- **[Japanese Session Names](memory/japanese-session-names/)** - 引数なしの /rename で、会話内容から日本語のセッション名を生成する。
 - **[tristankenney/laya-compaction](https://github.com/tristankenney/laya-compaction)** - Verbatim context compaction for Claude Code, scored by a local Laya model
 - **[ukwhatn/.claude](https://github.com/ukwhatn/.claude)** - Compacts the main conversation once it has sat idle for idleMinutes, while the prompt cache is still warm, and hands every compaction of the main…
 - **[vitoliu93/harness-dev-plugins](https://github.com/vitoliu93/harness-dev-plugins)** - Optional Claude Mod: contextual skill recommendations and historical references through Jev
-- **[WQGGSEY/cache-ttl-timer](mods/memory/WQGGSEY--cache-ttl-timer/)** - A prompt-cache countdown in the prompt footer, beside the model and effort: how long until your next message has to re-cache the whole conversation
+- **[Cache Countdown](memory/cache-countdown/)** - A prompt-cache countdown in the prompt footer, beside the model and effort: how long until your next message has to re-cache the whole conversation
 - **[zyx1121/today-mod](https://github.com/zyx1121/today-mod)** - /today: the day's agenda for Claude and for you.
 
 <a id="interface"></a>
 
 ### Interface & themes
 
-[Open the interface & themes mod folders](mods/interface/)
+[Open the interface & themes mod folders](interface/)
 
 Customize terminal panels, status bars, visual themes and companions.
 
@@ -425,7 +425,7 @@ Customize terminal panels, status bars, visual themes and companions.
 - **[Rocha101/claude-code-glance](https://github.com/Rocha101/claude-code-glance)** - See images, screenshots and HTML pages inline in the Claude Code chat
 - **[Rocha101/claude-code-quickswitch](https://github.com/Rocha101/claude-code-quickswitch)** - One-click Claude account switching from the status line, powered by ccswitch
 - **[rudrasecure/claude-mods](https://github.com/rudrasecure/claude-mods)** - Side pane showing the files changed in this conversation as diffs; mark lines, comment, and send the comments back to Claude
-- **[Saiharsharudra03/clawd-spinner](mods/interface/Saiharsharudra03--clawd-spinner/)** - Clawd acts out the spinner's word above it while Claude works: cooking for Sautéing, dancing for Vibing, pacing for Pondering, 11 acts across all…
+- **[Animated Spinner](interface/animated-spinner/)** - Clawd acts out the spinner's word above it while Claude works: cooking for Sautéing, dancing for Vibing, pacing for Pondering, 11 acts across all…
 - **[schreibse/claude-code-mods](https://github.com/schreibse/claude-code-mods)** - Mods including coderabbit-band, mr-banner, quiet-spinner, reminder-log and more.
 - **[scoobynko/claude-code-mods](https://github.com/scoobynko/claude-code-mods)** - Mods including clawd-spinner, image-preview, md-view.
 - **[Shifty-Eye-Games/claude-mods](https://github.com/Shifty-Eye-Games/claude-mods)** - Mods including kb-health, machine-tag, memory-guards.
@@ -435,15 +435,15 @@ Customize terminal panels, status bars, visual themes and companions.
 - **[teransarathchandra/coachline](https://github.com/teransarathchandra/coachline)** - A split-pane panel for Claude Code: this thread's prompts in white, what can be improved in blue, analysed by Claude on your subscription (no API…
 - **[tibzejoker/claude-mods](https://github.com/tibzejoker/claude-mods)** - Mods including apercu, clawd, masque-secrets, recap and more.
 - **[tobinsouth/fortune-cookie-mod](https://github.com/tobinsouth/fortune-cookie-mod)** - /fortune cracks open a fortune cookie: one line of wisdom for your coding session, shown in the transcript and as a toast
-- **[togishima/better-ask-picker](mods/interface/togishima--better-ask-picker/)** - Ask the user a question in a dedicated pane: show every option on one screen with a summary, single or multi-select, no 4-option limit
+- **[Question Picker](interface/question-picker/)** - Ask the user a question in a dedicated pane: show every option on one screen with a summary, single or multi-select, no 4-option limit
 - **[tomada1114/clawd-band](https://github.com/tomada1114/clawd-band)** - An unofficial fan-made pixel cat that lives in the band above the prompt and reacts to what Claude is doing: thinking, editing, craning after a…
 - **[tomada1114/tomada-claude-plugins](https://github.com/tomada1114/tomada-claude-plugins)** - A band above the prompt.
 - **[tomstagl/cctop](https://github.com/tomstagl/cctop)** - btop-style live dashboard for Claude Code internals: /cctop opens it in a side pane, cctop-insights lets the session answer questions from its numbers
 - **[totally-tim/effort-router](https://github.com/totally-tim/effort-router)** - Picks the reasoning effort for each turn of the main conversation with a System One classifier (hosted Jev or a compatible service) and shows the…
-- **[Turbo-Thorschten/shell-highlight](mods/interface/Turbo-Thorschten--shell-highlight/)** - Draws Bash and PowerShell tool calls with syntax-highlighted commands
+- **[Shell Highlight](interface/shell-highlight/)** - Draws Bash and PowerShell tool calls with syntax-highlighted commands
 - **[tylergraydev/rail-runner](https://github.com/tylergraydev/rail-runner)** - An ASCII endless runner that plays in a side pane while Claude is working
 - **[udaaff/claude-code-session-monitor](https://github.com/udaaff/claude-code-session-monitor)** - A side panel of all your open Claude Code sessions: what each one is doing, live, with a pixel creature per session
-- **[udaaff/claude-code-session-notes](mods/interface/udaaff--claude-code-session-notes/)** - Project notes in .claude/notes.md: live dev servers, recent artifacts and pinned links, in a side panel and with /notes
+- **[Session Notes](interface/session-notes/)** - Project notes in .claude/notes.md: live dev servers, recent artifacts and pinned links, in a side panel and with /notes
 - **[UfozDelta/ufoz-harness](https://github.com/UfozDelta/ufoz-harness)** - Live band above the prompt following running .harness plans
 - **[vgnshiyer/tps-report](https://github.com/vgnshiyer/tps-report)** - Bill from management drops by above the prompt while Claude works, and the spinner starts preparing TPS reports.
 - **[viik2k/clawdify](https://github.com/viik2k/clawdify)** - Restyle Claude Code from /clawdify: spinner, turn footer, prompt hint, banner, status line, transcript rows and presets, or just describe what you…
@@ -460,7 +460,7 @@ Customize terminal panels, status bars, visual themes and companions.
 
 ### Prompts & input
 
-[Open the prompts & input mod folders](mods/prompts/)
+[Open the prompts & input mod folders](prompts/)
 
 Improve prompt composition, shortcuts and input workflows.
 
@@ -499,7 +499,7 @@ Improve prompt composition, shortcuts and input workflows.
 - **[pierreboissinot/openspec-status](https://github.com/pierreboissinot/openspec-status)** - Shows the OpenSpec changes of the open project under the prompt, for local roots and stores
 - **[pierregoutheraud/claude-mods](https://github.com/pierregoutheraud/claude-mods)** - Mods including pixel-pet, server-farm.
 - **[ricardosuman/maestro](https://github.com/ricardosuman/maestro)** - Shows Maestro external lane runs above the prompt
-- **[ruanss4/prompt-jump](mods/prompts/ruanss4--prompt-jump/)** - A bar above the prompt input with a tick for every prompt of the session; hover to read one, click to jump to it
+- **[Prompt Jump](prompts/prompt-jump/)** - A bar above the prompt input with a tick for every prompt of the session; hover to read one, click to jump to it
 - **[ruthannbravo/explain-it](https://github.com/ruthannbravo/explain-it)** - Explains what Claude just did, step by step, in plain English
 - **[s2005/skill_state](https://github.com/s2005/skill_state)** - SKILL.state explicit execution state: schema-validated state tool, action-bound tool gating and turn-end frame compaction
 - **[sameeeeeeep/switchboard-notch](https://github.com/sameeeeeeep/switchboard-notch)** - Claude's questions drop from your Mac's notch as a native card.
@@ -518,7 +518,7 @@ Improve prompt composition, shortcuts and input workflows.
 
 ### Testing & debugging
 
-[Open the testing & debugging mod folders](mods/testing/)
+[Open the testing & debugging mod folders](testing/)
 
 Follow test results, inspect failures and support debugging.
 
@@ -546,18 +546,18 @@ Follow test results, inspect failures and support debugging.
 
 ### Browser & web
 
-[Open the browser & web mod folders](mods/web/)
+[Open the browser & web mod folders](web/)
 
 Connect browser activity and web workflows to your coding session.
 
-- **[JAICHANGPARK/html-preview](mods/web/JAICHANGPARK--html-preview/)** - Shows HTML files Claude writes (or /preview &lt;file&gt;) like a browser: terminal-browser when installed, else a built-in Chrome-rendered pane
+- **[HTML Preview](web/html-preview/)** - Shows HTML files Claude writes (or /preview &lt;file&gt;) like a browser: terminal-browser when installed, else a built-in Chrome-rendered pane
 - **[zenbu-labs/terminal-browser](https://github.com/zenbu-labs/terminal-browser)** - A browser running directly inside claude code.
 
 <a id="focus"></a>
 
 ### Notifications & focus
 
-[Open the notifications & focus mod folders](mods/focus/)
+[Open the notifications & focus mod folders](focus/)
 
 Get notifications, manage attention and use waiting time well.
 
@@ -565,22 +565,22 @@ Get notifications, manage attention and use waiting time well.
 - **[daanqq/agent-config](https://github.com/daanqq/agent-config)** - /effort-next raises effort low → medium → high → xhigh → low, skipping max; bind it to a key with command:effort-next
 - **[dukechain2333/red-alert](https://github.com/dukechain2333/red-alert)** - Audible alerts for Claude Code: Claude sounds normal/yellow/red alerts on your server's speakers, with an LCARS status band and alert animations
 - **[fixter-dev/session-pings](https://github.com/fixter-dev/session-pings)** - Mac notifications titled with the session name, saying what Claude needs from you: done, a question, or a permission.
-- **[gnehiur/claude-code-volc-tts](mods/focus/gnehiur--claude-code-volc-tts/)** - 在每段回复下加一个🔊按钮，用火山引擎豆包语音（知性女声 2.0）流式朗读，可暂停、继续、从头念、倍速
-- **[halluton/Mindful-Claude](mods/focus/halluton--Mindful-Claude/)** - A guided breathing animation while Claude works.
+- **[Read Aloud](focus/read-aloud/)** - 在每段回复下加一个🔊按钮，用火山引擎豆包语音（知性女声 2.0）流式朗读，可暂停、继续、从头念、倍速
+- **[Breathing Exercises](focus/breathing-exercises/)** - A guided breathing animation while Claude works.
 - **[sneycampos/claude-pomodoro](https://github.com/sneycampos/claude-pomodoro)** - Button-first Pomodoro timer above the Claude Code prompt: one-click focus blocks, a live countdown band, break reminders and a config pane
 
 <a id="games"></a>
 
 ### Games & entertainment
 
-[Open the games & entertainment mod folders](mods/games/)
+[Open the games & entertainment mod folders](games/)
 
 Explore terminal games, animated companions and playful side panels.
 
 - **[851-labs/subway-surfers-claude-code-mod](https://github.com/851-labs/subway-surfers-claude-code-mod)** - Plays Subway Surfers gameplay in a pane while Claude works
 - **[adamholter/claude-subway-surfers](https://github.com/adamholter/claude-subway-surfers)** - Gameplay beside Claude Desktop while it works.
 - **[ChaseWNorton/claude-doom](https://github.com/ChaseWNorton/claude-doom)** - The original Doom engine, with Freedoom Phase 1, playable inside Claude Code.
-- **[giovaborgogno/cc-dino](mods/games/giovaborgogno--cc-dino/)** - Play the T-rex runner above your prompt.
+- **[Dino Game](games/dino-game/)** - Play the T-rex runner above your prompt.
 - **[hathcox/claudomon](https://github.com/hathcox/claudomon)** - A pixel pet that lives on your Claude Code screen, hatched from your project and reacting to everything Claude does
 - **[Interesting-Systems/under-management-claude](https://github.com/Interesting-Systems/under-management-claude)** - Play Under Management while Claude works on a long turn.
 - **[isr431/desk-pet](https://github.com/isr431/desk-pet)** - A small animated pet above the prompt that reacts to what Claude is doing
@@ -588,16 +588,16 @@ Explore terminal games, animated companions and playful side panels.
 - **[JinHang02/claude-code-pokemon](https://github.com/JinHang02/claude-code-pokemon)** - Your Pokémon party journeys through a pixel world above the Claude Code prompt: it runs while Claude works, cheers when tests pass, faints when they…
 - **[katzboaz/ClaudeAmp](https://github.com/katzboaz/ClaudeAmp)** - A Winamp-style player for Claude Code: live spectrum visualizer, scrolling marquee, playlist of tool calls and transport controls
 - **[lukecameron/dotfiles](https://github.com/lukecameron/dotfiles)** - /pacman: Pac-Man played over the conversation on screen, eating it character by character while Claude works; Esc puts it back.
-- **[manfye/cc-dino](mods/games/manfye--cc-dino/)** - The Chrome offline dinosaur, above the Claude Code prompt.
+- **[Dino Runner](games/dino-runner/)** - The Chrome offline dinosaur, above the Claude Code prompt.
 - **[mthli/cc-shorts](https://github.com/mthli/cc-shorts)** - Play YouTube Shorts in your Claude Code
 - **[mukiwu/muki-ai-plugins](https://github.com/mukiwu/muki-ai-plugins)** - A virtual pet that lives above your Claude Code prompt and grows from the work Claude does: it evolves by what Claude does most, gets sick from tool…
-- **[OneWave-AI/claude-code-mods](sources/OneWave-AI/claude-code-mods/)** - A collection of live panels, session tools and playful mods.
-- **[powerofjinbo/claude-code-spell-bar](mods/games/powerofjinbo--claude-code-spell-bar--plugins--spell-bar/)** - An animated spell bar for your selected effort level.
+- **[Creative Toolkit](sources/creative-toolkit/)** - A collection of live panels, session tools and playful mods.
+- **[Spell Bar](games/spell-bar/)** - An animated spell bar for your selected effort level.
 - **[refact0r/claude-surf](https://github.com/refact0r/claude-surf)** - Play Subway Surfers (or watch any video) in a pane, rendered as glyphs with a foreground and a background color
 - **[Revono/clawd-pet](https://github.com/Revono/clawd-pet)** - Clawd lives above your prompt and reacts to what Claude Code is doing
 - **[seanmars/my-agent-plugins](https://github.com/seanmars/my-agent-plugins)** - A small ASCII pet that lives in the band above the prompt, fed by /pet
 - **[selmakcby/clawd-madenci](https://github.com/selmakcby/clawd-madenci)** - Claude çalışırken istemin üstünde piksel Minecraft sahnesi: Clawd kazar, inşa eder, TNT patlatır
-- **[sezaakgun/cc-arcade](mods/games/sezaakgun--cc-arcade/)** - Games above the Claude Code prompt (snake, Tetris, 2048, Minesweeper, Flappy, Pong, typing test, Space Invaders, Doom) plus a pet that grows as…
+- **[Terminal Arcade](games/terminal-arcade/)** - Games above the Claude Code prompt (snake, Tetris, 2048, Minesweeper, Flappy, Pong, typing test, Space Invaders, Doom) plus a pet that grows as…
 - **[sontixyou/sushi-uchi](https://github.com/sontixyou/sushi-uchi)** - 寿司打風の日本語タイピングゲームを /sushida でペインに開く。かな入力のローマ字表記揺れに対応。
 - **[Syrul/claudagotchi](https://github.com/Syrul/claudagotchi)** - A tiny Claude to raise while you work: feed it your edits, play, clean, dress it up, watch it evolve
 - **[teatimedev/doomscroll](https://github.com/teatimedev/doomscroll)** - A TikTok-style video feed in a pane beside Claude Code.
@@ -610,7 +610,7 @@ Explore terminal games, animated companions and playful side panels.
 
 ### Integrations & utilities
 
-[Open the integrations & utilities mod folders](mods/integrations/)
+[Open the integrations & utilities mod folders](integrations/)
 
 Connect external tools and add utilities to your development workflow.
 
@@ -622,7 +622,7 @@ Connect external tools and add utilities to your development workflow.
 
 ## Before you install
 
-Open a [local source package](mods/README.md) for its preserved setup instructions, source files, license and pinned revision. Check its supported Claude Code version and prerequisites before use. Source files are verified against upstream, but runtime compatibility has not been tested by FindMods. Entries still under review link to the original repository.
+Open a [local source package](CATEGORIES.md) for its preserved setup instructions, source files, license and pinned revision. Check its supported Claude Code version and prerequisites before use. Source files are verified against upstream, but runtime compatibility has not been tested by FindMods. Entries still under review link to the original repository.
 
 <a id="faq"></a>
 

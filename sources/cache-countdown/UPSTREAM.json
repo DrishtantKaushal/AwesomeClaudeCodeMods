@@ -1,0 +1,115 @@
+{
+  "schemaVersion": 1,
+  "repository": "WQGGSEY/cache-ttl-timer",
+  "upstream": "https://github.com/WQGGSEY/cache-ttl-timer",
+  "commit": "969036d679b102dfb757a98b8ecaee7ef5af62fc",
+  "treeSha": "87789b2d8c17e0439f1dc118b6ce539358fd4c5c",
+  "importedAt": "2026-10-07",
+  "scope": "Complete tracked source tree at the pinned commit, unmodified.",
+  "verification": "Every file and executable/symlink mode matches the upstream Git tree; staged tree identity is checked before publication.",
+  "runtimeTested": false,
+  "componentLicenses": [
+    {
+      "license": "MIT",
+      "scope": "Source snapshot with original and separately credited component notices retained."
+    }
+  ],
+  "licenseFiles": [
+    {
+      "path": "LICENSE",
+      "sha256": "30dc545f6461d346c84383c6c9be5dcfd46ebf7754841291d7d0b487c68f4149"
+    }
+  ],
+  "additionalNotices": [],
+  "mods": [
+    {
+      "name": "cache-ttl-timer",
+      "version": "1.0.0",
+      "manifest_path": ".claude-plugin/plugin.json",
+      "path": ".",
+      "author": {
+        "name": "Seongje Hong",
+        "url": "https://github.com/WQGGSEY"
+      },
+      "description": "A prompt-cache countdown in the prompt footer, beside the model and effort: how long until your next message has to re-cache the whole conversation."
+    }
+  ],
+  "fileCount": 9,
+  "sourceBytes": 31061,
+  "files": [
+    {
+      "path": ".claude-plugin/marketplace.json",
+      "gitBlobSha1": "d60ca4cd98d21cc30fcdcc2d7b81b5f9ec61aa95",
+      "sha256": "f1f919ced59195ba2b568a8838aaa6fa64c6f3246a0d4010960950832b8759f1",
+      "bytes": 300,
+      "mode": "100644"
+    },
+    {
+      "path": ".claude-plugin/plugin.json",
+      "gitBlobSha1": "3e4f9049d8be734f526e26cef155c9a181ddce97",
+      "sha256": "10f1e14d22ecb73f5862f5ac2acd2884062407c5ea7b7c98c34581869ab50711",
+      "bytes": 599,
+      "mode": "100644"
+    },
+    {
+      "path": ".gitignore",
+      "gitBlobSha1": "78fe579ce8c0b0126fa807a7f3d7fa86caa66d07",
+      "sha256": "e0fbb011fc292817b3b7b4274332f0ee0ab14ea86e605fd98bf1d4ca84ca2ef2",
+      "bytes": 168,
+      "mode": "100644"
+    },
+    {
+      "path": "LICENSE",
+      "gitBlobSha1": "391d9f9e5e9ef35a8ea68641547daff59535cd78",
+      "sha256": "30dc545f6461d346c84383c6c9be5dcfd46ebf7754841291d7d0b487c68f4149",
+      "bytes": 1069,
+      "mode": "100644"
+    },
+    {
+      "path": "README.md",
+      "gitBlobSha1": "70dd979dbbcaf39427db8da31bb454d2a04d74e2",
+      "sha256": "c1fca739102dbdc121b4e33db954eafa2861f1770ac0199ce5ffe1ac5c01bd24",
+      "bytes": 6087,
+      "mode": "100644"
+    },
+    {
+      "path": "hooks/hooks.json",
+      "gitBlobSha1": "84b0b4a7ca374a7c919a2ab0422bd53a194e16fc",
+      "sha256": "ac53b947c6f6f53396369d1d3eab2c2133dd08aaa6a69814eb84dcbf67c8f132",
+      "bytes": 99,
+      "mode": "100644"
+    },
+    {
+      "path": "hooks/register.js",
+      "gitBlobSha1": "ae522896b10d678870e76b79c1838fee87d06f13",
+      "sha256": "f2512adb44d7a6049e39d9cb69ebd89c9453a313773e376b72a34511603e0efd",
+      "bytes": 13286,
+      "mode": "100644"
+    },
+    {
+      "path": "tests/cache-ttl-timer.test.ts",
+      "gitBlobSha1": "e7a7c6f872951693aed00711c209e75d9e618b0d",
+      "sha256": "a949eb1c932e2950e82b8f5e516caf79c009476b3978468dfb9172c35b118db6",
+      "bytes": 9292,
+      "mode": "100644"
+    },
+    {
+      "path": "types/index.d.ts",
+      "gitBlobSha1": "e85e4925876fe5cef080ff9f2026173739566859",
+      "sha256": "2808f20afadceb7dfffbfcb548e422bc3995a41e3d673e37ff8e18aaabdf3a1a",
+      "bytes": 161,
+      "mode": "100644"
+    }
+  ],
+  "discoveredCandidates": [
+    {
+      "id": "WQGGSEY/cache-ttl-timer:.",
+      "path": ".",
+      "discoveryCommit": "969036d679b102dfb757a98b8ecaee7ef5af62fc",
+      "discoveryLicense": "MIT",
+      "sameRevisionAsImport": true
+    }
+  ],
+  "packagePath": "sources/cache-countdown",
+  "displayName": "Cache Countdown"
+}

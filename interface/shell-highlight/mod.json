@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "Turbo-Thorschten/shell-highlight:.",
+  "name": "shell-highlight",
+  "displayName": "Shell Highlight",
+  "version": "0.2.0",
+  "description": "Draws Bash and PowerShell tool calls with syntax-highlighted commands",
+  "author": "Turbo-Thorschten",
+  "repository": "Turbo-Thorschten/shell-highlight",
+  "modPath": ".",
+  "category": {
+    "id": "interface",
+    "label": "Interface & themes",
+    "basis": "exact-catalogue-repository-and-mod-path"
+  },
+  "sourceCommit": "09ef77a4f09948bcc42851d9ec690f53fe899ec1",
+  "sourcePath": "sources/shell-highlight/source",
+  "sourceManifest": "sources/shell-highlight/source/.claude-plugin/plugin.json",
+  "page": "interface/shell-highlight/",
+  "runtimeTested": false
+}

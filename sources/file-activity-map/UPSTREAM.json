@@ -1,0 +1,191 @@
+{
+  "schemaVersion": 1,
+  "repository": "y-hirakaw/claude-code-mods",
+  "upstream": "https://github.com/y-hirakaw/claude-code-mods",
+  "commit": "ac362939126aaff53b1a1d22da196e4ec5137c66",
+  "treeSha": "e3186fbb6c1e371da12dba3d3b80807bf62cdd5d",
+  "importedAt": "2026-10-07",
+  "scope": "Complete tracked source tree at the pinned commit, unmodified.",
+  "verification": "Every file and executable/symlink mode matches the upstream Git tree; staged tree identity is checked before publication.",
+  "runtimeTested": false,
+  "componentLicenses": [
+    {
+      "license": "MIT",
+      "scope": "Source snapshot with original and separately credited component notices retained."
+    }
+  ],
+  "licenseFiles": [
+    {
+      "path": "LICENSE",
+      "sha256": "a4dc93be1455db5c95c7351a7bcf4055bcceffb2c81fc3022b31088773bc1fcc"
+    }
+  ],
+  "additionalNotices": [],
+  "mods": [
+    {
+      "name": "touch-map",
+      "version": "0.1.0",
+      "manifest_path": "touch-map/.claude-plugin/plugin.json",
+      "path": "touch-map",
+      "author": {
+        "name": "y-hirakaw",
+        "url": "https://github.com/y-hirakaw"
+      },
+      "description": "See which files Claude has listed, read, partially read, edited, created or deleted, as a tree and an activity map in a pane."
+    }
+  ],
+  "fileCount": 21,
+  "sourceBytes": 4213152,
+  "files": [
+    {
+      "path": ".claude-plugin/marketplace.json",
+      "gitBlobSha1": "036fe7bf7c43dcf9ea8eb10ea6a19b7f93f74adb",
+      "sha256": "98d6f7c6760a644fec2003877839b7e718e74de9d7ea85e7e62183e1099daedd",
+      "bytes": 453,
+      "mode": "100644"
+    },
+    {
+      "path": ".gitignore",
+      "gitBlobSha1": "8a98069d8d62cd5e9cffe7a4327da979eeea6a90",
+      "sha256": "9ba0bf2231b29488078667d3ce9602c168852a6a3d885663ea004da6947aae3f",
+      "bytes": 94,
+      "mode": "100644"
+    },
+    {
+      "path": "CLAUDE.md",
+      "gitBlobSha1": "c7b32e893232cc13877056a9c76039cd868aae71",
+      "sha256": "897d59fb33a5140cafa1cb4773105befb213ad2ce147645ea9afe38b3a69bbb3",
+      "bytes": 2533,
+      "mode": "100644"
+    },
+    {
+      "path": "LICENSE",
+      "gitBlobSha1": "c2f13a50983bb2cdf4b065b4012ce6ae867633d3",
+      "sha256": "a4dc93be1455db5c95c7351a7bcf4055bcceffb2c81fc3022b31088773bc1fcc",
+      "bytes": 1066,
+      "mode": "100644"
+    },
+    {
+      "path": "README.md",
+      "gitBlobSha1": "e59e77354601d3ce766dd5109fddc0d1e829b358",
+      "sha256": "35386c8a75547358c9703a9a922f1c816b15beec871e51f4556781c0b6c0692d",
+      "bytes": 5992,
+      "mode": "100644"
+    },
+    {
+      "path": "docs/colors/auto.svg",
+      "gitBlobSha1": "e45941d7cb9c8889af56bd716a47032ee121cf02",
+      "sha256": "3dd0cf636d09b8cba4642a3d20af0b9d63ca73e45d8fbc92d80ba8768ace594f",
+      "bytes": 148,
+      "mode": "100644"
+    },
+    {
+      "path": "docs/colors/created.svg",
+      "gitBlobSha1": "9ec861a6fb32fd31534cbc73a2508e478a8c7d94",
+      "sha256": "dbd95ae812cffa70678b2265ba79e47aaacc5f877775bdb4b3adb050cff5718b",
+      "bytes": 154,
+      "mode": "100644"
+    },
+    {
+      "path": "docs/colors/deleted.svg",
+      "gitBlobSha1": "318ce759dd0e8b93f791b1520a070a585445655c",
+      "sha256": "2afddeed7ba9fbfadb7b0142e22482b2396967a099df25986906b034f3f2f3ab",
+      "bytes": 154,
+      "mode": "100644"
+    },
+    {
+      "path": "docs/colors/edited.svg",
+      "gitBlobSha1": "0e49db778800e1332c61e854c89483e1526357b7",
+      "sha256": "4bac92ee0676891243a0a85afb007b3481350b997411a7aa57b4f061db482a28",
+      "bytes": 154,
+      "mode": "100644"
+    },
+    {
+      "path": "docs/colors/listed.svg",
+      "gitBlobSha1": "f28f9492087d79b06c758618d2e553976f9133ec",
+      "sha256": "fbda80a543a68a50a1c8b6544cc71ecdde24f737b18ecae3177f6d430d1b8a60",
+      "bytes": 154,
+      "mode": "100644"
+    },
+    {
+      "path": "docs/colors/partial.svg",
+      "gitBlobSha1": "5ce9b59fc8b8f3ac086a08db9ef443930872b76e",
+      "sha256": "4c421d96a3b6e4bd443afac8089a98900ee99ba9aa96fc56753b2866286a616b",
+      "bytes": 154,
+      "mode": "100644"
+    },
+    {
+      "path": "docs/colors/read.svg",
+      "gitBlobSha1": "2317e7a16490de7ce418722bf4d1f0234a87f9a7",
+      "sha256": "f5cf3858b16436e05e47a167eea6791e215cf1ff1b02f63ff72ee4c98289cf28",
+      "bytes": 154,
+      "mode": "100644"
+    },
+    {
+      "path": "docs/touch-map-demo-pane.gif",
+      "gitBlobSha1": "b0f68f6f36eca3dced4158677771ecd02afdafbe",
+      "sha256": "9e91b1264ec29bd76004f0d256b9765467d99b3a50943efd00dada11f649fb5f",
+      "bytes": 786318,
+      "mode": "100644"
+    },
+    {
+      "path": "docs/touch-map-demo.gif",
+      "gitBlobSha1": "9a2a20ac06383bd75d0fcac3b44f356352cee3f4",
+      "sha256": "7e1597828d9544f4ba5759980d402d23ee7a407ee39520085ee7a32005133a93",
+      "bytes": 3209884,
+      "mode": "100644"
+    },
+    {
+      "path": "docs/touch-map-reading.png",
+      "gitBlobSha1": "324d0ddfaec9b3e08291c4718a9f0838d5a28b53",
+      "sha256": "7dd9551fd53ab2b46a77d4d636ae1b672b03dc3dc01d17e5ac1577737c327297",
+      "bytes": 91869,
+      "mode": "100644"
+    },
+    {
+      "path": "touch-map/.claude-plugin/plugin.json",
+      "gitBlobSha1": "a2063b0cb5c96c086a7cfb5a28a79c81e7863f28",
+      "sha256": "dd54f405a91e4c81a5f8f30f66656165f9679d69e77ae6685b8a9cd32bb1933b",
+      "bytes": 532,
+      "mode": "100644"
+    },
+    {
+      "path": "touch-map/hooks/hooks.json",
+      "gitBlobSha1": "5a63f649593a5d89af8775a8e3d12db0f0940b12",
+      "sha256": "d842d789476d67282d0f04b7e5fdc68a3d981ccec65dd79cfa2d11eed13fb828",
+      "bytes": 34,
+      "mode": "100644"
+    },
+    {
+      "path": "touch-map/hooks/register.tsx",
+      "gitBlobSha1": "545a162d5306378d1b02cf411e4d912923ecf657",
+      "sha256": "ae3cf08530ad8c748ec3efaf104739985b34ada980b12b7100af9b24a2a4ea96",
+      "bytes": 73555,
+      "mode": "100644"
+    },
+    {
+      "path": "touch-map/tests/touch-map.test.ts",
+      "gitBlobSha1": "04fb1c8fc69240badbf224cc6568508026b523f6",
+      "sha256": "021ef8d40a484b41b179a778c6a1840ff8d4db73b3394b8688059c9d00f73e4f",
+      "bytes": 38117,
+      "mode": "100644"
+    },
+    {
+      "path": "touch-map/tsconfig.json",
+      "gitBlobSha1": "8681ec01da419175c87f8c968c6a5af2d2b4e5ae",
+      "sha256": "4087cf0ba92fde503ed0e7c56f37bcb26ad0c085873f10219d0336c0f19b5a8f",
+      "bytes": 56,
+      "mode": "100644"
+    },
+    {
+      "path": "touch-map/types/index.d.ts",
+      "gitBlobSha1": "06d38d01a8d42b1a74b81d1fc7a61091a7531554",
+      "sha256": "878e3d04f9df7a4f4b1b39fc6a3bc6d77f7e3273083e894672c6366b7fd98866",
+      "bytes": 1577,
+      "mode": "100644"
+    }
+  ],
+  "discoveredCandidates": [],
+  "packagePath": "sources/file-activity-map",
+  "displayName": "File Activity Map"
+}

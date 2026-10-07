@@ -1,0 +1,156 @@
+{
+  "schemaVersion": 1,
+  "repository": "sezaakgun/cc-pr-tracker",
+  "upstream": "https://github.com/sezaakgun/cc-pr-tracker",
+  "commit": "514da1edb4877cdb812ae1a25f79aa81fb6aa6db",
+  "treeSha": "d79f324da58edc2c7a74c762db842199f3e4b284",
+  "importedAt": "2026-10-07",
+  "scope": "Complete tracked source tree at the pinned commit, unmodified.",
+  "verification": "Every file and executable/symlink mode matches the upstream Git tree; staged tree identity is checked before publication.",
+  "runtimeTested": false,
+  "componentLicenses": [
+    {
+      "license": "MIT",
+      "scope": "Source snapshot with original and separately credited component notices retained."
+    }
+  ],
+  "licenseFiles": [
+    {
+      "path": "LICENSE",
+      "sha256": "1593c6d2e7d21a7869b3943d958289852f06d70dc78304b68cae6ca5b16e9c06"
+    }
+  ],
+  "additionalNotices": [],
+  "mods": [
+    {
+      "name": "cc-pr-tracker",
+      "version": "0.2.0",
+      "manifest_path": ".claude-plugin/plugin.json",
+      "path": ".",
+      "author": {
+        "name": "Seza Akg\u00fcn"
+      },
+      "description": "Watch GitHub PRs from a Claude Code session: merge state, review and required checks above the prompt, with alerts when they change"
+    }
+  ],
+  "fileCount": 15,
+  "sourceBytes": 414308,
+  "files": [
+    {
+      "path": ".claude-plugin/marketplace.json",
+      "gitBlobSha1": "6b2fb2fe7d5cfb7c3a5b4be3b14cfcd2b92ff14f",
+      "sha256": "f4452b350172c845e698561d6504372cf72d62201d00465253b10d7af8e6e28e",
+      "bytes": 560,
+      "mode": "100644"
+    },
+    {
+      "path": ".claude-plugin/plugin.json",
+      "gitBlobSha1": "55e334b878671b942167cab5ea85201b0da99548",
+      "sha256": "bfd5d77950ead9b93c6cd991696f7c10e06e072bd8831074c38d7bc46aee27b4",
+      "bytes": 737,
+      "mode": "100644"
+    },
+    {
+      "path": ".claude/settings.json",
+      "gitBlobSha1": "1dc33a150707652d299423f424f1b150dd96b2e7",
+      "sha256": "5f13cf4271d83a3ea4e9bb83b607341b7f5bc645fd76aebb51e3329f8d393dbb",
+      "bytes": 64,
+      "mode": "100644"
+    },
+    {
+      "path": ".gitignore",
+      "gitBlobSha1": "403645160823010f8009a49c15942c500a6c389d",
+      "sha256": "345dfb3f1ebe042b26a0da90ffde81fcdc7a5067221b2080f8b53535ec18c15d",
+      "bytes": 138,
+      "mode": "100644"
+    },
+    {
+      "path": "LICENSE",
+      "gitBlobSha1": "5bf75c0635949749dbb963dc13bc4d57e95a23be",
+      "sha256": "1593c6d2e7d21a7869b3943d958289852f06d70dc78304b68cae6ca5b16e9c06",
+      "bytes": 1068,
+      "mode": "100644"
+    },
+    {
+      "path": "README.md",
+      "gitBlobSha1": "189b86027cad13cbc7fb6ab7eefe8b09324060d9",
+      "sha256": "7e7d21abfc22deb57e2544b007aba808a5d246d70ddb5fd9d167789d94efb7b5",
+      "bytes": 9878,
+      "mode": "100644"
+    },
+    {
+      "path": "docs/README.md",
+      "gitBlobSha1": "b1a95bdb2bf29ab4587b4f4f804a5e758e7a37d5",
+      "sha256": "a6ca9655fdd9083666a50f3b86ae9b5ee664724bea2ab31b1b35f05ab855caf3",
+      "bytes": 608,
+      "mode": "100644"
+    },
+    {
+      "path": "docs/demo.gif",
+      "gitBlobSha1": "810413bac4a3bccb22452080f0e93884714f4db0",
+      "sha256": "8fe5d090c7bc56d82e906ab0d5d54e0fce82449b9647950555e3bc54d3ce6ed0",
+      "bytes": 138482,
+      "mode": "100644"
+    },
+    {
+      "path": "docs/details.png",
+      "gitBlobSha1": "a6ff79072a4e0ee1137b0c0addc6147a91698df4",
+      "sha256": "0f43433ce8b8dfeef9540467b58102446a9b175f1d4b96a98a9191c3bde49229",
+      "bytes": 129216,
+      "mode": "100644"
+    },
+    {
+      "path": "docs/overview.png",
+      "gitBlobSha1": "32ecad793ac29c5186ebc94aa3ba6d1803b9075d",
+      "sha256": "5ead4d28c6d731618330f3b78570a9b72c082755bed09876bcb0bdd226abf642",
+      "bytes": 70498,
+      "mode": "100644"
+    },
+    {
+      "path": "docs/watch.png",
+      "gitBlobSha1": "e222884e0aaa90259750af8c169dfdf9ecd7c397",
+      "sha256": "6908d2804a21d4199ac0136cb6ebf6f28c9503de0ea16e52cc29aeb742bf8f4e",
+      "bytes": 41741,
+      "mode": "100644"
+    },
+    {
+      "path": "hooks/hooks.json",
+      "gitBlobSha1": "f04066aa6a65d86f3fbfd2677e2735f2974d617a",
+      "sha256": "b0331e5dbd16c2322dfa6b84624cd525e8c2e3a70f168e93ab15da5a6edf59eb",
+      "bytes": 205,
+      "mode": "100644"
+    },
+    {
+      "path": "hooks/register.tsx",
+      "gitBlobSha1": "839d13e6e0ff3863094a461b7d47ec3484f17b06",
+      "sha256": "d2738c1c4a2c57dc1aed5d58fe4e59f0efb2364b00cf1cea816ef30cc5c72553",
+      "bytes": 16918,
+      "mode": "100644"
+    },
+    {
+      "path": "register.test.ts",
+      "gitBlobSha1": "1f276dc49c2c24bedc1e108a0570beb05b0c9617",
+      "sha256": "97318be3f851d7d97d7321c442369260f55806575a034d54207ef005ce7da8e9",
+      "bytes": 3854,
+      "mode": "100644"
+    },
+    {
+      "path": "tsconfig.json",
+      "gitBlobSha1": "f3d2d4bce209abdcd3c3a857003d9c80477afdea",
+      "sha256": "5efec71c642b82a70fa87d45b9d38148a3bb77b6d94429bcf392ee2a96c7740f",
+      "bytes": 341,
+      "mode": "100644"
+    }
+  ],
+  "discoveredCandidates": [
+    {
+      "id": "sezaakgun/cc-pr-tracker:.",
+      "path": ".",
+      "discoveryCommit": "514da1edb4877cdb812ae1a25f79aa81fb6aa6db",
+      "discoveryLicense": "MIT",
+      "sameRevisionAsImport": true
+    }
+  ],
+  "packagePath": "sources/pr-tracker",
+  "displayName": "PR Tracker"
+}

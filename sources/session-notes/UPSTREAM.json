@@ -1,0 +1,149 @@
+{
+  "schemaVersion": 1,
+  "repository": "udaaff/claude-code-session-notes",
+  "upstream": "https://github.com/udaaff/claude-code-session-notes",
+  "commit": "d3f429a057cb62e3e9a20c261502b22f781e01d1",
+  "treeSha": "de72704112cc547c33ffdb8c8d80d33c64e69bab",
+  "importedAt": "2026-10-07",
+  "scope": "Complete tracked source tree at the pinned commit, unmodified.",
+  "verification": "Every file and executable/symlink mode matches the upstream Git tree; staged tree identity is checked before publication.",
+  "runtimeTested": false,
+  "componentLicenses": [
+    {
+      "license": "MIT",
+      "scope": "Source snapshot with original and separately credited component notices retained."
+    }
+  ],
+  "licenseFiles": [
+    {
+      "path": "LICENSE",
+      "sha256": "2b9bf972b4bfb0f70e8411b3b7da5e2a372f859321882c251b7f33b8cc0b7b35"
+    }
+  ],
+  "additionalNotices": [],
+  "mods": [
+    {
+      "name": "session-notes",
+      "version": "0.1.0",
+      "manifest_path": ".claude-plugin/plugin.json",
+      "path": ".",
+      "author": {
+        "name": "udaaff"
+      },
+      "description": "Project notes in .claude/notes.md: live dev servers, recent artifacts and pinned links, in a side panel and with /notes."
+    }
+  ],
+  "fileCount": 14,
+  "sourceBytes": 44624,
+  "files": [
+    {
+      "path": ".claude-plugin/marketplace.json",
+      "gitBlobSha1": "ffbe1efb917658788b2f473e6c69b8b2402194aa",
+      "sha256": "fdf80ee0b96ea93dccc37b1fb62ecebb3db8cb0a005ac1d5d96a0418ff4dd9c0",
+      "bytes": 543,
+      "mode": "100644"
+    },
+    {
+      "path": ".claude-plugin/plugin.json",
+      "gitBlobSha1": "0771c6bea783a0c02dd5e5872e7d9eefb78c020f",
+      "sha256": "9d2db37298908938802ab19ab9ad6b9c11d44018dbd7dde69c0630f497805a92",
+      "bytes": 303,
+      "mode": "100644"
+    },
+    {
+      "path": ".gitignore",
+      "gitBlobSha1": "71c570eb8e13d218ea79bfbba321e69b376ef964",
+      "sha256": "899bec4590a6675a6ea7ffc2ccd79248aab23d39ae49c1399ae32221e8c19749",
+      "bytes": 131,
+      "mode": "100644"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "gitBlobSha1": "cd6f52df87582a307d72a77c6a178daf929e82c0",
+      "sha256": "8d7200fed51bce2d47a333e489985efacfd7ca3344c4ba503a2d21c25fd7a199",
+      "bytes": 676,
+      "mode": "100644"
+    },
+    {
+      "path": "LICENSE",
+      "gitBlobSha1": "94b1a25e9c8f27ca530cf0e8434bc29be2f0a047",
+      "sha256": "2b9bf972b4bfb0f70e8411b3b7da5e2a372f859321882c251b7f33b8cc0b7b35",
+      "bytes": 1063,
+      "mode": "100644"
+    },
+    {
+      "path": "README.md",
+      "gitBlobSha1": "2daf75bfd0145da27fcea99250c703d8ccf05268",
+      "sha256": "68f9ab2f04610500b342baec205760acbd87ec17c5b96a26d6a63842b35199ec",
+      "bytes": 3961,
+      "mode": "100644"
+    },
+    {
+      "path": "hooks/hooks.json",
+      "gitBlobSha1": "a7a8c1334d0855d95ae87b782c505d3a1a88f2fc",
+      "sha256": "af88517a91cc99ebc51f47350f7d94c7d3b887a0dd5575b69cc6cd4f4b9faf0c",
+      "bytes": 126,
+      "mode": "100644"
+    },
+    {
+      "path": "hooks/notes.ts",
+      "gitBlobSha1": "b11970723e0cc8f1ac26ab8239c2da164880cd1d",
+      "sha256": "2dcd0cdde035c718aa524054db15fc7141f96e66efac4e3b3bc822d4ef71879c",
+      "bytes": 8903,
+      "mode": "100644"
+    },
+    {
+      "path": "hooks/register.ts",
+      "gitBlobSha1": "f34adbb0cc77245413c5d1ea5a33535a68f8f1a8",
+      "sha256": "8e2c1dcdbca5251743259fc3090c372dd2fcdc23e5c11dd0433df04368f41b77",
+      "bytes": 21894,
+      "mode": "100644"
+    },
+    {
+      "path": "package.json",
+      "gitBlobSha1": "037a22c2989efe637eb277c69e8e0ab0da67d6b7",
+      "sha256": "0d647f21e5bf87e9f71e93c42c1c7fe3d09880b94ad7211560776e5918cc393b",
+      "bytes": 260,
+      "mode": "100644"
+    },
+    {
+      "path": "scripts/probe.mjs",
+      "gitBlobSha1": "058e7706300e091f71266e71e7aa48c45495182f",
+      "sha256": "7a21d439337269dcdc4b204f51fa86849664f1636689c0459881ff4c8a5fe599",
+      "bytes": 1690,
+      "mode": "100644"
+    },
+    {
+      "path": "tests/notes.test.ts",
+      "gitBlobSha1": "6ca508d8af6bdccf8edfad610ebf77eb4f97628d",
+      "sha256": "20e787f10b59509194773e7873af32809f32bfd26f94cf15ce822bd432c2800c",
+      "bytes": 4153,
+      "mode": "100644"
+    },
+    {
+      "path": "tests/ts-resolve-hooks.mjs",
+      "gitBlobSha1": "419e1547c900153056fafce94d4e321eba2143a5",
+      "sha256": "6ee6b02ef0f2f0f5866955ac08f21bd9cce8fff78d192ac05cbcea44ed325fe0",
+      "bytes": 345,
+      "mode": "100644"
+    },
+    {
+      "path": "tests/ts-resolve.mjs",
+      "gitBlobSha1": "30cb434f4a8099e76dd2f0adc384a1c77a73ce5d",
+      "sha256": "c7fb2bc3be2e76110911fe97609a27f528a4082358aaaff35f9289b3afa3bbff",
+      "bytes": 576,
+      "mode": "100644"
+    }
+  ],
+  "discoveredCandidates": [
+    {
+      "id": "udaaff/claude-code-session-notes:.",
+      "path": ".",
+      "discoveryCommit": "d3f429a057cb62e3e9a20c261502b22f781e01d1",
+      "discoveryLicense": "MIT",
+      "sameRevisionAsImport": true
+    }
+  ],
+  "packagePath": "sources/session-notes",
+  "displayName": "Session Notes"
+}
