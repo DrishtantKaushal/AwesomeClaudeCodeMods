@@ -1,0 +1,7 @@
+node_modules/
+.DS_Store
+Thumbs.db
+*.log
+# written by Claude Code when a mod loads from a folder
+.claude-plugin/types/
+tsconfig.json

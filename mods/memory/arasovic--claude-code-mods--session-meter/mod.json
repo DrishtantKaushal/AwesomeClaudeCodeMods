@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "arasovic/claude-code-mods:session-meter",
+  "name": "session-meter",
+  "version": "0.3.0",
+  "description": "Shows a live session pane (/ctx): context breakdown, usage limits with pace, tool calls and model requests; sends the model a one-time note when limits or context cross a threshold",
+  "author": "Mehmet Aras",
+  "repository": "arasovic/claude-code-mods",
+  "modPath": "session-meter",
+  "category": {
+    "id": "memory",
+    "label": "Memory & context",
+    "basis": "exact-catalogue-repository-and-mod-path"
+  },
+  "sourceCommit": "1df1cad9661fd001b749c6a5a1821c2914d01469",
+  "sourcePath": "sources/arasovic/claude-code-mods/source/session-meter",
+  "sourceManifest": "sources/arasovic/claude-code-mods/source/session-meter/.claude-plugin/plugin.json",
+  "page": "mods/memory/arasovic--claude-code-mods--session-meter/",
+  "runtimeTested": false
+}

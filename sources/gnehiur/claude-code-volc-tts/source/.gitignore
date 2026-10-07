@@ -1,0 +1,9 @@
+# Claude Code 引擎自动生成的接口声明（随引擎版本变化，用 /plugin-types 重新生成）
+.claude-plugin/types/
+
+# Python
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store

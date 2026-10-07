@@ -1,0 +1,18 @@
+{
+  "name": "cc-dino",
+  "version": "0.1.0",
+  "description": "The Chrome offline dinosaur, above the Claude Code prompt. Jump the cacti and duck the pterodactyls while Claude works. Needs function hooks (early access) and an interactive terminal.",
+  "author": {
+    "name": "manfye"
+  },
+  "license": "MIT",
+  "keywords": [
+    "dino",
+    "game",
+    "terminal",
+    "tui",
+    "function-hooks"
+  ],
+  "homepage": "https://github.com/manfye/cc-dino",
+  "repository": "https://github.com/manfye/cc-dino"
+}

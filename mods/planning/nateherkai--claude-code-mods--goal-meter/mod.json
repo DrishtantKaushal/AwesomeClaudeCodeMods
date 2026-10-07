@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "nateherkai/claude-code-mods:goal-meter",
+  "name": "goal-meter",
+  "version": "1.0.0",
+  "description": "A progress bar for /goal built from Claude's own task plan: tasks done out of the plan, elapsed time, an ETA at the goal's own pace, and every chat's goal in /goals",
+  "author": "Nate Herk",
+  "repository": "nateherkai/claude-code-mods",
+  "modPath": "goal-meter",
+  "category": {
+    "id": "planning",
+    "label": "Planning & tasks",
+    "basis": "exact-catalogue-repository-and-mod-path"
+  },
+  "sourceCommit": "33a936f2ec6bbfea5a30a1a4d71d992487a5c769",
+  "sourcePath": "sources/nateherkai/claude-code-mods/source/goal-meter",
+  "sourceManifest": "sources/nateherkai/claude-code-mods/source/goal-meter/.claude-plugin/plugin.json",
+  "page": "mods/planning/nateherkai--claude-code-mods--goal-meter/",
+  "runtimeTested": false
+}

@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 1,
+  "repository": "FazalAAli/pi-agent-for-claude",
+  "upstream": "https://github.com/FazalAAli/pi-agent-for-claude",
+  "commit": "0878de6d69b06324ff6515b63d5daf73de90f601",
+  "treeSha": "18a810aa82044338e0e9c4d6067640a6d5ecb8a3",
+  "importedAt": "2026-10-07",
+  "scope": "Complete tracked source tree at the pinned commit, unmodified.",
+  "verification": "Every file and executable mode matches the upstream Git tree. The reconstructed tree hash matches the pinned commit.",
+  "runtimeTested": false,
+  "componentLicenses": [
+    {
+      "license": "MIT",
+      "scope": "source snapshot; no explicit nested exception found"
+    }
+  ],
+  "licenseFiles": [
+    {
+      "path": "LICENSE",
+      "sha256": "50f33fce49ba95b2a36c736f772ebfae91dfe07fb4fb1adc160f87ca69d1ad1c"
+    }
+  ],
+  "mods": [
+    {
+      "name": "pi-agent-for-claude",
+      "manifest_path": ".claude-plugin/plugin.json",
+      "version": "0.1.0",
+      "path": ".",
+      "author": {
+        "name": "Fazal Ali"
+      },
+      "description": "pi agent for claude: a `pi` subagent type whose model steps run the pi CLI, so pi subagents and agent-team teammates live in Claude Code's own agent UI, streamed live."
+    }
+  ],
+  "fileCount": 8,
+  "sourceBytes": 35543,
+  "files": [
+    {
+      "path": ".claude-plugin/marketplace.json",
+      "gitBlobSha1": "118bd97fe2c7b1d45ae7daaa558f01f50839ecee",
+      "sha256": "9b9fda70a23612d0e99910e2fae4f06cf63bac163e369c94d7ed52e95846639b",
+      "bytes": 537,
+      "mode": "100644"
+    },
+    {
+      "path": ".claude-plugin/plugin.json",
+      "gitBlobSha1": "d109b5a7d5ba3555af8d4c69bf1b5415a0a88ced",
+      "sha256": "a4a9ba317139ea5f237e0122308d9c5745089884f4667a77bc00cd4fe288c344",
+      "bytes": 309,
+      "mode": "100644"
+    },
+    {
+      "path": "LICENSE",
+      "gitBlobSha1": "deb65246dce94ad138d22d0e24b618dccda7aeb0",
+      "sha256": "50f33fce49ba95b2a36c736f772ebfae91dfe07fb4fb1adc160f87ca69d1ad1c",
+      "bytes": 1066,
+      "mode": "100644"
+    },
+    {
+      "path": "README.md",
+      "gitBlobSha1": "391a7a05acda3f7fe4d2ae08c89f440ff8f0cc5f",
+      "sha256": "4124ded37e5c42ef24d4e1c893c7afacc90c9f8777b540f0aa5b10a51e104d3c",
+      "bytes": 3953,
+      "mode": "100644"
+    },
+    {
+      "path": "agents/pi.md",
+      "gitBlobSha1": "277f5a7eb3f4da35ccf9e1a97969e0c492ef7606",
+      "sha256": "061f458419a97c5e55b81e266a22626066767fb34c06071dedce9456fc1ebd18",
+      "bytes": 1523,
+      "mode": "100644"
+    },
+    {
+      "path": "hooks/hooks.json",
+      "gitBlobSha1": "e2df4981372f5b9d4f0ddeddea4163ff433b2691",
+      "sha256": "9b48ba156fbefdddb338f44dabbfc700620e155564bb034fb5f92d79dbae2644",
+      "bytes": 158,
+      "mode": "100644"
+    },
+    {
+      "path": "hooks/register.ts",
+      "gitBlobSha1": "b8f3eef65abdc6f64bf593f8ee1e47444ae1f25e",
+      "sha256": "c331e04dff0c71f80efccf36a420f088ef1be11f68e44882a993b1dbd0e2929f",
+      "bytes": 24482,
+      "mode": "100644"
+    },
+    {
+      "path": "smoke.sh",
+      "gitBlobSha1": "46977e8c6d33ce26b7922c38dc7081a81b7e88f9",
+      "sha256": "18a810eaef765d984e8d591c507547ac9a53767b8f07f2dfcf7d0aa4985e33c2",
+      "bytes": 3515,
+      "mode": "100755"
+    }
+  ],
+  "additionalNotices": [],
+  "discoveredCandidates": [
+    {
+      "id": "FazalAAli/pi-agent-for-claude:.",
+      "path": ".",
+      "discoveryCommit": "0878de6d69b06324ff6515b63d5daf73de90f601",
+      "discoveryLicense": "MIT",
+      "sameRevisionAsImport": true
+    }
+  ]
+}

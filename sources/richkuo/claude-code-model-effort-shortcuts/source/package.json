@@ -1,0 +1,26 @@
+{
+  "name": "claude-code-model-effort-shortcuts",
+  "version": "0.3.1",
+  "description": "Claude Code plugin: keyboard shortcuts that step the reasoning effort level and the model up and down",
+  "license": "MIT",
+  "author": "Richard Kuo",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/richkuo/claude-code-model-effort-shortcuts.git"
+  },
+  "homepage": "https://github.com/richkuo/claude-code-model-effort-shortcuts#readme",
+  "bugs": "https://github.com/richkuo/claude-code-model-effort-shortcuts/issues",
+  "keywords": [
+    "claude-code",
+    "claude-code-plugin",
+    "effort",
+    "keyboard-shortcut"
+  ],
+  "files": [
+    ".claude-plugin/plugin.json",
+    "hooks",
+    "types",
+    "README.md",
+    "LICENSE"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "WQGGSEY/cache-ttl-timer:.",
+  "name": "cache-ttl-timer",
+  "version": "1.0.0",
+  "description": "A prompt-cache countdown in the prompt footer, beside the model and effort: how long until your next message has to re-cache the whole conversation.",
+  "author": "Seongje Hong",
+  "repository": "WQGGSEY/cache-ttl-timer",
+  "modPath": ".",
+  "category": {
+    "id": "memory",
+    "label": "Memory & context",
+    "basis": "exact-catalogue-repository-and-mod-path"
+  },
+  "sourceCommit": "969036d679b102dfb757a98b8ecaee7ef5af62fc",
+  "sourcePath": "sources/WQGGSEY/cache-ttl-timer/source",
+  "sourceManifest": "sources/WQGGSEY/cache-ttl-timer/source/.claude-plugin/plugin.json",
+  "page": "mods/memory/WQGGSEY--cache-ttl-timer/",
+  "runtimeTested": false
+}

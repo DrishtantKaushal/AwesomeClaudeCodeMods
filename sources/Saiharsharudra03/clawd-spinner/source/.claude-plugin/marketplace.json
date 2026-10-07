@@ -1,0 +1,12 @@
+{
+  "name": "clawd-spinner",
+  "owner": { "name": "Sai Rudra" },
+  "metadata": { "description": "Clawd acts out the Claude Code spinner word." },
+  "plugins": [
+    {
+      "name": "clawd-spinner",
+      "source": "./",
+      "description": "Clawd acts out the spinner's word while Claude works: 11 acts across all 179 spinner words."
+    }
+  ]
+}

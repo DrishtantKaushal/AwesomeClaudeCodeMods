@@ -1,0 +1,75 @@
+{
+  "name": "jev-guard",
+  "version": "0.1.0",
+  "description": "Probability-scored guardrails for Claude Code: deny rule-breaking edits and unasked-for deploys, route your own docs into each prompt, and check the final answer against the turn's own evidence.",
+  "license": "MIT",
+  "author": { "name": "Oguzhan Cakmak" },
+  "userConfig": {
+    "denyThreshold": {
+      "type": "number",
+      "title": "Deny threshold",
+      "description": "Minimum Jev probability that an edit or command breaks a rule before the call is denied.",
+      "default": 0.7
+    },
+    "routeMemories": {
+      "type": "boolean",
+      "title": "Route docs into prompts",
+      "description": "Score memory and rule files against each prompt and attach the best matches as context. Needs memoryDir and/or ruleFiles.",
+      "default": false
+    },
+    "routeCount": {
+      "type": "number",
+      "title": "Routed files per prompt",
+      "description": "How many memory/rule files (max) are attached to each prompt.",
+      "default": 3
+    },
+    "routeThreshold": {
+      "type": "number",
+      "title": "Route threshold",
+      "description": "Minimum Jev probability for a memory/rule file to be attached to a prompt.",
+      "default": 0.65
+    },
+    "memoryDir": {
+      "type": "string",
+      "title": "Memory directory",
+      "description": "Directory holding a MEMORY.md index of '- [Title](file.md) — hook' lines. Empty disables memory routing.",
+      "default": ""
+    },
+    "ruleFiles": {
+      "type": "string",
+      "title": "Routable project docs",
+      "description": "Comma-separated paths, relative to the session cwd, that the router may attach (e.g. docs/style.md,docs/testing.md). Empty disables doc routing.",
+      "default": ""
+    },
+    "verifyAnswers": {
+      "type": "boolean",
+      "title": "Check final answers",
+      "description": "Score each main-loop answer against the turn's tool results (unbacked claims, false 'merged', promises, asking for on-disk credentials, hidden red checks) and submit one correction prompt on a hit.",
+      "default": true
+    },
+    "answerThreshold": {
+      "type": "number",
+      "title": "Answer-check threshold",
+      "description": "Minimum Jev probability for an answer finding to trigger the correction prompt.",
+      "default": 0.75
+    },
+    "gatedSkillPrefixes": {
+      "type": "string",
+      "title": "User-invoked skill prefixes",
+      "description": "Comma-separated prefixes of skills whose description says they trigger ONLY on explicit invocation; a call the prompt did not ask for is denied. Empty disables the gate.",
+      "default": ""
+    },
+    "slowThreshold": {
+      "type": "number",
+      "title": "Background threshold",
+      "description": "Minimum Jev probability that a Bash command is long-running before it is moved to the background.",
+      "default": 0.55
+    },
+    "agentRouting": {
+      "type": "boolean",
+      "title": "Subagent model routing",
+      "description": "Let Jev downgrade lookup-style Explore/general-purpose subagents to a cheaper model. Off: subagents keep their configured model.",
+      "default": false
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "name": "exam-gate-marketplace",
+  "description": "Exam Gate: a checklist gate for Claude Code. Claude cannot call a task done until your checks pass.",
+  "owner": { "name": "swei99386-alt" },
+  "plugins": [
+    { "name": "exam-gate", "source": "./", "description": "Run your checklist when Claude finishes; send it back on failure; trip a breaker after repeated failures." }
+  ]
+}

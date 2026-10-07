@@ -1,0 +1,29 @@
+{
+  "name": "nateherk-mods",
+  "description": "Claude Code mods by Nate Herk: cache savings, recording mode, a /goal progress bar, and a guard for parallel chats",
+  "owner": {
+    "name": "Nate Herk"
+  },
+  "plugins": [
+    {
+      "name": "cache-keeper",
+      "source": "./cache-keeper",
+      "description": "Keeps a big chat's prompt cache warm, warns before an expensive cold restart, shows every local chat on one board (/board), and hands a chat off to a fresh one (/handoff)"
+    },
+    {
+      "name": "recording-mode",
+      "source": "./recording-mode",
+      "description": "/rec before you record: masks keys, personal details, and business figures on screen and keeps private files closed (/rec strict, /rec off, /rec config)"
+    },
+    {
+      "name": "goal-meter",
+      "source": "./goal-meter",
+      "description": "A progress bar for /goal built from Claude's own task plan: tasks done out of the plan, elapsed time, an ETA at the goal's own pace, and every chat's goal in /goals"
+    },
+    {
+      "name": "collision-guard",
+      "source": "./collision-guard",
+      "description": "Asks before Claude edits a file another open chat changed in the last 30 minutes: Proceed, Move to a worktree, or Cancel (/guard)"
+    }
+  ]
+}

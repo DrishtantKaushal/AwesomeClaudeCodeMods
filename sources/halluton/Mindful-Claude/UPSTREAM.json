@@ -1,0 +1,231 @@
+{
+  "schemaVersion": 1,
+  "repository": "halluton/Mindful-Claude",
+  "upstream": "https://github.com/halluton/Mindful-Claude",
+  "commit": "411c9c4f4f1c3d128159be7315823341ae7d9e2d",
+  "treeSha": "7a7292c4799e56c6b32de484bc2bb25ca9fd6a5a",
+  "importedAt": "2026-10-07",
+  "scope": "Complete tracked source tree at the pinned commit, unmodified.",
+  "verification": "Every file and executable mode matches the upstream Git tree. The reconstructed tree hash matches the pinned commit.",
+  "runtimeTested": false,
+  "componentLicenses": [
+    {
+      "license": "MIT",
+      "scope": "source snapshot; no explicit nested exception found"
+    }
+  ],
+  "licenseFiles": [
+    {
+      "path": "LICENSE",
+      "sha256": "0a3b4c9ba2cba2cdec3b3c51d173e37be7cd8c49f91c56b382ccb9004828728d"
+    }
+  ],
+  "mods": [
+    {
+      "name": "mindful-claude",
+      "manifest_path": ".claude-plugin/plugin.json",
+      "version": "2.0.0",
+      "path": ".",
+      "author": {
+        "name": "Anthony"
+      },
+      "description": "Guided breathing exercises above the prompt while Claude works: coherent, box, 4-7-8 and the physiological sigh, four animation styles, and the spinner reads the breath. Appears when Claude starts, disappears when Claude answers. Needs function hooks (early access) and an interactive terminal."
+    }
+  ],
+  "fileCount": 26,
+  "sourceBytes": 1541299,
+  "files": [
+    {
+      "path": ".claude-plugin/marketplace.json",
+      "gitBlobSha1": "8db609872cf382972651c4e185b60ebd03a6fcc4",
+      "sha256": "373ac1d8bb48a68b301afbb3e9046d2595546fb36aa780ee8f28a1f0f5eb4aaf",
+      "bytes": 512,
+      "mode": "100644"
+    },
+    {
+      "path": ".claude-plugin/plugin.json",
+      "gitBlobSha1": "35ce9a1fb1975601603122453e29843147c8e1a1",
+      "sha256": "c1d3c249d314326431379f8ad0cc82479c3d4af9a26024758cd4277e45316ba2",
+      "bytes": 649,
+      "mode": "100644"
+    },
+    {
+      "path": ".claude/settings.json",
+      "gitBlobSha1": "1dc33a150707652d299423f424f1b150dd96b2e7",
+      "sha256": "5f13cf4271d83a3ea4e9bb83b607341b7f5bc645fd76aebb51e3329f8d393dbb",
+      "bytes": 64,
+      "mode": "100644"
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "gitBlobSha1": "aecfdcc4713841e552ac2ca49b86c0f0deaef085",
+      "sha256": "0ad6d306cde357cc3a018bb525822f616c624726693fd234f077896eb27fedbc",
+      "bytes": 179,
+      "mode": "100644"
+    },
+    {
+      "path": ".gitignore",
+      "gitBlobSha1": "61054aa1cac4bfb7cc51f044c5b591954a68af79",
+      "sha256": "0b785a963b0aaa35bf71e93a3ce5c3e4cc34448d7cfcc1ef1f602e958ff4c175",
+      "bytes": 55,
+      "mode": "100644"
+    },
+    {
+      "path": "LICENSE",
+      "gitBlobSha1": "80c93daa90eff8006a47227125d117a17f75a479",
+      "sha256": "0a3b4c9ba2cba2cdec3b3c51d173e37be7cd8c49f91c56b382ccb9004828728d",
+      "bytes": 1065,
+      "mode": "100644"
+    },
+    {
+      "path": "README.md",
+      "gitBlobSha1": "0f97cef88b6aba68c1226668a0aafbd96a2dcb15",
+      "sha256": "0e139750223a51278aa300376aaf36999ea2c3219986bc68e01bb61433641c57",
+      "bytes": 2933,
+      "mode": "100644"
+    },
+    {
+      "path": "demo.gif",
+      "gitBlobSha1": "c18b1950577df7b1307bf44be8f1243ee93f5264",
+      "sha256": "75bf7705b8c66e061ebc09ee9556afb0a3d3e598aa3e281b698b9617acbd6f34",
+      "bytes": 1480080,
+      "mode": "100644"
+    },
+    {
+      "path": "hooks/breath/config.ts",
+      "gitBlobSha1": "b2179b89f9aabe0b3ef506ac31a8987b6f6709b6",
+      "sha256": "eba11a6b927dda20fac226f59c571806955fbebdb2ee6bba25a34b39789de3c4",
+      "bytes": 3828,
+      "mode": "100644"
+    },
+    {
+      "path": "hooks/breath/exercises.ts",
+      "gitBlobSha1": "ccf5dcd408706a739dc3613169b6a9468ece88fb",
+      "sha256": "91c05d3b286c6855a68345741641a2659a2fe829433976c0b904f444ac0e83db",
+      "bytes": 3946,
+      "mode": "100644"
+    },
+    {
+      "path": "hooks/breath/shapes.ts",
+      "gitBlobSha1": "3d133698028cfcb81349e56bc8ebc0c29e639b41",
+      "sha256": "ae9341e088380d8e1b00b54bfaa19b740b3bd92a405a1719081a49e97e390d04",
+      "bytes": 5737,
+      "mode": "100644"
+    },
+    {
+      "path": "hooks/breathe.tsx",
+      "gitBlobSha1": "e82d71cb850399d1d62cb72439ca32bf87c6d0a2",
+      "sha256": "9e12e66fa520b5a7cd5fd4d25ff4cd34369e6a44d930e9adf6d708c518ae3ed4",
+      "bytes": 2358,
+      "mode": "100644"
+    },
+    {
+      "path": "hooks/hooks.json",
+      "gitBlobSha1": "ba06bac514cb514f0f66888e4d15cf2f0d28706d",
+      "sha256": "69d0087f953612b1526932f1a256ebb8db0a40c55a871926fbb85fd773da565a",
+      "bytes": 223,
+      "mode": "100644"
+    },
+    {
+      "path": "hooks/register.tsx",
+      "gitBlobSha1": "939cacf0699ea71a93c944c78b8ff714f999d76c",
+      "sha256": "7348692b651f65666a1a5418f750a9f17be0e438b598385bd77064094f8d9574",
+      "bytes": 4468,
+      "mode": "100644"
+    },
+    {
+      "path": "legacy/README.md",
+      "gitBlobSha1": "3da678bb356fa3b995cb00b9c7f0de781a705ee0",
+      "sha256": "a323569ac64c4b017fb41f8ab929f1c84d8bb4f34e9c5ee86fe3c215701377d1",
+      "bytes": 4904,
+      "mode": "100644"
+    },
+    {
+      "path": "legacy/breathe.sh",
+      "gitBlobSha1": "9ab75b88f00ddb545600d88420fb972aa8437fed",
+      "sha256": "aba4db89d7bba6a7e1e893600020668a99cc32d58a7c571180515b85f0b05344",
+      "bytes": 9796,
+      "mode": "100755"
+    },
+    {
+      "path": "legacy/commands/mindful.md",
+      "gitBlobSha1": "fb7acb1b8236bdef3c4bfa68b84cc96748413a7c",
+      "sha256": "f07cdbbc084cdd754188f68e711db25bbbc745f1ac315e5bea7b7d1b5029e049",
+      "bytes": 779,
+      "mode": "100644"
+    },
+    {
+      "path": "legacy/hooks/on-start.sh",
+      "gitBlobSha1": "d270c40cbe33e58830358b4b369bf96a229c1557",
+      "sha256": "2aea8aeb53c0eceedce7b7d033a85c0f2e2b2049cddadea757746cdad0256351",
+      "bytes": 836,
+      "mode": "100755"
+    },
+    {
+      "path": "legacy/hooks/on-stop.sh",
+      "gitBlobSha1": "7fde588a6b16adde6b380d8a6d6b69cbda219cd0",
+      "sha256": "3909afc195e64e8b3d5e9307b88f1c5409814b08ceb1b5271cef4d45dc29bf3e",
+      "bytes": 389,
+      "mode": "100755"
+    },
+    {
+      "path": "legacy/hooks/open-tmux-popup.sh",
+      "gitBlobSha1": "9e11e0e72bc32349bc7fab5e7b126cc7dbf53ac4",
+      "sha256": "36a19ac8e8f6fdc10b9d0fbf63d95eea286a9c15ea5c3fee3250c23050917733",
+      "bytes": 2237,
+      "mode": "100755"
+    },
+    {
+      "path": "legacy/install.sh",
+      "gitBlobSha1": "fc848b2a16c56656ef300df5b51daf6107292b1a",
+      "sha256": "88297b991ed3be1ebebdd744c6cf64685e85164d7fdade0f0f76da44f73ff719",
+      "bytes": 4996,
+      "mode": "100755"
+    },
+    {
+      "path": "legacy/set-exercise.sh",
+      "gitBlobSha1": "8060540fa127538cc13087161e252f8270b2bb43",
+      "sha256": "7d5c9d56a5fa39b13e204ade753b363df3b743fe9043800f23c1d45652222f52",
+      "bytes": 1740,
+      "mode": "100755"
+    },
+    {
+      "path": "tests/config.test.ts",
+      "gitBlobSha1": "e664aaf889ef7a95bb056d22fbe8c8b775e9ab1b",
+      "sha256": "c0bbb312dca964b3673ae57493b6f2eb17c49118abce251494c7bd9bfbff577f",
+      "bytes": 2461,
+      "mode": "100644"
+    },
+    {
+      "path": "tests/exercises.test.ts",
+      "gitBlobSha1": "446e849f6817fe5bd8eb4de7d5ea46ed0bc0ed29",
+      "sha256": "30bcb4aa3de54e9efedd56c28bc0aad36329e993ac90295bfb522f6a638c78c5",
+      "bytes": 3124,
+      "mode": "100644"
+    },
+    {
+      "path": "tests/shapes.test.ts",
+      "gitBlobSha1": "0d84b4c5390dd6d7e5d5fc4365296661cd68123f",
+      "sha256": "001954a09b667669a5de3f2eea6208671a1556b6d6cc507c781968411857e996",
+      "bytes": 3521,
+      "mode": "100644"
+    },
+    {
+      "path": "tsconfig.json",
+      "gitBlobSha1": "949939c4b95312a1b82d1445a3dd0f9a064b3afc",
+      "sha256": "c5c003211c84e53dd8715b0148a4f1847887644c7e2ea68ca4fcb86cea0418ed",
+      "bytes": 419,
+      "mode": "100644"
+    }
+  ],
+  "additionalNotices": [],
+  "discoveredCandidates": [
+    {
+      "id": "halluton/Mindful-Claude:.",
+      "path": ".",
+      "discoveryCommit": "411c9c4f4f1c3d128159be7315823341ae7d9e2d",
+      "discoveryLicense": "MIT",
+      "sameRevisionAsImport": true
+    }
+  ]
+}

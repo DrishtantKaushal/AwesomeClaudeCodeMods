@@ -1,0 +1,16 @@
+{
+  "name": "claude-queue",
+  "version": "0.4.3",
+  "private": true,
+  "type": "module",
+  "description": "Claude Code mod: prompts typed mid-turn wait in a stack above the prompt and go out when the turn ends",
+  "scripts": {
+    "test:e2e": "bun test tests/e2e",
+    "typecheck": "bunx -p typescript tsc -p . && bunx -p typescript tsc -p tsconfig.test.json",
+    "validate": "claude plugin validate .claude-plugin/plugin.json && claude plugin validate ."
+  },
+  "devDependencies": {
+    "@copilotkit/aimock": "^1.42.0",
+    "@types/bun": "^1.4.2"
+  }
+}

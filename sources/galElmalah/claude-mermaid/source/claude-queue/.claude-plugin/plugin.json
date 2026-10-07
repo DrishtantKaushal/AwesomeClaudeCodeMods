@@ -1,0 +1,26 @@
+{
+  "name": "claude-queue",
+  "version": "0.4.3",
+  "description": "A prompt typed while Claude is working is held in a stack above the prompt instead of landing in the running turn, and sent once the turn ends. Reorder the stack, edit a row in place, send one first, remove one, flush the lot. Needs function hooks (early access) and an interactive terminal.",
+  "author": {
+    "name": "Gal Elmalah"
+  },
+  "homepage": "https://github.com/galElmalah/claude-mods/tree/main/claude-queue",
+  "repository": "https://github.com/galElmalah/claude-mods",
+  "license": "MIT",
+  "keywords": [
+    "queue",
+    "prompt",
+    "terminal",
+    "function-hooks",
+    "mod"
+  ],
+  "userConfig": {
+    "joined": {
+      "type": "boolean",
+      "title": "Send the queue as one prompt",
+      "description": "When the turn ends, send every held prompt as a single message, entries separated by a blank line, instead of one turn per entry.",
+      "default": false
+    }
+  }
+}

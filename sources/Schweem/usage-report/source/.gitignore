@@ -1,0 +1,5 @@
+# Written by Claude Code when it loads the mod; specific to the local version.
+.claude-plugin/types/
+
+.DS_Store
+node_modules/

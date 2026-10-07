@@ -1,0 +1,16 @@
+{
+  "name": "pumpfun-utilities",
+  "owner": { "name": "KamiFin", "url": "https://github.com/KamiFin" },
+  "metadata": { "description": "A pump.fun positions pane and a self-filling trade journal for Claude Code" },
+  "plugins": [
+    {
+      "name": "pumpfun-utilities",
+      "source": "./",
+      "description": "Open pump.fun positions in a pane while Claude works, and a markdown trade journal that fills itself. Read-only, no keys, no trading",
+      "version": "0.1.0",
+      "author": { "name": "KamiFin" },
+      "license": "MIT",
+      "keywords": ["pump.fun", "solana", "trading", "journal"]
+    }
+  ]
+}

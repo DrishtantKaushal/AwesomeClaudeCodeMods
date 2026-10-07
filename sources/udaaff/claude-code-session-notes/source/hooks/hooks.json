@@ -1,0 +1,4 @@
+{
+  "description": "/notes pane: servers, pinned links and recent artifacts of the project",
+  "modules": ["./register.ts"]
+}

@@ -1,0 +1,4 @@
+{
+  "description": "A choice before a cold prompt cache is rebuilt: on a resume whose cache has likely expired, and on the first prompt typed after an idle spell longer than the cache lifetime",
+  "modules": ["./register.ts"]
+}

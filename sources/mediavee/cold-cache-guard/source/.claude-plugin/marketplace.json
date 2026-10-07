@@ -1,0 +1,16 @@
+{
+  "name": "cold-cache-guard",
+  "owner": {
+    "name": "Mediavee"
+  },
+  "metadata": {
+    "description": "A Claude Code mod that asks before a cold prompt cache is rebuilt."
+  },
+  "plugins": [
+    {
+      "name": "cold-cache-guard",
+      "source": ".",
+      "description": "Asks what to do before Claude Code re-sends a large conversation whose prompt cache has expired."
+    }
+  ]
+}

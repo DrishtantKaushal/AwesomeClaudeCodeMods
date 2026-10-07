@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+# Check entrypoint shared by the wt merge gate and CI (GitHub Actions).
+# Validates the plugin/marketplace manifests and runs the mod's tests.
+set -euo pipefail
+cd "$(dirname "${BASH_SOURCE[0]}")/.."
+
+if ! command -v claude >/dev/null 2>&1; then
+  echo "[check] ERROR: claude CLI not found (npm install -g @anthropic-ai/claude-code)" >&2
+  exit 1
+fi
+
+# The scaffold carries no plugin yet; checks start once the mod is in.
+if [ ! -f .claude-plugin/plugin.json ]; then
+  echo "[check] no plugin manifest yet, nothing to check" >&2
+  exit 0
+fi
+
+claude plugin validate .
+claude plugin test .

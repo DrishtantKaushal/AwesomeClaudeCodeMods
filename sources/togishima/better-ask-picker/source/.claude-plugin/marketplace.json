@@ -1,0 +1,18 @@
+{
+  "name": "better-ask-picker",
+  "owner": {
+    "name": "Takashi Ogishima",
+    "url": "https://github.com/togishima"
+  },
+  "metadata": {
+    "description": "better-ask-picker: a pane-based question UI for Claude Code",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "better-ask-picker",
+      "description": "Ask the user a question in a dedicated pane: every option on one screen with a summary, single or multi-select, no 4-option limit.",
+      "source": "./"
+    }
+  ]
+}

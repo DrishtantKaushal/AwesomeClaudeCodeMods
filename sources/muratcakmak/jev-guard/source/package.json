@@ -1,0 +1,11 @@
+{
+  "name": "jev-guard",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Probability-scored guardrails for Claude Code.",
+  "license": "MIT",
+  "scripts": {
+    "test": "bun hooks/guard.test.mjs && bun test scripts/__tests__",
+    "lint:semantic": "bun scripts/jev-lint.ts"
+  }
+}

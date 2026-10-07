@@ -1,0 +1,105 @@
+{
+  "name": "claude-code-mods",
+  "description": "Claude Code mods: lines above the prompt, guards, panes and games.",
+  "owner": {
+    "name": "hamzafer"
+  },
+  "plugins": [
+    {
+      "name": "agent-radar",
+      "description": "One live line above the prompt per running subagent: time, tool count and what it's doing. /radar shows every agent and its messages.",
+      "version": "0.1.2",
+      "source": "./mods/agent-radar"
+    },
+    {
+      "name": "blast-radius",
+      "description": "Holds risky Bash commands and shows what they would change before they run.",
+      "version": "0.2.2",
+      "source": "./mods/blast-radius"
+    },
+    {
+      "name": "browser-lanes",
+      "description": "Shows if this session has a Playwright browser and who holds it. /browser clean closes leftover browsers. A subagent that wants the browser waits until the one using it is done.",
+      "version": "0.1.2",
+      "source": "./mods/browser-lanes"
+    },
+    {
+      "name": "md-preview",
+      "description": "Shows the Markdown files Claude edits, rendered like GitHub, in a pane next to the chat. Before and after side by side. /md opens it.",
+      "version": "0.1.1",
+      "source": "./mods/md-preview"
+    },
+    {
+      "name": "glance",
+      "description": "One line above the prompt with what needs you: next meeting, PRs, Linear issues and Slack DMs. /glance lists them all.",
+      "version": "0.1.0",
+      "source": "./mods/glance"
+    },
+    {
+      "name": "merge-gate",
+      "description": "Holds `gh pr merge` until CI passes and one Codex review (OpenAI's luna model) has run. A PR line above the prompt, and /gate shows the PR's status.",
+      "version": "0.1.4",
+      "source": "./mods/merge-gate"
+    },
+    {
+      "name": "mission-control",
+      "description": "/mission opens a live map of the main agent, its subagents and every tool call, plus a code map of the files they touch.",
+      "version": "0.1.2",
+      "source": "./mods/mission-control"
+    },
+    {
+      "name": "next-steps",
+      "description": "After each turn, 2 or 3 likely next prompts above the prompt. Press 1, 2 or 3 in an empty prompt to draft one, 0 to dismiss.",
+      "version": "0.1.1",
+      "source": "./mods/next-steps"
+    },
+    {
+      "name": "reels",
+      "description": "YouTube Shorts in a terminal pane: plays while Claude works, pauses when Claude is done.",
+      "version": "0.1.2",
+      "source": "./mods/reels"
+    },
+    {
+      "name": "replay-theater",
+      "description": "Step through the last turn's file edits, one diff at a time.",
+      "version": "0.1.2",
+      "source": "./mods/replay-theater"
+    },
+    {
+      "name": "rulebook-guard",
+      "description": "Writing and git rules: replaces em dashes in prose, and asks before git commit --amend, an unformatted push, or personal info in notes and commits.",
+      "version": "0.1.2",
+      "source": "./mods/rulebook-guard"
+    },
+    {
+      "name": "session-saver",
+      "description": "Names untitled sessions through unpause. /park saves where you left off, and a resumed session shows it.",
+      "version": "0.1.1",
+      "source": "./mods/session-saver"
+    },
+    {
+      "name": "snake",
+      "description": "Snake in a pane while Claude works, paused when it's done. Opt-in, so nothing opens until /snake.",
+      "version": "0.2.2",
+      "source": "./mods/snake"
+    },
+    {
+      "name": "token-weather",
+      "description": "A live forecast of the context window, with a prompt-cache countdown, drawn above the prompt.",
+      "version": "0.2.0",
+      "source": "./mods/token-weather"
+    },
+    {
+      "name": "usage-meter",
+      "description": "Your plan's 5-hour and 7-day usage as small bars above the prompt, with the reset countdown and the session's cost.",
+      "version": "0.1.0",
+      "source": "./mods/usage-meter"
+    },
+    {
+      "name": "where-am-i",
+      "description": "A live recap above the prompt: goal, doing now, waiting on you, next. /where for a longer one.",
+      "version": "0.1.3",
+      "source": "./mods/where-am-i"
+    }
+  ]
+}

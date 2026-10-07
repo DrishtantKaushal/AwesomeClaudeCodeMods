@@ -1,0 +1,14 @@
+{
+  "name": "touch-map",
+  "version": "0.1.0",
+  "description": "See which files Claude has listed, read, partially read, edited, created or deleted, as a tree and an activity map in a pane.",
+  "author": {
+    "name": "y-hirakaw",
+    "url": "https://github.com/y-hirakaw"
+  },
+  "homepage": "https://github.com/y-hirakaw/claude-code-mods",
+  "repository": "https://github.com/y-hirakaw/claude-code-mods",
+  "license": "MIT",
+  "keywords": ["mod", "visualization", "heatmap", "files", "context"],
+  "types": "./types/index.d.ts"
+}

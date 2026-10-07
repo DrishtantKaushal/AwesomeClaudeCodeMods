@@ -1,0 +1,4 @@
+{
+  "description": "Recording Mode hooks module",
+  "modules": ["./register.mjs"]
+}

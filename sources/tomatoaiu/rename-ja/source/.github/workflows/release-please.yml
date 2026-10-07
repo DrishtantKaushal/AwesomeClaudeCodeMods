@@ -1,0 +1,63 @@
+name: Prepare release
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+concurrency:
+  group: prepare-release
+  cancel-in-progress: true
+
+permissions: {}
+
+jobs:
+  release-please:
+    if: >-
+      ${{
+        github.repository == 'tomatoaiu/rename-ja' &&
+        github.actor == github.repository_owner &&
+        github.ref == 'refs/heads/main'
+      }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: write
+      issues: write
+      pull-requests: write
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - name: Check release baseline
+        id: baseline
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+
+          tag=$(node --input-type=module -e '
+            import { readFileSync } from "node:fs"
+            const { version } = JSON.parse(readFileSync(".claude-plugin/plugin.json", "utf8"))
+            if (!/^(0|[1-9][0-9]*)\.(0|[1-9][0-9]*)\.(0|[1-9][0-9]*)$/.test(version)) {
+              throw new Error("Invalid plugin version: " + version)
+            }
+            process.stdout.write("v" + version)
+          ')
+          releases=$(gh api --paginate --slurp \
+            "repos/${GITHUB_REPOSITORY}/releases?per_page=100")
+          ready=$(jq --arg tag "$tag" \
+            'any(.[][]; .tag_name == $tag and .draft == false and .prerelease == false)' \
+            <<< "$releases")
+          echo "ready=${ready}" >> "$GITHUB_OUTPUT"
+          if [[ "$ready" != "true" ]]; then
+            echo "Publish ${tag} with the Release workflow before preparing the next release."
+          fi
+      - name: Create or update release pull request
+        if: steps.baseline.outputs.ready == 'true'
+        uses: googleapis/release-please-action@45996ed1f6d02564a971a2fa1b5860e934307cf7 # v5.0.0
+        with:
+          config-file: release-please-config.json
+          manifest-file: .release-please-manifest.json
+          token: ${{ github.token }}

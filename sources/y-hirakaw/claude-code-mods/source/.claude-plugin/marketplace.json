@@ -1,0 +1,18 @@
+{
+  "name": "y-hirakaw-mods",
+  "owner": {
+    "name": "y-hirakaw",
+    "url": "https://github.com/y-hirakaw"
+  },
+  "metadata": {
+    "description": "Claude Code mods by y-hirakaw"
+  },
+  "plugins": [
+    {
+      "name": "touch-map",
+      "source": "./touch-map",
+      "description": "See which files Claude has listed, read, partially read, edited, created or deleted, as a tree and an activity map in a pane.",
+      "version": "0.1.0"
+    }
+  ]
+}

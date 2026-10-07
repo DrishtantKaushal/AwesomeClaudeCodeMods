@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "jarrodwatts/claude-image-view:.",
+  "name": "image-view",
+  "version": "0.1.0",
+  "description": "See the images you paste into Claude Code: thumbnails above the prompt instead of bare [Image #1] tags",
+  "author": "Jarrod Watts",
+  "repository": "jarrodwatts/claude-image-view",
+  "modPath": ".",
+  "category": {
+    "id": "interface",
+    "label": "Interface & themes",
+    "basis": "exact-catalogue-repository-and-mod-path"
+  },
+  "sourceCommit": "b3c412bb6d167cafade79148e95f9114ee1aad7c",
+  "sourcePath": "sources/jarrodwatts/claude-image-view/source",
+  "sourceManifest": "sources/jarrodwatts/claude-image-view/source/.claude-plugin/plugin.json",
+  "page": "mods/interface/jarrodwatts--claude-image-view/",
+  "runtimeTested": false
+}

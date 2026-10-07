@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "nateherkai/claude-code-mods:collision-guard",
+  "name": "collision-guard",
+  "version": "1.0.0",
+  "description": "Asks before Claude edits a file another open chat changed in the last 30 minutes: Proceed, Move to a worktree, or Cancel (/guard)",
+  "author": "Nate Herk",
+  "repository": "nateherkai/claude-code-mods",
+  "modPath": "collision-guard",
+  "category": {
+    "id": "safety",
+    "label": "Safety & permissions",
+    "basis": "exact-catalogue-repository-and-mod-path"
+  },
+  "sourceCommit": "33a936f2ec6bbfea5a30a1a4d71d992487a5c769",
+  "sourcePath": "sources/nateherkai/claude-code-mods/source/collision-guard",
+  "sourceManifest": "sources/nateherkai/claude-code-mods/source/collision-guard/.claude-plugin/plugin.json",
+  "page": "mods/safety/nateherkai--claude-code-mods--collision-guard/",
+  "runtimeTested": false
+}

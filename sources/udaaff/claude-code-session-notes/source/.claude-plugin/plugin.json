@@ -1,0 +1,10 @@
+{
+  "name": "session-notes",
+  "displayName": "Session Notes for Claude Code",
+  "version": "0.1.0",
+  "description": "Project notes in .claude/notes.md: live dev servers, recent artifacts and pinned links, in a side panel and with /notes.",
+  "author": {
+    "name": "udaaff"
+  },
+  "license": "MIT"
+}

@@ -1,0 +1,4 @@
+node_modules/
+hooks/types/
+*.log
+.DS_Store

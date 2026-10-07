@@ -1,300 +1,1662 @@
 {
   "schemaVersion": 1,
   "updatedAt": "2026-10-07",
-  "status": "partial-import",
-  "packages": [
+  "categories": {
+    "usage": "Usage & costs",
+    "agents": "Agents & orchestration",
+    "planning": "Planning & tasks",
+    "files": "Files & navigation",
+    "git": "Git & code review",
+    "safety": "Safety & permissions",
+    "memory": "Memory & context",
+    "interface": "Interface & themes",
+    "prompts": "Prompts & input",
+    "testing": "Testing & debugging",
+    "web": "Browser & web",
+    "focus": "Notifications & focus",
+    "games": "Games & entertainment",
+    "integrations": "Integrations & utilities"
+  },
+  "mods": [
     {
+      "schemaVersion": 1,
+      "id": "DaKev/usage-wrapup:.",
+      "name": "usage-wrapup",
+      "version": "0.1.0",
+      "description": "When your plan usage gets low, tells every running agent to wrap up before the limit cuts it off.",
+      "author": "Kevin Koch",
+      "repository": "DaKev/usage-wrapup",
+      "modPath": ".",
+      "category": {
+        "id": "usage",
+        "label": "Usage & costs",
+        "basis": "exact-catalogue-repository-and-mod-path"
+      },
+      "sourceCommit": "c94766d10b1a32e97e4ff14c094c7c2007d1575b",
+      "sourcePath": "sources/DaKev/usage-wrapup/source",
+      "sourceManifest": "sources/DaKev/usage-wrapup/source/.claude-plugin/plugin.json",
+      "page": "mods/usage/DaKev--usage-wrapup/",
+      "runtimeTested": false
+    },
+    {
+      "schemaVersion": 1,
+      "id": "FazalAAli/pi-agent-for-claude:.",
+      "name": "pi-agent-for-claude",
+      "version": "0.1.0",
+      "description": "pi agent for claude: a `pi` subagent type whose model steps run the pi CLI, so pi subagents and agent-team teammates live in Claude Code's own agent UI, streamed live.",
+      "author": "Fazal Ali",
       "repository": "FazalAAli/pi-agent-for-claude",
-      "commit": "0878de6d69b06324ff6515b63d5daf73de90f601",
-      "treeSha": "18a810aa82044338e0e9c4d6067640a6d5ecb8a3",
-      "fileCount": 8,
-      "sourceBytes": 35543,
-      "componentLicenses": [
-        {
-          "license": "MIT",
-          "scope": "source snapshot; no explicit nested exception found"
-        }
-      ],
-      "mods": [
-        {
-          "name": "pi-agent-for-claude",
-          "manifest_path": ".claude-plugin/plugin.json",
-          "version": "0.1.0",
-          "path": ".",
-          "author": {
-            "name": "Fazal Ali"
-          },
-          "description": "pi agent for claude: a `pi` subagent type whose model steps run the pi CLI, so pi subagents and agent-team teammates live in Claude Code's own agent UI, streamed live."
-        }
-      ]
+      "modPath": ".",
+      "category": {
+        "id": "agents",
+        "label": "Agents & orchestration",
+        "basis": "exact-catalogue-repository-and-mod-path"
+      },
+      "sourceCommit": "0878de6d69b06324ff6515b63d5daf73de90f601",
+      "sourcePath": "sources/FazalAAli/pi-agent-for-claude/source",
+      "sourceManifest": "sources/FazalAAli/pi-agent-for-claude/source/.claude-plugin/plugin.json",
+      "page": "mods/agents/FazalAAli--pi-agent-for-claude/",
+      "runtimeTested": false
     },
     {
-      "repository": "halluton/Mindful-Claude",
-      "commit": "411c9c4f4f1c3d128159be7315823341ae7d9e2d",
-      "treeSha": "7a7292c4799e56c6b32de484bc2bb25ca9fd6a5a",
-      "fileCount": 26,
-      "sourceBytes": 1541299,
-      "componentLicenses": [
-        {
-          "license": "MIT",
-          "scope": "source snapshot; no explicit nested exception found"
-        }
-      ],
-      "mods": [
-        {
-          "name": "mindful-claude",
-          "manifest_path": ".claude-plugin/plugin.json",
-          "version": "2.0.0",
-          "path": ".",
-          "author": {
-            "name": "Anthony"
-          },
-          "description": "Guided breathing exercises above the prompt while Claude works: coherent, box, 4-7-8 and the physiological sigh, four animation styles, and the spinner reads the breath. Appears when Claude starts, disappears when Claude answers. Needs function hooks (early access) and an interactive terminal."
-        }
-      ]
+      "schemaVersion": 1,
+      "id": "JAICHANGPARK/html-preview:.",
+      "name": "html-preview",
+      "version": "0.3.1",
+      "description": "Shows HTML files Claude writes (or /preview <file>) like a browser: terminal-browser when installed, else a built-in Chrome-rendered pane",
+      "author": "JAICHANGPARK",
+      "repository": "JAICHANGPARK/html-preview",
+      "modPath": ".",
+      "category": {
+        "id": "web",
+        "label": "Browser & web",
+        "basis": "exact-catalogue-repository-and-mod-path"
+      },
+      "sourceCommit": "12893f47e1c5641aae3abf811bc26ba1ab6a4bad",
+      "sourcePath": "sources/JAICHANGPARK/html-preview/source",
+      "sourceManifest": "sources/JAICHANGPARK/html-preview/source/.claude-plugin/plugin.json",
+      "page": "mods/web/JAICHANGPARK--html-preview/",
+      "runtimeTested": false
     },
     {
+      "schemaVersion": 1,
+      "id": "KamiFin/pumpfun-utilities:.",
+      "name": "pumpfun-utilities",
+      "version": "0.1.0",
+      "description": "Your open pump.fun positions in a pane while Claude works, and a markdown trade journal that fills itself. Read-only, no keys, no trading",
+      "author": "KamiFin",
+      "repository": "KamiFin/pumpfun-utilities",
+      "modPath": ".",
+      "category": {
+        "id": "integrations",
+        "label": "Integrations & utilities",
+        "basis": "individual-pinned-manifest-and-source-review"
+      },
+      "sourceCommit": "bb22df267f68a8ff14ae097ab56facc64c716102",
+      "sourcePath": "sources/KamiFin/pumpfun-utilities/source",
+      "sourceManifest": "sources/KamiFin/pumpfun-utilities/source/.claude-plugin/plugin.json",
+      "page": "mods/integrations/KamiFin--pumpfun-utilities/",
+      "runtimeTested": false
+    },
+    {
+      "schemaVersion": 1,
+      "id": "OneWave-AI/claude-code-mods:agent-narrator",
+      "name": "agent-narrator",
+      "version": "0.1.0",
+      "description": "Watch the agent work: every step in plain English, with a live time-saved counter",
+      "author": "OneWave AI",
       "repository": "OneWave-AI/claude-code-mods",
-      "commit": "e6da26ca36a88eec3be25605d30fa20f2c1c0cec",
-      "treeSha": "b858748088952cc43c218e672347b15fe8160915",
-      "fileCount": 136,
-      "sourceBytes": 7399042,
-      "componentLicenses": [
-        {
-          "license": "MIT",
-          "scope": "source snapshot; no explicit nested exception found"
-        }
-      ],
-      "mods": [
-        {
-          "name": "agent-narrator",
-          "manifest_path": "agent-narrator/.claude-plugin/plugin.json",
-          "version": "0.1.0",
-          "path": "agent-narrator",
-          "author": {
-            "name": "OneWave AI",
-            "url": "https://www.onewave-ai.com"
-          },
-          "description": "Watch the agent work: every step in plain English, with a live time-saved counter"
-        },
-        {
-          "name": "agent-race",
-          "manifest_path": "agent-race/.claude-plugin/plugin.json",
-          "version": "0.1.0",
-          "path": "agent-race",
-          "author": {
-            "name": "OneWave AI",
-            "url": "https://www.onewave-ai.com"
-          },
-          "description": "Race Claude Code sessions on a task: live split-screen race track scoreboard"
-        },
-        {
-          "name": "boss-fight",
-          "manifest_path": "boss-fight/.claude-plugin/plugin.json",
-          "version": "0.1.0",
-          "path": "boss-fight",
-          "author": {
-            "name": "OneWave AI",
-            "url": "https://www.onewave-ai.com"
-          },
-          "description": "Failing tests spawn a pixel boss; every run that fixes tests lands a hit, zero failures is a KO with loot"
-        },
-        {
-          "name": "burn-meter",
-          "manifest_path": "burn-meter/.claude-plugin/plugin.json",
-          "version": "0.1.0",
-          "path": "burn-meter",
-          "author": {
-            "name": "OneWave AI",
-            "url": "https://www.onewave-ai.com"
-          },
-          "description": "Live session cost odometer above the prompt: a burning fuse, real-world comparisons, threshold alerts"
-        },
-        {
-          "name": "code-pet",
-          "manifest_path": "code-pet/.claude-plugin/plugin.json",
-          "version": "0.1.0",
-          "path": "code-pet",
-          "author": {
-            "name": "OneWave AI",
-            "url": "https://www.onewave-ai.com"
-          },
-          "description": "A pixel pet that lives in a pane and reacts to what Claude does: eats on tool calls, gets sick on failures, panics on rm -rf, sleeps when idle, evolves as you ship"
-        },
-        {
-          "name": "inbox-alerts",
-          "manifest_path": "inbox-alerts/.claude-plugin/plugin.json",
-          "version": "0.1.0",
-          "path": "inbox-alerts",
-          "author": {
-            "name": "OneWave AI",
-            "url": "https://www.onewave-ai.com"
-          },
-          "description": "Gmail + Slack alerts inside Claude Code: toasts, status count, and an Alerts pane"
-        },
-        {
-          "name": "inner-monologue",
-          "manifest_path": "inner-monologue/.claude-plugin/plugin.json",
-          "version": "0.1.0",
-          "path": "inner-monologue",
-          "author": {
-            "name": "OneWave AI",
-            "url": "https://www.onewave-ai.com"
-          },
-          "description": "A pane of Claude's dry inner thoughts about your session, typed out live"
-        },
-        {
-          "name": "launch-codes",
-          "manifest_path": "launch-codes/.claude-plugin/plugin.json",
-          "version": "0.1.0",
-          "path": "launch-codes",
-          "author": {
-            "name": "OneWave AI",
-            "url": "https://www.onewave-ai.com"
-          },
-          "description": "Dangerous Bash commands need launch codes: red alert pane, siren, a code to arm and a LAUNCH to fire"
-        },
-        {
-          "name": "session-wrapped",
-          "manifest_path": "session-wrapped/.claude-plugin/plugin.json",
-          "version": "0.1.0",
-          "path": "session-wrapped",
-          "author": {
-            "name": "OneWave AI",
-            "url": "https://www.onewave-ai.com"
-          },
-          "description": "Spotify Wrapped for a Claude Code session: an animated stat reveal and a shareable PNG card"
-        },
-        {
-          "name": "sportscaster",
-          "manifest_path": "sportscaster/.claude-plugin/plugin.json",
-          "version": "0.1.0",
-          "path": "sportscaster",
-          "author": {
-            "name": "OneWave AI",
-            "url": "https://www.onewave-ai.com"
-          },
-          "description": "Live TV play-by-play of your Claude Code session, spoken aloud with crowd effects"
-        },
-        {
-          "name": "swarm",
-          "manifest_path": "swarm/.claude-plugin/plugin.json",
-          "version": "0.1.0",
-          "path": "swarm",
-          "author": {
-            "name": "OneWave AI",
-            "url": "https://www.onewave-ai.com"
-          },
-          "description": "Mission control for subagents and agent teams: who is running, what each is doing, who spawned whom, who is talking to whom, and how they overlap"
-        }
-      ]
+      "modPath": "agent-narrator",
+      "category": {
+        "id": "agents",
+        "label": "Agents & orchestration",
+        "basis": "exact-catalogue-repository-and-mod-path"
+      },
+      "sourceCommit": "e6da26ca36a88eec3be25605d30fa20f2c1c0cec",
+      "sourcePath": "sources/OneWave-AI/claude-code-mods/source/agent-narrator",
+      "sourceManifest": "sources/OneWave-AI/claude-code-mods/source/agent-narrator/.claude-plugin/plugin.json",
+      "page": "mods/agents/OneWave-AI--claude-code-mods--agent-narrator/",
+      "runtimeTested": false
     },
     {
-      "repository": "henrik-thevibe/Claude-Fables",
-      "commit": "6d0ce80575a92f8f6c8c2493c2bf20413e255622",
-      "treeSha": "478ade0ab8f37491d5b5617bf179d1f85cea15f7",
-      "fileCount": 59,
-      "sourceBytes": 8237145,
-      "componentLicenses": [
-        {
-          "license": "MIT",
-          "scope": "root source; credited ChetasLua/Henrik model and gallery styles"
-        },
-        {
-          "license": "OFL-1.1",
-          "scope": "Monocraft regular/bold subsets embedded in hooks/monocraft.ts"
-        }
-      ],
-      "mods": [
-        {
-          "name": "fables",
-          "manifest_path": ".claude-plugin/plugin.json",
-          "version": "0.1.0",
-          "path": ".",
-          "author": {
-            "name": "henrik-thevibe"
-          },
-          "description": "Claude Fables: turns what the agent is doing into little animated cartoons above the prompt, written live by Sonnet or Haiku."
-        }
-      ]
+      "schemaVersion": 1,
+      "id": "OneWave-AI/claude-code-mods:agent-race",
+      "name": "agent-race",
+      "version": "0.1.0",
+      "description": "Race Claude Code sessions on a task: live split-screen race track scoreboard",
+      "author": "OneWave AI",
+      "repository": "OneWave-AI/claude-code-mods",
+      "modPath": "agent-race",
+      "category": {
+        "id": "agents",
+        "label": "Agents & orchestration",
+        "basis": "exact-catalogue-repository-and-mod-path"
+      },
+      "sourceCommit": "e6da26ca36a88eec3be25605d30fa20f2c1c0cec",
+      "sourcePath": "sources/OneWave-AI/claude-code-mods/source/agent-race",
+      "sourceManifest": "sources/OneWave-AI/claude-code-mods/source/agent-race/.claude-plugin/plugin.json",
+      "page": "mods/agents/OneWave-AI--claude-code-mods--agent-race/",
+      "runtimeTested": false
     },
     {
+      "schemaVersion": 1,
+      "id": "OneWave-AI/claude-code-mods:boss-fight",
+      "name": "boss-fight",
+      "version": "0.1.0",
+      "description": "Failing tests spawn a pixel boss; every run that fixes tests lands a hit, zero failures is a KO with loot",
+      "author": "OneWave AI",
+      "repository": "OneWave-AI/claude-code-mods",
+      "modPath": "boss-fight",
+      "category": {
+        "id": "games",
+        "label": "Games & entertainment",
+        "basis": "exact-catalogue-repository-and-mod-path"
+      },
+      "sourceCommit": "e6da26ca36a88eec3be25605d30fa20f2c1c0cec",
+      "sourcePath": "sources/OneWave-AI/claude-code-mods/source/boss-fight",
+      "sourceManifest": "sources/OneWave-AI/claude-code-mods/source/boss-fight/.claude-plugin/plugin.json",
+      "page": "mods/games/OneWave-AI--claude-code-mods--boss-fight/",
+      "runtimeTested": false
+    },
+    {
+      "schemaVersion": 1,
+      "id": "OneWave-AI/claude-code-mods:burn-meter",
+      "name": "burn-meter",
+      "version": "0.1.0",
+      "description": "Live session cost odometer above the prompt: a burning fuse, real-world comparisons, threshold alerts",
+      "author": "OneWave AI",
+      "repository": "OneWave-AI/claude-code-mods",
+      "modPath": "burn-meter",
+      "category": {
+        "id": "usage",
+        "label": "Usage & costs",
+        "basis": "exact-catalogue-repository-and-mod-path"
+      },
+      "sourceCommit": "e6da26ca36a88eec3be25605d30fa20f2c1c0cec",
+      "sourcePath": "sources/OneWave-AI/claude-code-mods/source/burn-meter",
+      "sourceManifest": "sources/OneWave-AI/claude-code-mods/source/burn-meter/.claude-plugin/plugin.json",
+      "page": "mods/usage/OneWave-AI--claude-code-mods--burn-meter/",
+      "runtimeTested": false
+    },
+    {
+      "schemaVersion": 1,
+      "id": "OneWave-AI/claude-code-mods:code-pet",
+      "name": "code-pet",
+      "version": "0.1.0",
+      "description": "A pixel pet that lives in a pane and reacts to what Claude does: eats on tool calls, gets sick on failures, panics on rm -rf, sleeps when idle, evolves as you ship",
+      "author": "OneWave AI",
+      "repository": "OneWave-AI/claude-code-mods",
+      "modPath": "code-pet",
+      "category": {
+        "id": "games",
+        "label": "Games & entertainment",
+        "basis": "exact-catalogue-repository-and-mod-path"
+      },
+      "sourceCommit": "e6da26ca36a88eec3be25605d30fa20f2c1c0cec",
+      "sourcePath": "sources/OneWave-AI/claude-code-mods/source/code-pet",
+      "sourceManifest": "sources/OneWave-AI/claude-code-mods/source/code-pet/.claude-plugin/plugin.json",
+      "page": "mods/games/OneWave-AI--claude-code-mods--code-pet/",
+      "runtimeTested": false
+    },
+    {
+      "schemaVersion": 1,
+      "id": "OneWave-AI/claude-code-mods:inbox-alerts",
+      "name": "inbox-alerts",
+      "version": "0.1.0",
+      "description": "Gmail + Slack alerts inside Claude Code: toasts, status count, and an Alerts pane",
+      "author": "OneWave AI",
+      "repository": "OneWave-AI/claude-code-mods",
+      "modPath": "inbox-alerts",
+      "category": {
+        "id": "focus",
+        "label": "Notifications & focus",
+        "basis": "exact-catalogue-repository-and-mod-path"
+      },
+      "sourceCommit": "e6da26ca36a88eec3be25605d30fa20f2c1c0cec",
+      "sourcePath": "sources/OneWave-AI/claude-code-mods/source/inbox-alerts",
+      "sourceManifest": "sources/OneWave-AI/claude-code-mods/source/inbox-alerts/.claude-plugin/plugin.json",
+      "page": "mods/focus/OneWave-AI--claude-code-mods--inbox-alerts/",
+      "runtimeTested": false
+    },
+    {
+      "schemaVersion": 1,
+      "id": "OneWave-AI/claude-code-mods:inner-monologue",
+      "name": "inner-monologue",
+      "version": "0.1.0",
+      "description": "A pane of Claude's dry inner thoughts about your session, typed out live",
+      "author": "OneWave AI",
+      "repository": "OneWave-AI/claude-code-mods",
+      "modPath": "inner-monologue",
+      "category": {
+        "id": "interface",
+        "label": "Interface & themes",
+        "basis": "exact-catalogue-repository-and-mod-path"
+      },
+      "sourceCommit": "e6da26ca36a88eec3be25605d30fa20f2c1c0cec",
+      "sourcePath": "sources/OneWave-AI/claude-code-mods/source/inner-monologue",
+      "sourceManifest": "sources/OneWave-AI/claude-code-mods/source/inner-monologue/.claude-plugin/plugin.json",
+      "page": "mods/interface/OneWave-AI--claude-code-mods--inner-monologue/",
+      "runtimeTested": false
+    },
+    {
+      "schemaVersion": 1,
+      "id": "OneWave-AI/claude-code-mods:launch-codes",
+      "name": "launch-codes",
+      "version": "0.1.0",
+      "description": "Dangerous Bash commands need launch codes: red alert pane, siren, a code to arm and a LAUNCH to fire",
+      "author": "OneWave AI",
+      "repository": "OneWave-AI/claude-code-mods",
+      "modPath": "launch-codes",
+      "category": {
+        "id": "interface",
+        "label": "Interface & themes",
+        "basis": "exact-catalogue-repository-and-mod-path"
+      },
+      "sourceCommit": "e6da26ca36a88eec3be25605d30fa20f2c1c0cec",
+      "sourcePath": "sources/OneWave-AI/claude-code-mods/source/launch-codes",
+      "sourceManifest": "sources/OneWave-AI/claude-code-mods/source/launch-codes/.claude-plugin/plugin.json",
+      "page": "mods/interface/OneWave-AI--claude-code-mods--launch-codes/",
+      "runtimeTested": false
+    },
+    {
+      "schemaVersion": 1,
+      "id": "OneWave-AI/claude-code-mods:session-wrapped",
+      "name": "session-wrapped",
+      "version": "0.1.0",
+      "description": "Spotify Wrapped for a Claude Code session: an animated stat reveal and a shareable PNG card",
+      "author": "OneWave AI",
+      "repository": "OneWave-AI/claude-code-mods",
+      "modPath": "session-wrapped",
+      "category": {
+        "id": "integrations",
+        "label": "Integrations & utilities",
+        "basis": "exact-catalogue-repository-and-mod-path"
+      },
+      "sourceCommit": "e6da26ca36a88eec3be25605d30fa20f2c1c0cec",
+      "sourcePath": "sources/OneWave-AI/claude-code-mods/source/session-wrapped",
+      "sourceManifest": "sources/OneWave-AI/claude-code-mods/source/session-wrapped/.claude-plugin/plugin.json",
+      "page": "mods/integrations/OneWave-AI--claude-code-mods--session-wrapped/",
+      "runtimeTested": false
+    },
+    {
+      "schemaVersion": 1,
+      "id": "OneWave-AI/claude-code-mods:sportscaster",
+      "name": "sportscaster",
+      "version": "0.1.0",
+      "description": "Live TV play-by-play of your Claude Code session, spoken aloud with crowd effects",
+      "author": "OneWave AI",
+      "repository": "OneWave-AI/claude-code-mods",
+      "modPath": "sportscaster",
+      "category": {
+        "id": "games",
+        "label": "Games & entertainment",
+        "basis": "exact-catalogue-repository-and-mod-path"
+      },
+      "sourceCommit": "e6da26ca36a88eec3be25605d30fa20f2c1c0cec",
+      "sourcePath": "sources/OneWave-AI/claude-code-mods/source/sportscaster",
+      "sourceManifest": "sources/OneWave-AI/claude-code-mods/source/sportscaster/.claude-plugin/plugin.json",
+      "page": "mods/games/OneWave-AI--claude-code-mods--sportscaster/",
+      "runtimeTested": false
+    },
+    {
+      "schemaVersion": 1,
+      "id": "OneWave-AI/claude-code-mods:swarm",
+      "name": "swarm",
+      "version": "0.1.0",
+      "description": "Mission control for subagents and agent teams: who is running, what each is doing, who spawned whom, who is talking to whom, and how they overlap",
+      "author": "OneWave AI",
+      "repository": "OneWave-AI/claude-code-mods",
+      "modPath": "swarm",
+      "category": {
+        "id": "agents",
+        "label": "Agents & orchestration",
+        "basis": "individual-pinned-manifest-and-source-review"
+      },
+      "sourceCommit": "e6da26ca36a88eec3be25605d30fa20f2c1c0cec",
+      "sourcePath": "sources/OneWave-AI/claude-code-mods/source/swarm",
+      "sourceManifest": "sources/OneWave-AI/claude-code-mods/source/swarm/.claude-plugin/plugin.json",
+      "page": "mods/agents/OneWave-AI--claude-code-mods--swarm/",
+      "runtimeTested": false
+    },
+    {
+      "schemaVersion": 1,
+      "id": "Saiharsharudra03/clawd-spinner:.",
+      "name": "clawd-spinner",
+      "version": "0.1.0",
+      "description": "Clawd acts out the spinner's word above it while Claude works: cooking for Saut\u00e9ing, dancing for Vibing, pacing for Pondering, 11 acts across all 179 words.",
+      "author": "Sai Rudra",
+      "repository": "Saiharsharudra03/clawd-spinner",
+      "modPath": ".",
+      "category": {
+        "id": "interface",
+        "label": "Interface & themes",
+        "basis": "exact-catalogue-repository-and-mod-path"
+      },
+      "sourceCommit": "799edab93dddfe74a4978c9c474d3c6b0d5ae690",
+      "sourcePath": "sources/Saiharsharudra03/clawd-spinner/source",
+      "sourceManifest": "sources/Saiharsharudra03/clawd-spinner/source/.claude-plugin/plugin.json",
+      "page": "mods/interface/Saiharsharudra03--clawd-spinner/",
+      "runtimeTested": false
+    },
+    {
+      "schemaVersion": 1,
+      "id": "Schweem/usage-report:.",
+      "name": "usage-report",
+      "version": "0.2.0",
+      "description": "Shows context fill, 5-hour and weekly quota, and session cost on the status line under the prompt, with warnings near your limits.",
+      "author": "Schweem",
+      "repository": "Schweem/usage-report",
+      "modPath": ".",
+      "category": {
+        "id": "usage",
+        "label": "Usage & costs",
+        "basis": "exact-catalogue-repository-and-mod-path"
+      },
+      "sourceCommit": "d73e0862b94caa06d366df687447c29c0f694548",
+      "sourcePath": "sources/Schweem/usage-report/source",
+      "sourceManifest": "sources/Schweem/usage-report/source/.claude-plugin/plugin.json",
+      "page": "mods/usage/Schweem--usage-report/",
+      "runtimeTested": false
+    },
+    {
+      "schemaVersion": 1,
+      "id": "Turbo-Thorschten/shell-highlight:.",
+      "name": "shell-highlight",
+      "version": "0.2.0",
+      "description": "Draws Bash and PowerShell tool calls with syntax-highlighted commands",
+      "author": "Turbo-Thorschten",
+      "repository": "Turbo-Thorschten/shell-highlight",
+      "modPath": ".",
+      "category": {
+        "id": "interface",
+        "label": "Interface & themes",
+        "basis": "exact-catalogue-repository-and-mod-path"
+      },
+      "sourceCommit": "09ef77a4f09948bcc42851d9ec690f53fe899ec1",
+      "sourcePath": "sources/Turbo-Thorschten/shell-highlight/source",
+      "sourceManifest": "sources/Turbo-Thorschten/shell-highlight/source/.claude-plugin/plugin.json",
+      "page": "mods/interface/Turbo-Thorschten--shell-highlight/",
+      "runtimeTested": false
+    },
+    {
+      "schemaVersion": 1,
+      "id": "WQGGSEY/cache-ttl-timer:.",
+      "name": "cache-ttl-timer",
+      "version": "1.0.0",
+      "description": "A prompt-cache countdown in the prompt footer, beside the model and effort: how long until your next message has to re-cache the whole conversation.",
+      "author": "Seongje Hong",
+      "repository": "WQGGSEY/cache-ttl-timer",
+      "modPath": ".",
+      "category": {
+        "id": "memory",
+        "label": "Memory & context",
+        "basis": "exact-catalogue-repository-and-mod-path"
+      },
+      "sourceCommit": "969036d679b102dfb757a98b8ecaee7ef5af62fc",
+      "sourcePath": "sources/WQGGSEY/cache-ttl-timer/source",
+      "sourceManifest": "sources/WQGGSEY/cache-ttl-timer/source/.claude-plugin/plugin.json",
+      "page": "mods/memory/WQGGSEY--cache-ttl-timer/",
+      "runtimeTested": false
+    },
+    {
+      "schemaVersion": 1,
+      "id": "arasovic/claude-code-mods:cache-timer",
+      "name": "cache-timer",
+      "version": "0.1.0",
+      "description": "Counts down to when the prompt cache expires, so you can send the next message before the whole conversation has to be cached again",
+      "author": "Mehmet Aras",
+      "repository": "arasovic/claude-code-mods",
+      "modPath": "cache-timer",
+      "category": {
+        "id": "memory",
+        "label": "Memory & context",
+        "basis": "exact-catalogue-repository-and-mod-path"
+      },
+      "sourceCommit": "1df1cad9661fd001b749c6a5a1821c2914d01469",
+      "sourcePath": "sources/arasovic/claude-code-mods/source/cache-timer",
+      "sourceManifest": "sources/arasovic/claude-code-mods/source/cache-timer/.claude-plugin/plugin.json",
+      "page": "mods/memory/arasovic--claude-code-mods--cache-timer/",
+      "runtimeTested": false
+    },
+    {
+      "schemaVersion": 1,
+      "id": "arasovic/claude-code-mods:change-ledger",
+      "name": "change-ledger",
+      "version": "0.1.2",
+      "description": "Lists the files this session edited in a pane (/changes), with line counts and who edited them, beside the git working tree",
+      "author": "Mehmet Aras",
+      "repository": "arasovic/claude-code-mods",
+      "modPath": "change-ledger",
+      "category": {
+        "id": "usage",
+        "label": "Usage & costs",
+        "basis": "exact-catalogue-repository-and-mod-path"
+      },
+      "sourceCommit": "1df1cad9661fd001b749c6a5a1821c2914d01469",
+      "sourcePath": "sources/arasovic/claude-code-mods/source/change-ledger",
+      "sourceManifest": "sources/arasovic/claude-code-mods/source/change-ledger/.claude-plugin/plugin.json",
+      "page": "mods/usage/arasovic--claude-code-mods--change-ledger/",
+      "runtimeTested": false
+    },
+    {
+      "schemaVersion": 1,
+      "id": "arasovic/claude-code-mods:ci-watch",
+      "name": "ci-watch",
+      "version": "0.1.3",
+      "description": "Watches GitHub Actions in a band above the prompt after Claude pushes, opens a PR or pushes a tag: a progress bar per run, then pass or fail; optionally flags failed scheduled workflows at start",
+      "author": "Mehmet Aras",
+      "repository": "arasovic/claude-code-mods",
+      "modPath": "ci-watch",
+      "category": {
+        "id": "git",
+        "label": "Git & code review",
+        "basis": "individual-pinned-manifest-and-source-review"
+      },
+      "sourceCommit": "1df1cad9661fd001b749c6a5a1821c2914d01469",
+      "sourcePath": "sources/arasovic/claude-code-mods/source/ci-watch",
+      "sourceManifest": "sources/arasovic/claude-code-mods/source/ci-watch/.claude-plugin/plugin.json",
+      "page": "mods/git/arasovic--claude-code-mods--ci-watch/",
+      "runtimeTested": false
+    },
+    {
+      "schemaVersion": 1,
+      "id": "arasovic/claude-code-mods:compact-keeper",
+      "name": "compact-keeper",
+      "version": "0.1.1",
+      "description": "Saves each compaction's summary, with the files edited before it, to ~/.claude/handoffs so the context before /compact can be recovered",
+      "author": "Mehmet Aras",
+      "repository": "arasovic/claude-code-mods",
+      "modPath": "compact-keeper",
+      "category": {
+        "id": "memory",
+        "label": "Memory & context",
+        "basis": "exact-catalogue-repository-and-mod-path"
+      },
+      "sourceCommit": "1df1cad9661fd001b749c6a5a1821c2914d01469",
+      "sourcePath": "sources/arasovic/claude-code-mods/source/compact-keeper",
+      "sourceManifest": "sources/arasovic/claude-code-mods/source/compact-keeper/.claude-plugin/plugin.json",
+      "page": "mods/memory/arasovic--claude-code-mods--compact-keeper/",
+      "runtimeTested": false
+    },
+    {
+      "schemaVersion": 1,
+      "id": "arasovic/claude-code-mods:guardrails",
+      "name": "guardrails",
+      "version": "0.3.1",
+      "description": "Blocks Cloudflare write commands, attribution lines in commits and PRs, and claude/ branch names",
+      "author": "Mehmet Aras",
+      "repository": "arasovic/claude-code-mods",
+      "modPath": "guardrails",
+      "category": {
+        "id": "safety",
+        "label": "Safety & permissions",
+        "basis": "individual-pinned-manifest-and-source-review"
+      },
+      "sourceCommit": "1df1cad9661fd001b749c6a5a1821c2914d01469",
+      "sourcePath": "sources/arasovic/claude-code-mods/source/guardrails",
+      "sourceManifest": "sources/arasovic/claude-code-mods/source/guardrails/.claude-plugin/plugin.json",
+      "page": "mods/safety/arasovic--claude-code-mods--guardrails/",
+      "runtimeTested": false
+    },
+    {
+      "schemaVersion": 1,
+      "id": "arasovic/claude-code-mods:image-peek",
+      "name": "image-peek",
+      "version": "0.1.3",
+      "description": "Shows the images you paste: thumbnails above the prompt, and larger pictures under each sent message in the chat; needs a kitty-graphics terminal such as Ghostty",
+      "author": "Mehmet Aras",
+      "repository": "arasovic/claude-code-mods",
+      "modPath": "image-peek",
+      "category": {
+        "id": "interface",
+        "label": "Interface & themes",
+        "basis": "individual-pinned-manifest-and-source-review"
+      },
+      "sourceCommit": "1df1cad9661fd001b749c6a5a1821c2914d01469",
+      "sourcePath": "sources/arasovic/claude-code-mods/source/image-peek",
+      "sourceManifest": "sources/arasovic/claude-code-mods/source/image-peek/.claude-plugin/plugin.json",
+      "page": "mods/interface/arasovic--claude-code-mods--image-peek/",
+      "runtimeTested": false
+    },
+    {
+      "schemaVersion": 1,
+      "id": "arasovic/claude-code-mods:loop-guard",
+      "name": "loop-guard",
+      "version": "0.1.0",
+      "description": "Tells the model, out of the user's sight, to stop when the same call fails twice with the same error",
+      "author": "Mehmet Aras",
+      "repository": "arasovic/claude-code-mods",
+      "modPath": "loop-guard",
+      "category": {
+        "id": "safety",
+        "label": "Safety & permissions",
+        "basis": "exact-catalogue-repository-and-mod-path"
+      },
+      "sourceCommit": "1df1cad9661fd001b749c6a5a1821c2914d01469",
+      "sourcePath": "sources/arasovic/claude-code-mods/source/loop-guard",
+      "sourceManifest": "sources/arasovic/claude-code-mods/source/loop-guard/.claude-plugin/plugin.json",
+      "page": "mods/safety/arasovic--claude-code-mods--loop-guard/",
+      "runtimeTested": false
+    },
+    {
+      "schemaVersion": 1,
+      "id": "arasovic/claude-code-mods:pin-board",
+      "name": "pin-board",
+      "version": "0.1.1",
+      "description": "Pins standing notes with /pin that Claude keeps following after /compact and /clear; shows them in one row above the prompt or as a counter, and keeps them per folder with --keep",
+      "author": "Mehmet Aras",
+      "repository": "arasovic/claude-code-mods",
+      "modPath": "pin-board",
+      "category": {
+        "id": "memory",
+        "label": "Memory & context",
+        "basis": "individual-pinned-manifest-and-source-review"
+      },
+      "sourceCommit": "1df1cad9661fd001b749c6a5a1821c2914d01469",
+      "sourcePath": "sources/arasovic/claude-code-mods/source/pin-board",
+      "sourceManifest": "sources/arasovic/claude-code-mods/source/pin-board/.claude-plugin/plugin.json",
+      "page": "mods/memory/arasovic--claude-code-mods--pin-board/",
+      "runtimeTested": false
+    },
+    {
+      "schemaVersion": 1,
+      "id": "arasovic/claude-code-mods:search-meter",
+      "name": "search-meter",
+      "version": "0.1.0",
+      "description": "Counts the model's searches and colors each one: green found first try, yellow found after misses, red found nothing",
+      "author": "Mehmet Aras",
+      "repository": "arasovic/claude-code-mods",
+      "modPath": "search-meter",
+      "category": {
+        "id": "files",
+        "label": "Files & navigation",
+        "basis": "exact-catalogue-repository-and-mod-path"
+      },
+      "sourceCommit": "1df1cad9661fd001b749c6a5a1821c2914d01469",
+      "sourcePath": "sources/arasovic/claude-code-mods/source/search-meter",
+      "sourceManifest": "sources/arasovic/claude-code-mods/source/search-meter/.claude-plugin/plugin.json",
+      "page": "mods/files/arasovic--claude-code-mods--search-meter/",
+      "runtimeTested": false
+    },
+    {
+      "schemaVersion": 1,
+      "id": "arasovic/claude-code-mods:secret-guard",
+      "name": "secret-guard",
+      "version": "0.1.2",
+      "description": "Keeps secrets out of the conversation: hides API keys and private keys before the model or the transcript sees them, and blocks reads of credential files and commands that print secrets",
+      "author": "Mehmet Aras",
+      "repository": "arasovic/claude-code-mods",
+      "modPath": "secret-guard",
+      "category": {
+        "id": "safety",
+        "label": "Safety & permissions",
+        "basis": "exact-catalogue-repository-and-mod-path"
+      },
+      "sourceCommit": "1df1cad9661fd001b749c6a5a1821c2914d01469",
+      "sourcePath": "sources/arasovic/claude-code-mods/source/secret-guard",
+      "sourceManifest": "sources/arasovic/claude-code-mods/source/secret-guard/.claude-plugin/plugin.json",
+      "page": "mods/safety/arasovic--claude-code-mods--secret-guard/",
+      "runtimeTested": false
+    },
+    {
+      "schemaVersion": 1,
+      "id": "arasovic/claude-code-mods:session-meter",
+      "name": "session-meter",
+      "version": "0.3.0",
+      "description": "Shows a live session pane (/ctx): context breakdown, usage limits with pace, tool calls and model requests; sends the model a one-time note when limits or context cross a threshold",
+      "author": "Mehmet Aras",
+      "repository": "arasovic/claude-code-mods",
+      "modPath": "session-meter",
+      "category": {
+        "id": "memory",
+        "label": "Memory & context",
+        "basis": "exact-catalogue-repository-and-mod-path"
+      },
+      "sourceCommit": "1df1cad9661fd001b749c6a5a1821c2914d01469",
+      "sourcePath": "sources/arasovic/claude-code-mods/source/session-meter",
+      "sourceManifest": "sources/arasovic/claude-code-mods/source/session-meter/.claude-plugin/plugin.json",
+      "page": "mods/memory/arasovic--claude-code-mods--session-meter/",
+      "runtimeTested": false
+    },
+    {
+      "schemaVersion": 1,
+      "id": "arasovic/claude-code-mods:show-me",
+      "name": "show-me",
+      "version": "0.4.4",
+      "description": "Draws the mermaid diagrams of each answer as images in a pane (/show-me); needs mmdc and a kitty-graphics terminal such as Ghostty",
+      "author": "Mehmet Aras",
+      "repository": "arasovic/claude-code-mods",
+      "modPath": "show-me",
+      "category": {
+        "id": "interface",
+        "label": "Interface & themes",
+        "basis": "exact-catalogue-repository-and-mod-path"
+      },
+      "sourceCommit": "1df1cad9661fd001b749c6a5a1821c2914d01469",
+      "sourcePath": "sources/arasovic/claude-code-mods/source/show-me",
+      "sourceManifest": "sources/arasovic/claude-code-mods/source/show-me/.claude-plugin/plugin.json",
+      "page": "mods/interface/arasovic--claude-code-mods--show-me/",
+      "runtimeTested": false
+    },
+    {
+      "schemaVersion": 1,
+      "id": "arasovic/claude-code-mods:turn-footer",
+      "name": "turn-footer",
+      "version": "0.1.0",
+      "description": "Turns the line under each answer into a turn summary (tools, requests, tokens, cache hit) and shows the running tool in the spinner",
+      "author": "Mehmet Aras",
+      "repository": "arasovic/claude-code-mods",
+      "modPath": "turn-footer",
+      "category": {
+        "id": "usage",
+        "label": "Usage & costs",
+        "basis": "exact-catalogue-repository-and-mod-path"
+      },
+      "sourceCommit": "1df1cad9661fd001b749c6a5a1821c2914d01469",
+      "sourcePath": "sources/arasovic/claude-code-mods/source/turn-footer",
+      "sourceManifest": "sources/arasovic/claude-code-mods/source/turn-footer/.claude-plugin/plugin.json",
+      "page": "mods/usage/arasovic--claude-code-mods--turn-footer/",
+      "runtimeTested": false
+    },
+    {
+      "schemaVersion": 1,
+      "id": "arasovic/claude-code-mods:turn-timeline",
+      "name": "turn-timeline",
+      "version": "0.1.3",
+      "description": "Draws the current turn as a timeline in a pane (/timeline): model requests and tool calls per loop, where the time went, and the slowest steps",
+      "author": "Mehmet Aras",
+      "repository": "arasovic/claude-code-mods",
+      "modPath": "turn-timeline",
+      "category": {
+        "id": "interface",
+        "label": "Interface & themes",
+        "basis": "exact-catalogue-repository-and-mod-path"
+      },
+      "sourceCommit": "1df1cad9661fd001b749c6a5a1821c2914d01469",
+      "sourcePath": "sources/arasovic/claude-code-mods/source/turn-timeline",
+      "sourceManifest": "sources/arasovic/claude-code-mods/source/turn-timeline/.claude-plugin/plugin.json",
+      "page": "mods/interface/arasovic--claude-code-mods--turn-timeline/",
+      "runtimeTested": false
+    },
+    {
+      "schemaVersion": 1,
+      "id": "galElmalah/claude-mermaid:claude-mermaid",
+      "name": "claude-mermaid",
+      "version": "0.3.1",
+      "description": "Mermaid diagrams in Claude Code: every ```mermaid block Claude writes is drawn as box art, in colour, right where the fence was in the transcript. Needs function hooks (early access) and an interactive terminal.",
+      "author": "Gal Elmalah",
+      "repository": "galElmalah/claude-mermaid",
+      "modPath": "claude-mermaid",
+      "category": {
+        "id": "interface",
+        "label": "Interface & themes",
+        "basis": "individual-pinned-manifest-and-source-review"
+      },
+      "sourceCommit": "b19a0f0d09bf214c010b15cc2849c0c1a11d7b0d",
+      "sourcePath": "sources/galElmalah/claude-mermaid/source/claude-mermaid",
+      "sourceManifest": "sources/galElmalah/claude-mermaid/source/claude-mermaid/.claude-plugin/plugin.json",
+      "page": "mods/interface/galElmalah--claude-mermaid--claude-mermaid/",
+      "runtimeTested": false
+    },
+    {
+      "schemaVersion": 1,
+      "id": "galElmalah/claude-mermaid:claude-queue",
+      "name": "claude-queue",
+      "version": "0.4.3",
+      "description": "A prompt typed while Claude is working is held in a stack above the prompt instead of landing in the running turn, and sent once the turn ends. Reorder the stack, edit a row in place, send one first, remove one, flush the lot. Needs function hooks (early access) and an interactive terminal.",
+      "author": "Gal Elmalah",
+      "repository": "galElmalah/claude-mermaid",
+      "modPath": "claude-queue",
+      "category": {
+        "id": "prompts",
+        "label": "Prompts & input",
+        "basis": "individual-pinned-manifest-and-source-review"
+      },
+      "sourceCommit": "b19a0f0d09bf214c010b15cc2849c0c1a11d7b0d",
+      "sourcePath": "sources/galElmalah/claude-mermaid/source/claude-queue",
+      "sourceManifest": "sources/galElmalah/claude-mermaid/source/claude-queue/.claude-plugin/plugin.json",
+      "page": "mods/prompts/galElmalah--claude-mermaid--claude-queue/",
+      "runtimeTested": false
+    },
+    {
+      "schemaVersion": 1,
+      "id": "giovaborgogno/cc-dino:.",
+      "name": "cc-dino",
+      "version": "0.1.1",
+      "description": "The T-rex from the browser's offline page, above the Claude Code prompt: jump cacti and duck birds while Claude works. Needs function hooks (early access) and an interactive terminal.",
+      "author": "Giovanni Borgogno",
       "repository": "giovaborgogno/cc-dino",
-      "commit": "fe5c0b64b550242449cc8b5861771fcdac2f5993",
-      "treeSha": "35c76fd281f529e85d2c5e92e60a9d45631c6f8a",
-      "fileCount": 20,
-      "sourceBytes": 1849394,
-      "componentLicenses": [
-        {
-          "license": "MIT",
-          "scope": "source snapshot; no explicit nested exception found"
-        }
-      ],
-      "mods": [
-        {
-          "name": "cc-dino",
-          "manifest_path": ".claude-plugin/plugin.json",
-          "version": "0.1.1",
-          "path": ".",
-          "author": {
-            "name": "Giovanni Borgogno",
-            "url": "https://giovaborgogno.com"
-          },
-          "description": "The T-rex from the browser's offline page, above the Claude Code prompt: jump cacti and duck birds while Claude works. Needs function hooks (early access) and an interactive terminal."
-        }
-      ]
+      "modPath": ".",
+      "category": {
+        "id": "games",
+        "label": "Games & entertainment",
+        "basis": "exact-catalogue-repository-and-mod-path"
+      },
+      "sourceCommit": "fe5c0b64b550242449cc8b5861771fcdac2f5993",
+      "sourcePath": "sources/giovaborgogno/cc-dino/source",
+      "sourceManifest": "sources/giovaborgogno/cc-dino/source/.claude-plugin/plugin.json",
+      "page": "mods/games/giovaborgogno--cc-dino/",
+      "runtimeTested": false
     },
     {
+      "schemaVersion": 1,
+      "id": "gnehiur/claude-code-volc-tts:.",
+      "name": "tts",
+      "version": "0.2.0",
+      "description": "\u5728\u6bcf\u6bb5\u56de\u590d\u4e0b\u52a0\u4e00\u4e2a\ud83d\udd0a\u6309\u94ae\uff0c\u7528\u706b\u5c71\u5f15\u64ce\u8c46\u5305\u8bed\u97f3\uff08\u77e5\u6027\u5973\u58f0 2.0\uff09\u6d41\u5f0f\u6717\u8bfb\uff0c\u53ef\u6682\u505c\u3001\u7ee7\u7eed\u3001\u4ece\u5934\u5ff5\u3001\u500d\u901f",
+      "author": null,
+      "repository": "gnehiur/claude-code-volc-tts",
+      "modPath": ".",
+      "category": {
+        "id": "focus",
+        "label": "Notifications & focus",
+        "basis": "exact-catalogue-repository-and-mod-path"
+      },
+      "sourceCommit": "68dac31198731c2414a77e0dcb5211f40ac66b4e",
+      "sourcePath": "sources/gnehiur/claude-code-volc-tts/source",
+      "sourceManifest": "sources/gnehiur/claude-code-volc-tts/source/.claude-plugin/plugin.json",
+      "page": "mods/focus/gnehiur--claude-code-volc-tts/",
+      "runtimeTested": false
+    },
+    {
+      "schemaVersion": 1,
+      "id": "halluton/Mindful-Claude:.",
+      "name": "mindful-claude",
+      "version": "2.0.0",
+      "description": "Guided breathing exercises above the prompt while Claude works: coherent, box, 4-7-8 and the physiological sigh, four animation styles, and the spinner reads the breath. Appears when Claude starts, disappears when Claude answers. Needs function hooks (early access) and an interactive terminal.",
+      "author": "Anthony",
+      "repository": "halluton/Mindful-Claude",
+      "modPath": ".",
+      "category": {
+        "id": "focus",
+        "label": "Notifications & focus",
+        "basis": "exact-catalogue-repository-and-mod-path"
+      },
+      "sourceCommit": "411c9c4f4f1c3d128159be7315823341ae7d9e2d",
+      "sourcePath": "sources/halluton/Mindful-Claude/source",
+      "sourceManifest": "sources/halluton/Mindful-Claude/source/.claude-plugin/plugin.json",
+      "page": "mods/focus/halluton--Mindful-Claude/",
+      "runtimeTested": false
+    },
+    {
+      "schemaVersion": 1,
+      "id": "hamzafer/claude-code-mods:mods/agent-radar",
+      "name": "agent-radar",
+      "version": "0.1.2",
+      "description": "One live line above the prompt per running subagent: time, tool count and what it's doing. /radar shows every agent and its messages.",
+      "author": "Hamza Zafar",
+      "repository": "hamzafer/claude-code-mods",
+      "modPath": "mods/agent-radar",
+      "category": {
+        "id": "agents",
+        "label": "Agents & orchestration",
+        "basis": "exact-catalogue-repository-and-mod-path"
+      },
+      "sourceCommit": "fc5130427799f69852055add193161080bd054d6",
+      "sourcePath": "sources/hamzafer/claude-code-mods/source/mods/agent-radar",
+      "sourceManifest": "sources/hamzafer/claude-code-mods/source/mods/agent-radar/.claude-plugin/plugin.json",
+      "page": "mods/agents/hamzafer--claude-code-mods--mods--agent-radar/",
+      "runtimeTested": false
+    },
+    {
+      "schemaVersion": 1,
+      "id": "hamzafer/claude-code-mods:mods/blast-radius",
+      "name": "blast-radius",
+      "version": "0.2.2",
+      "description": "Holds risky Bash commands and shows what they would change before they run.",
+      "author": "Hamza Zafar",
+      "repository": "hamzafer/claude-code-mods",
+      "modPath": "mods/blast-radius",
+      "category": {
+        "id": "safety",
+        "label": "Safety & permissions",
+        "basis": "exact-catalogue-repository-and-mod-path"
+      },
+      "sourceCommit": "fc5130427799f69852055add193161080bd054d6",
+      "sourcePath": "sources/hamzafer/claude-code-mods/source/mods/blast-radius",
+      "sourceManifest": "sources/hamzafer/claude-code-mods/source/mods/blast-radius/.claude-plugin/plugin.json",
+      "page": "mods/safety/hamzafer--claude-code-mods--mods--blast-radius/",
+      "runtimeTested": false
+    },
+    {
+      "schemaVersion": 1,
+      "id": "hamzafer/claude-code-mods:mods/browser-lanes",
+      "name": "browser-lanes",
+      "version": "0.1.2",
+      "description": "Shows if this session has a Playwright browser and who holds it. /browser clean closes leftover browsers. A subagent that wants the browser waits until the one using it is done.",
+      "author": "Hamza Zafar",
+      "repository": "hamzafer/claude-code-mods",
+      "modPath": "mods/browser-lanes",
+      "category": {
+        "id": "web",
+        "label": "Browser & web",
+        "basis": "exact-catalogue-repository-and-mod-path"
+      },
+      "sourceCommit": "fc5130427799f69852055add193161080bd054d6",
+      "sourcePath": "sources/hamzafer/claude-code-mods/source/mods/browser-lanes",
+      "sourceManifest": "sources/hamzafer/claude-code-mods/source/mods/browser-lanes/.claude-plugin/plugin.json",
+      "page": "mods/web/hamzafer--claude-code-mods--mods--browser-lanes/",
+      "runtimeTested": false
+    },
+    {
+      "schemaVersion": 1,
+      "id": "hamzafer/claude-code-mods:mods/glance",
+      "name": "glance",
+      "version": "0.1.0",
+      "description": "One line above the prompt with what needs you: next meeting, PRs, Linear issues and Slack DMs. /glance lists them all.",
+      "author": "Hamza Zafar",
+      "repository": "hamzafer/claude-code-mods",
+      "modPath": "mods/glance",
+      "category": {
+        "id": "focus",
+        "label": "Notifications & focus",
+        "basis": "individual-pinned-manifest-and-source-review"
+      },
+      "sourceCommit": "fc5130427799f69852055add193161080bd054d6",
+      "sourcePath": "sources/hamzafer/claude-code-mods/source/mods/glance",
+      "sourceManifest": "sources/hamzafer/claude-code-mods/source/mods/glance/.claude-plugin/plugin.json",
+      "page": "mods/focus/hamzafer--claude-code-mods--mods--glance/",
+      "runtimeTested": false
+    },
+    {
+      "schemaVersion": 1,
+      "id": "hamzafer/claude-code-mods:mods/md-preview",
+      "name": "md-preview",
+      "version": "0.1.1",
+      "description": "Shows the Markdown files Claude edits, rendered like GitHub, in a pane next to the chat. Before and after side by side. /md opens it.",
+      "author": "Hamza Zafar",
+      "repository": "hamzafer/claude-code-mods",
+      "modPath": "mods/md-preview",
+      "category": {
+        "id": "files",
+        "label": "Files & navigation",
+        "basis": "individual-pinned-manifest-and-source-review"
+      },
+      "sourceCommit": "fc5130427799f69852055add193161080bd054d6",
+      "sourcePath": "sources/hamzafer/claude-code-mods/source/mods/md-preview",
+      "sourceManifest": "sources/hamzafer/claude-code-mods/source/mods/md-preview/.claude-plugin/plugin.json",
+      "page": "mods/files/hamzafer--claude-code-mods--mods--md-preview/",
+      "runtimeTested": false
+    },
+    {
+      "schemaVersion": 1,
+      "id": "hamzafer/claude-code-mods:mods/merge-gate",
+      "name": "merge-gate",
+      "version": "0.1.4",
+      "description": "Holds `gh pr merge` until CI passes and one Codex review (OpenAI's luna model) has run. A PR line above the prompt, and /gate shows the PR's status.",
+      "author": "Hamza Zafar",
+      "repository": "hamzafer/claude-code-mods",
+      "modPath": "mods/merge-gate",
+      "category": {
+        "id": "git",
+        "label": "Git & code review",
+        "basis": "exact-catalogue-repository-and-mod-path"
+      },
+      "sourceCommit": "fc5130427799f69852055add193161080bd054d6",
+      "sourcePath": "sources/hamzafer/claude-code-mods/source/mods/merge-gate",
+      "sourceManifest": "sources/hamzafer/claude-code-mods/source/mods/merge-gate/.claude-plugin/plugin.json",
+      "page": "mods/git/hamzafer--claude-code-mods--mods--merge-gate/",
+      "runtimeTested": false
+    },
+    {
+      "schemaVersion": 1,
+      "id": "hamzafer/claude-code-mods:mods/mission-control",
+      "name": "mission-control",
+      "version": "0.1.2",
+      "description": "/mission opens a live map of the main agent, its subagents and every tool call, plus a code map of the files they touch.",
+      "author": "Hamza Zafar",
+      "repository": "hamzafer/claude-code-mods",
+      "modPath": "mods/mission-control",
+      "category": {
+        "id": "agents",
+        "label": "Agents & orchestration",
+        "basis": "exact-catalogue-repository-and-mod-path"
+      },
+      "sourceCommit": "fc5130427799f69852055add193161080bd054d6",
+      "sourcePath": "sources/hamzafer/claude-code-mods/source/mods/mission-control",
+      "sourceManifest": "sources/hamzafer/claude-code-mods/source/mods/mission-control/.claude-plugin/plugin.json",
+      "page": "mods/agents/hamzafer--claude-code-mods--mods--mission-control/",
+      "runtimeTested": false
+    },
+    {
+      "schemaVersion": 1,
+      "id": "hamzafer/claude-code-mods:mods/next-steps",
+      "name": "next-steps",
+      "version": "0.1.1",
+      "description": "After each turn, 2 or 3 likely next prompts above the prompt. Press 1, 2 or 3 in an empty prompt to draft one, 0 to dismiss.",
+      "author": "Hamza Zafar",
+      "repository": "hamzafer/claude-code-mods",
+      "modPath": "mods/next-steps",
+      "category": {
+        "id": "prompts",
+        "label": "Prompts & input",
+        "basis": "individual-pinned-manifest-and-source-review"
+      },
+      "sourceCommit": "fc5130427799f69852055add193161080bd054d6",
+      "sourcePath": "sources/hamzafer/claude-code-mods/source/mods/next-steps",
+      "sourceManifest": "sources/hamzafer/claude-code-mods/source/mods/next-steps/.claude-plugin/plugin.json",
+      "page": "mods/prompts/hamzafer--claude-code-mods--mods--next-steps/",
+      "runtimeTested": false
+    },
+    {
+      "schemaVersion": 1,
+      "id": "hamzafer/claude-code-mods:mods/reels",
+      "name": "reels",
+      "version": "0.1.2",
+      "description": "YouTube Shorts in a terminal pane: plays while Claude works, pauses when Claude is done.",
+      "author": "Hamza Zafar",
+      "repository": "hamzafer/claude-code-mods",
+      "modPath": "mods/reels",
+      "category": {
+        "id": "interface",
+        "label": "Interface & themes",
+        "basis": "exact-catalogue-repository-and-mod-path"
+      },
+      "sourceCommit": "fc5130427799f69852055add193161080bd054d6",
+      "sourcePath": "sources/hamzafer/claude-code-mods/source/mods/reels",
+      "sourceManifest": "sources/hamzafer/claude-code-mods/source/mods/reels/.claude-plugin/plugin.json",
+      "page": "mods/interface/hamzafer--claude-code-mods--mods--reels/",
+      "runtimeTested": false
+    },
+    {
+      "schemaVersion": 1,
+      "id": "hamzafer/claude-code-mods:mods/replay-theater",
+      "name": "replay-theater",
+      "version": "0.1.2",
+      "description": "Step through the last turn's file edits, one diff at a time.",
+      "author": "Hamza Zafar",
+      "repository": "hamzafer/claude-code-mods",
+      "modPath": "mods/replay-theater",
+      "category": {
+        "id": "testing",
+        "label": "Testing & debugging",
+        "basis": "exact-catalogue-repository-and-mod-path"
+      },
+      "sourceCommit": "fc5130427799f69852055add193161080bd054d6",
+      "sourcePath": "sources/hamzafer/claude-code-mods/source/mods/replay-theater",
+      "sourceManifest": "sources/hamzafer/claude-code-mods/source/mods/replay-theater/.claude-plugin/plugin.json",
+      "page": "mods/testing/hamzafer--claude-code-mods--mods--replay-theater/",
+      "runtimeTested": false
+    },
+    {
+      "schemaVersion": 1,
+      "id": "hamzafer/claude-code-mods:mods/rulebook-guard",
+      "name": "rulebook-guard",
+      "version": "0.1.2",
+      "description": "Writing and git rules: replaces em dashes in prose, and asks before git commit --amend, an unformatted push, or personal info in notes and commits.",
+      "author": "Hamza Zafar",
+      "repository": "hamzafer/claude-code-mods",
+      "modPath": "mods/rulebook-guard",
+      "category": {
+        "id": "safety",
+        "label": "Safety & permissions",
+        "basis": "exact-catalogue-repository-and-mod-path"
+      },
+      "sourceCommit": "fc5130427799f69852055add193161080bd054d6",
+      "sourcePath": "sources/hamzafer/claude-code-mods/source/mods/rulebook-guard",
+      "sourceManifest": "sources/hamzafer/claude-code-mods/source/mods/rulebook-guard/.claude-plugin/plugin.json",
+      "page": "mods/safety/hamzafer--claude-code-mods--mods--rulebook-guard/",
+      "runtimeTested": false
+    },
+    {
+      "schemaVersion": 1,
+      "id": "hamzafer/claude-code-mods:mods/session-saver",
+      "name": "session-saver",
+      "version": "0.1.1",
+      "description": "Names untitled sessions through unpause. /park saves where you left off, and a resumed session shows it.",
+      "author": "Hamza Zafar",
+      "repository": "hamzafer/claude-code-mods",
+      "modPath": "mods/session-saver",
+      "category": {
+        "id": "memory",
+        "label": "Memory & context",
+        "basis": "exact-catalogue-repository-and-mod-path"
+      },
+      "sourceCommit": "fc5130427799f69852055add193161080bd054d6",
+      "sourcePath": "sources/hamzafer/claude-code-mods/source/mods/session-saver",
+      "sourceManifest": "sources/hamzafer/claude-code-mods/source/mods/session-saver/.claude-plugin/plugin.json",
+      "page": "mods/memory/hamzafer--claude-code-mods--mods--session-saver/",
+      "runtimeTested": false
+    },
+    {
+      "schemaVersion": 1,
+      "id": "hamzafer/claude-code-mods:mods/snake",
+      "name": "snake",
+      "version": "0.2.2",
+      "description": "Snake in a pane while Claude works, paused when it's done. Opt-in, so nothing opens until /snake.",
+      "author": "Hamza Zafar",
+      "repository": "hamzafer/claude-code-mods",
+      "modPath": "mods/snake",
+      "category": {
+        "id": "games",
+        "label": "Games & entertainment",
+        "basis": "exact-catalogue-repository-and-mod-path"
+      },
+      "sourceCommit": "fc5130427799f69852055add193161080bd054d6",
+      "sourcePath": "sources/hamzafer/claude-code-mods/source/mods/snake",
+      "sourceManifest": "sources/hamzafer/claude-code-mods/source/mods/snake/.claude-plugin/plugin.json",
+      "page": "mods/games/hamzafer--claude-code-mods--mods--snake/",
+      "runtimeTested": false
+    },
+    {
+      "schemaVersion": 1,
+      "id": "hamzafer/claude-code-mods:mods/token-weather",
+      "name": "token-weather",
+      "version": "0.2.0",
+      "description": "A live forecast of the context window, with a prompt-cache countdown, drawn above the prompt.",
+      "author": "Hamza Zafar",
+      "repository": "hamzafer/claude-code-mods",
+      "modPath": "mods/token-weather",
+      "category": {
+        "id": "usage",
+        "label": "Usage & costs",
+        "basis": "exact-catalogue-repository-and-mod-path"
+      },
+      "sourceCommit": "fc5130427799f69852055add193161080bd054d6",
+      "sourcePath": "sources/hamzafer/claude-code-mods/source/mods/token-weather",
+      "sourceManifest": "sources/hamzafer/claude-code-mods/source/mods/token-weather/.claude-plugin/plugin.json",
+      "page": "mods/usage/hamzafer--claude-code-mods--mods--token-weather/",
+      "runtimeTested": false
+    },
+    {
+      "schemaVersion": 1,
+      "id": "hamzafer/claude-code-mods:mods/usage-meter",
+      "name": "usage-meter",
+      "version": "0.1.0",
+      "description": "Your plan's 5-hour and 7-day usage as small bars above the prompt, with the reset countdown and the session's cost.",
+      "author": "Hamza Zafar",
+      "repository": "hamzafer/claude-code-mods",
+      "modPath": "mods/usage-meter",
+      "category": {
+        "id": "usage",
+        "label": "Usage & costs",
+        "basis": "individual-pinned-manifest-and-source-review"
+      },
+      "sourceCommit": "fc5130427799f69852055add193161080bd054d6",
+      "sourcePath": "sources/hamzafer/claude-code-mods/source/mods/usage-meter",
+      "sourceManifest": "sources/hamzafer/claude-code-mods/source/mods/usage-meter/.claude-plugin/plugin.json",
+      "page": "mods/usage/hamzafer--claude-code-mods--mods--usage-meter/",
+      "runtimeTested": false
+    },
+    {
+      "schemaVersion": 1,
+      "id": "hamzafer/claude-code-mods:mods/where-am-i",
+      "name": "where-am-i",
+      "version": "0.1.3",
+      "description": "A live recap above the prompt: goal, doing now, waiting on you, next. /where for a longer one.",
+      "author": "Hamza Zafar",
+      "repository": "hamzafer/claude-code-mods",
+      "modPath": "mods/where-am-i",
+      "category": {
+        "id": "planning",
+        "label": "Planning & tasks",
+        "basis": "exact-catalogue-repository-and-mod-path"
+      },
+      "sourceCommit": "fc5130427799f69852055add193161080bd054d6",
+      "sourcePath": "sources/hamzafer/claude-code-mods/source/mods/where-am-i",
+      "sourceManifest": "sources/hamzafer/claude-code-mods/source/mods/where-am-i/.claude-plugin/plugin.json",
+      "page": "mods/planning/hamzafer--claude-code-mods--mods--where-am-i/",
+      "runtimeTested": false
+    },
+    {
+      "schemaVersion": 1,
+      "id": "henrik-thevibe/Claude-Fables:.",
+      "name": "fables",
+      "version": "0.1.0",
+      "description": "Claude Fables: turns what the agent is doing into little animated cartoons above the prompt, written live by Sonnet or Haiku.",
+      "author": "henrik-thevibe",
+      "repository": "henrik-thevibe/Claude-Fables",
+      "modPath": ".",
+      "category": {
+        "id": "agents",
+        "label": "Agents & orchestration",
+        "basis": "exact-catalogue-repository-and-mod-path"
+      },
+      "sourceCommit": "6d0ce80575a92f8f6c8c2493c2bf20413e255622",
+      "sourcePath": "sources/henrik-thevibe/Claude-Fables/source",
+      "sourceManifest": "sources/henrik-thevibe/Claude-Fables/source/.claude-plugin/plugin.json",
+      "page": "mods/agents/henrik-thevibe--Claude-Fables/",
+      "runtimeTested": false
+    },
+    {
+      "schemaVersion": 1,
+      "id": "homieyangg/claude-code-mods:leftovers",
+      "name": "leftovers",
+      "version": "0.1.0",
+      "description": "Keeps a ledger of what Claude left running or lying around on your machine and servers",
+      "author": "Gary",
+      "repository": "homieyangg/claude-code-mods",
+      "modPath": "leftovers",
+      "category": {
+        "id": "integrations",
+        "label": "Integrations & utilities",
+        "basis": "individual-pinned-manifest-and-source-review"
+      },
+      "sourceCommit": "3c7b24720bcc831165502d73d1631b6fb197bbcf",
+      "sourcePath": "sources/homieyangg/claude-code-mods/source/leftovers",
+      "sourceManifest": "sources/homieyangg/claude-code-mods/source/leftovers/.claude-plugin/plugin.json",
+      "page": "mods/integrations/homieyangg--claude-code-mods--leftovers/",
+      "runtimeTested": false
+    },
+    {
+      "schemaVersion": 1,
+      "id": "homieyangg/claude-code-mods:plan-bar",
+      "name": "plan-bar",
+      "version": "0.1.0",
+      "description": "Live progress bars above the prompt for multi-step work: one row per plan, with stages, percent, waiting and failed colors, and sounds",
+      "author": "Gary",
+      "repository": "homieyangg/claude-code-mods",
+      "modPath": "plan-bar",
+      "category": {
+        "id": "planning",
+        "label": "Planning & tasks",
+        "basis": "individual-pinned-manifest-and-source-review"
+      },
+      "sourceCommit": "3c7b24720bcc831165502d73d1631b6fb197bbcf",
+      "sourcePath": "sources/homieyangg/claude-code-mods/source/plan-bar",
+      "sourceManifest": "sources/homieyangg/claude-code-mods/source/plan-bar/.claude-plugin/plugin.json",
+      "page": "mods/planning/homieyangg--claude-code-mods--plan-bar/",
+      "runtimeTested": false
+    },
+    {
+      "schemaVersion": 1,
+      "id": "homieyangg/claude-code-mods:secret-mask",
+      "name": "secret-mask",
+      "version": "0.1.0",
+      "description": "Mask token-like strings in tool output before they reach the conversation",
+      "author": "Gary",
+      "repository": "homieyangg/claude-code-mods",
+      "modPath": "secret-mask",
+      "category": {
+        "id": "safety",
+        "label": "Safety & permissions",
+        "basis": "individual-pinned-manifest-and-source-review"
+      },
+      "sourceCommit": "3c7b24720bcc831165502d73d1631b6fb197bbcf",
+      "sourcePath": "sources/homieyangg/claude-code-mods/source/secret-mask",
+      "sourceManifest": "sources/homieyangg/claude-code-mods/source/secret-mask/.claude-plugin/plugin.json",
+      "page": "mods/safety/homieyangg--claude-code-mods--secret-mask/",
+      "runtimeTested": false
+    },
+    {
+      "schemaVersion": 1,
+      "id": "jarrodwatts/claude-image-view:.",
+      "name": "image-view",
+      "version": "0.1.0",
+      "description": "See the images you paste into Claude Code: thumbnails above the prompt instead of bare [Image #1] tags",
+      "author": "Jarrod Watts",
+      "repository": "jarrodwatts/claude-image-view",
+      "modPath": ".",
+      "category": {
+        "id": "interface",
+        "label": "Interface & themes",
+        "basis": "exact-catalogue-repository-and-mod-path"
+      },
+      "sourceCommit": "b3c412bb6d167cafade79148e95f9114ee1aad7c",
+      "sourcePath": "sources/jarrodwatts/claude-image-view/source",
+      "sourceManifest": "sources/jarrodwatts/claude-image-view/source/.claude-plugin/plugin.json",
+      "page": "mods/interface/jarrodwatts--claude-image-view/",
+      "runtimeTested": false
+    },
+    {
+      "schemaVersion": 1,
+      "id": "kawase1295/usage-meter:.",
+      "name": "usage-meter",
+      "version": null,
+      "description": "Model, context window and rate-limit (5h / 7d) braille meters in a band above the prompt",
+      "author": "kawase1295",
+      "repository": "kawase1295/usage-meter",
+      "modPath": ".",
+      "category": {
+        "id": "usage",
+        "label": "Usage & costs",
+        "basis": "exact-catalogue-repository-and-mod-path"
+      },
+      "sourceCommit": "5227efe6956a0a7b9a06244535e5e9496887d82c",
+      "sourcePath": "sources/kawase1295/usage-meter/source",
+      "sourceManifest": "sources/kawase1295/usage-meter/source/.claude-plugin/plugin.json",
+      "page": "mods/usage/kawase1295--usage-meter/",
+      "runtimeTested": false
+    },
+    {
+      "schemaVersion": 1,
+      "id": "manfye/cc-dino:.",
+      "name": "cc-dino",
+      "version": "0.1.0",
+      "description": "The Chrome offline dinosaur, above the Claude Code prompt. Jump the cacti and duck the pterodactyls while Claude works. Needs function hooks (early access) and an interactive terminal.",
+      "author": "manfye",
+      "repository": "manfye/cc-dino",
+      "modPath": ".",
+      "category": {
+        "id": "games",
+        "label": "Games & entertainment",
+        "basis": "exact-catalogue-repository-and-mod-path"
+      },
+      "sourceCommit": "2d0221b6650ebe6287114cf9deec13b0b30850ec",
+      "sourcePath": "sources/manfye/cc-dino/source",
+      "sourceManifest": "sources/manfye/cc-dino/source/.claude-plugin/plugin.json",
+      "page": "mods/games/manfye--cc-dino/",
+      "runtimeTested": false
+    },
+    {
+      "schemaVersion": 1,
+      "id": "mediavee/cold-cache-guard:.",
+      "name": "cold-cache-guard",
+      "version": "0.1.0",
+      "description": "Asks what to do before Claude Code re-sends a large conversation whose prompt cache has expired: on a cold resume, and on the first prompt after an idle spell.",
+      "author": "Mediavee",
+      "repository": "mediavee/cold-cache-guard",
+      "modPath": ".",
+      "category": {
+        "id": "memory",
+        "label": "Memory & context",
+        "basis": "exact-catalogue-repository-and-mod-path"
+      },
+      "sourceCommit": "2c4388cbecf115dc6209fcec1a10446123fc8ae5",
+      "sourcePath": "sources/mediavee/cold-cache-guard/source",
+      "sourceManifest": "sources/mediavee/cold-cache-guard/source/.claude-plugin/plugin.json",
+      "page": "mods/memory/mediavee--cold-cache-guard/",
+      "runtimeTested": false
+    },
+    {
+      "schemaVersion": 1,
+      "id": "muratcakmak/jev-guard:.",
+      "name": "jev-guard",
+      "version": "0.1.0",
+      "description": "Probability-scored guardrails for Claude Code: deny rule-breaking edits and unasked-for deploys, route your own docs into each prompt, and check the final answer against the turn's own evidence.",
+      "author": "Oguzhan Cakmak",
+      "repository": "muratcakmak/jev-guard",
+      "modPath": ".",
+      "category": {
+        "id": "safety",
+        "label": "Safety & permissions",
+        "basis": "exact-catalogue-repository-and-mod-path"
+      },
+      "sourceCommit": "304036789298d13f951183abe0fc46d6c6c43bfc",
+      "sourcePath": "sources/muratcakmak/jev-guard/source",
+      "sourceManifest": "sources/muratcakmak/jev-guard/source/.claude-plugin/plugin.json",
+      "page": "mods/safety/muratcakmak--jev-guard/",
+      "runtimeTested": false
+    },
+    {
+      "schemaVersion": 1,
+      "id": "nateherkai/claude-code-mods:cache-keeper",
+      "name": "cache-keeper",
+      "version": "1.0.0",
+      "description": "Keeps a big chat's prompt cache warm, warns before an expensive cold restart, shows every local chat on one board (/board), and hands a chat off to a fresh one (/handoff)",
+      "author": "Nate Herk",
+      "repository": "nateherkai/claude-code-mods",
+      "modPath": "cache-keeper",
+      "category": {
+        "id": "memory",
+        "label": "Memory & context",
+        "basis": "exact-catalogue-repository-and-mod-path"
+      },
+      "sourceCommit": "33a936f2ec6bbfea5a30a1a4d71d992487a5c769",
+      "sourcePath": "sources/nateherkai/claude-code-mods/source/cache-keeper",
+      "sourceManifest": "sources/nateherkai/claude-code-mods/source/cache-keeper/.claude-plugin/plugin.json",
+      "page": "mods/memory/nateherkai--claude-code-mods--cache-keeper/",
+      "runtimeTested": false
+    },
+    {
+      "schemaVersion": 1,
+      "id": "nateherkai/claude-code-mods:collision-guard",
+      "name": "collision-guard",
+      "version": "1.0.0",
+      "description": "Asks before Claude edits a file another open chat changed in the last 30 minutes: Proceed, Move to a worktree, or Cancel (/guard)",
+      "author": "Nate Herk",
+      "repository": "nateherkai/claude-code-mods",
+      "modPath": "collision-guard",
+      "category": {
+        "id": "safety",
+        "label": "Safety & permissions",
+        "basis": "exact-catalogue-repository-and-mod-path"
+      },
+      "sourceCommit": "33a936f2ec6bbfea5a30a1a4d71d992487a5c769",
+      "sourcePath": "sources/nateherkai/claude-code-mods/source/collision-guard",
+      "sourceManifest": "sources/nateherkai/claude-code-mods/source/collision-guard/.claude-plugin/plugin.json",
+      "page": "mods/safety/nateherkai--claude-code-mods--collision-guard/",
+      "runtimeTested": false
+    },
+    {
+      "schemaVersion": 1,
+      "id": "nateherkai/claude-code-mods:goal-meter",
+      "name": "goal-meter",
+      "version": "1.0.0",
+      "description": "A progress bar for /goal built from Claude's own task plan: tasks done out of the plan, elapsed time, an ETA at the goal's own pace, and every chat's goal in /goals",
+      "author": "Nate Herk",
+      "repository": "nateherkai/claude-code-mods",
+      "modPath": "goal-meter",
+      "category": {
+        "id": "planning",
+        "label": "Planning & tasks",
+        "basis": "exact-catalogue-repository-and-mod-path"
+      },
+      "sourceCommit": "33a936f2ec6bbfea5a30a1a4d71d992487a5c769",
+      "sourcePath": "sources/nateherkai/claude-code-mods/source/goal-meter",
+      "sourceManifest": "sources/nateherkai/claude-code-mods/source/goal-meter/.claude-plugin/plugin.json",
+      "page": "mods/planning/nateherkai--claude-code-mods--goal-meter/",
+      "runtimeTested": false
+    },
+    {
+      "schemaVersion": 1,
+      "id": "nateherkai/claude-code-mods:recording-mode",
+      "name": "recording-mode",
+      "version": "1.0.0",
+      "description": "/rec before you record: masks keys, personal details, and business figures on screen and keeps private files closed (/rec strict, /rec off, /rec config)",
+      "author": "Nate Herk",
+      "repository": "nateherkai/claude-code-mods",
+      "modPath": "recording-mode",
+      "category": {
+        "id": "files",
+        "label": "Files & navigation",
+        "basis": "exact-catalogue-repository-and-mod-path"
+      },
+      "sourceCommit": "33a936f2ec6bbfea5a30a1a4d71d992487a5c769",
+      "sourcePath": "sources/nateherkai/claude-code-mods/source/recording-mode",
+      "sourceManifest": "sources/nateherkai/claude-code-mods/source/recording-mode/.claude-plugin/plugin.json",
+      "page": "mods/files/nateherkai--claude-code-mods--recording-mode/",
+      "runtimeTested": false
+    },
+    {
+      "schemaVersion": 1,
+      "id": "okamyuji/tool-trim-compaction:.",
+      "name": "tool-trim-compaction",
+      "version": null,
+      "description": "compaction \u3067\u53e4\u3044\u30c4\u30fc\u30eb\u547c\u3073\u51fa\u3057\u3068\u7d50\u679c\u3092\u6d88\u3057\u3001\u767a\u8a00\u306f\u539f\u6587\u306e\u307e\u307e\u6b8b\u3059\u3002\u524a\u6e1b\u304c\u8db3\u308a\u306a\u3051\u308c\u3070\u6a19\u6e96\u306e\u8981\u7d04\u306b\u56de\u3059",
+      "author": "okamyuji",
+      "repository": "okamyuji/tool-trim-compaction",
+      "modPath": ".",
+      "category": {
+        "id": "memory",
+        "label": "Memory & context",
+        "basis": "exact-catalogue-repository-and-mod-path"
+      },
+      "sourceCommit": "c2cf3d808da1ea6e968974c2aed39079dfe4ee95",
+      "sourcePath": "sources/okamyuji/tool-trim-compaction/source",
+      "sourceManifest": "sources/okamyuji/tool-trim-compaction/source/.claude-plugin/plugin.json",
+      "page": "mods/memory/okamyuji--tool-trim-compaction/",
+      "runtimeTested": false
+    },
+    {
+      "schemaVersion": 1,
+      "id": "powerofjinbo/claude-code-spell-bar:plugins/spell-bar",
+      "name": "spell-bar",
+      "version": "1.0.0",
+      "description": "An animated effort bar for Claude Code: Clawd casts Avada Kedavra at six ranks, one per effort level from low to ultracode, with Voldemort looming behind.",
+      "author": "powerofjinbo",
       "repository": "powerofjinbo/claude-code-spell-bar",
-      "commit": "1b0494cadcd4e98542147b321250d55d38696553",
-      "treeSha": "647dc8aa9b97ecc3ab56a1c840b73b1b67626e65",
-      "fileCount": 22,
-      "sourceBytes": 6921845,
-      "componentLicenses": [
-        {
-          "license": "MIT",
-          "scope": "source snapshot; no explicit nested exception found"
-        }
-      ],
-      "mods": [
-        {
-          "name": "spell-bar",
-          "manifest_path": "plugins/spell-bar/.claude-plugin/plugin.json",
-          "version": "1.0.0",
-          "path": "plugins/spell-bar",
-          "author": {
-            "name": "powerofjinbo",
-            "url": "https://github.com/powerofjinbo"
-          },
-          "description": "An animated effort bar for Claude Code: Clawd casts Avada Kedavra at six ranks, one per effort level from low to ultracode, with Voldemort looming behind."
-        }
-      ]
+      "modPath": "plugins/spell-bar",
+      "category": {
+        "id": "games",
+        "label": "Games & entertainment",
+        "basis": "exact-catalogue-repository-and-mod-path"
+      },
+      "sourceCommit": "1b0494cadcd4e98542147b321250d55d38696553",
+      "sourcePath": "sources/powerofjinbo/claude-code-spell-bar/source/plugins/spell-bar",
+      "sourceManifest": "sources/powerofjinbo/claude-code-spell-bar/source/plugins/spell-bar/.claude-plugin/plugin.json",
+      "page": "mods/games/powerofjinbo--claude-code-spell-bar--plugins--spell-bar/",
+      "runtimeTested": false
     },
     {
+      "schemaVersion": 1,
+      "id": "retrocodes12/context-relay:.",
+      "name": "context-relay",
+      "version": "0.1.0",
+      "description": "Hands the work to a fresh session before a long context degrades the model, and carries on there.",
+      "author": "retrocodes12",
+      "repository": "retrocodes12/context-relay",
+      "modPath": ".",
+      "category": {
+        "id": "memory",
+        "label": "Memory & context",
+        "basis": "exact-catalogue-repository-and-mod-path"
+      },
+      "sourceCommit": "576153e41df11e80d5b7778fa81887db7678f2e8",
+      "sourcePath": "sources/retrocodes12/context-relay/source",
+      "sourceManifest": "sources/retrocodes12/context-relay/source/.claude-plugin/plugin.json",
+      "page": "mods/memory/retrocodes12--context-relay/",
+      "runtimeTested": false
+    },
+    {
+      "schemaVersion": 1,
+      "id": "richkuo/claude-code-model-effort-shortcuts:.",
+      "name": "model-effort-shortcuts",
+      "version": "0.3.1",
+      "description": "Keyboard shortcuts that step the reasoning effort level and the model up and down; the footer shows what each request uses",
+      "author": "Richard Kuo",
+      "repository": "richkuo/claude-code-model-effort-shortcuts",
+      "modPath": ".",
+      "category": {
+        "id": "usage",
+        "label": "Usage & costs",
+        "basis": "exact-catalogue-repository-and-mod-path"
+      },
+      "sourceCommit": "6c1d03e068ebe9ada43bb182857c425605cccee1",
+      "sourcePath": "sources/richkuo/claude-code-model-effort-shortcuts/source",
+      "sourceManifest": "sources/richkuo/claude-code-model-effort-shortcuts/source/.claude-plugin/plugin.json",
+      "page": "mods/usage/richkuo--claude-code-model-effort-shortcuts/",
+      "runtimeTested": false
+    },
+    {
+      "schemaVersion": 1,
+      "id": "ruanss4/prompt-jump:.",
+      "name": "prompt-jump",
+      "version": "0.1.0",
+      "description": "A bar above the prompt input with a tick for every prompt of the session; hover to read one, click to jump to it",
+      "author": "ruanss4",
+      "repository": "ruanss4/prompt-jump",
+      "modPath": ".",
+      "category": {
+        "id": "prompts",
+        "label": "Prompts & input",
+        "basis": "exact-catalogue-repository-and-mod-path"
+      },
+      "sourceCommit": "a1912c72088b156ffbd18a73137ffc9a2d429dc6",
+      "sourcePath": "sources/ruanss4/prompt-jump/source",
+      "sourceManifest": "sources/ruanss4/prompt-jump/source/.claude-plugin/plugin.json",
+      "page": "mods/prompts/ruanss4--prompt-jump/",
+      "runtimeTested": false
+    },
+    {
+      "schemaVersion": 1,
+      "id": "scasella/claude-flightdeck:.",
+      "name": "flightdeck",
+      "version": "0.3.2",
+      "description": "Flightdeck: a live agent dashboard for Claude Code. Main model vitals, an on-call architect, every permission check, subagent cards and swimlanes, a turn receipt and a session log, all from real session events",
+      "author": "Stephen Casella",
       "repository": "scasella/claude-flightdeck",
-      "commit": "f31daca523d36c501cd0df23a737a44c7dc56ad6",
-      "treeSha": "9bf6c96d68e94bd20fd08f4c29f93d1138c55f05",
-      "fileCount": 21,
-      "sourceBytes": 3609663,
-      "componentLicenses": [
-        {
-          "license": "MIT",
-          "scope": "source snapshot; no explicit nested exception found"
-        }
-      ],
-      "mods": [
-        {
-          "name": "flightdeck",
-          "manifest_path": ".claude-plugin/plugin.json",
-          "version": "0.3.2",
-          "path": ".",
-          "author": {
-            "name": "Stephen Casella",
-            "url": "https://github.com/scasella"
-          },
-          "description": "Flightdeck: a live agent dashboard for Claude Code. Main model vitals, an on-call architect, every permission check, subagent cards and swimlanes, a turn receipt and a session log, all from real session events"
-        }
-      ]
+      "modPath": ".",
+      "category": {
+        "id": "agents",
+        "label": "Agents & orchestration",
+        "basis": "exact-catalogue-repository-and-mod-path"
+      },
+      "sourceCommit": "f31daca523d36c501cd0df23a737a44c7dc56ad6",
+      "sourcePath": "sources/scasella/claude-flightdeck/source",
+      "sourceManifest": "sources/scasella/claude-flightdeck/source/.claude-plugin/plugin.json",
+      "page": "mods/agents/scasella--claude-flightdeck/",
+      "runtimeTested": false
+    },
+    {
+      "schemaVersion": 1,
+      "id": "sezaakgun/cc-arcade:.",
+      "name": "cc-arcade",
+      "version": "0.2.0",
+      "description": "Games above the Claude Code prompt (snake, Tetris, 2048, Minesweeper, Flappy, Pong, typing test, Space Invaders, Doom) plus a pet that grows as Claude tests, commits and edits. Clones of the genre, not affiliated with or endorsed by Tetris Holding, Taito, Atari or id Software. Needs function hooks (early access) and an interactive terminal.",
+      "author": "Seza Akg\u00fcn",
+      "repository": "sezaakgun/cc-arcade",
+      "modPath": ".",
+      "category": {
+        "id": "games",
+        "label": "Games & entertainment",
+        "basis": "exact-catalogue-repository-and-mod-path"
+      },
+      "sourceCommit": "0baff06d31295850283c2eebe052f39bbc35473f",
+      "sourcePath": "sources/sezaakgun/cc-arcade/source",
+      "sourceManifest": "sources/sezaakgun/cc-arcade/source/.claude-plugin/plugin.json",
+      "page": "mods/games/sezaakgun--cc-arcade/",
+      "runtimeTested": false
+    },
+    {
+      "schemaVersion": 1,
+      "id": "sezaakgun/cc-pr-tracker:.",
+      "name": "cc-pr-tracker",
+      "version": "0.2.0",
+      "description": "Watch GitHub PRs from a Claude Code session: merge state, review and required checks above the prompt, with alerts when they change",
+      "author": "Seza Akg\u00fcn",
+      "repository": "sezaakgun/cc-pr-tracker",
+      "modPath": ".",
+      "category": {
+        "id": "git",
+        "label": "Git & code review",
+        "basis": "exact-catalogue-repository-and-mod-path"
+      },
+      "sourceCommit": "514da1edb4877cdb812ae1a25f79aa81fb6aa6db",
+      "sourcePath": "sources/sezaakgun/cc-pr-tracker/source",
+      "sourceManifest": "sources/sezaakgun/cc-pr-tracker/source/.claude-plugin/plugin.json",
+      "page": "mods/git/sezaakgun--cc-pr-tracker/",
+      "runtimeTested": false
+    },
+    {
+      "schemaVersion": 1,
+      "id": "stefanochieli/claude-effort-guard:.",
+      "name": "effort-guard",
+      "version": "0.1.1",
+      "description": "Claude Code mod: context/token band, escalation signals and per-turn effort log.",
+      "author": "Stefano Chieli",
+      "repository": "stefanochieli/claude-effort-guard",
+      "modPath": ".",
+      "category": {
+        "id": "safety",
+        "label": "Safety & permissions",
+        "basis": "exact-catalogue-repository-and-mod-path"
+      },
+      "sourceCommit": "fcf98fea2b24c1d1483cff947b3d40cc031bfa4c",
+      "sourcePath": "sources/stefanochieli/claude-effort-guard/source",
+      "sourceManifest": "sources/stefanochieli/claude-effort-guard/source/.claude-plugin/plugin.json",
+      "page": "mods/safety/stefanochieli--claude-effort-guard/",
+      "runtimeTested": false
+    },
+    {
+      "schemaVersion": 1,
+      "id": "swei99386-alt/exam-gate:.",
+      "name": "exam-gate",
+      "version": "0.1.0",
+      "description": "Before Claude calls a task done, run your checklist. Fail means Claude is sent back to fix it; repeated failure trips a breaker and hands control back to you.",
+      "author": "swei99386-alt",
+      "repository": "swei99386-alt/exam-gate",
+      "modPath": ".",
+      "category": {
+        "id": "planning",
+        "label": "Planning & tasks",
+        "basis": "exact-catalogue-repository-and-mod-path"
+      },
+      "sourceCommit": "ce089d547ff82bca801566dd47925affa30eedc9",
+      "sourcePath": "sources/swei99386-alt/exam-gate/source",
+      "sourceManifest": "sources/swei99386-alt/exam-gate/source/.claude-plugin/plugin.json",
+      "page": "mods/planning/swei99386-alt--exam-gate/",
+      "runtimeTested": false
+    },
+    {
+      "schemaVersion": 1,
+      "id": "togishima/better-ask-picker:.",
+      "name": "better-ask-picker",
+      "version": "0.1.0",
+      "description": "Ask the user a question in a dedicated pane: show every option on one screen with a summary, single or multi-select, no 4-option limit.",
+      "author": "Takashi Ogishima",
+      "repository": "togishima/better-ask-picker",
+      "modPath": ".",
+      "category": {
+        "id": "interface",
+        "label": "Interface & themes",
+        "basis": "exact-catalogue-repository-and-mod-path"
+      },
+      "sourceCommit": "bbdc70f782f6fcd00347081c7fe2e688725d64a4",
+      "sourcePath": "sources/togishima/better-ask-picker/source",
+      "sourceManifest": "sources/togishima/better-ask-picker/source/.claude-plugin/plugin.json",
+      "page": "mods/interface/togishima--better-ask-picker/",
+      "runtimeTested": false
+    },
+    {
+      "schemaVersion": 1,
+      "id": "tomatoaiu/rename-ja:.",
+      "name": "rename-ja",
+      "version": "0.1.0",
+      "description": "\u5f15\u6570\u306a\u3057\u306e /rename \u3067\u3001\u4f1a\u8a71\u5185\u5bb9\u304b\u3089\u65e5\u672c\u8a9e\u306e\u30bb\u30c3\u30b7\u30e7\u30f3\u540d\u3092\u751f\u6210\u3059\u308b\u3002",
+      "author": "tomatoaiu",
+      "repository": "tomatoaiu/rename-ja",
+      "modPath": ".",
+      "category": {
+        "id": "memory",
+        "label": "Memory & context",
+        "basis": "exact-catalogue-repository-and-mod-path"
+      },
+      "sourceCommit": "baa1cb3e14436dcfe1f390d332e8c4b0ff48840b",
+      "sourcePath": "sources/tomatoaiu/rename-ja/source",
+      "sourceManifest": "sources/tomatoaiu/rename-ja/source/.claude-plugin/plugin.json",
+      "page": "mods/memory/tomatoaiu--rename-ja/",
+      "runtimeTested": false
+    },
+    {
+      "schemaVersion": 1,
+      "id": "udaaff/claude-code-session-notes:.",
+      "name": "session-notes",
+      "version": "0.1.0",
+      "description": "Project notes in .claude/notes.md: live dev servers, recent artifacts and pinned links, in a side panel and with /notes.",
+      "author": "udaaff",
+      "repository": "udaaff/claude-code-session-notes",
+      "modPath": ".",
+      "category": {
+        "id": "interface",
+        "label": "Interface & themes",
+        "basis": "exact-catalogue-repository-and-mod-path"
+      },
+      "sourceCommit": "d3f429a057cb62e3e9a20c261502b22f781e01d1",
+      "sourcePath": "sources/udaaff/claude-code-session-notes/source",
+      "sourceManifest": "sources/udaaff/claude-code-session-notes/source/.claude-plugin/plugin.json",
+      "page": "mods/interface/udaaff--claude-code-session-notes/",
+      "runtimeTested": false
+    },
+    {
+      "schemaVersion": 1,
+      "id": "y-hirakaw/claude-code-mods:touch-map",
+      "name": "touch-map",
+      "version": "0.1.0",
+      "description": "See which files Claude has listed, read, partially read, edited, created or deleted, as a tree and an activity map in a pane.",
+      "author": "y-hirakaw",
+      "repository": "y-hirakaw/claude-code-mods",
+      "modPath": "touch-map",
+      "category": {
+        "id": "files",
+        "label": "Files & navigation",
+        "basis": "individual-pinned-manifest-and-source-review"
+      },
+      "sourceCommit": "ac362939126aaff53b1a1d22da196e4ec5137c66",
+      "sourcePath": "sources/y-hirakaw/claude-code-mods/source/touch-map",
+      "sourceManifest": "sources/y-hirakaw/claude-code-mods/source/touch-map/.claude-plugin/plugin.json",
+      "page": "mods/files/y-hirakaw--claude-code-mods--touch-map/",
+      "runtimeTested": false
+    },
+    {
+      "schemaVersion": 1,
+      "id": "zycck/claude-mods:plugins/plan-progress",
+      "name": "plan-progress",
+      "version": "0.7.3",
+      "description": "Live plan progress bars above the Claude Code prompt: stages, steps, a pixel fill and soft sounds for decision, error and done",
+      "author": "Kirill Serditov",
+      "repository": "zycck/claude-mods",
+      "modPath": "plugins/plan-progress",
+      "category": {
+        "id": "planning",
+        "label": "Planning & tasks",
+        "basis": "exact-catalogue-repository-and-mod-path"
+      },
+      "sourceCommit": "2febbf82b6d933971f19d79892a586cb036fc199",
+      "sourcePath": "sources/zycck/claude-mods/source/plugins/plan-progress",
+      "sourceManifest": "sources/zycck/claude-mods/source/plugins/plan-progress/.claude-plugin/plugin.json",
+      "page": "mods/planning/zycck--claude-mods--plugins--plan-progress/",
+      "runtimeTested": false
     }
   ]
 }

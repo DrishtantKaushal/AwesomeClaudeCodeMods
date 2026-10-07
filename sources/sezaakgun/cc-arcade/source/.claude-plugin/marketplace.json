@@ -1,0 +1,15 @@
+{
+  "name": "cc-arcade",
+  "owner": { "name": "Seza Akgün" },
+  "metadata": { "description": "cc-arcade: small games inside Claude Code" },
+  "plugins": [
+    {
+      "name": "cc-arcade",
+      "source": "./",
+      "description": "Games above the Claude Code prompt (snake, Tetris, Doom, 2048, Minesweeper, Flappy, Pong, typing test, Space Invaders) that pause when Claude finishes a turn, and a pet that grows as Claude tests, commits and edits. Clones of the genre, not affiliated with or endorsed by Tetris Holding, Taito, Atari or id Software",
+      "homepage": "https://github.com/sezaakgun/cc-arcade",
+      "repository": "https://github.com/sezaakgun/cc-arcade",
+      "license": "MIT"
+    }
+  ]
+}

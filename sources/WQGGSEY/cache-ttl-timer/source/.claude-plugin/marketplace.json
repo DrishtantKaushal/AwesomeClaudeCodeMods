@@ -1,0 +1,14 @@
+{
+  "name": "cache-ttl-timer",
+  "owner": {
+    "name": "Seongje Hong",
+    "url": "https://github.com/WQGGSEY"
+  },
+  "description": "Cache TTL Timer: a prompt-cache countdown for the Claude Code prompt footer",
+  "plugins": [
+    {
+      "name": "cache-ttl-timer",
+      "source": "./"
+    }
+  ]
+}

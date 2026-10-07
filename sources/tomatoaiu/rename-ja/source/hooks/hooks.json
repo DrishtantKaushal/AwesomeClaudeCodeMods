@@ -1,0 +1,4 @@
+{
+  "description": "command.run を rename で hook し、引数が空のときだけ日本語名を生成して args に渡す",
+  "modules": ["./register.ts"]
+}

@@ -1,0 +1,6 @@
+{
+  "description": "claude-queue: prompts typed while a turn is running are held in a stack above the prompt and sent once the turn ends. Needs CLAUDE_CODE_ENABLE_FUNCTION_HOOKS=1; builds without function hooks ignore the modules key.",
+  "modules": [
+    "./register.ts"
+  ]
+}

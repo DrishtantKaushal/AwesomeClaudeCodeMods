@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "hamzafer/claude-code-mods:mods/merge-gate",
+  "name": "merge-gate",
+  "version": "0.1.4",
+  "description": "Holds `gh pr merge` until CI passes and one Codex review (OpenAI's luna model) has run. A PR line above the prompt, and /gate shows the PR's status.",
+  "author": "Hamza Zafar",
+  "repository": "hamzafer/claude-code-mods",
+  "modPath": "mods/merge-gate",
+  "category": {
+    "id": "git",
+    "label": "Git & code review",
+    "basis": "exact-catalogue-repository-and-mod-path"
+  },
+  "sourceCommit": "fc5130427799f69852055add193161080bd054d6",
+  "sourcePath": "sources/hamzafer/claude-code-mods/source/mods/merge-gate",
+  "sourceManifest": "sources/hamzafer/claude-code-mods/source/mods/merge-gate/.claude-plugin/plugin.json",
+  "page": "mods/git/hamzafer--claude-code-mods--mods--merge-gate/",
+  "runtimeTested": false
+}

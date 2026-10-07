@@ -1,0 +1,15 @@
+{
+  "$schema": "https://anthropic.com/claude-code/plugin.schema.json",
+  "name": "better-ask-picker",
+  "version": "0.1.0",
+  "description": "Ask the user a question in a dedicated pane: show every option on one screen with a summary, single or multi-select, no 4-option limit.",
+  "author": {
+    "name": "Takashi Ogishima",
+    "url": "https://github.com/togishima"
+  },
+  "homepage": "https://github.com/togishima/better-ask-picker",
+  "repository": "https://github.com/togishima/better-ask-picker",
+  "license": "MIT",
+  "keywords": ["ask", "question", "multi-select", "picker", "ui", "hooks"],
+  "skills": ["./"]
+}

@@ -1,0 +1,1452 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-10-07",
+  "status": "partial-import",
+  "packages": [
+    {
+      "repository": "DaKev/usage-wrapup",
+      "commit": "c94766d10b1a32e97e4ff14c094c7c2007d1575b",
+      "treeSha": "16e1b4bbeb2cb170c691e52dbacc926296d3d7ea",
+      "fileCount": 8,
+      "sourceBytes": 7094,
+      "componentLicenses": [
+        {
+          "license": "MIT",
+          "scope": "Source snapshot with original and separately credited component notices retained."
+        }
+      ],
+      "mods": [
+        {
+          "name": "usage-wrapup",
+          "version": "0.1.0",
+          "manifest_path": ".claude-plugin/plugin.json",
+          "path": ".",
+          "author": {
+            "name": "Kevin Koch"
+          },
+          "description": "When your plan usage gets low, tells every running agent to wrap up before the limit cuts it off."
+        }
+      ]
+    },
+    {
+      "repository": "FazalAAli/pi-agent-for-claude",
+      "commit": "0878de6d69b06324ff6515b63d5daf73de90f601",
+      "treeSha": "18a810aa82044338e0e9c4d6067640a6d5ecb8a3",
+      "fileCount": 8,
+      "sourceBytes": 35543,
+      "componentLicenses": [
+        {
+          "license": "MIT",
+          "scope": "source snapshot; no explicit nested exception found"
+        }
+      ],
+      "mods": [
+        {
+          "name": "pi-agent-for-claude",
+          "manifest_path": ".claude-plugin/plugin.json",
+          "version": "0.1.0",
+          "path": ".",
+          "author": {
+            "name": "Fazal Ali"
+          },
+          "description": "pi agent for claude: a `pi` subagent type whose model steps run the pi CLI, so pi subagents and agent-team teammates live in Claude Code's own agent UI, streamed live."
+        }
+      ]
+    },
+    {
+      "repository": "JAICHANGPARK/html-preview",
+      "commit": "12893f47e1c5641aae3abf811bc26ba1ab6a4bad",
+      "treeSha": "16f9c776c628d7b8d53716502116675e5dc3d11e",
+      "fileCount": 11,
+      "sourceBytes": 34507,
+      "componentLicenses": [
+        {
+          "license": "MIT",
+          "scope": "Source snapshot with original and separately credited component notices retained."
+        }
+      ],
+      "mods": [
+        {
+          "name": "html-preview",
+          "version": "0.3.1",
+          "manifest_path": ".claude-plugin/plugin.json",
+          "path": ".",
+          "author": {
+            "name": "JAICHANGPARK"
+          },
+          "description": "Shows HTML files Claude writes (or /preview <file>) like a browser: terminal-browser when installed, else a built-in Chrome-rendered pane"
+        }
+      ]
+    },
+    {
+      "repository": "KamiFin/pumpfun-utilities",
+      "commit": "bb22df267f68a8ff14ae097ab56facc64c716102",
+      "treeSha": "2ea47b20e2bed888d022d656ba5e99f56d73ac54",
+      "fileCount": 17,
+      "sourceBytes": 373785,
+      "componentLicenses": [
+        {
+          "license": "MIT",
+          "scope": "Source snapshot with original and separately credited component notices retained."
+        }
+      ],
+      "mods": [
+        {
+          "name": "pumpfun-utilities",
+          "version": "0.1.0",
+          "manifest_path": ".claude-plugin/plugin.json",
+          "path": ".",
+          "author": {
+            "name": "KamiFin",
+            "url": "https://github.com/KamiFin"
+          },
+          "description": "Your open pump.fun positions in a pane while Claude works, and a markdown trade journal that fills itself. Read-only, no keys, no trading"
+        }
+      ]
+    },
+    {
+      "repository": "OneWave-AI/claude-code-mods",
+      "commit": "e6da26ca36a88eec3be25605d30fa20f2c1c0cec",
+      "treeSha": "b858748088952cc43c218e672347b15fe8160915",
+      "fileCount": 136,
+      "sourceBytes": 7399042,
+      "componentLicenses": [
+        {
+          "license": "MIT",
+          "scope": "source snapshot; no explicit nested exception found"
+        }
+      ],
+      "mods": [
+        {
+          "name": "agent-narrator",
+          "manifest_path": "agent-narrator/.claude-plugin/plugin.json",
+          "version": "0.1.0",
+          "path": "agent-narrator",
+          "author": {
+            "name": "OneWave AI",
+            "url": "https://www.onewave-ai.com"
+          },
+          "description": "Watch the agent work: every step in plain English, with a live time-saved counter"
+        },
+        {
+          "name": "agent-race",
+          "manifest_path": "agent-race/.claude-plugin/plugin.json",
+          "version": "0.1.0",
+          "path": "agent-race",
+          "author": {
+            "name": "OneWave AI",
+            "url": "https://www.onewave-ai.com"
+          },
+          "description": "Race Claude Code sessions on a task: live split-screen race track scoreboard"
+        },
+        {
+          "name": "boss-fight",
+          "manifest_path": "boss-fight/.claude-plugin/plugin.json",
+          "version": "0.1.0",
+          "path": "boss-fight",
+          "author": {
+            "name": "OneWave AI",
+            "url": "https://www.onewave-ai.com"
+          },
+          "description": "Failing tests spawn a pixel boss; every run that fixes tests lands a hit, zero failures is a KO with loot"
+        },
+        {
+          "name": "burn-meter",
+          "manifest_path": "burn-meter/.claude-plugin/plugin.json",
+          "version": "0.1.0",
+          "path": "burn-meter",
+          "author": {
+            "name": "OneWave AI",
+            "url": "https://www.onewave-ai.com"
+          },
+          "description": "Live session cost odometer above the prompt: a burning fuse, real-world comparisons, threshold alerts"
+        },
+        {
+          "name": "code-pet",
+          "manifest_path": "code-pet/.claude-plugin/plugin.json",
+          "version": "0.1.0",
+          "path": "code-pet",
+          "author": {
+            "name": "OneWave AI",
+            "url": "https://www.onewave-ai.com"
+          },
+          "description": "A pixel pet that lives in a pane and reacts to what Claude does: eats on tool calls, gets sick on failures, panics on rm -rf, sleeps when idle, evolves as you ship"
+        },
+        {
+          "name": "inbox-alerts",
+          "manifest_path": "inbox-alerts/.claude-plugin/plugin.json",
+          "version": "0.1.0",
+          "path": "inbox-alerts",
+          "author": {
+            "name": "OneWave AI",
+            "url": "https://www.onewave-ai.com"
+          },
+          "description": "Gmail + Slack alerts inside Claude Code: toasts, status count, and an Alerts pane"
+        },
+        {
+          "name": "inner-monologue",
+          "manifest_path": "inner-monologue/.claude-plugin/plugin.json",
+          "version": "0.1.0",
+          "path": "inner-monologue",
+          "author": {
+            "name": "OneWave AI",
+            "url": "https://www.onewave-ai.com"
+          },
+          "description": "A pane of Claude's dry inner thoughts about your session, typed out live"
+        },
+        {
+          "name": "launch-codes",
+          "manifest_path": "launch-codes/.claude-plugin/plugin.json",
+          "version": "0.1.0",
+          "path": "launch-codes",
+          "author": {
+            "name": "OneWave AI",
+            "url": "https://www.onewave-ai.com"
+          },
+          "description": "Dangerous Bash commands need launch codes: red alert pane, siren, a code to arm and a LAUNCH to fire"
+        },
+        {
+          "name": "session-wrapped",
+          "manifest_path": "session-wrapped/.claude-plugin/plugin.json",
+          "version": "0.1.0",
+          "path": "session-wrapped",
+          "author": {
+            "name": "OneWave AI",
+            "url": "https://www.onewave-ai.com"
+          },
+          "description": "Spotify Wrapped for a Claude Code session: an animated stat reveal and a shareable PNG card"
+        },
+        {
+          "name": "sportscaster",
+          "manifest_path": "sportscaster/.claude-plugin/plugin.json",
+          "version": "0.1.0",
+          "path": "sportscaster",
+          "author": {
+            "name": "OneWave AI",
+            "url": "https://www.onewave-ai.com"
+          },
+          "description": "Live TV play-by-play of your Claude Code session, spoken aloud with crowd effects"
+        },
+        {
+          "name": "swarm",
+          "manifest_path": "swarm/.claude-plugin/plugin.json",
+          "version": "0.1.0",
+          "path": "swarm",
+          "author": {
+            "name": "OneWave AI",
+            "url": "https://www.onewave-ai.com"
+          },
+          "description": "Mission control for subagents and agent teams: who is running, what each is doing, who spawned whom, who is talking to whom, and how they overlap"
+        }
+      ]
+    },
+    {
+      "repository": "Saiharsharudra03/clawd-spinner",
+      "commit": "799edab93dddfe74a4978c9c474d3c6b0d5ae690",
+      "treeSha": "b15c998a964ca5a55ae5faa77b0354e6fcb0ccf2",
+      "fileCount": 10,
+      "sourceBytes": 29787,
+      "componentLicenses": [
+        {
+          "license": "MIT",
+          "scope": "Source snapshot with original and separately credited component notices retained."
+        }
+      ],
+      "mods": [
+        {
+          "name": "clawd-spinner",
+          "version": "0.1.0",
+          "manifest_path": ".claude-plugin/plugin.json",
+          "path": ".",
+          "author": {
+            "name": "Sai Rudra"
+          },
+          "description": "Clawd acts out the spinner's word above it while Claude works: cooking for Saut\u00e9ing, dancing for Vibing, pacing for Pondering, 11 acts across all 179 words."
+        }
+      ]
+    },
+    {
+      "repository": "Schweem/usage-report",
+      "commit": "d73e0862b94caa06d366df687447c29c0f694548",
+      "treeSha": "2bf0d732293cae03932ad69177a1a5eb905d541c",
+      "fileCount": 11,
+      "sourceBytes": 13861,
+      "componentLicenses": [
+        {
+          "license": "MIT",
+          "scope": "Source snapshot with original and separately credited component notices retained."
+        }
+      ],
+      "mods": [
+        {
+          "name": "usage-report",
+          "version": "0.2.0",
+          "manifest_path": ".claude-plugin/plugin.json",
+          "path": ".",
+          "author": {
+            "name": "Schweem"
+          },
+          "description": "Shows context fill, 5-hour and weekly quota, and session cost on the status line under the prompt, with warnings near your limits."
+        }
+      ]
+    },
+    {
+      "repository": "Turbo-Thorschten/shell-highlight",
+      "commit": "09ef77a4f09948bcc42851d9ec690f53fe899ec1",
+      "treeSha": "44f970350d0a38bef44d07450b04b15bf1d5e5e9",
+      "fileCount": 10,
+      "sourceBytes": 47585,
+      "componentLicenses": [
+        {
+          "license": "MIT",
+          "scope": "Source snapshot with original and separately credited component notices retained."
+        }
+      ],
+      "mods": [
+        {
+          "name": "shell-highlight",
+          "version": "0.2.0",
+          "manifest_path": ".claude-plugin/plugin.json",
+          "path": ".",
+          "author": {
+            "name": "Turbo-Thorschten",
+            "url": "https://github.com/Turbo-Thorschten"
+          },
+          "description": "Draws Bash and PowerShell tool calls with syntax-highlighted commands"
+        }
+      ]
+    },
+    {
+      "repository": "WQGGSEY/cache-ttl-timer",
+      "commit": "969036d679b102dfb757a98b8ecaee7ef5af62fc",
+      "treeSha": "87789b2d8c17e0439f1dc118b6ce539358fd4c5c",
+      "fileCount": 9,
+      "sourceBytes": 31061,
+      "componentLicenses": [
+        {
+          "license": "MIT",
+          "scope": "Source snapshot with original and separately credited component notices retained."
+        }
+      ],
+      "mods": [
+        {
+          "name": "cache-ttl-timer",
+          "version": "1.0.0",
+          "manifest_path": ".claude-plugin/plugin.json",
+          "path": ".",
+          "author": {
+            "name": "Seongje Hong",
+            "url": "https://github.com/WQGGSEY"
+          },
+          "description": "A prompt-cache countdown in the prompt footer, beside the model and effort: how long until your next message has to re-cache the whole conversation."
+        }
+      ]
+    },
+    {
+      "repository": "arasovic/claude-code-mods",
+      "commit": "1df1cad9661fd001b749c6a5a1821c2914d01469",
+      "treeSha": "f6b3af8f6f0047d618b8a866ef10c89ef2c99fed",
+      "fileCount": 113,
+      "sourceBytes": 1166391,
+      "componentLicenses": [
+        {
+          "license": "MIT",
+          "scope": "Source snapshot with original and separately credited component notices retained."
+        }
+      ],
+      "mods": [
+        {
+          "name": "cache-timer",
+          "version": "0.1.0",
+          "manifest_path": "cache-timer/.claude-plugin/plugin.json",
+          "path": "cache-timer",
+          "author": {
+            "name": "Mehmet Aras",
+            "url": "https://github.com/arasovic"
+          },
+          "description": "Counts down to when the prompt cache expires, so you can send the next message before the whole conversation has to be cached again"
+        },
+        {
+          "name": "change-ledger",
+          "version": "0.1.2",
+          "manifest_path": "change-ledger/.claude-plugin/plugin.json",
+          "path": "change-ledger",
+          "author": {
+            "name": "Mehmet Aras",
+            "url": "https://github.com/arasovic"
+          },
+          "description": "Lists the files this session edited in a pane (/changes), with line counts and who edited them, beside the git working tree"
+        },
+        {
+          "name": "ci-watch",
+          "version": "0.1.3",
+          "manifest_path": "ci-watch/.claude-plugin/plugin.json",
+          "path": "ci-watch",
+          "author": {
+            "name": "Mehmet Aras",
+            "url": "https://github.com/arasovic"
+          },
+          "description": "Watches GitHub Actions in a band above the prompt after Claude pushes, opens a PR or pushes a tag: a progress bar per run, then pass or fail; optionally flags failed scheduled workflows at start"
+        },
+        {
+          "name": "compact-keeper",
+          "version": "0.1.1",
+          "manifest_path": "compact-keeper/.claude-plugin/plugin.json",
+          "path": "compact-keeper",
+          "author": {
+            "name": "Mehmet Aras",
+            "url": "https://github.com/arasovic"
+          },
+          "description": "Saves each compaction's summary, with the files edited before it, to ~/.claude/handoffs so the context before /compact can be recovered"
+        },
+        {
+          "name": "guardrails",
+          "version": "0.3.1",
+          "manifest_path": "guardrails/.claude-plugin/plugin.json",
+          "path": "guardrails",
+          "author": {
+            "name": "Mehmet Aras",
+            "url": "https://github.com/arasovic"
+          },
+          "description": "Blocks Cloudflare write commands, attribution lines in commits and PRs, and claude/ branch names"
+        },
+        {
+          "name": "image-peek",
+          "version": "0.1.3",
+          "manifest_path": "image-peek/.claude-plugin/plugin.json",
+          "path": "image-peek",
+          "author": {
+            "name": "Mehmet Aras",
+            "url": "https://github.com/arasovic"
+          },
+          "description": "Shows the images you paste: thumbnails above the prompt, and larger pictures under each sent message in the chat; needs a kitty-graphics terminal such as Ghostty"
+        },
+        {
+          "name": "loop-guard",
+          "version": "0.1.0",
+          "manifest_path": "loop-guard/.claude-plugin/plugin.json",
+          "path": "loop-guard",
+          "author": {
+            "name": "Mehmet Aras",
+            "url": "https://github.com/arasovic"
+          },
+          "description": "Tells the model, out of the user's sight, to stop when the same call fails twice with the same error"
+        },
+        {
+          "name": "pin-board",
+          "version": "0.1.1",
+          "manifest_path": "pin-board/.claude-plugin/plugin.json",
+          "path": "pin-board",
+          "author": {
+            "name": "Mehmet Aras",
+            "url": "https://github.com/arasovic"
+          },
+          "description": "Pins standing notes with /pin that Claude keeps following after /compact and /clear; shows them in one row above the prompt or as a counter, and keeps them per folder with --keep"
+        },
+        {
+          "name": "search-meter",
+          "version": "0.1.0",
+          "manifest_path": "search-meter/.claude-plugin/plugin.json",
+          "path": "search-meter",
+          "author": {
+            "name": "Mehmet Aras",
+            "url": "https://github.com/arasovic"
+          },
+          "description": "Counts the model's searches and colors each one: green found first try, yellow found after misses, red found nothing"
+        },
+        {
+          "name": "secret-guard",
+          "version": "0.1.2",
+          "manifest_path": "secret-guard/.claude-plugin/plugin.json",
+          "path": "secret-guard",
+          "author": {
+            "name": "Mehmet Aras",
+            "url": "https://github.com/arasovic"
+          },
+          "description": "Keeps secrets out of the conversation: hides API keys and private keys before the model or the transcript sees them, and blocks reads of credential files and commands that print secrets"
+        },
+        {
+          "name": "session-meter",
+          "version": "0.3.0",
+          "manifest_path": "session-meter/.claude-plugin/plugin.json",
+          "path": "session-meter",
+          "author": {
+            "name": "Mehmet Aras",
+            "url": "https://github.com/arasovic"
+          },
+          "description": "Shows a live session pane (/ctx): context breakdown, usage limits with pace, tool calls and model requests; sends the model a one-time note when limits or context cross a threshold"
+        },
+        {
+          "name": "show-me",
+          "version": "0.4.4",
+          "manifest_path": "show-me/.claude-plugin/plugin.json",
+          "path": "show-me",
+          "author": {
+            "name": "Mehmet Aras",
+            "url": "https://github.com/arasovic"
+          },
+          "description": "Draws the mermaid diagrams of each answer as images in a pane (/show-me); needs mmdc and a kitty-graphics terminal such as Ghostty"
+        },
+        {
+          "name": "turn-footer",
+          "version": "0.1.0",
+          "manifest_path": "turn-footer/.claude-plugin/plugin.json",
+          "path": "turn-footer",
+          "author": {
+            "name": "Mehmet Aras",
+            "url": "https://github.com/arasovic"
+          },
+          "description": "Turns the line under each answer into a turn summary (tools, requests, tokens, cache hit) and shows the running tool in the spinner"
+        },
+        {
+          "name": "turn-timeline",
+          "version": "0.1.3",
+          "manifest_path": "turn-timeline/.claude-plugin/plugin.json",
+          "path": "turn-timeline",
+          "author": {
+            "name": "Mehmet Aras",
+            "url": "https://github.com/arasovic"
+          },
+          "description": "Draws the current turn as a timeline in a pane (/timeline): model requests and tool calls per loop, where the time went, and the slowest steps"
+        }
+      ]
+    },
+    {
+      "repository": "galElmalah/claude-mermaid",
+      "commit": "b19a0f0d09bf214c010b15cc2849c0c1a11d7b0d",
+      "treeSha": "5312f452fbb31026613c562049b7aa8a112e7cde",
+      "fileCount": 30,
+      "sourceBytes": 349633,
+      "componentLicenses": [
+        {
+          "license": "MIT",
+          "scope": "Source snapshot with original and separately credited component notices retained."
+        }
+      ],
+      "mods": [
+        {
+          "name": "claude-mermaid",
+          "version": "0.3.1",
+          "manifest_path": "claude-mermaid/.claude-plugin/plugin.json",
+          "path": "claude-mermaid",
+          "author": {
+            "name": "Gal Elmalah"
+          },
+          "description": "Mermaid diagrams in Claude Code: every ```mermaid block Claude writes is drawn as box art, in colour, right where the fence was in the transcript. Needs function hooks (early access) and an interactive terminal."
+        },
+        {
+          "name": "claude-queue",
+          "version": "0.4.3",
+          "manifest_path": "claude-queue/.claude-plugin/plugin.json",
+          "path": "claude-queue",
+          "author": {
+            "name": "Gal Elmalah"
+          },
+          "description": "A prompt typed while Claude is working is held in a stack above the prompt instead of landing in the running turn, and sent once the turn ends. Reorder the stack, edit a row in place, send one first, remove one, flush the lot. Needs function hooks (early access) and an interactive terminal."
+        }
+      ]
+    },
+    {
+      "repository": "giovaborgogno/cc-dino",
+      "commit": "fe5c0b64b550242449cc8b5861771fcdac2f5993",
+      "treeSha": "35c76fd281f529e85d2c5e92e60a9d45631c6f8a",
+      "fileCount": 20,
+      "sourceBytes": 1849394,
+      "componentLicenses": [
+        {
+          "license": "MIT",
+          "scope": "source snapshot; no explicit nested exception found"
+        }
+      ],
+      "mods": [
+        {
+          "name": "cc-dino",
+          "manifest_path": ".claude-plugin/plugin.json",
+          "version": "0.1.1",
+          "path": ".",
+          "author": {
+            "name": "Giovanni Borgogno",
+            "url": "https://giovaborgogno.com"
+          },
+          "description": "The T-rex from the browser's offline page, above the Claude Code prompt: jump cacti and duck birds while Claude works. Needs function hooks (early access) and an interactive terminal."
+        }
+      ]
+    },
+    {
+      "repository": "gnehiur/claude-code-volc-tts",
+      "commit": "68dac31198731c2414a77e0dcb5211f40ac66b4e",
+      "treeSha": "1091aa56d2b549a98437e000108b0435b031a7fe",
+      "fileCount": 10,
+      "sourceBytes": 34442,
+      "componentLicenses": [
+        {
+          "license": "MIT",
+          "scope": "Source snapshot with original and separately credited component notices retained."
+        }
+      ],
+      "mods": [
+        {
+          "name": "tts",
+          "version": "0.2.0",
+          "manifest_path": ".claude-plugin/plugin.json",
+          "path": ".",
+          "author": null,
+          "description": "\u5728\u6bcf\u6bb5\u56de\u590d\u4e0b\u52a0\u4e00\u4e2a\ud83d\udd0a\u6309\u94ae\uff0c\u7528\u706b\u5c71\u5f15\u64ce\u8c46\u5305\u8bed\u97f3\uff08\u77e5\u6027\u5973\u58f0 2.0\uff09\u6d41\u5f0f\u6717\u8bfb\uff0c\u53ef\u6682\u505c\u3001\u7ee7\u7eed\u3001\u4ece\u5934\u5ff5\u3001\u500d\u901f"
+        }
+      ]
+    },
+    {
+      "repository": "halluton/Mindful-Claude",
+      "commit": "411c9c4f4f1c3d128159be7315823341ae7d9e2d",
+      "treeSha": "7a7292c4799e56c6b32de484bc2bb25ca9fd6a5a",
+      "fileCount": 26,
+      "sourceBytes": 1541299,
+      "componentLicenses": [
+        {
+          "license": "MIT",
+          "scope": "source snapshot; no explicit nested exception found"
+        }
+      ],
+      "mods": [
+        {
+          "name": "mindful-claude",
+          "manifest_path": ".claude-plugin/plugin.json",
+          "version": "2.0.0",
+          "path": ".",
+          "author": {
+            "name": "Anthony"
+          },
+          "description": "Guided breathing exercises above the prompt while Claude works: coherent, box, 4-7-8 and the physiological sigh, four animation styles, and the spinner reads the breath. Appears when Claude starts, disappears when Claude answers. Needs function hooks (early access) and an interactive terminal."
+        }
+      ]
+    },
+    {
+      "repository": "hamzafer/claude-code-mods",
+      "commit": "fc5130427799f69852055add193161080bd054d6",
+      "treeSha": "3df43cd52c6b40eeff031702552b5efd2628151a",
+      "fileCount": 126,
+      "sourceBytes": 13795166,
+      "componentLicenses": [
+        {
+          "license": "MIT",
+          "scope": "Source snapshot with original and separately credited component notices retained."
+        }
+      ],
+      "mods": [
+        {
+          "name": "agent-radar",
+          "version": "0.1.2",
+          "manifest_path": "mods/agent-radar/.claude-plugin/plugin.json",
+          "path": "mods/agent-radar",
+          "author": {
+            "name": "Hamza Zafar",
+            "url": "https://github.com/hamzafer"
+          },
+          "description": "One live line above the prompt per running subagent: time, tool count and what it's doing. /radar shows every agent and its messages."
+        },
+        {
+          "name": "blast-radius",
+          "version": "0.2.2",
+          "manifest_path": "mods/blast-radius/.claude-plugin/plugin.json",
+          "path": "mods/blast-radius",
+          "author": {
+            "name": "Hamza Zafar",
+            "url": "https://github.com/hamzafer"
+          },
+          "description": "Holds risky Bash commands and shows what they would change before they run."
+        },
+        {
+          "name": "browser-lanes",
+          "version": "0.1.2",
+          "manifest_path": "mods/browser-lanes/.claude-plugin/plugin.json",
+          "path": "mods/browser-lanes",
+          "author": {
+            "name": "Hamza Zafar",
+            "url": "https://github.com/hamzafer"
+          },
+          "description": "Shows if this session has a Playwright browser and who holds it. /browser clean closes leftover browsers. A subagent that wants the browser waits until the one using it is done."
+        },
+        {
+          "name": "glance",
+          "version": "0.1.0",
+          "manifest_path": "mods/glance/.claude-plugin/plugin.json",
+          "path": "mods/glance",
+          "author": {
+            "name": "Hamza Zafar",
+            "url": "https://github.com/hamzafer"
+          },
+          "description": "One line above the prompt with what needs you: next meeting, PRs, Linear issues and Slack DMs. /glance lists them all."
+        },
+        {
+          "name": "md-preview",
+          "version": "0.1.1",
+          "manifest_path": "mods/md-preview/.claude-plugin/plugin.json",
+          "path": "mods/md-preview",
+          "author": {
+            "name": "Hamza Zafar",
+            "url": "https://github.com/hamzafer"
+          },
+          "description": "Shows the Markdown files Claude edits, rendered like GitHub, in a pane next to the chat. Before and after side by side. /md opens it."
+        },
+        {
+          "name": "merge-gate",
+          "version": "0.1.4",
+          "manifest_path": "mods/merge-gate/.claude-plugin/plugin.json",
+          "path": "mods/merge-gate",
+          "author": {
+            "name": "Hamza Zafar",
+            "url": "https://github.com/hamzafer"
+          },
+          "description": "Holds `gh pr merge` until CI passes and one Codex review (OpenAI's luna model) has run. A PR line above the prompt, and /gate shows the PR's status."
+        },
+        {
+          "name": "mission-control",
+          "version": "0.1.2",
+          "manifest_path": "mods/mission-control/.claude-plugin/plugin.json",
+          "path": "mods/mission-control",
+          "author": {
+            "name": "Hamza Zafar",
+            "url": "https://github.com/hamzafer"
+          },
+          "description": "/mission opens a live map of the main agent, its subagents and every tool call, plus a code map of the files they touch."
+        },
+        {
+          "name": "next-steps",
+          "version": "0.1.1",
+          "manifest_path": "mods/next-steps/.claude-plugin/plugin.json",
+          "path": "mods/next-steps",
+          "author": {
+            "name": "Hamza Zafar",
+            "url": "https://github.com/hamzafer"
+          },
+          "description": "After each turn, 2 or 3 likely next prompts above the prompt. Press 1, 2 or 3 in an empty prompt to draft one, 0 to dismiss."
+        },
+        {
+          "name": "reels",
+          "version": "0.1.2",
+          "manifest_path": "mods/reels/.claude-plugin/plugin.json",
+          "path": "mods/reels",
+          "author": {
+            "name": "Hamza Zafar",
+            "url": "https://github.com/hamzafer"
+          },
+          "description": "YouTube Shorts in a terminal pane: plays while Claude works, pauses when Claude is done."
+        },
+        {
+          "name": "replay-theater",
+          "version": "0.1.2",
+          "manifest_path": "mods/replay-theater/.claude-plugin/plugin.json",
+          "path": "mods/replay-theater",
+          "author": {
+            "name": "Hamza Zafar",
+            "url": "https://github.com/hamzafer"
+          },
+          "description": "Step through the last turn's file edits, one diff at a time."
+        },
+        {
+          "name": "rulebook-guard",
+          "version": "0.1.2",
+          "manifest_path": "mods/rulebook-guard/.claude-plugin/plugin.json",
+          "path": "mods/rulebook-guard",
+          "author": {
+            "name": "Hamza Zafar",
+            "url": "https://github.com/hamzafer"
+          },
+          "description": "Writing and git rules: replaces em dashes in prose, and asks before git commit --amend, an unformatted push, or personal info in notes and commits."
+        },
+        {
+          "name": "session-saver",
+          "version": "0.1.1",
+          "manifest_path": "mods/session-saver/.claude-plugin/plugin.json",
+          "path": "mods/session-saver",
+          "author": {
+            "name": "Hamza Zafar",
+            "url": "https://github.com/hamzafer"
+          },
+          "description": "Names untitled sessions through unpause. /park saves where you left off, and a resumed session shows it."
+        },
+        {
+          "name": "snake",
+          "version": "0.2.2",
+          "manifest_path": "mods/snake/.claude-plugin/plugin.json",
+          "path": "mods/snake",
+          "author": {
+            "name": "Hamza Zafar",
+            "url": "https://github.com/hamzafer"
+          },
+          "description": "Snake in a pane while Claude works, paused when it's done. Opt-in, so nothing opens until /snake."
+        },
+        {
+          "name": "token-weather",
+          "version": "0.2.0",
+          "manifest_path": "mods/token-weather/.claude-plugin/plugin.json",
+          "path": "mods/token-weather",
+          "author": {
+            "name": "Hamza Zafar",
+            "url": "https://github.com/hamzafer"
+          },
+          "description": "A live forecast of the context window, with a prompt-cache countdown, drawn above the prompt."
+        },
+        {
+          "name": "usage-meter",
+          "version": "0.1.0",
+          "manifest_path": "mods/usage-meter/.claude-plugin/plugin.json",
+          "path": "mods/usage-meter",
+          "author": {
+            "name": "Hamza Zafar",
+            "url": "https://github.com/hamzafer"
+          },
+          "description": "Your plan's 5-hour and 7-day usage as small bars above the prompt, with the reset countdown and the session's cost."
+        },
+        {
+          "name": "where-am-i",
+          "version": "0.1.3",
+          "manifest_path": "mods/where-am-i/.claude-plugin/plugin.json",
+          "path": "mods/where-am-i",
+          "author": {
+            "name": "Hamza Zafar",
+            "url": "https://github.com/hamzafer"
+          },
+          "description": "A live recap above the prompt: goal, doing now, waiting on you, next. /where for a longer one."
+        }
+      ]
+    },
+    {
+      "repository": "henrik-thevibe/Claude-Fables",
+      "commit": "6d0ce80575a92f8f6c8c2493c2bf20413e255622",
+      "treeSha": "478ade0ab8f37491d5b5617bf179d1f85cea15f7",
+      "fileCount": 59,
+      "sourceBytes": 8237145,
+      "componentLicenses": [
+        {
+          "license": "MIT",
+          "scope": "root source; credited ChetasLua/Henrik model and gallery styles"
+        },
+        {
+          "license": "OFL-1.1",
+          "scope": "Monocraft regular/bold subsets embedded in hooks/monocraft.ts"
+        }
+      ],
+      "mods": [
+        {
+          "name": "fables",
+          "manifest_path": ".claude-plugin/plugin.json",
+          "version": "0.1.0",
+          "path": ".",
+          "author": {
+            "name": "henrik-thevibe"
+          },
+          "description": "Claude Fables: turns what the agent is doing into little animated cartoons above the prompt, written live by Sonnet or Haiku."
+        }
+      ]
+    },
+    {
+      "repository": "homieyangg/claude-code-mods",
+      "commit": "3c7b24720bcc831165502d73d1631b6fb197bbcf",
+      "treeSha": "3de01eea484605e3d6df48cf3c983816df3bc61c",
+      "fileCount": 47,
+      "sourceBytes": 1990481,
+      "componentLicenses": [
+        {
+          "license": "MIT",
+          "scope": "Source snapshot with original and separately credited component notices retained."
+        }
+      ],
+      "mods": [
+        {
+          "name": "leftovers",
+          "version": "0.1.0",
+          "manifest_path": "leftovers/.claude-plugin/plugin.json",
+          "path": "leftovers",
+          "author": {
+            "name": "Gary"
+          },
+          "description": "Keeps a ledger of what Claude left running or lying around on your machine and servers"
+        },
+        {
+          "name": "plan-bar",
+          "version": "0.1.0",
+          "manifest_path": "plan-bar/.claude-plugin/plugin.json",
+          "path": "plan-bar",
+          "author": {
+            "name": "Gary"
+          },
+          "description": "Live progress bars above the prompt for multi-step work: one row per plan, with stages, percent, waiting and failed colors, and sounds"
+        },
+        {
+          "name": "secret-mask",
+          "version": "0.1.0",
+          "manifest_path": "secret-mask/.claude-plugin/plugin.json",
+          "path": "secret-mask",
+          "author": {
+            "name": "Gary"
+          },
+          "description": "Mask token-like strings in tool output before they reach the conversation"
+        }
+      ]
+    },
+    {
+      "repository": "jarrodwatts/claude-image-view",
+      "commit": "b3c412bb6d167cafade79148e95f9114ee1aad7c",
+      "treeSha": "1eb23f0c41d92b0fd2d7353245a6f781320cc8a8",
+      "fileCount": 11,
+      "sourceBytes": 389303,
+      "componentLicenses": [
+        {
+          "license": "MIT",
+          "scope": "Source snapshot with original and separately credited component notices retained."
+        }
+      ],
+      "mods": [
+        {
+          "name": "image-view",
+          "version": "0.1.0",
+          "manifest_path": ".claude-plugin/plugin.json",
+          "path": ".",
+          "author": {
+            "name": "Jarrod Watts",
+            "url": "https://github.com/jarrodwatts"
+          },
+          "description": "See the images you paste into Claude Code: thumbnails above the prompt instead of bare [Image #1] tags"
+        }
+      ]
+    },
+    {
+      "repository": "kawase1295/usage-meter",
+      "commit": "5227efe6956a0a7b9a06244535e5e9496887d82c",
+      "treeSha": "f88a9796b52b47bfef1264a8048e9c2c7eed5dab",
+      "fileCount": 12,
+      "sourceBytes": 13941,
+      "componentLicenses": [
+        {
+          "license": "MIT",
+          "scope": "Source snapshot with original and separately credited component notices retained."
+        }
+      ],
+      "mods": [
+        {
+          "name": "usage-meter",
+          "version": null,
+          "manifest_path": ".claude-plugin/plugin.json",
+          "path": ".",
+          "author": {
+            "name": "kawase1295",
+            "url": "https://github.com/kawase1295"
+          },
+          "description": "Model, context window and rate-limit (5h / 7d) braille meters in a band above the prompt"
+        }
+      ]
+    },
+    {
+      "repository": "manfye/cc-dino",
+      "commit": "2d0221b6650ebe6287114cf9deec13b0b30850ec",
+      "treeSha": "b34edb83840eb9c603cd7ab38eb718373680ecb6",
+      "fileCount": 11,
+      "sourceBytes": 29076,
+      "componentLicenses": [
+        {
+          "license": "MIT",
+          "scope": "Source snapshot with original and separately credited component notices retained."
+        }
+      ],
+      "mods": [
+        {
+          "name": "cc-dino",
+          "version": "0.1.0",
+          "manifest_path": ".claude-plugin/plugin.json",
+          "path": ".",
+          "author": {
+            "name": "manfye"
+          },
+          "description": "The Chrome offline dinosaur, above the Claude Code prompt. Jump the cacti and duck the pterodactyls while Claude works. Needs function hooks (early access) and an interactive terminal."
+        }
+      ]
+    },
+    {
+      "repository": "mediavee/cold-cache-guard",
+      "commit": "2c4388cbecf115dc6209fcec1a10446123fc8ae5",
+      "treeSha": "a1d6f917b1046a09b0c489124fb1ec0202d4b795",
+      "fileCount": 10,
+      "sourceBytes": 21332,
+      "componentLicenses": [
+        {
+          "license": "MIT",
+          "scope": "Source snapshot with original and separately credited component notices retained."
+        }
+      ],
+      "mods": [
+        {
+          "name": "cold-cache-guard",
+          "version": "0.1.0",
+          "manifest_path": ".claude-plugin/plugin.json",
+          "path": ".",
+          "author": {
+            "name": "Mediavee"
+          },
+          "description": "Asks what to do before Claude Code re-sends a large conversation whose prompt cache has expired: on a cold resume, and on the first prompt after an idle spell."
+        }
+      ]
+    },
+    {
+      "repository": "muratcakmak/jev-guard",
+      "commit": "304036789298d13f951183abe0fc46d6c6c43bfc",
+      "treeSha": "4f791c0e6ce926361272ce62c826ddb1385c8fdb",
+      "fileCount": 13,
+      "sourceBytes": 49432,
+      "componentLicenses": [
+        {
+          "license": "MIT",
+          "scope": "Source snapshot with original and separately credited component notices retained."
+        }
+      ],
+      "mods": [
+        {
+          "name": "jev-guard",
+          "version": "0.1.0",
+          "manifest_path": ".claude-plugin/plugin.json",
+          "path": ".",
+          "author": {
+            "name": "Oguzhan Cakmak"
+          },
+          "description": "Probability-scored guardrails for Claude Code: deny rule-breaking edits and unasked-for deploys, route your own docs into each prompt, and check the final answer against the turn's own evidence."
+        }
+      ]
+    },
+    {
+      "repository": "nateherkai/claude-code-mods",
+      "commit": "33a936f2ec6bbfea5a30a1a4d71d992487a5c769",
+      "treeSha": "61776605e167813e122a2c497e41f7fbeb6b882d",
+      "fileCount": 28,
+      "sourceBytes": 206875,
+      "componentLicenses": [
+        {
+          "license": "MIT",
+          "scope": "Source snapshot with original and separately credited component notices retained."
+        }
+      ],
+      "mods": [
+        {
+          "name": "cache-keeper",
+          "version": "1.0.0",
+          "manifest_path": "cache-keeper/.claude-plugin/plugin.json",
+          "path": "cache-keeper",
+          "author": {
+            "name": "Nate Herk"
+          },
+          "description": "Keeps a big chat's prompt cache warm, warns before an expensive cold restart, shows every local chat on one board (/board), and hands a chat off to a fresh one (/handoff)"
+        },
+        {
+          "name": "collision-guard",
+          "version": "1.0.0",
+          "manifest_path": "collision-guard/.claude-plugin/plugin.json",
+          "path": "collision-guard",
+          "author": {
+            "name": "Nate Herk"
+          },
+          "description": "Asks before Claude edits a file another open chat changed in the last 30 minutes: Proceed, Move to a worktree, or Cancel (/guard)"
+        },
+        {
+          "name": "goal-meter",
+          "version": "1.0.0",
+          "manifest_path": "goal-meter/.claude-plugin/plugin.json",
+          "path": "goal-meter",
+          "author": {
+            "name": "Nate Herk"
+          },
+          "description": "A progress bar for /goal built from Claude's own task plan: tasks done out of the plan, elapsed time, an ETA at the goal's own pace, and every chat's goal in /goals"
+        },
+        {
+          "name": "recording-mode",
+          "version": "1.0.0",
+          "manifest_path": "recording-mode/.claude-plugin/plugin.json",
+          "path": "recording-mode",
+          "author": {
+            "name": "Nate Herk"
+          },
+          "description": "/rec before you record: masks keys, personal details, and business figures on screen and keeps private files closed (/rec strict, /rec off, /rec config)"
+        }
+      ]
+    },
+    {
+      "repository": "okamyuji/tool-trim-compaction",
+      "commit": "c2cf3d808da1ea6e968974c2aed39079dfe4ee95",
+      "treeSha": "2a34a31d7c64a948c9aca3a6954a83743dd42bf8",
+      "fileCount": 9,
+      "sourceBytes": 15015,
+      "componentLicenses": [
+        {
+          "license": "MIT",
+          "scope": "Source snapshot with original and separately credited component notices retained."
+        }
+      ],
+      "mods": [
+        {
+          "name": "tool-trim-compaction",
+          "version": null,
+          "manifest_path": ".claude-plugin/plugin.json",
+          "path": ".",
+          "author": {
+            "name": "okamyuji"
+          },
+          "description": "compaction \u3067\u53e4\u3044\u30c4\u30fc\u30eb\u547c\u3073\u51fa\u3057\u3068\u7d50\u679c\u3092\u6d88\u3057\u3001\u767a\u8a00\u306f\u539f\u6587\u306e\u307e\u307e\u6b8b\u3059\u3002\u524a\u6e1b\u304c\u8db3\u308a\u306a\u3051\u308c\u3070\u6a19\u6e96\u306e\u8981\u7d04\u306b\u56de\u3059"
+        }
+      ]
+    },
+    {
+      "repository": "powerofjinbo/claude-code-spell-bar",
+      "commit": "1b0494cadcd4e98542147b321250d55d38696553",
+      "treeSha": "647dc8aa9b97ecc3ab56a1c840b73b1b67626e65",
+      "fileCount": 22,
+      "sourceBytes": 6921845,
+      "componentLicenses": [
+        {
+          "license": "MIT",
+          "scope": "source snapshot; no explicit nested exception found"
+        }
+      ],
+      "mods": [
+        {
+          "name": "spell-bar",
+          "manifest_path": "plugins/spell-bar/.claude-plugin/plugin.json",
+          "version": "1.0.0",
+          "path": "plugins/spell-bar",
+          "author": {
+            "name": "powerofjinbo",
+            "url": "https://github.com/powerofjinbo"
+          },
+          "description": "An animated effort bar for Claude Code: Clawd casts Avada Kedavra at six ranks, one per effort level from low to ultracode, with Voldemort looming behind."
+        }
+      ]
+    },
+    {
+      "repository": "retrocodes12/context-relay",
+      "commit": "576153e41df11e80d5b7778fa81887db7678f2e8",
+      "treeSha": "ed73fd041e93e861ae36078efb948b39994e2b70",
+      "fileCount": 8,
+      "sourceBytes": 16330,
+      "componentLicenses": [
+        {
+          "license": "MIT",
+          "scope": "Source snapshot with original and separately credited component notices retained."
+        }
+      ],
+      "mods": [
+        {
+          "name": "context-relay",
+          "version": "0.1.0",
+          "manifest_path": ".claude-plugin/plugin.json",
+          "path": ".",
+          "author": {
+            "name": "retrocodes12",
+            "url": "https://github.com/retrocodes12"
+          },
+          "description": "Hands the work to a fresh session before a long context degrades the model, and carries on there."
+        }
+      ]
+    },
+    {
+      "repository": "richkuo/claude-code-model-effort-shortcuts",
+      "commit": "6c1d03e068ebe9ada43bb182857c425605cccee1",
+      "treeSha": "66f9f352aebef4de79e1d92b2b6de4659e6831d7",
+      "fileCount": 9,
+      "sourceBytes": 18791,
+      "componentLicenses": [
+        {
+          "license": "MIT",
+          "scope": "Source snapshot with original and separately credited component notices retained."
+        }
+      ],
+      "mods": [
+        {
+          "name": "model-effort-shortcuts",
+          "version": "0.3.1",
+          "manifest_path": ".claude-plugin/plugin.json",
+          "path": ".",
+          "author": {
+            "name": "Richard Kuo"
+          },
+          "description": "Keyboard shortcuts that step the reasoning effort level and the model up and down; the footer shows what each request uses"
+        }
+      ]
+    },
+    {
+      "repository": "ruanss4/prompt-jump",
+      "commit": "a1912c72088b156ffbd18a73137ffc9a2d429dc6",
+      "treeSha": "8ff9642c10e62d1f606aaf7b29c8a90ecb4c0bcf",
+      "fileCount": 10,
+      "sourceBytes": 23690,
+      "componentLicenses": [
+        {
+          "license": "MIT",
+          "scope": "Source snapshot with original and separately credited component notices retained."
+        }
+      ],
+      "mods": [
+        {
+          "name": "prompt-jump",
+          "version": "0.1.0",
+          "manifest_path": ".claude-plugin/plugin.json",
+          "path": ".",
+          "author": {
+            "name": "ruanss4"
+          },
+          "description": "A bar above the prompt input with a tick for every prompt of the session; hover to read one, click to jump to it"
+        }
+      ]
+    },
+    {
+      "repository": "scasella/claude-flightdeck",
+      "commit": "f31daca523d36c501cd0df23a737a44c7dc56ad6",
+      "treeSha": "9bf6c96d68e94bd20fd08f4c29f93d1138c55f05",
+      "fileCount": 21,
+      "sourceBytes": 3609663,
+      "componentLicenses": [
+        {
+          "license": "MIT",
+          "scope": "source snapshot; no explicit nested exception found"
+        }
+      ],
+      "mods": [
+        {
+          "name": "flightdeck",
+          "manifest_path": ".claude-plugin/plugin.json",
+          "version": "0.3.2",
+          "path": ".",
+          "author": {
+            "name": "Stephen Casella",
+            "url": "https://github.com/scasella"
+          },
+          "description": "Flightdeck: a live agent dashboard for Claude Code. Main model vitals, an on-call architect, every permission check, subagent cards and swimlanes, a turn receipt and a session log, all from real session events"
+        }
+      ]
+    },
+    {
+      "repository": "sezaakgun/cc-arcade",
+      "commit": "0baff06d31295850283c2eebe052f39bbc35473f",
+      "treeSha": "41caa30e9d046df24bdbeaafae09869b6634e448",
+      "fileCount": 52,
+      "sourceBytes": 1134858,
+      "componentLicenses": [
+        {
+          "license": "MIT",
+          "scope": "Source snapshot with original and separately credited component notices retained."
+        }
+      ],
+      "mods": [
+        {
+          "name": "cc-arcade",
+          "version": "0.2.0",
+          "manifest_path": ".claude-plugin/plugin.json",
+          "path": ".",
+          "author": {
+            "name": "Seza Akg\u00fcn"
+          },
+          "description": "Games above the Claude Code prompt (snake, Tetris, 2048, Minesweeper, Flappy, Pong, typing test, Space Invaders, Doom) plus a pet that grows as Claude tests, commits and edits. Clones of the genre, not affiliated with or endorsed by Tetris Holding, Taito, Atari or id Software. Needs function hooks (early access) and an interactive terminal."
+        }
+      ]
+    },
+    {
+      "repository": "sezaakgun/cc-pr-tracker",
+      "commit": "514da1edb4877cdb812ae1a25f79aa81fb6aa6db",
+      "treeSha": "d79f324da58edc2c7a74c762db842199f3e4b284",
+      "fileCount": 15,
+      "sourceBytes": 414308,
+      "componentLicenses": [
+        {
+          "license": "MIT",
+          "scope": "Source snapshot with original and separately credited component notices retained."
+        }
+      ],
+      "mods": [
+        {
+          "name": "cc-pr-tracker",
+          "version": "0.2.0",
+          "manifest_path": ".claude-plugin/plugin.json",
+          "path": ".",
+          "author": {
+            "name": "Seza Akg\u00fcn"
+          },
+          "description": "Watch GitHub PRs from a Claude Code session: merge state, review and required checks above the prompt, with alerts when they change"
+        }
+      ]
+    },
+    {
+      "repository": "stefanochieli/claude-effort-guard",
+      "commit": "fcf98fea2b24c1d1483cff947b3d40cc031bfa4c",
+      "treeSha": "e3cbc30254b1c913587c5dfc0290dda8703f80dc",
+      "fileCount": 18,
+      "sourceBytes": 14848,
+      "componentLicenses": [
+        {
+          "license": "MIT",
+          "scope": "Source snapshot with original and separately credited component notices retained."
+        }
+      ],
+      "mods": [
+        {
+          "name": "effort-guard",
+          "version": "0.1.1",
+          "manifest_path": ".claude-plugin/plugin.json",
+          "path": ".",
+          "author": {
+            "name": "Stefano Chieli"
+          },
+          "description": "Claude Code mod: context/token band, escalation signals and per-turn effort log."
+        }
+      ]
+    },
+    {
+      "repository": "swei99386-alt/exam-gate",
+      "commit": "ce089d547ff82bca801566dd47925affa30eedc9",
+      "treeSha": "dac32831d6d18d1f3643c0311f45ac0b4fa327f5",
+      "fileCount": 10,
+      "sourceBytes": 16056,
+      "componentLicenses": [
+        {
+          "license": "MIT",
+          "scope": "Source snapshot with original and separately credited component notices retained."
+        }
+      ],
+      "mods": [
+        {
+          "name": "exam-gate",
+          "version": "0.1.0",
+          "manifest_path": ".claude-plugin/plugin.json",
+          "path": ".",
+          "author": {
+            "name": "swei99386-alt"
+          },
+          "description": "Before Claude calls a task done, run your checklist. Fail means Claude is sent back to fix it; repeated failure trips a breaker and hands control back to you."
+        }
+      ]
+    },
+    {
+      "repository": "togishima/better-ask-picker",
+      "commit": "bbdc70f782f6fcd00347081c7fe2e688725d64a4",
+      "treeSha": "62846594666357beb2a366aea096a0804bc4b9f1",
+      "fileCount": 7,
+      "sourceBytes": 23575,
+      "componentLicenses": [
+        {
+          "license": "MIT",
+          "scope": "Source snapshot with original and separately credited component notices retained."
+        }
+      ],
+      "mods": [
+        {
+          "name": "better-ask-picker",
+          "version": "0.1.0",
+          "manifest_path": ".claude-plugin/plugin.json",
+          "path": ".",
+          "author": {
+            "name": "Takashi Ogishima",
+            "url": "https://github.com/togishima"
+          },
+          "description": "Ask the user a question in a dedicated pane: show every option on one screen with a summary, single or multi-select, no 4-option limit."
+        }
+      ]
+    },
+    {
+      "repository": "tomatoaiu/rename-ja",
+      "commit": "baa1cb3e14436dcfe1f390d332e8c4b0ff48840b",
+      "treeSha": "1e83e8f0356c938a1ebac8b72df36ad11239d0b0",
+      "fileCount": 17,
+      "sourceBytes": 40005,
+      "componentLicenses": [
+        {
+          "license": "MIT",
+          "scope": "Source snapshot with original and separately credited component notices retained."
+        }
+      ],
+      "mods": [
+        {
+          "name": "rename-ja",
+          "version": "0.1.0",
+          "manifest_path": ".claude-plugin/plugin.json",
+          "path": ".",
+          "author": {
+            "name": "tomatoaiu"
+          },
+          "description": "\u5f15\u6570\u306a\u3057\u306e /rename \u3067\u3001\u4f1a\u8a71\u5185\u5bb9\u304b\u3089\u65e5\u672c\u8a9e\u306e\u30bb\u30c3\u30b7\u30e7\u30f3\u540d\u3092\u751f\u6210\u3059\u308b\u3002"
+        }
+      ]
+    },
+    {
+      "repository": "udaaff/claude-code-session-notes",
+      "commit": "d3f429a057cb62e3e9a20c261502b22f781e01d1",
+      "treeSha": "de72704112cc547c33ffdb8c8d80d33c64e69bab",
+      "fileCount": 14,
+      "sourceBytes": 44624,
+      "componentLicenses": [
+        {
+          "license": "MIT",
+          "scope": "Source snapshot with original and separately credited component notices retained."
+        }
+      ],
+      "mods": [
+        {
+          "name": "session-notes",
+          "version": "0.1.0",
+          "manifest_path": ".claude-plugin/plugin.json",
+          "path": ".",
+          "author": {
+            "name": "udaaff"
+          },
+          "description": "Project notes in .claude/notes.md: live dev servers, recent artifacts and pinned links, in a side panel and with /notes."
+        }
+      ]
+    },
+    {
+      "repository": "y-hirakaw/claude-code-mods",
+      "commit": "ac362939126aaff53b1a1d22da196e4ec5137c66",
+      "treeSha": "e3186fbb6c1e371da12dba3d3b80807bf62cdd5d",
+      "fileCount": 21,
+      "sourceBytes": 4213152,
+      "componentLicenses": [
+        {
+          "license": "MIT",
+          "scope": "Source snapshot with original and separately credited component notices retained."
+        }
+      ],
+      "mods": [
+        {
+          "name": "touch-map",
+          "version": "0.1.0",
+          "manifest_path": "touch-map/.claude-plugin/plugin.json",
+          "path": "touch-map",
+          "author": {
+            "name": "y-hirakaw",
+            "url": "https://github.com/y-hirakaw"
+          },
+          "description": "See which files Claude has listed, read, partially read, edited, created or deleted, as a tree and an activity map in a pane."
+        }
+      ]
+    },
+    {
+      "repository": "zycck/claude-mods",
+      "commit": "2febbf82b6d933971f19d79892a586cb036fc199",
+      "treeSha": "88614810bbfd3aa79b61eac8535ded2f24a46788",
+      "fileCount": 29,
+      "sourceBytes": 2268669,
+      "componentLicenses": [
+        {
+          "license": "MIT",
+          "scope": "Source snapshot with original and separately credited component notices retained."
+        }
+      ],
+      "mods": [
+        {
+          "name": "plan-progress",
+          "version": "0.7.3",
+          "manifest_path": "plugins/plan-progress/.claude-plugin/plugin.json",
+          "path": "plugins/plan-progress",
+          "author": {
+            "name": "Kirill Serditov",
+            "url": "https://github.com/zycck"
+          },
+          "description": "Live plan progress bars above the Claude Code prompt: stages, steps, a pixel fill and soft sounds for decision, error and done"
+        }
+      ]
+    }
+  ]
+}

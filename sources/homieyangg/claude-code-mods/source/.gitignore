@@ -1,0 +1,5 @@
+# Claude Code 每次載入 mod 都會重寫這兩樣
+*/.claude-plugin/types/
+*/tsconfig.json
+
+.DS_Store

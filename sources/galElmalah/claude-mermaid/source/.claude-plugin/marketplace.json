@@ -1,0 +1,19 @@
+{
+  "name": "claude-mods",
+  "owner": {
+    "name": "Gal Elmalah"
+  },
+  "description": "Mods for Claude Code by Gal: mermaid diagrams drawn inline in the transcript; /q holds a prompt until the turn ends.",
+  "plugins": [
+    {
+      "name": "claude-mermaid",
+      "source": "./claude-mermaid",
+      "description": "Mermaid diagrams drawn as box art inline in the transcript."
+    },
+    {
+      "name": "claude-queue",
+      "source": "./claude-queue",
+      "description": "/q <text> while Claude is working waits in a stack above the prompt and goes out when the turn ends."
+    }
+  ]
+}

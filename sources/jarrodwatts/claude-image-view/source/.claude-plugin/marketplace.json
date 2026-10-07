@@ -1,0 +1,26 @@
+{
+  "name": "claude-image-view",
+  "owner": {
+    "name": "Jarrod Watts",
+    "url": "https://github.com/jarrodwatts"
+  },
+  "plugins": [
+    {
+      "name": "image-view",
+      "source": "./",
+      "description": "See the images you paste into Claude Code: thumbnails above the prompt instead of bare [Image #1] tags",
+      "category": "productivity",
+      "tags": [
+        "images",
+        "paste",
+        "preview",
+        "thumbnails",
+        "mod",
+        "terminal"
+      ]
+    }
+  ],
+  "metadata": {
+    "description": "See the images you paste into Claude Code"
+  }
+}

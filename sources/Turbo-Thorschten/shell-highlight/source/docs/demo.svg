@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="830" height="464" viewBox="0 0 830 464" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="14" xml:space="preserve">
+<rect width="100%" height="100%" rx="8" fill="#1e1f1c"/>
+<text x="16.0" y="29" fill="#87d787">●</text>
+<text x="32.8 41.2 49.6 58.0" y="29" fill="#f8f8f2" font-weight="bold">Bash</text>
+<text x="74.8 83.2 91.6 100.0 108.4 125.2 133.6 142.0 150.4 158.8 175.6 184.0 192.4 209.2 217.6 226.0 234.4 242.8 251.2 259.6 268.0 284.8 293.2 301.6 310.0" y="29" fill="#949494">CountlinesperMarkdownfile</text>
+<text x="32.8 41.2 49.6" y="47" fill="#ff005f">for</text>
+<text x="66.4" y="47" fill="#ffffff">f</text>
+<text x="83.2 91.6" y="47" fill="#ff005f">in</text>
+<text x="108.4 116.8 125.2 133.6 142.0" y="47" fill="#ffffff">*.md;</text>
+<text x="158.8 167.2" y="47" fill="#ff005f">do</text>
+<text x="184.0 192.4" y="47" fill="#afd700">wc</text>
+<text x="209.2 217.6" y="47" fill="#ffffff">-l</text>
+<text x="234.4" y="47" fill="#d7d787">"</text>
+<text x="242.8 251.2" y="47" fill="#ffffff">$f</text>
+<text x="259.6" y="47" fill="#d7d787">"</text>
+<text x="268.0" y="47" fill="#ffffff">;</text>
+<text x="284.8 293.2 301.6 310.0" y="47" fill="#ff005f">done</text>
+<text x="326.8" y="47" fill="#ffffff">|</text>
+<text x="343.6 352.0 360.4 368.8" y="47" fill="#afd700">sort</text>
+<text x="385.6 394.0 402.4 419.2" y="47" fill="#ffffff">-rn|</text>
+<text x="436.0 444.4 452.8 461.2" y="47" fill="#afd700">head</text>
+<text x="478.0 486.4 503.2" y="47" fill="#ffffff">-n3</text>
+<path d="M37.0 54v11h4.2" fill="none" stroke="#949494" stroke-width="1.2"/>
+<text x="49.6 58.0 74.8 83.2 91.6 100.0 108.4 116.8 125.2" y="65" fill="#949494">33demo.md</text>
+<text x="16.0" y="101" fill="#87d787">●</text>
+<text x="32.8 41.2 49.6 58.0" y="101" fill="#f8f8f2" font-weight="bold">Bash</text>
+<text x="74.8 83.2 91.6 108.4 125.2 133.6 142.0 150.4 158.8 167.2 184.0 192.4 200.8 209.2 226.0 242.8 251.2 259.6 268.0 276.4 284.8 293.2" y="101" fill="#949494">Runascriptfromaheredoc</text>
+<text x="32.8 41.2 49.6 58.0 74.8 83.2" y="119" fill="#ffffff">node&lt;&lt;</text>
+<text x="91.6 100.0 108.4 116.8 125.2" y="119" fill="#d7d787">'EOF'</text>
+<text x="32.8 41.2 49.6 58.0 66.4" y="137" fill="#5fd7ff">const</text>
+<text x="83.2 91.6 100.0 108.4 116.8 125.2 133.6 150.4 167.2" y="137" fill="#ffffff">squares=[</text>
+<text x="175.6" y="137" fill="#af87ff">1</text>
+<text x="184.0" y="137" fill="#ffffff">,</text>
+<text x="200.8" y="137" fill="#af87ff">2</text>
+<text x="209.2" y="137" fill="#ffffff">,</text>
+<text x="226.0" y="137" fill="#af87ff">3</text>
+<text x="234.4" y="137" fill="#ffffff">,</text>
+<text x="251.2" y="137" fill="#af87ff">4</text>
+<text x="259.6 268.0" y="137" fill="#ffffff">].</text>
+<text x="276.4 284.8 293.2" y="137" fill="#afd700">map</text>
+<text x="301.6" y="137" fill="#ffffff">(</text>
+<text x="310.0" y="137" fill="#ff8700">n</text>
+<text x="326.8 335.2 352.0 368.8 385.6 394.0" y="137" fill="#ffffff">=&gt;n*n)</text>
+<text x="32.8 41.2 49.6 58.0 66.4 74.8 83.2 91.6" y="155" fill="#ffffff">console.</text>
+<text x="100.0 108.4 116.8" y="155" fill="#afd700">log</text>
+<text x="125.2" y="155" fill="#ffffff">(</text>
+<text x="133.6 142.0 150.4 158.8 175.6 184.0 200.8 209.2 217.6 226.0 234.4 242.8 251.2 259.6" y="155" fill="#d7d787">`sumofsquares:</text>
+<text x="276.4 284.8 293.2 301.6 310.0 318.4 326.8 335.2 343.6 352.0 360.4 368.8 377.2 385.6 394.0 402.4 410.8 419.2 427.6 436.0 452.8 461.2 478.0 486.4 503.2 520.0 536.8 545.2" y="155" fill="#ffffff">${squares.reduce((a,b)=&gt;a+b,</text>
+<text x="562.0" y="155" fill="#af87ff">0</text>
+<text x="570.4 578.8" y="155" fill="#ffffff">)}</text>
+<text x="587.2" y="155" fill="#d7d787">`</text>
+<text x="595.6" y="155" fill="#ffffff">)</text>
+<text x="32.8 41.2 49.6" y="173" fill="#ffffff">EOF</text>
+<path d="M37.0 180v11h4.2" fill="none" stroke="#949494" stroke-width="1.2"/>
+<text x="49.6 58.0 66.4 83.2 91.6 108.4 116.8 125.2 133.6 142.0 150.4 158.8 167.2 184.0 192.4" y="191" fill="#949494">sumofsquares:30</text>
+<text x="16.0" y="227" fill="#87d787">●</text>
+<text x="32.8 41.2 49.6 58.0" y="227" fill="#f8f8f2" font-weight="bold">Bash</text>
+<text x="74.8 83.2 91.6 100.0 108.4 116.8 133.6 142.0 150.4 158.8 167.2 175.6 184.0 200.8 209.2 217.6 226.0 242.8 259.6 268.0 276.4 284.8 293.2 310.0 318.4 326.8 335.2 343.6 352.0 360.4" y="227" fill="#949494">InlinePython,thenashellcommand</text>
+<text x="32.8 41.2 49.6 58.0 66.4 74.8 83.2 100.0 108.4" y="245" fill="#ffffff">python3-c</text>
+<text x="125.2" y="245" fill="#d7d787">'</text>
+<text x="133.6 142.0 150.4 158.8 167.2 175.6" y="245" fill="#ff005f">import</text>
+<text x="192.4 200.8 209.2 217.6 226.0" y="245" fill="#ffffff">json;</text>
+<text x="242.8 251.2 259.6 268.0 276.4" y="245" fill="#afd700">print</text>
+<text x="284.8 293.2 301.6 310.0 318.4 326.8 335.2 343.6 352.0 360.4 368.8 377.2 385.6" y="245" fill="#ffffff">(json.dumps({</text>
+<text x="394.0 402.4 410.8 419.2" y="245" fill="#d7d787">"ok"</text>
+<text x="427.6" y="245" fill="#ffffff">:</text>
+<text x="444.4 452.8 461.2 469.6" y="245" fill="#af87ff">True</text>
+<text x="478.0" y="245" fill="#ffffff">,</text>
+<text x="494.8 503.2 511.6 520.0 528.4 536.8 545.2" y="245" fill="#d7d787">"items"</text>
+<text x="553.6 570.4" y="245" fill="#ffffff">:[</text>
+<text x="578.8" y="245" fill="#af87ff">1</text>
+<text x="587.2" y="245" fill="#ffffff">,</text>
+<text x="604.0" y="245" fill="#af87ff">2</text>
+<text x="612.4 620.8 629.2 637.6" y="245" fill="#ffffff">]}))</text>
+<text x="646.0" y="245" fill="#d7d787">'</text>
+<text x="662.8 671.2" y="245" fill="#ffffff">&amp;&amp;</text>
+<text x="688.0 696.4 704.8 713.2" y="245" fill="#afd700">echo</text>
+<text x="730.0 738.4 746.8 755.2 763.6 772.0 788.8 797.2 805.6" y="245" fill="#d7d787">"exit:$?"</text>
+<path d="M37.0 252v11h4.2" fill="none" stroke="#949494" stroke-width="1.2"/>
+<text x="49.6 58.0 66.4 74.8 83.2 91.6 108.4 116.8 125.2 133.6 142.0 158.8 167.2 175.6 184.0 192.4 200.8 209.2 217.6 234.4 242.8 251.2 268.0 276.4 284.8" y="263" fill="#949494">{"ok":true,"items":[1,2]}</text>
+<text x="49.6 58.0 66.4 74.8 83.2 100.0" y="281" fill="#949494">exit:0</text>
+<text x="16.0" y="317" fill="#87d787">●</text>
+<text x="32.8 41.2 49.6 58.0" y="317" fill="#f8f8f2" font-weight="bold">Bash</text>
+<text x="74.8 83.2 91.6 100.0 108.4 116.8 125.2 142.0 150.4 167.2 184.0 192.4 209.2 217.6" y="317" fill="#949494">Squaresof1to12</text>
+<text x="32.8 41.2 49.6" y="335" fill="#afd700">seq</text>
+<text x="66.4 83.2 91.6 108.4 125.2 133.6 142.0" y="335" fill="#ffffff">112|awk</text>
+<text x="158.8 167.2 184.0 192.4 200.8 209.2 217.6 234.4 242.8 259.6 276.4 284.8 293.2 301.6 310.0 318.4 326.8 343.6 352.0 368.8 385.6 394.0 410.8 427.6 436.0 452.8 461.2" y="335" fill="#d7d787">'{print$1"squaredis"$1*$1}'</text>
+<path d="M37.0 342v11h4.2" fill="none" stroke="#949494" stroke-width="1.2"/>
+<text x="49.6 66.4 74.8 83.2 91.6 100.0 108.4 116.8 133.6 142.0 158.8" y="353" fill="#949494">1squaredis1</text>
+<text x="49.6 66.4 74.8 83.2 91.6 100.0 108.4 116.8 133.6 142.0 158.8" y="371" fill="#949494">2squaredis4</text>
+<text x="49.6 66.4 74.8 83.2 91.6 100.0 108.4 116.8 133.6 142.0 158.8" y="389" fill="#949494">3squaredis9</text>
+<text x="49.6 66.4 74.8 83.2 91.6 100.0 108.4 116.8 133.6 142.0 158.8 167.2" y="407" fill="#949494">4squaredis16</text>
+<text x="49.6 66.4 74.8 83.2 91.6 100.0 108.4 116.8 133.6 142.0 158.8 167.2" y="425" fill="#949494">5squaredis25</text>
+<text x="49.6 66.4 74.8 91.6 100.0 108.4 116.8 125.2 142.0 150.4 158.8 167.2 175.6 184.0 200.8 209.2 226.0 234.4 242.8 251.2 259.6 268.0 276.4" y="443" fill="#949494">…+7lines(clicktoexpand)</text>
+</svg>

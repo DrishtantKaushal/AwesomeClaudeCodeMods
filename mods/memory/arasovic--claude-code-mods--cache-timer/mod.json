@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "arasovic/claude-code-mods:cache-timer",
+  "name": "cache-timer",
+  "version": "0.1.0",
+  "description": "Counts down to when the prompt cache expires, so you can send the next message before the whole conversation has to be cached again",
+  "author": "Mehmet Aras",
+  "repository": "arasovic/claude-code-mods",
+  "modPath": "cache-timer",
+  "category": {
+    "id": "memory",
+    "label": "Memory & context",
+    "basis": "exact-catalogue-repository-and-mod-path"
+  },
+  "sourceCommit": "1df1cad9661fd001b749c6a5a1821c2914d01469",
+  "sourcePath": "sources/arasovic/claude-code-mods/source/cache-timer",
+  "sourceManifest": "sources/arasovic/claude-code-mods/source/cache-timer/.claude-plugin/plugin.json",
+  "page": "mods/memory/arasovic--claude-code-mods--cache-timer/",
+  "runtimeTested": false
+}

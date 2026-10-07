@@ -1,0 +1,9 @@
+{
+  "name": "recording-mode",
+  "version": "1.0.0",
+  "description": "/rec before you record: masks keys, personal details, and business figures on screen and keeps private files closed (/rec strict, /rec off, /rec config)",
+  "author": {
+    "name": "Nate Herk"
+  },
+  "license": "MIT"
+}

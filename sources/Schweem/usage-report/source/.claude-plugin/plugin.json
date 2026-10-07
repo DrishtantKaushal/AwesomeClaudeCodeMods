@@ -1,0 +1,17 @@
+{
+  "name": "usage-report",
+  "version": "0.2.0",
+  "repository": "https://github.com/Schweem/usage-report",
+  "description": "Shows context fill, 5-hour and weekly quota, and session cost on the status line under the prompt, with warnings near your limits.",
+  "author": { "name": "Schweem" },
+  "license": "MIT",
+  "types": "./types/index.d.ts",
+  "userConfig": {
+    "showContext": { "type": "boolean", "title": "Show context", "description": "Show how full the conversation's context window is.", "default": true },
+    "showFiveHour": { "type": "boolean", "title": "Show 5h usage", "description": "Show the 5-hour rate-limit window.", "default": true },
+    "showWeek": { "type": "boolean", "title": "Show weekly usage", "description": "Show the 7-day rate-limit window.", "default": true },
+    "showCost": { "type": "boolean", "title": "Show cost", "description": "Show this session's cost in US dollars.", "default": true },
+    "style": { "type": "string", "title": "Style", "description": "full shows token counts and reset times; compact is short for narrow terminals.", "options": ["full", "compact"], "default": "full" },
+    "warnings": { "type": "boolean", "title": "Limit warnings", "description": "Toast when the 5h or weekly window passes 80% and 95%.", "default": true }
+  }
+}

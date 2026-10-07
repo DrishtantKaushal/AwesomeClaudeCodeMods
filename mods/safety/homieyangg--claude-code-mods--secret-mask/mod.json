@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "homieyangg/claude-code-mods:secret-mask",
+  "name": "secret-mask",
+  "version": "0.1.0",
+  "description": "Mask token-like strings in tool output before they reach the conversation",
+  "author": "Gary",
+  "repository": "homieyangg/claude-code-mods",
+  "modPath": "secret-mask",
+  "category": {
+    "id": "safety",
+    "label": "Safety & permissions",
+    "basis": "individual-pinned-manifest-and-source-review"
+  },
+  "sourceCommit": "3c7b24720bcc831165502d73d1631b6fb197bbcf",
+  "sourcePath": "sources/homieyangg/claude-code-mods/source/secret-mask",
+  "sourceManifest": "sources/homieyangg/claude-code-mods/source/secret-mask/.claude-plugin/plugin.json",
+  "page": "mods/safety/homieyangg--claude-code-mods--secret-mask/",
+  "runtimeTested": false
+}

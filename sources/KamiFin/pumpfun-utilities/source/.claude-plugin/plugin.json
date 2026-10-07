@@ -1,0 +1,76 @@
+{
+  "name": "pumpfun-utilities",
+  "version": "0.1.0",
+  "description": "Your open pump.fun positions in a pane while Claude works, and a markdown trade journal that fills itself. Read-only, no keys, no trading",
+  "author": {
+    "name": "KamiFin",
+    "url": "https://github.com/KamiFin"
+  },
+  "homepage": "https://github.com/KamiFin/pumpfun-utilities",
+  "repository": "https://github.com/KamiFin/pumpfun-utilities",
+  "license": "MIT",
+  "keywords": [
+    "pump.fun",
+    "solana",
+    "trading",
+    "journal",
+    "positions"
+  ],
+  "types": "./types/index.d.ts",
+  "userConfig": {
+    "wallet": {
+      "type": "string",
+      "title": "Wallet address",
+      "description": "Your main pump.fun wallet address (public, read-only: nothing here can sign or send). Leave empty to use demo mode"
+    },
+    "demo": {
+      "type": "boolean",
+      "title": "Demo mode",
+      "description": "Show made-up positions in the pane: no wallet needed, no network call. For a first look or a screenshot",
+      "default": false
+    },
+    "mainLabel": {
+      "type": "string",
+      "title": "Name of the main wallet",
+      "description": "Shown in the Wallet column for the main wallet, for example your pump.fun username",
+      "default": "main"
+    },
+    "extraWallets": {
+      "type": "string",
+      "title": "Extra wallets (optional)",
+      "description": "Other wallets as label=address,label=address",
+      "default": ""
+    },
+    "journalDir": {
+      "type": "string",
+      "title": "Journal folder (optional)",
+      "description": "Where the markdown journal is written. Empty means ~/pumpfun-journal",
+      "default": ""
+    },
+    "heliusKey": {
+      "type": "string",
+      "title": "Helius API key (optional)",
+      "description": "Only for the rewards section of /journal. Stored in secure storage",
+      "sensitive": true,
+      "default": ""
+    },
+    "refreshSeconds": {
+      "type": "number",
+      "title": "Refresh every (seconds)",
+      "description": "How often the open pane re-reads the positions. Below about 20 the public pump.fun API starts answering 429",
+      "default": 30
+    },
+    "minSeconds": {
+      "type": "number",
+      "title": "Open pane after (seconds)",
+      "description": "The pane opens by itself when a turn runs longer than this",
+      "default": 10
+    },
+    "minUsd": {
+      "type": "number",
+      "title": "Dust floor (USD)",
+      "description": "Positions worth less than this are hidden",
+      "default": 2
+    }
+  }
+}

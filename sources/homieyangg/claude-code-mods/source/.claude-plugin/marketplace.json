@@ -1,0 +1,22 @@
+{
+  "name": "claude-code-mods",
+  "description": "Claude Code mods: plan-bar, leftovers, secret-mask",
+  "owner": { "name": "homieyangg" },
+  "plugins": [
+    {
+      "name": "plan-bar",
+      "source": "./plan-bar",
+      "description": "Live progress bars above the prompt for multi-step work"
+    },
+    {
+      "name": "leftovers",
+      "source": "./leftovers",
+      "description": "Keeps a ledger of what Claude left running or lying around on your machine and servers"
+    },
+    {
+      "name": "secret-mask",
+      "source": "./secret-mask",
+      "description": "Mask token-like strings in tool output before they reach the conversation"
+    }
+  ]
+}

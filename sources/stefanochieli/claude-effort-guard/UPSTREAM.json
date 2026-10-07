@@ -1,0 +1,175 @@
+{
+  "schemaVersion": 1,
+  "repository": "stefanochieli/claude-effort-guard",
+  "upstream": "https://github.com/stefanochieli/claude-effort-guard",
+  "commit": "fcf98fea2b24c1d1483cff947b3d40cc031bfa4c",
+  "treeSha": "e3cbc30254b1c913587c5dfc0290dda8703f80dc",
+  "importedAt": "2026-10-07",
+  "scope": "Complete tracked source tree at the pinned commit, unmodified.",
+  "verification": "Every file and executable/symlink mode matches the upstream Git tree; staged tree identity is checked before publication.",
+  "runtimeTested": false,
+  "componentLicenses": [
+    {
+      "license": "MIT",
+      "scope": "Source snapshot with original and separately credited component notices retained."
+    }
+  ],
+  "licenseFiles": [
+    {
+      "path": "LICENSE",
+      "sha256": "de21e2db5d8f33e6f8a6fa735cfdd11158de06741edc758cd96f978d51fdbd21"
+    }
+  ],
+  "additionalNotices": [],
+  "mods": [
+    {
+      "name": "effort-guard",
+      "version": "0.1.1",
+      "manifest_path": ".claude-plugin/plugin.json",
+      "path": ".",
+      "author": {
+        "name": "Stefano Chieli"
+      },
+      "description": "Claude Code mod: context/token band, escalation signals and per-turn effort log."
+    }
+  ],
+  "fileCount": 18,
+  "sourceBytes": 14848,
+  "files": [
+    {
+      "path": ".claude-plugin/marketplace.json",
+      "gitBlobSha1": "a8e05d691de04ae578f14a2bd32a0a8245bbb906",
+      "sha256": "8244062080aadefbcccb15b8147466ad0919910a4c4c78b8e3ed4863e24ce435",
+      "bytes": 362,
+      "mode": "100644"
+    },
+    {
+      "path": ".claude-plugin/plugin.json",
+      "gitBlobSha1": "8928ec82a78575b4be8ebc47bfdac850502fc677",
+      "sha256": "7923f677a291b8ea60b3f5a7cb7176b743a96a1a279a8fb8a4db796c1f3079e7",
+      "bytes": 233,
+      "mode": "100644"
+    },
+    {
+      "path": ".github/dependabot.yml",
+      "gitBlobSha1": "ded19e6b5b0d540969d8aade7700b513d361b340",
+      "sha256": "7131034444aae81200cba9e5de3f1f4c9131676c099b87002329fb565fe8c7eb",
+      "bytes": 160,
+      "mode": "100644"
+    },
+    {
+      "path": ".github/protect-main.json",
+      "gitBlobSha1": "3d8c85fa3fa72445bee3103d0e3f3ddaac07b7cc",
+      "sha256": "93dc03cf2fa25709f30d460aa9b5b1c7947ce8c0b5accbfe43e45f00c4105355",
+      "bytes": 1336,
+      "mode": "100644"
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "gitBlobSha1": "20c2b5f9dc967009112f2c0a42ef6839fe82a2a4",
+      "sha256": "9f45e7101e3b38cefa40b1e0db28d6d71b47b449fc76e0e70ada93933844cd2f",
+      "bytes": 771,
+      "mode": "100644"
+    },
+    {
+      "path": ".github/workflows/dependabot-automerge.yml",
+      "gitBlobSha1": "c8c6619de9956bedfe73e95571da27214d0981e5",
+      "sha256": "aed3b7460c373119162f4b2a94735a1bd78023db4422d3c9143b3a5c2727257e",
+      "bytes": 668,
+      "mode": "100644"
+    },
+    {
+      "path": ".github/workflows/pr-title.yml",
+      "gitBlobSha1": "855e2b52d7375c19800f0519a60c2f6f3892dc7f",
+      "sha256": "4f39c2729a4d7e7588d4b9de04cc310ac7bf4a8823834d23a0bdb0ca205bd768",
+      "bytes": 291,
+      "mode": "100644"
+    },
+    {
+      "path": ".github/workflows/release-please.yml",
+      "gitBlobSha1": "ba76d8460c5a3ecf5659f4378089d729eba2a18b",
+      "sha256": "62a65b548572c17c20611020bf6e01be9107dcabf8d76b2216fc3eb99001ecfd",
+      "bytes": 332,
+      "mode": "100644"
+    },
+    {
+      "path": ".gitignore",
+      "gitBlobSha1": "aafcb345668bd80cbb256b066898d4df8988da0e",
+      "sha256": "8ffe9de56bd30c1a95cd945262d6e3ac355ada4111551dde41f67851b9f1fc55",
+      "bytes": 30,
+      "mode": "100644"
+    },
+    {
+      "path": ".release-please-manifest.json",
+      "gitBlobSha1": "f1cf1e59700346f2670e0c9eee317fd956711ca8",
+      "sha256": "f974f3b63091a0a3a51e2de7a7595504854fb36c59a637ba7794077721e2b443",
+      "bytes": 14,
+      "mode": "100644"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "gitBlobSha1": "c6efb5b8ae54c27583a7a32ea6be169425bca6dd",
+      "sha256": "aba088d83bbc6621c85cb810d9bd93650007b513547020b233a244773544bdd8",
+      "bytes": 552,
+      "mode": "100644"
+    },
+    {
+      "path": "LICENSE",
+      "gitBlobSha1": "c12fdc30f8e7e77e63f47c5013dab66038fe4c21",
+      "sha256": "de21e2db5d8f33e6f8a6fa735cfdd11158de06741edc758cd96f978d51fdbd21",
+      "bytes": 1071,
+      "mode": "100644"
+    },
+    {
+      "path": "README.md",
+      "gitBlobSha1": "4f0bd7c6352c04957c69e91d4391d94072a7cb47",
+      "sha256": "6cba50c5f9a2e590ec6a190611b7c4bc7e6eed4415c55c63afb26588bf4be4e1",
+      "bytes": 1577,
+      "mode": "100644"
+    },
+    {
+      "path": "hooks/hooks.json",
+      "gitBlobSha1": "1195c93cf45d26a93bec03a94272e48d06757455",
+      "sha256": "8f05eef19e91bedb1bb153abe78d48653157bcb552338f146fb2ee7d299228ae",
+      "bytes": 32,
+      "mode": "100644"
+    },
+    {
+      "path": "hooks/module.mjs",
+      "gitBlobSha1": "f6e20a345ac9b53b13f6bc384e1d78b7bd183fc7",
+      "sha256": "f88cfb9c70c6ce0a3161cc6a1867207bf555d165bd3db0675bbce1544a4453f2",
+      "bytes": 4344,
+      "mode": "100644"
+    },
+    {
+      "path": "release-please-config.json",
+      "gitBlobSha1": "d40e93c5b03ecc9133de83b9123837565d863341",
+      "sha256": "610f8a3c66a9d66c63391fec2d09464cbc94992697efd380af3904fd0846b1cd",
+      "bytes": 440,
+      "mode": "100644"
+    },
+    {
+      "path": "tests/smoke.test.ts",
+      "gitBlobSha1": "df9ebe2dbfaae06ad2aba0f1b466c8507e133e4a",
+      "sha256": "ef6adc75f5d4451c6f1e8eea8baffb9552b1cee26d18c566faac194dece7ce36",
+      "bytes": 2211,
+      "mode": "100644"
+    },
+    {
+      "path": "types/index.d.ts",
+      "gitBlobSha1": "5f402399f8c1dece7aeac1d9924898e67d87c1db",
+      "sha256": "9d6396a7be77078ecf45d867c5054ab13f8292536e1e3811abf12a8bedbb823d",
+      "bytes": 424,
+      "mode": "100644"
+    }
+  ],
+  "discoveredCandidates": [
+    {
+      "id": "stefanochieli/claude-effort-guard:.",
+      "path": ".",
+      "discoveryCommit": "fcf98fea2b24c1d1483cff947b3d40cc031bfa4c",
+      "discoveryLicense": "MIT",
+      "sameRevisionAsImport": true
+    }
+  ]
+}

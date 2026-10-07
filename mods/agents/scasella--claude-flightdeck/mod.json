@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "scasella/claude-flightdeck:.",
+  "name": "flightdeck",
+  "version": "0.3.2",
+  "description": "Flightdeck: a live agent dashboard for Claude Code. Main model vitals, an on-call architect, every permission check, subagent cards and swimlanes, a turn receipt and a session log, all from real session events",
+  "author": "Stephen Casella",
+  "repository": "scasella/claude-flightdeck",
+  "modPath": ".",
+  "category": {
+    "id": "agents",
+    "label": "Agents & orchestration",
+    "basis": "exact-catalogue-repository-and-mod-path"
+  },
+  "sourceCommit": "f31daca523d36c501cd0df23a737a44c7dc56ad6",
+  "sourcePath": "sources/scasella/claude-flightdeck/source",
+  "sourceManifest": "sources/scasella/claude-flightdeck/source/.claude-plugin/plugin.json",
+  "page": "mods/agents/scasella--claude-flightdeck/",
+  "runtimeTested": false
+}

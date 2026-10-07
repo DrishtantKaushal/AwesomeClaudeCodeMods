@@ -1,0 +1,11 @@
+{
+  "name": "prompt-jump",
+  "version": "0.1.0",
+  "description": "A bar above the prompt input with a tick for every prompt of the session; hover to read one, click to jump to it",
+  "author": { "name": "ruanss4" },
+  "homepage": "https://github.com/ruanss4/prompt-jump",
+  "repository": "https://github.com/ruanss4/prompt-jump",
+  "license": "MIT",
+  "keywords": ["navigation", "transcript", "prompts", "mod"],
+  "types": "./types/index.d.ts"
+}

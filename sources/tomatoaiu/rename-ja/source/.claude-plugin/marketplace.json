@@ -1,0 +1,18 @@
+{
+  "name": "tomatoaiu-mods",
+  "description": "tomatoaiu が公開している Claude Code の mod。",
+  "owner": {
+    "name": "tomatoaiu"
+  },
+  "plugins": [
+    {
+      "name": "rename-ja",
+      "description": "引数なしの /rename で、会話内容から日本語のセッション名を生成する。",
+      "source": {
+        "source": "github",
+        "repo": "tomatoaiu/rename-ja",
+        "ref": "stable"
+      }
+    }
+  ]
+}

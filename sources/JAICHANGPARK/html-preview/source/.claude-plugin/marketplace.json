@@ -1,0 +1,18 @@
+{
+  "name": "html-preview",
+  "owner": {
+    "name": "JAICHANGPARK"
+  },
+  "metadata": {
+    "description": "Preview HTML Claude writes, like a browser, inside Claude Code"
+  },
+  "plugins": [
+    {
+      "name": "html-preview",
+      "source": "./",
+      "description": "Shows HTML files Claude writes (or /preview <file>) like a browser: terminal-browser when installed, else a built-in Chrome-rendered pane",
+      "license": "MIT",
+      "version": "0.3.1"
+    }
+  ]
+}

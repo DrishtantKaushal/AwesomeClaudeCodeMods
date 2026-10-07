@@ -1,0 +1,9 @@
+{
+  "name": "goal-meter",
+  "version": "1.0.0",
+  "description": "A progress bar for /goal built from Claude's own task plan: tasks done out of the plan, elapsed time, an ETA at the goal's own pace, and every chat's goal in /goals",
+  "author": {
+    "name": "Nate Herk"
+  },
+  "license": "MIT"
+}

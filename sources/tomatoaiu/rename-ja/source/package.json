@@ -1,0 +1,14 @@
+{
+  "name": "rename-ja",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "check": "node --test",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=24"
+  }
+}

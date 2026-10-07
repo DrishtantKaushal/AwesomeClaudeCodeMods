@@ -1,0 +1,56 @@
+{
+  "name": "html-preview",
+  "version": "0.3.1",
+  "description": "Shows HTML files Claude writes (or /preview <file>) like a browser: terminal-browser when installed, else a built-in Chrome-rendered pane",
+  "author": {
+    "name": "JAICHANGPARK"
+  },
+  "license": "MIT",
+  "keywords": [
+    "html",
+    "preview",
+    "terminal-browser",
+    "function-hooks"
+  ],
+  "userConfig": {
+    "mode": {
+      "type": "string",
+      "title": "Where to show the page",
+      "description": "auto: terminal-browser plugin pane, else terminal-browser CLI split, else the built-in renderer; pane / split: terminal-browser only; builtin: headless Chrome screenshot in a Claude Code pane, no terminal-browser needed",
+      "default": "auto",
+      "options": [
+        "auto",
+        "pane",
+        "split",
+        "builtin"
+      ]
+    },
+    "split": {
+      "type": "string",
+      "title": "Split direction",
+      "description": "Direction for the CLI split (mode split, or auto without the plugin)",
+      "default": "right",
+      "options": [
+        "right",
+        "left",
+        "down",
+        "up"
+      ]
+    },
+    "autoOpen": {
+      "type": "boolean",
+      "title": "Auto-open written HTML",
+      "description": "Preview each .html file the Write or Edit tool saves",
+      "default": true
+    },
+    "chromePath": {
+      "type": "string",
+      "title": "Chrome path",
+      "description": "Chrome/Chromium binary for the built-in renderer; empty finds one",
+      "default": ""
+    }
+  },
+  "homepage": "https://github.com/JAICHANGPARK/html-preview",
+  "repository": "https://github.com/JAICHANGPARK/html-preview",
+  "types": "./types/index.d.ts"
+}

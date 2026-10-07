@@ -1,0 +1,25 @@
+{
+  "name": "cold-cache-guard",
+  "version": "0.1.0",
+  "description": "Asks what to do before Claude Code re-sends a large conversation whose prompt cache has expired: on a cold resume, and on the first prompt after an idle spell.",
+  "author": { "name": "Mediavee" },
+  "homepage": "https://github.com/mediavee/cold-cache-guard",
+  "license": "MIT",
+  "types": "./types/index.d.ts",
+  "userConfig": {
+    "ttlMinutes": {
+      "type": "number",
+      "title": "Prompt cache lifetime (minutes)",
+      "description": "How long an idle conversation stays cached: 60 on a Claude subscription, 5 on an API key, a cloud provider or usage credits unless promptCacheTtl says otherwise. Resumes use Claude Code's own estimate instead.",
+      "required": false,
+      "default": 60
+    },
+    "minTokens": {
+      "type": "number",
+      "title": "Smallest context to ask about",
+      "description": "Conversations below this many tokens are re-sent without asking.",
+      "required": false,
+      "default": 30000
+    }
+  }
+}

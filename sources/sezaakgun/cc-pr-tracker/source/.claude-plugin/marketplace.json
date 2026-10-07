@@ -1,0 +1,15 @@
+{
+  "name": "cc-pr-tracker",
+  "owner": { "name": "Seza Akgün" },
+  "metadata": { "description": "cc-pr-tracker: GitHub PR status and alerts inside Claude Code" },
+  "plugins": [
+    {
+      "name": "cc-pr-tracker",
+      "source": "./",
+      "description": "Watch GitHub PRs from a Claude Code session: merge state, review and required checks above the prompt, with alerts when they change",
+      "homepage": "https://github.com/sezaakgun/cc-pr-tracker",
+      "repository": "https://github.com/sezaakgun/cc-pr-tracker",
+      "license": "MIT"
+    }
+  ]
+}

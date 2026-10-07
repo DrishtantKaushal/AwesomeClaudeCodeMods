@@ -1,0 +1,413 @@
+{
+  "schemaVersion": 1,
+  "repository": "sezaakgun/cc-arcade",
+  "upstream": "https://github.com/sezaakgun/cc-arcade",
+  "commit": "0baff06d31295850283c2eebe052f39bbc35473f",
+  "treeSha": "41caa30e9d046df24bdbeaafae09869b6634e448",
+  "importedAt": "2026-10-07",
+  "scope": "Complete tracked source tree at the pinned commit, unmodified.",
+  "verification": "Every file and executable/symlink mode matches the upstream Git tree; staged tree identity is checked before publication.",
+  "runtimeTested": false,
+  "componentLicenses": [
+    {
+      "license": "MIT",
+      "scope": "Source snapshot with original and separately credited component notices retained."
+    }
+  ],
+  "licenseFiles": [
+    {
+      "path": "LICENSE",
+      "sha256": "1593c6d2e7d21a7869b3943d958289852f06d70dc78304b68cae6ca5b16e9c06"
+    }
+  ],
+  "additionalNotices": [],
+  "mods": [
+    {
+      "name": "cc-arcade",
+      "version": "0.2.0",
+      "manifest_path": ".claude-plugin/plugin.json",
+      "path": ".",
+      "author": {
+        "name": "Seza Akg\u00fcn"
+      },
+      "description": "Games above the Claude Code prompt (snake, Tetris, 2048, Minesweeper, Flappy, Pong, typing test, Space Invaders, Doom) plus a pet that grows as Claude tests, commits and edits. Clones of the genre, not affiliated with or endorsed by Tetris Holding, Taito, Atari or id Software. Needs function hooks (early access) and an interactive terminal."
+    }
+  ],
+  "fileCount": 52,
+  "sourceBytes": 1134858,
+  "files": [
+    {
+      "path": ".claude-plugin/marketplace.json",
+      "gitBlobSha1": "2130ce86826a4114822e4571cecd58bac99ba5b7",
+      "sha256": "82366910f39c5955f4ccd79424532d58e14dfb0a7d6867a8dee0b6cff4c32e05",
+      "bytes": 708,
+      "mode": "100644"
+    },
+    {
+      "path": ".claude-plugin/plugin.json",
+      "gitBlobSha1": "2a773412f2d34440597000717484be6aab8e3da9",
+      "sha256": "541cecf6853aa1fd1e66d894e7fbff159098f0fd7ceb1ca74ee3a68f3d40e2bb",
+      "bytes": 713,
+      "mode": "100644"
+    },
+    {
+      "path": ".claude/settings.json",
+      "gitBlobSha1": "1dc33a150707652d299423f424f1b150dd96b2e7",
+      "sha256": "5f13cf4271d83a3ea4e9bb83b607341b7f5bc645fd76aebb51e3329f8d393dbb",
+      "bytes": 64,
+      "mode": "100644"
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "gitBlobSha1": "4a81a36d9080348b134a31313cd9061eeed0cd35",
+      "sha256": "05b78d259c4a1d79f1c17ea533b8011f1e5514e8cef20f9fea579010af8fb7fb",
+      "bytes": 825,
+      "mode": "100644"
+    },
+    {
+      "path": ".gitignore",
+      "gitBlobSha1": "403645160823010f8009a49c15942c500a6c389d",
+      "sha256": "345dfb3f1ebe042b26a0da90ffde81fcdc7a5067221b2080f8b53535ec18c15d",
+      "bytes": 138,
+      "mode": "100644"
+    },
+    {
+      "path": "LICENSE",
+      "gitBlobSha1": "5bf75c0635949749dbb963dc13bc4d57e95a23be",
+      "sha256": "1593c6d2e7d21a7869b3943d958289852f06d70dc78304b68cae6ca5b16e9c06",
+      "bytes": 1068,
+      "mode": "100644"
+    },
+    {
+      "path": "README.md",
+      "gitBlobSha1": "0c38e16e45123653b90370297365b7acb2f4cf82",
+      "sha256": "0d70e2097367bdc3125e3410172354d870828e5ee6d10c6e47d7f60516780513",
+      "bytes": 16262,
+      "mode": "100644"
+    },
+    {
+      "path": "docs/demo.gif",
+      "gitBlobSha1": "f27a7d703efb0a21a32c69f83696bcb8d3c0409d",
+      "sha256": "bd9b448dbfa2aa6c312beacf89af79d3bf8093c8ddfc9459b48d79a6ce2caefd",
+      "bytes": 116600,
+      "mode": "100644"
+    },
+    {
+      "path": "docs/doom.gif",
+      "gitBlobSha1": "e3c3c04ad0157b29d5d292c152fcc8454d5c5046",
+      "sha256": "3a7df2e9f57061bbf012a3bfd9faa7a2719ada48e45183eaf0adb1f5a0bfbf7f",
+      "bytes": 393926,
+      "mode": "100644"
+    },
+    {
+      "path": "docs/screenshots/2048.png",
+      "gitBlobSha1": "0953c3be294d15cdfd190ecb6972082d4ce8666e",
+      "sha256": "eac4823eecd2bbabe13e32b0b37c72d3fcdfb1f41b245a19237357ec72c6aa6e",
+      "bytes": 44836,
+      "mode": "100644"
+    },
+    {
+      "path": "docs/screenshots/doom-exit.png",
+      "gitBlobSha1": "96f3a8fb3f41364844f6173836e548b5d20b79fd",
+      "sha256": "3d176e2fb023993621ae5f778d283f11f699b6270a7e766ad4ab1393d4224c82",
+      "bytes": 6976,
+      "mode": "100644"
+    },
+    {
+      "path": "docs/screenshots/flappy.png",
+      "gitBlobSha1": "daebf8528c86d9e0a4c24325199b1f0be6c63f2c",
+      "sha256": "626a342ea1a436d48ce93c8938ea0d1e688f3f041086ab11b017777f64bfe2c6",
+      "bytes": 40861,
+      "mode": "100644"
+    },
+    {
+      "path": "docs/screenshots/invaders.png",
+      "gitBlobSha1": "9fbe0508903b15da5528927edc649ed5e0615e39",
+      "sha256": "66b458d1ae06e5a2c951e4281f120902b8d771bb15d9d63055f6d55155b0767f",
+      "bytes": 42829,
+      "mode": "100644"
+    },
+    {
+      "path": "docs/screenshots/minesweeper.png",
+      "gitBlobSha1": "37910a42d8b8e618208e8804c1015d1f319849ab",
+      "sha256": "4b8a8ffca05cdcb68c10194d37708aaeee881934547ada691f9a966e5d2396d2",
+      "bytes": 44502,
+      "mode": "100644"
+    },
+    {
+      "path": "docs/screenshots/pet.png",
+      "gitBlobSha1": "221ffe007a2f2c37c386eecb05d8fe336620b34d",
+      "sha256": "d981ee10a38a1bf10b5790199b3da10ae57fdeb24cf647cce674551799e89692",
+      "bytes": 52617,
+      "mode": "100644"
+    },
+    {
+      "path": "docs/screenshots/picker.png",
+      "gitBlobSha1": "c4ef88cd5f80dcec7cbbc386c52841599cda3293",
+      "sha256": "35eb6b5b24a4d5282d82a75fd68666a14af87269b25e340b943b0ac6a3d88e1d",
+      "bytes": 43326,
+      "mode": "100644"
+    },
+    {
+      "path": "docs/screenshots/pong.png",
+      "gitBlobSha1": "ba7ab2c5de5733ff71c33d29dd6c9309c80a4438",
+      "sha256": "7d5a56f0b320a58017a7771661090559dc07af09af1155ac4e24cb8fd39b73bf",
+      "bytes": 41758,
+      "mode": "100644"
+    },
+    {
+      "path": "docs/screenshots/snake.png",
+      "gitBlobSha1": "d69feadff4170eb4fbe797394b1dd41647d2b6ca",
+      "sha256": "5649079c4faee3232caa0704f7c8a3c1a7d0f30dc1e7644e75b1cdbf04763bdb",
+      "bytes": 40581,
+      "mode": "100644"
+    },
+    {
+      "path": "docs/screenshots/tetris.png",
+      "gitBlobSha1": "16a3249ada1aeec618a500f8374dd9f5227b45e2",
+      "sha256": "c61c7f02615a67cc095a75ddf1ea4bb97994cd0ac0ba3b32056d9791fc833618",
+      "bytes": 41572,
+      "mode": "100644"
+    },
+    {
+      "path": "docs/screenshots/typing.png",
+      "gitBlobSha1": "f1acd2a21f347a85755a5bce98a06a8495e04fb3",
+      "sha256": "14df3a43132ec6bc122cd2d6c24a38bcc2792ba237c14d8198f8d46cfaee24ca",
+      "bytes": 47691,
+      "mode": "100644"
+    },
+    {
+      "path": "hooks/boards/common.tsx",
+      "gitBlobSha1": "cb51d574184787be0d45776a2e961d1adaeea650",
+      "sha256": "e6c4cd6a99817a4cf0e4da3c92ccad34adccbe8fb8d20c323373275645db954e",
+      "bytes": 2808,
+      "mode": "100644"
+    },
+    {
+      "path": "hooks/boards/doom.tsx",
+      "gitBlobSha1": "7a6457005a59bf774d152805ed09bab743bf68d2",
+      "sha256": "fdbe3133fa3da8aa684bdc9c5d67815842654caf44a589e4e2ca38eecb0a6462",
+      "bytes": 17823,
+      "mode": "100644"
+    },
+    {
+      "path": "hooks/boards/flappy.tsx",
+      "gitBlobSha1": "8cbd3a685c7c4ed9057e3d9bae0cf19edb9441af",
+      "sha256": "840491b987f9780ebc328632712dc871d52859234c2f28dcac1499b90a81b725",
+      "bytes": 3002,
+      "mode": "100644"
+    },
+    {
+      "path": "hooks/boards/invaders.tsx",
+      "gitBlobSha1": "836383de575f8e325ae179835d9550124ebf708a",
+      "sha256": "dd462f8cf39989779bc8f27b45f87606fc8bf5be456454fcd01119cd23e00d6d",
+      "bytes": 3891,
+      "mode": "100644"
+    },
+    {
+      "path": "hooks/boards/minesweeper.tsx",
+      "gitBlobSha1": "e960596301b5a97bb603b17ba48b7ce22d4fc40b",
+      "sha256": "5cebcbbf2926228205820d04dcdaf1e88f8277932d5ce535175da2ab7fe6a4ea",
+      "bytes": 4775,
+      "mode": "100644"
+    },
+    {
+      "path": "hooks/boards/pet.tsx",
+      "gitBlobSha1": "8d7189739e0eee6599a44d8512760e1fd8837e23",
+      "sha256": "2899809fd29d109b64004eacf48df1b63b6f4c08cba79c2f023feaac91f4eab1",
+      "bytes": 3456,
+      "mode": "100644"
+    },
+    {
+      "path": "hooks/boards/pong.tsx",
+      "gitBlobSha1": "3f5deedd101b01c293780f8068536b981e3e1d16",
+      "sha256": "9011a52c87c3180e19ee72bc24ee01e5eb33cc4189b568b41b03fa9d6e60f1b0",
+      "bytes": 3694,
+      "mode": "100644"
+    },
+    {
+      "path": "hooks/boards/snake.tsx",
+      "gitBlobSha1": "ca373831ff1a41b7c9f4685a85d627a92c637678",
+      "sha256": "fbe6791b780abf23b187ce68825d1eca10fd6b8a5483d1ed705dda22b0408122",
+      "bytes": 2604,
+      "mode": "100644"
+    },
+    {
+      "path": "hooks/boards/tetris.tsx",
+      "gitBlobSha1": "00fceaec4e941bbfd5e2399c34d0c46cc8ccf6a9",
+      "sha256": "f93aad7c6aa60d2e7efd84ce4c98ac3d43e205745f2b4ad97036a5457ad914b2",
+      "bytes": 3244,
+      "mode": "100644"
+    },
+    {
+      "path": "hooks/boards/twenty48.tsx",
+      "gitBlobSha1": "c30a5ef0c4254d18ed293d2478d346f465b2541e",
+      "sha256": "36f80a220d72937e363b3f8062f5fade562f2feae7ac0476bef32b556003cf87",
+      "bytes": 2389,
+      "mode": "100644"
+    },
+    {
+      "path": "hooks/boards/typing.tsx",
+      "gitBlobSha1": "65cbd9f5cbf5ebd8433f9a8919e002e09e981a23",
+      "sha256": "52b468279c976ae7d4836311ceacc701917f48042e2e6431e63347e250c7d487",
+      "bytes": 3114,
+      "mode": "100644"
+    },
+    {
+      "path": "hooks/games/auto.ts",
+      "gitBlobSha1": "93876c0de23f80215c300149cadd9f43a3d91098",
+      "sha256": "8ede29c7588f7647c7088d630db5daa10f2189dc23e3928394f6e2e7dd5ec0a7",
+      "bytes": 1701,
+      "mode": "100644"
+    },
+    {
+      "path": "hooks/games/best.ts",
+      "gitBlobSha1": "44085b5f98df01a8a1c4ec5da70ecb69e4b635a2",
+      "sha256": "1b45fcd0e415d08dc2cd16b1fabfbf91413cd92a5fbe9eb44313c18a9b361675",
+      "bytes": 591,
+      "mode": "100644"
+    },
+    {
+      "path": "hooks/games/doom.ts",
+      "gitBlobSha1": "c9418e781dbf9b8987ff6bd06224714019c77260",
+      "sha256": "9d5609f5183c50937ed2f350b607b60020a0f39ddb10e096a730b0f452fbb7e3",
+      "bytes": 20383,
+      "mode": "100644"
+    },
+    {
+      "path": "hooks/games/flappy.ts",
+      "gitBlobSha1": "c609966ad5ed65fd968810f4c7d412142f931c2c",
+      "sha256": "b276dbdea76c9a687d8598ec45fd0cf934adc65b47523089e44fe8d313152c54",
+      "bytes": 2042,
+      "mode": "100644"
+    },
+    {
+      "path": "hooks/games/invaders.ts",
+      "gitBlobSha1": "d5a48160ea91912a29276d2b5938f1b034435df1",
+      "sha256": "04d10061836e6d1c9c36ed95f790ef4feafdb4335622b8de2d796f004c9b8ded",
+      "bytes": 3660,
+      "mode": "100644"
+    },
+    {
+      "path": "hooks/games/mines.ts",
+      "gitBlobSha1": "c6b389a54a7132fd013fc18d0e60ccf279e17c14",
+      "sha256": "89e9b25db9d385ee823874ebca784a3933197c62e2cb20b53fa9d07c76858cac",
+      "bytes": 2724,
+      "mode": "100644"
+    },
+    {
+      "path": "hooks/games/pet.ts",
+      "gitBlobSha1": "74b852602fae42d7b7dc843d9be1832c99063277",
+      "sha256": "11f5632a26941616053ac53e75ef30ecd0aa936f8d11f566ef884799290346b3",
+      "bytes": 3006,
+      "mode": "100644"
+    },
+    {
+      "path": "hooks/games/pong.ts",
+      "gitBlobSha1": "b0e5ba18f294e807558f5b780f4abfee8ace2bd6",
+      "sha256": "b83f139b627cbc51820d0f4e9c88f20ad0d0c722a8a4a96379e64ccf509ac23f",
+      "bytes": 2887,
+      "mode": "100644"
+    },
+    {
+      "path": "hooks/games/snake.ts",
+      "gitBlobSha1": "d02de05ed78f57d97dc9d5fcd1135a1d0c9b531c",
+      "sha256": "6eb08a6accfd5701afb76e1e060be04121df7819239e4e1d5ea96a21fca567cf",
+      "bytes": 2430,
+      "mode": "100644"
+    },
+    {
+      "path": "hooks/games/tetris.ts",
+      "gitBlobSha1": "3c797b6c1a23391408b30cff6b4b4111e29d3712",
+      "sha256": "076ecaa832dce93c37bbb2399686c6eb09c80aaf1024d9b23fb55aa2e5f30e63",
+      "bytes": 4111,
+      "mode": "100644"
+    },
+    {
+      "path": "hooks/games/twenty48.ts",
+      "gitBlobSha1": "bee495e6e3eaf502b66ec1f475675f7ceda0bd1b",
+      "sha256": "c4a59e24b72fbde7a56fd656998ef88d2a830b45ff2da77d4faff5113807d1ec",
+      "bytes": 2491,
+      "mode": "100644"
+    },
+    {
+      "path": "hooks/games/typing.ts",
+      "gitBlobSha1": "0ef32b92fa216bbfe0301a4dd6322247e0788592",
+      "sha256": "469100a1b7a51acdba197afaed26310a3d960541ccab93e2d0a00b4b71b1c4c5",
+      "bytes": 2167,
+      "mode": "100644"
+    },
+    {
+      "path": "hooks/hooks.json",
+      "gitBlobSha1": "68ab8826e062a71e10fbf8eee55994d16190e3d6",
+      "sha256": "6149c73fc0c6c43c2e09c790656030f804269aa60d89ec6d86b5bbe991de9130",
+      "bytes": 188,
+      "mode": "100644"
+    },
+    {
+      "path": "hooks/register.tsx",
+      "gitBlobSha1": "71072dcc383e1aea5904d02c7c5aee9e44d3ab13",
+      "sha256": "4cb117711722c8f08d458f5913d289d80b62d1d4a85e5ee8a74a5b8997e665b2",
+      "bytes": 12068,
+      "mode": "100644"
+    },
+    {
+      "path": "tests/auto.test.ts",
+      "gitBlobSha1": "0937b80343e3e4ae8645ece8990239845d95d6be",
+      "sha256": "01659c85b5056ee832caaa2d1229b162670a83a0d58907c8aeb0b7be93298327",
+      "bytes": 1387,
+      "mode": "100644"
+    },
+    {
+      "path": "tests/best.test.ts",
+      "gitBlobSha1": "ec7f1199cf8e1d7d7b4587987aec494b57607c6f",
+      "sha256": "d66f6c635374f3672faf55b154065d21eea99dc35c4a72119d5634eb5a4e5baa",
+      "bytes": 832,
+      "mode": "100644"
+    },
+    {
+      "path": "tests/doom.test.ts",
+      "gitBlobSha1": "3fe548a7041205f0efc9fa6fc9e5620c1fff4d90",
+      "sha256": "e80c89193728e7f819972d91155a4b411f33349445d94e5a7f50aa0074d5c8f9",
+      "bytes": 31073,
+      "mode": "100644"
+    },
+    {
+      "path": "tests/games.test.ts",
+      "gitBlobSha1": "e82c24a1bdf8c9c626b54977bda0464c109f0330",
+      "sha256": "dfcf21f4ee69756072bc6fd30bf422ffb80f706d0d83969c6fed03251398549c",
+      "bytes": 4646,
+      "mode": "100644"
+    },
+    {
+      "path": "tests/invaders-pet.test.ts",
+      "gitBlobSha1": "065332bb1bca654e39dbede065fc29d761ad9979",
+      "sha256": "760704946da7c619227372de591dacd383d421452dcd71741f8d1b3fdbc3a2c1",
+      "bytes": 3678,
+      "mode": "100644"
+    },
+    {
+      "path": "tests/more-games.test.ts",
+      "gitBlobSha1": "ca9762e7d308953607758673881f16cc15239189",
+      "sha256": "d87dcfbf1fe782986f810ba17d0e1a43fd833fa5c41b662b290df3b4d866d8b0",
+      "bytes": 3759,
+      "mode": "100644"
+    },
+    {
+      "path": "tsconfig.json",
+      "gitBlobSha1": "3c9732019e7a0aa40e60633c4d402d169d00f7ab",
+      "sha256": "3fde33f534e2e990acd323708e83507f7d19ef8478fdf381edf55a17bd32ed99",
+      "bytes": 381,
+      "mode": "100644"
+    }
+  ],
+  "discoveredCandidates": [
+    {
+      "id": "sezaakgun/cc-arcade:.",
+      "path": ".",
+      "discoveryCommit": "0baff06d31295850283c2eebe052f39bbc35473f",
+      "discoveryLicense": "MIT",
+      "sameRevisionAsImport": true
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "name": "usage-meter",
+  "description": "Model, context window and rate-limit (5h / 7d) braille meters in a band above the prompt",
+  "author": { "name": "kawase1295", "url": "https://github.com/kawase1295" },
+  "homepage": "https://github.com/kawase1295/usage-meter",
+  "repository": "https://github.com/kawase1295/usage-meter",
+  "license": "MIT",
+  "keywords": ["status", "usage", "context", "rate-limit", "mod"]
+}

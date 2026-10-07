@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "nateherkai/claude-code-mods:cache-keeper",
+  "name": "cache-keeper",
+  "version": "1.0.0",
+  "description": "Keeps a big chat's prompt cache warm, warns before an expensive cold restart, shows every local chat on one board (/board), and hands a chat off to a fresh one (/handoff)",
+  "author": "Nate Herk",
+  "repository": "nateherkai/claude-code-mods",
+  "modPath": "cache-keeper",
+  "category": {
+    "id": "memory",
+    "label": "Memory & context",
+    "basis": "exact-catalogue-repository-and-mod-path"
+  },
+  "sourceCommit": "33a936f2ec6bbfea5a30a1a4d71d992487a5c769",
+  "sourcePath": "sources/nateherkai/claude-code-mods/source/cache-keeper",
+  "sourceManifest": "sources/nateherkai/claude-code-mods/source/cache-keeper/.claude-plugin/plugin.json",
+  "page": "mods/memory/nateherkai--claude-code-mods--cache-keeper/",
+  "runtimeTested": false
+}

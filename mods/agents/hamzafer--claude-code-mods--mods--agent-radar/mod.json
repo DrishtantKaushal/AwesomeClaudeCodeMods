@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "hamzafer/claude-code-mods:mods/agent-radar",
+  "name": "agent-radar",
+  "version": "0.1.2",
+  "description": "One live line above the prompt per running subagent: time, tool count and what it's doing. /radar shows every agent and its messages.",
+  "author": "Hamza Zafar",
+  "repository": "hamzafer/claude-code-mods",
+  "modPath": "mods/agent-radar",
+  "category": {
+    "id": "agents",
+    "label": "Agents & orchestration",
+    "basis": "exact-catalogue-repository-and-mod-path"
+  },
+  "sourceCommit": "fc5130427799f69852055add193161080bd054d6",
+  "sourcePath": "sources/hamzafer/claude-code-mods/source/mods/agent-radar",
+  "sourceManifest": "sources/hamzafer/claude-code-mods/source/mods/agent-radar/.claude-plugin/plugin.json",
+  "page": "mods/agents/hamzafer--claude-code-mods--mods--agent-radar/",
+  "runtimeTested": false
+}

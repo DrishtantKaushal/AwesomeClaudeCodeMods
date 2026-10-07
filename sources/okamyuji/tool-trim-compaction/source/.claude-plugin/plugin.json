@@ -1,0 +1,9 @@
+{
+  "name": "tool-trim-compaction",
+  "description": "compaction で古いツール呼び出しと結果を消し、発言は原文のまま残す。削減が足りなければ標準の要約に回す",
+  "author": {
+    "name": "okamyuji"
+  },
+  "license": "MIT",
+  "repository": "https://github.com/okamyuji/tool-trim-compaction"
+}

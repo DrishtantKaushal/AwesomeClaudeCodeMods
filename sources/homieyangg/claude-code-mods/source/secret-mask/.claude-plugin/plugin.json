@@ -1,0 +1,22 @@
+{
+  "name": "secret-mask",
+  "version": "0.1.0",
+  "description": "Mask token-like strings in tool output before they reach the conversation",
+  "author": {
+    "name": "Gary"
+  },
+  "types": "./types/index.d.ts",
+  "userConfig": {
+    "language": {
+      "type": "string",
+      "title": "Language",
+      "description": "UI language",
+      "options": [
+        "en",
+        "zh-TW",
+        "zh-CN"
+      ],
+      "default": "en"
+    }
+  }
+}

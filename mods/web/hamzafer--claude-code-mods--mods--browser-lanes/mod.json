@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "hamzafer/claude-code-mods:mods/browser-lanes",
+  "name": "browser-lanes",
+  "version": "0.1.2",
+  "description": "Shows if this session has a Playwright browser and who holds it. /browser clean closes leftover browsers. A subagent that wants the browser waits until the one using it is done.",
+  "author": "Hamza Zafar",
+  "repository": "hamzafer/claude-code-mods",
+  "modPath": "mods/browser-lanes",
+  "category": {
+    "id": "web",
+    "label": "Browser & web",
+    "basis": "exact-catalogue-repository-and-mod-path"
+  },
+  "sourceCommit": "fc5130427799f69852055add193161080bd054d6",
+  "sourcePath": "sources/hamzafer/claude-code-mods/source/mods/browser-lanes",
+  "sourceManifest": "sources/hamzafer/claude-code-mods/source/mods/browser-lanes/.claude-plugin/plugin.json",
+  "page": "mods/web/hamzafer--claude-code-mods--mods--browser-lanes/",
+  "runtimeTested": false
+}

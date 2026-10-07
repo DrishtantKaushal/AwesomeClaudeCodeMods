@@ -1,0 +1,19 @@
+{
+  "name": "cc-dino",
+  "owner": {
+    "name": "manfye"
+  },
+  "metadata": {
+    "description": "cc-dino: the offline dinosaur inside Claude Code"
+  },
+  "plugins": [
+    {
+      "name": "cc-dino",
+      "source": "./",
+      "description": "The Chrome offline dinosaur above the Claude Code prompt: jump the cacti and duck the pterodactyls while Claude works. Not affiliated with or endorsed by Google.",
+      "license": "MIT",
+      "homepage": "https://github.com/manfye/cc-dino",
+      "repository": "https://github.com/manfye/cc-dino"
+    }
+  ]
+}

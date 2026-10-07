@@ -1,0 +1,17 @@
+{
+  "name": "zycck-mods",
+  "owner": {
+    "name": "Kirill Serditov",
+    "url": "https://github.com/zycck"
+  },
+  "metadata": {
+    "description": "Claude Code mods by zycck"
+  },
+  "plugins": [
+    {
+      "name": "plan-progress",
+      "source": "./plugins/plan-progress",
+      "description": "Live plan progress bars above the Claude Code prompt with soft sounds"
+    }
+  ]
+}

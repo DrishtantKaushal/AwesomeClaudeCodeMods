@@ -1,0 +1,126 @@
+{
+  "schemaVersion": 1,
+  "repository": "JAICHANGPARK/html-preview",
+  "upstream": "https://github.com/JAICHANGPARK/html-preview",
+  "commit": "12893f47e1c5641aae3abf811bc26ba1ab6a4bad",
+  "treeSha": "16f9c776c628d7b8d53716502116675e5dc3d11e",
+  "importedAt": "2026-10-07",
+  "scope": "Complete tracked source tree at the pinned commit, unmodified.",
+  "verification": "Every file and executable/symlink mode matches the upstream Git tree; staged tree identity is checked before publication.",
+  "runtimeTested": false,
+  "componentLicenses": [
+    {
+      "license": "MIT",
+      "scope": "Source snapshot with original and separately credited component notices retained."
+    }
+  ],
+  "licenseFiles": [
+    {
+      "path": "LICENSE",
+      "sha256": "86be42ef891cdbfaee11d291ea9b864e1784e5896c440b9b648e29e918e02b1a"
+    }
+  ],
+  "additionalNotices": [],
+  "mods": [
+    {
+      "name": "html-preview",
+      "version": "0.3.1",
+      "manifest_path": ".claude-plugin/plugin.json",
+      "path": ".",
+      "author": {
+        "name": "JAICHANGPARK"
+      },
+      "description": "Shows HTML files Claude writes (or /preview <file>) like a browser: terminal-browser when installed, else a built-in Chrome-rendered pane"
+    }
+  ],
+  "fileCount": 11,
+  "sourceBytes": 34507,
+  "files": [
+    {
+      "path": ".claude-plugin/marketplace.json",
+      "gitBlobSha1": "4faaaa2edabe7d00dd4143328b2b0253b84fb190",
+      "sha256": "c9de698ffac0536b630d23c5f66310049c5d663f6b131557e21f4c52b6b4dfed",
+      "bytes": 474,
+      "mode": "100644"
+    },
+    {
+      "path": ".claude-plugin/plugin.json",
+      "gitBlobSha1": "63370337d0b80fcef5c0709f76a7e05c1a20fbb7",
+      "sha256": "24ae049bee8ea29006fa99a1c89a195127e75c3bf2ea4f6e4032e9f86a5fff77",
+      "bytes": 1667,
+      "mode": "100644"
+    },
+    {
+      "path": ".gitignore",
+      "gitBlobSha1": "e32066235cd5ea81e628cf73533e5d262b04c973",
+      "sha256": "3378a474b76e00e3dbc924f4184bc0899d937728b9529b37e96b7aadf8908e02",
+      "bytes": 60,
+      "mode": "100644"
+    },
+    {
+      "path": "LICENSE",
+      "gitBlobSha1": "518e02daa5afb0e4e38c5d3c1ed31185076e558e",
+      "sha256": "86be42ef891cdbfaee11d291ea9b864e1784e5896c440b9b648e29e918e02b1a",
+      "bytes": 1065,
+      "mode": "100644"
+    },
+    {
+      "path": "README.md",
+      "gitBlobSha1": "305ee10ef4506c5113d6e601cd065201d559f0c6",
+      "sha256": "c12e853d1d4998cfff563e630719b21edcfef06f0053e99f94ddce0fd27cc601",
+      "bytes": 8123,
+      "mode": "100644"
+    },
+    {
+      "path": "hooks/builtin.ts",
+      "gitBlobSha1": "86a5543671c1e95f9ed283f4e0b007ef88772459",
+      "sha256": "4136364f7b9736090ea1ec12ce53ef0bfe4517c737dfdb23ddd185f13fbf29af",
+      "bytes": 2922,
+      "mode": "100644"
+    },
+    {
+      "path": "hooks/hooks.json",
+      "gitBlobSha1": "5a63f649593a5d89af8775a8e3d12db0f0940b12",
+      "sha256": "d842d789476d67282d0f04b7e5fdc68a3d981ccec65dd79cfa2d11eed13fb828",
+      "bytes": 34,
+      "mode": "100644"
+    },
+    {
+      "path": "hooks/register.tsx",
+      "gitBlobSha1": "c08347bca3763d9c744e9ee0ba1fdd6e056fa34d",
+      "sha256": "f8db66a87fe18c70d760f3f120fd0e2dad0393a358850b8e4c449c2aa667a1c8",
+      "bytes": 14232,
+      "mode": "100644"
+    },
+    {
+      "path": "tests/builtin.test.ts",
+      "gitBlobSha1": "ce25a43bb78eb52fd21c081d4997abb6199cbd88",
+      "sha256": "dc26c354fc8c826acb3da3352d1123f758d7690153024c94c44fe2cab3b84a0b",
+      "bytes": 464,
+      "mode": "100644"
+    },
+    {
+      "path": "tests/preview.test.ts",
+      "gitBlobSha1": "45d4aa07a9d38fa7cf2ad4fa1ab4a2e3585a3b40",
+      "sha256": "75b8c1db192ae26d9ebab20c79dbc97eae937e6e4aafde339227bca175927457",
+      "bytes": 4653,
+      "mode": "100644"
+    },
+    {
+      "path": "types/index.d.ts",
+      "gitBlobSha1": "4e1a2158ab6cc081c7c436318263f800a5e4b613",
+      "sha256": "54a7bca3dee14d146e2f6bfaf2c86dc1cd8b369f454d21db9a17210466896309",
+      "bytes": 813,
+      "mode": "100644"
+    }
+  ],
+  "discoveredCandidates": [
+    {
+      "id": "JAICHANGPARK/html-preview:.",
+      "path": ".",
+      "discoveryCommit": "12893f47e1c5641aae3abf811bc26ba1ab6a4bad",
+      "discoveryLicense": "MIT",
+      "sameRevisionAsImport": true
+    }
+  ]
+}

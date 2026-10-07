@@ -1,0 +1,3 @@
+# Laid by Claude Code each time it loads the plugin from disk
+.claude-plugin/types/
+.DS_Store

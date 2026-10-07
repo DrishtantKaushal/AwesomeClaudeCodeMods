@@ -1,0 +1,18 @@
+{
+  "name": "session-notes",
+  "description": "Session Notes for Claude Code",
+  "owner": {
+    "name": "udaaff",
+    "url": "https://github.com/udaaff"
+  },
+  "plugins": [
+    {
+      "name": "session-notes",
+      "description": "Project notes: dev servers and artifacts land by themselves, pinned links stay. Requires CLAUDE_CODE_ENABLE_FUNCTION_HOOKS=1.",
+      "source": "./",
+      "version": "0.1.0",
+      "category": "productivity",
+      "tags": ["notes", "servers", "artifacts", "mods", "function-hooks", "terminal-ui"]
+    }
+  ]
+}

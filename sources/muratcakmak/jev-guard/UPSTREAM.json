@@ -1,0 +1,140 @@
+{
+  "schemaVersion": 1,
+  "repository": "muratcakmak/jev-guard",
+  "upstream": "https://github.com/muratcakmak/jev-guard",
+  "commit": "304036789298d13f951183abe0fc46d6c6c43bfc",
+  "treeSha": "4f791c0e6ce926361272ce62c826ddb1385c8fdb",
+  "importedAt": "2026-10-07",
+  "scope": "Complete tracked source tree at the pinned commit, unmodified.",
+  "verification": "Every file and executable/symlink mode matches the upstream Git tree; staged tree identity is checked before publication.",
+  "runtimeTested": false,
+  "componentLicenses": [
+    {
+      "license": "MIT",
+      "scope": "Source snapshot with original and separately credited component notices retained."
+    }
+  ],
+  "licenseFiles": [
+    {
+      "path": "LICENSE",
+      "sha256": "7b898fc6f00cdd3d52cd1a123da863e35615efa463f565cefac5831c5d8ed840"
+    }
+  ],
+  "additionalNotices": [],
+  "mods": [
+    {
+      "name": "jev-guard",
+      "version": "0.1.0",
+      "manifest_path": ".claude-plugin/plugin.json",
+      "path": ".",
+      "author": {
+        "name": "Oguzhan Cakmak"
+      },
+      "description": "Probability-scored guardrails for Claude Code: deny rule-breaking edits and unasked-for deploys, route your own docs into each prompt, and check the final answer against the turn's own evidence."
+    }
+  ],
+  "fileCount": 13,
+  "sourceBytes": 49432,
+  "files": [
+    {
+      "path": ".claude-plugin/plugin.json",
+      "gitBlobSha1": "07de98b61dece26cf486c5f5c2393215c82bd92f",
+      "sha256": "a6c63d85116f92ff8a4ca20d6a398d8893fac63a1fffc6bacc65c7819bc64f32",
+      "bytes": 3144,
+      "mode": "100644"
+    },
+    {
+      "path": ".gitignore",
+      "gitBlobSha1": "c01896f938467ac462f34789a2d85fa30c1e229a",
+      "sha256": "52233354218a68c369b64c52aa4e4bbbc4258aaadee1245dee0c9bb5e0df5efd",
+      "bytes": 43,
+      "mode": "100644"
+    },
+    {
+      "path": "LICENSE",
+      "gitBlobSha1": "53513f9093b024f5775c87dcc869467ce5a7b69f",
+      "sha256": "7b898fc6f00cdd3d52cd1a123da863e35615efa463f565cefac5831c5d8ed840",
+      "bytes": 1071,
+      "mode": "100644"
+    },
+    {
+      "path": "README.md",
+      "gitBlobSha1": "e30efc75deb8cc1823e416318a9a86872161e5f2",
+      "sha256": "794e55ec2d03d84e8a2707daf97e71b395379c76ebfa56c20cb81de18adc0143",
+      "bytes": 6461,
+      "mode": "100644"
+    },
+    {
+      "path": "hooks/guard.test.mjs",
+      "gitBlobSha1": "4f0d50dff4f29481208fa069728bafae8ed3bb74",
+      "sha256": "bcaea7933eea717f25402f963156ee3e9471b1351fe404c6db67a8cc3a3c633b",
+      "bytes": 6967,
+      "mode": "100644"
+    },
+    {
+      "path": "hooks/guard.ts",
+      "gitBlobSha1": "ec6eacef252647e291a8bcd55465207c71e5f2c9",
+      "sha256": "561aa14e883697f0fea24f6aa083269214fccd9039843a953d66eee5ae1234c6",
+      "bytes": 19919,
+      "mode": "100644"
+    },
+    {
+      "path": "hooks/hooks.json",
+      "gitBlobSha1": "35bfe116fb9a8bc9217c2672f82f8c0ce86e5cc7",
+      "sha256": "a627ed5b02c2971065f4cfb912877dbed8fc4f32a3c3ec029baa67914dcba9e0",
+      "bytes": 32,
+      "mode": "100644"
+    },
+    {
+      "path": "hooks/rules.ts",
+      "gitBlobSha1": "2c87c36a08f046a1878a7a208dbfcf9c138800b9",
+      "sha256": "b5c98d42c44ec1ece828606b42791eef582f291610a937485df9b7a7a307f1c2",
+      "bytes": 4351,
+      "mode": "100644"
+    },
+    {
+      "path": "package.json",
+      "gitBlobSha1": "0690c760d0711d700cf8c81a75a62f5704f2aa4d",
+      "sha256": "6f40f4511f22f6d1ca6a2b0144067a84e775b04be337049903b8e478d14158ed",
+      "bytes": 291,
+      "mode": "100644"
+    },
+    {
+      "path": "scripts/__tests__/jev-lint-rules.test.ts",
+      "gitBlobSha1": "5d447db1b361a5cc04615f844df6fbaa70b5b129",
+      "sha256": "710124e8cb55d5b73d3ae2b4bb3671254e5ccffe4f0c7a682ebe29515808df82",
+      "bytes": 1992,
+      "mode": "100644"
+    },
+    {
+      "path": "scripts/jev-lint-rules.ts",
+      "gitBlobSha1": "6f4e4628521904fb82d5b074f74d7961ad349836",
+      "sha256": "ae0ae487b14b2b0e6418a0e16699ca55db36c8415e4ad8fdd76e889662c34ac4",
+      "bytes": 2735,
+      "mode": "100644"
+    },
+    {
+      "path": "scripts/jev-lint.ts",
+      "gitBlobSha1": "a1d33589f48901118bd62cd514d9f7be23107588",
+      "sha256": "b4bd7a08d8fbde7c702b8bc853feee9ed69036ef17bfe7b3589529e7be551732",
+      "bytes": 2066,
+      "mode": "100644"
+    },
+    {
+      "path": "tsconfig.json",
+      "gitBlobSha1": "a7607f555bb6835c1ae9c45561772841ec16ed94",
+      "sha256": "6df61f8a569f0468f2f8b04a3f83425356d0e3b37b5e0fbb9fcb952e59cfd936",
+      "bytes": 360,
+      "mode": "100644"
+    }
+  ],
+  "discoveredCandidates": [
+    {
+      "id": "muratcakmak/jev-guard:.",
+      "path": ".",
+      "discoveryCommit": "304036789298d13f951183abe0fc46d6c6c43bfc",
+      "discoveryLicense": "MIT",
+      "sameRevisionAsImport": true
+    }
+  ]
+}

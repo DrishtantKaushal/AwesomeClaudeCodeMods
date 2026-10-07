@@ -1,0 +1,6 @@
+{
+  "description": "claude-mermaid: draws Claude's ```mermaid blocks as box art inline in the transcript. Needs CLAUDE_CODE_ENABLE_FUNCTION_HOOKS=1; builds without function hooks ignore the modules key.",
+  "modules": [
+    "./register.ts"
+  ]
+}

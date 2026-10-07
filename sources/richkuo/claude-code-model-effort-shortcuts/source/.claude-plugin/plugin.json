@@ -1,0 +1,63 @@
+{
+  "name": "model-effort-shortcuts",
+  "version": "0.3.1",
+  "author": {
+    "name": "Richard Kuo"
+  },
+  "repository": "https://github.com/richkuo/claude-code-model-effort-shortcuts",
+  "license": "MIT",
+  "description": "Keyboard shortcuts that step the reasoning effort level and the model up and down; the footer shows what each request uses",
+  "types": "./types/index.d.ts",
+  "userConfig": {
+    "lowest": {
+      "type": "string",
+      "title": "Effort shortcut: lowest level",
+      "description": "The bottom of the range the shortcuts cycle through.",
+      "options": [
+        "low",
+        "medium",
+        "high",
+        "xhigh",
+        "max"
+      ],
+      "default": "low"
+    },
+    "highest": {
+      "type": "string",
+      "title": "Effort shortcut: highest level",
+      "description": "The top of the range the shortcuts cycle through.",
+      "options": [
+        "low",
+        "medium",
+        "high",
+        "xhigh",
+        "max"
+      ],
+      "default": "xhigh"
+    },
+    "haiku": {
+      "type": "boolean",
+      "title": "Model shortcut: include Haiku 4.5",
+      "description": "The model shortcuts cycle through Haiku 4.5.",
+      "default": true
+    },
+    "sonnet": {
+      "type": "boolean",
+      "title": "Model shortcut: include Sonnet 5.5",
+      "description": "The model shortcuts cycle through Sonnet 5.5.",
+      "default": true
+    },
+    "opus": {
+      "type": "boolean",
+      "title": "Model shortcut: include Opus 5.5",
+      "description": "The model shortcuts cycle through Opus 5.5.",
+      "default": true
+    },
+    "fable": {
+      "type": "boolean",
+      "title": "Model shortcut: include Fable 5.1",
+      "description": "The model shortcuts cycle through Fable 5.1.",
+      "default": true
+    }
+  }
+}

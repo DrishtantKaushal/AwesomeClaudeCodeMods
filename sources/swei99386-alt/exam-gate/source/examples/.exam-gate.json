@@ -1,0 +1,10 @@
+{
+  "max_rounds": 3,
+  "always": false,
+  "checks": [
+    { "type": "exists", "path": "out/report.md" },
+    { "type": "min_chars", "path": "out/report.md", "min": 500 },
+    { "type": "not_contains", "path": "out/report.md", "pattern": "TODO|lorem ipsum" },
+    { "type": "command", "argv": ["python", "-m", "pytest", "-q"], "timeout_s": 120 }
+  ]
+}

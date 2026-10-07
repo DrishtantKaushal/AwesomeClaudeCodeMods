@@ -1,0 +1,24 @@
+name: test
+
+on:
+  push:
+  pull_request:
+
+# it only ever reads the checkout
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: oven-sh/setup-bun@v2
+      # zero config, one binary: correctness and dead-code rules over the plugin's own sources.
+      # Pinned exactly: oxlint ships new correctness rules in minor releases, so a looser pin fails
+      # builds that changed nothing. Bump it deliberately.
+      - run: bunx --bun oxlint@1.83.0 hooks tests --deny-warnings
+      # the game rules, the pet and the pickers; the boards need Claude Code and are not covered here
+      - run: bun test
+      # no type check here: the 'claude-code' types are generated per machine by /plugin-types and
+      # are not in the repo, so tsc only runs locally

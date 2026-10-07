@@ -1,0 +1,37 @@
+{
+  "name": "context-relay",
+  "version": "0.1.0",
+  "description": "Hands the work to a fresh session before a long context degrades the model, and carries on there.",
+  "author": {
+    "name": "retrocodes12",
+    "url": "https://github.com/retrocodes12"
+  },
+  "repository": "https://github.com/retrocodes12/context-relay",
+  "license": "MIT",
+  "keywords": [
+    "context",
+    "handoff",
+    "session",
+    "claude-code-mod"
+  ],
+  "userConfig": {
+    "threshold": {
+      "type": "number",
+      "title": "Relay at (% of context window)",
+      "description": "When a turn ends with the context at least this full, relay to a fresh session.",
+      "default": 60
+    },
+    "tokenCeiling": {
+      "type": "number",
+      "title": "Relay at (tokens)",
+      "description": "Also relay once the context holds this many tokens, whatever the window. 0 turns it off.",
+      "default": 300000
+    },
+    "hardThreshold": {
+      "type": "number",
+      "title": "Stop a running turn at (%)",
+      "description": "Mid-turn, after a tool finishes with the context at least this full, stop the turn and relay. 0 turns it off.",
+      "default": 80
+    }
+  }
+}

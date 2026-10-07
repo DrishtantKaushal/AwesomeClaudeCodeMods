@@ -1,0 +1,11 @@
+{
+  "name": "claude-code-session-notes",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --experimental-strip-types --no-warnings --import ./tests/ts-resolve.mjs --test \"tests/*.test.*\""
+  },
+  "engines": {
+    "node": ">=22.6"
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "repository": "retrocodes12/context-relay",
+  "upstream": "https://github.com/retrocodes12/context-relay",
+  "commit": "576153e41df11e80d5b7778fa81887db7678f2e8",
+  "treeSha": "ed73fd041e93e861ae36078efb948b39994e2b70",
+  "importedAt": "2026-10-07",
+  "scope": "Complete tracked source tree at the pinned commit, unmodified.",
+  "verification": "Every file and executable/symlink mode matches the upstream Git tree; staged tree identity is checked before publication.",
+  "runtimeTested": false,
+  "componentLicenses": [
+    {
+      "license": "MIT",
+      "scope": "Source snapshot with original and separately credited component notices retained."
+    }
+  ],
+  "licenseFiles": [
+    {
+      "path": "LICENSE",
+      "sha256": "0b7531e46a55f292a9f9040911f0ac532f12f5f408777cf70f99895277208300"
+    }
+  ],
+  "additionalNotices": [],
+  "mods": [
+    {
+      "name": "context-relay",
+      "version": "0.1.0",
+      "manifest_path": ".claude-plugin/plugin.json",
+      "path": ".",
+      "author": {
+        "name": "retrocodes12",
+        "url": "https://github.com/retrocodes12"
+      },
+      "description": "Hands the work to a fresh session before a long context degrades the model, and carries on there."
+    }
+  ],
+  "fileCount": 8,
+  "sourceBytes": 16330,
+  "files": [
+    {
+      "path": ".claude-plugin/plugin.json",
+      "gitBlobSha1": "9886d3d53a09fd844abec25cb00cfc7004c5d184",
+      "sha256": "fc0d76f56f00ffc02f4c0b2a2e48db724a62a7f27fbcc70c9c3dbcd3d38e76fd",
+      "bytes": 1159,
+      "mode": "100644"
+    },
+    {
+      "path": ".gitignore",
+      "gitBlobSha1": "b9af88af82e962d6ce81cb09af7ec38fbab9c0fc",
+      "sha256": "517c8da1ed6d2220115fd4d30d9ebb370e84fe97c692972fa818fe428bd3073b",
+      "bytes": 54,
+      "mode": "100644"
+    },
+    {
+      "path": "LICENSE",
+      "gitBlobSha1": "8b3211698c880fbd9568fda264bbcd7f0a31de24",
+      "sha256": "0b7531e46a55f292a9f9040911f0ac532f12f5f408777cf70f99895277208300",
+      "bytes": 1069,
+      "mode": "100644"
+    },
+    {
+      "path": "README.md",
+      "gitBlobSha1": "0154229b46037a28b3a2570d2313ed303b1cde85",
+      "sha256": "89541c15a460b7f8d52b223b27d73b7997c9e69131a6bef2bd63b37cf3367b5b",
+      "bytes": 3687,
+      "mode": "100644"
+    },
+    {
+      "path": "hooks/hooks.json",
+      "gitBlobSha1": "5fcba7ce39fb8380e1221ae37d1fdf75e25e375e",
+      "sha256": "c835c92d8e1159d20a40ca78ad654da7433942c3694ffeda0b376b0c4dfd52cf",
+      "bytes": 33,
+      "mode": "100644"
+    },
+    {
+      "path": "hooks/register.ts",
+      "gitBlobSha1": "4efa03f31953d04c067d3f83379c2293733e65a7",
+      "sha256": "d2385ddb0e51d9b7788c27f2989107493ae35504a9336c1b73020652081eb3f6",
+      "bytes": 5627,
+      "mode": "100644"
+    },
+    {
+      "path": "tests/relay.test.ts",
+      "gitBlobSha1": "62ba6fe197f9aa6ef3ded29dcf205aa81f01b726",
+      "sha256": "d1bf42e866981c450f5d30a5ad2c07b70b12637318b13f996dcc912ebe336587",
+      "bytes": 4414,
+      "mode": "100644"
+    },
+    {
+      "path": "tsconfig.json",
+      "gitBlobSha1": "73aabb9575f05c583c117f2727fcf7799e8dcd31",
+      "sha256": "b9589c4e18b3ad9e2ffb01aa1bd540fd444e90d278978d02d117979bc5e27be1",
+      "bytes": 287,
+      "mode": "100644"
+    }
+  ],
+  "discoveredCandidates": [
+    {
+      "id": "retrocodes12/context-relay:.",
+      "path": ".",
+      "discoveryCommit": "576153e41df11e80d5b7778fa81887db7678f2e8",
+      "discoveryLicense": "MIT",
+      "sameRevisionAsImport": true
+    }
+  ]
+}

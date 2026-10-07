@@ -1,0 +1,16 @@
+{
+  "name": "prompt-jump",
+  "owner": {
+    "name": "ruanss4"
+  },
+  "metadata": {
+    "description": "prompt-jump: jump to any prompt of a Claude Code session"
+  },
+  "plugins": [
+    {
+      "name": "prompt-jump",
+      "source": "./",
+      "description": "A bar above the prompt input with a tick for every prompt of the session; hover to read one, click to jump to it"
+    }
+  ]
+}

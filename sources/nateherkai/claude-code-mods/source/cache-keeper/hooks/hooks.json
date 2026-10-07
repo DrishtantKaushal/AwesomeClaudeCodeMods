@@ -1,0 +1,4 @@
+{
+  "description": "Cache Keeper hooks module",
+  "modules": ["./register.mjs"]
+}

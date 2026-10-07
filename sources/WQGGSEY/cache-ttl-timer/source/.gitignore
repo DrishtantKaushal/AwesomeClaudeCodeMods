@@ -1,0 +1,9 @@
+# Written by Claude Code each time it loads the mod
+.claude-plugin/types/
+tsconfig.json
+
+# System files the directory refuses
+.DS_Store
+Thumbs.db
+desktop.ini
+__MACOSX/

@@ -1,0 +1,10 @@
+{
+  "name": "session-saver",
+  "version": "0.1.1",
+  "description": "Names untitled sessions through unpause. /park saves where you left off, and a resumed session shows it.",
+  "author": {
+    "name": "Hamza Zafar",
+    "url": "https://github.com/hamzafer"
+  },
+  "types": "./types/index.d.ts"
+}

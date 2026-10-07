@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "y-hirakaw/claude-code-mods:touch-map",
+  "name": "touch-map",
+  "version": "0.1.0",
+  "description": "See which files Claude has listed, read, partially read, edited, created or deleted, as a tree and an activity map in a pane.",
+  "author": "y-hirakaw",
+  "repository": "y-hirakaw/claude-code-mods",
+  "modPath": "touch-map",
+  "category": {
+    "id": "files",
+    "label": "Files & navigation",
+    "basis": "individual-pinned-manifest-and-source-review"
+  },
+  "sourceCommit": "ac362939126aaff53b1a1d22da196e4ec5137c66",
+  "sourcePath": "sources/y-hirakaw/claude-code-mods/source/touch-map",
+  "sourceManifest": "sources/y-hirakaw/claude-code-mods/source/touch-map/.claude-plugin/plugin.json",
+  "page": "mods/files/y-hirakaw--claude-code-mods--touch-map/",
+  "runtimeTested": false
+}

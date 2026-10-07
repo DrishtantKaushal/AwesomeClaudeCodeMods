@@ -1,0 +1,20 @@
+{
+  "name": "rename-ja",
+  "version": "0.1.0",
+  "description": "引数なしの /rename で、会話内容から日本語のセッション名を生成する。",
+  "author": {
+    "name": "tomatoaiu"
+  },
+  "homepage": "https://github.com/tomatoaiu/rename-ja",
+  "repository": "https://github.com/tomatoaiu/rename-ja",
+  "license": "MIT",
+  "userConfig": {
+    "prompt": {
+      "type": "string",
+      "title": "名前生成プロンプト",
+      "description": "セッション名を生成するときに Haiku へ渡す指示。会話の抜粋は、ユーザーメッセージとして別に渡される。",
+      "required": false,
+      "default": "ユーザーメッセージは会話の抜粋です。その主題を表す短い日本語のセッション名を1つだけ出力してください。20文字以内、体言止め、記号・引用符・改行・説明文なし。例: ログイン不具合の修正"
+    }
+  }
+}

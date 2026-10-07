@@ -1,25 +1,24 @@
-# Mods hosted in this collection
+# Mods by category
 
-These packages contain the actual mod source, supporting files and original notices. Each `source/` directory is an unchanged, complete tracked snapshot of the stated upstream revision. Original authors retain credit and their licenses.
+**82 mods across 14 categories**, backed by 38 complete local source packages.
 
-| Package | Mods | Source files | License |
-| --- | ---: | ---: | --- |
-| [FazalAAli/pi-agent-for-claude](FazalAAli/pi-agent-for-claude/) | 1 | 8 | MIT |
-| [halluton/Mindful-Claude](halluton/Mindful-Claude/) | 1 | 26 | MIT |
-| [OneWave-AI/claude-code-mods](OneWave-AI/claude-code-mods/) | 11 | 136 | MIT |
-| [henrik-thevibe/Claude-Fables](henrik-thevibe/Claude-Fables/) | 1 | 59 | MIT + OFL-1.1 font |
-| [giovaborgogno/cc-dino](giovaborgogno/cc-dino/) | 1 | 20 | MIT |
-| [powerofjinbo/claude-code-spell-bar](powerofjinbo/claude-code-spell-bar/) | 1 | 22 | MIT |
-| [scasella/claude-flightdeck](scasella/claude-flightdeck/) | 1 | 21 | MIT |
+| Category | Hosted mods |
+| --- | ---: |
+| [Usage & costs](usage/) | 9 |
+| [Agents & orchestration](agents/) | 8 |
+| [Planning & tasks](planning/) | 5 |
+| [Files & navigation](files/) | 4 |
+| [Git & code review](git/) | 3 |
+| [Safety & permissions](safety/) | 9 |
+| [Memory & context](memory/) | 11 |
+| [Interface & themes](interface/) | 12 |
+| [Prompts & input](prompts/) | 3 |
+| [Testing & debugging](testing/) | 1 |
+| [Browser & web](web/) | 2 |
+| [Notifications & focus](focus/) | 4 |
+| [Games & entertainment](games/) | 8 |
+| [Integrations & utilities](integrations/) | 3 |
 
-**Current batch: 7 repositories, 17 mod manifests, 292 original source files.** Source checks do not establish runtime compatibility or security. External runtimes, service credentials and package-manager dependencies are described in each author's preserved documentation.
+Every mod has its own category folder with local source and setup links. A repository containing mods in several categories has one shared, unchanged snapshot under [`sources/`](../sources/README.md). Its code, supporting files, skills and original assets stay together; category pages do not create separate or incomplete copies.
 
-## Collection coverage
-
-The wider import is in progress. The original catalogue has 1,020 candidate mods, including 659 labelled MIT across 441 repositories. Those labels are discovery metadata, not completed source/license reviews. Category entries without a local package currently remain external pending review.
-
-- **Clawdman:** author code is MIT, but its README excludes required sprites and animations. The complete package remains external while those rights are unresolved.
-- **Claude Subway Surfers:** no source license was established at the checked revision; it remains external.
-- Non-MIT or unresolved packages remain references unless their redistribution terms are separately resolved. Packages are never made to appear complete by dropping required assets.
-
-[Browse the collection](../README.md#browse-by-category) · [Third-party notices](../THIRD_PARTY_NOTICES.md)
+The wider collection import is still in progress. [Coverage for all original candidates](coverage.json) · [All source packages](../sources/README.md) · [Main collection](../README.md)

@@ -1,0 +1,253 @@
+{
+  "schemaVersion": 1,
+  "repository": "zycck/claude-mods",
+  "upstream": "https://github.com/zycck/claude-mods",
+  "commit": "2febbf82b6d933971f19d79892a586cb036fc199",
+  "treeSha": "88614810bbfd3aa79b61eac8535ded2f24a46788",
+  "importedAt": "2026-10-07",
+  "scope": "Complete tracked source tree at the pinned commit, unmodified.",
+  "verification": "Every file and executable/symlink mode matches the upstream Git tree; staged tree identity is checked before publication.",
+  "runtimeTested": false,
+  "componentLicenses": [
+    {
+      "license": "MIT",
+      "scope": "Source snapshot with original and separately credited component notices retained."
+    }
+  ],
+  "licenseFiles": [
+    {
+      "path": "LICENSE",
+      "sha256": "09edc346b0bdbb9acb1fb025bb96a4f1dd63984c2fff273a0cbb1d01a5e5c7ec"
+    }
+  ],
+  "additionalNotices": [],
+  "mods": [
+    {
+      "name": "plan-progress",
+      "version": "0.7.3",
+      "manifest_path": "plugins/plan-progress/.claude-plugin/plugin.json",
+      "path": "plugins/plan-progress",
+      "author": {
+        "name": "Kirill Serditov",
+        "url": "https://github.com/zycck"
+      },
+      "description": "Live plan progress bars above the Claude Code prompt: stages, steps, a pixel fill and soft sounds for decision, error and done"
+    }
+  ],
+  "fileCount": 29,
+  "sourceBytes": 2268669,
+  "files": [
+    {
+      "path": ".claude-plugin/marketplace.json",
+      "gitBlobSha1": "c6a4b0d653e82b57fb2555a4c324018e38009485",
+      "sha256": "00923dc72e2cb62869ece60546a8bb057f872cc19611a883b934c90d4cd1bb94",
+      "bytes": 381,
+      "mode": "100644"
+    },
+    {
+      "path": ".gitignore",
+      "gitBlobSha1": "c828e683716310ea33fad96890e2f373c95aec60",
+      "sha256": "391d3e7fbd93adeb35bbb0d11c25e83462d7cec4dc8a3a8c6467a051a4674d57",
+      "bytes": 158,
+      "mode": "100644"
+    },
+    {
+      "path": "LICENSE",
+      "gitBlobSha1": "5ac90beddf7c3d5651271bbdefe707546ca93049",
+      "sha256": "09edc346b0bdbb9acb1fb025bb96a4f1dd63984c2fff273a0cbb1d01a5e5c7ec",
+      "bytes": 1072,
+      "mode": "100644"
+    },
+    {
+      "path": "README.de.md",
+      "gitBlobSha1": "8caebadd7e74c3f1efad6b1725b86e660e8c2b9b",
+      "sha256": "de6ef950a4ae5c943fe232c7ccef5c929e482ecd89c843596861f2861e9a1e2a",
+      "bytes": 2675,
+      "mode": "100644"
+    },
+    {
+      "path": "README.es.md",
+      "gitBlobSha1": "436c52ddd70370f36ed9c5f06b80fca720628b6e",
+      "sha256": "ad653142aad347ff63a988a3054dfc9647e3e20786e5020ff77633b4c61c11b2",
+      "bytes": 2664,
+      "mode": "100644"
+    },
+    {
+      "path": "README.fr.md",
+      "gitBlobSha1": "39cb195af9ec8e8a06e6924152f598331b1b015e",
+      "sha256": "790aa972bbb58803992785ed09ae9553c081b4569df75048b0cb8eef846b2719",
+      "bytes": 2740,
+      "mode": "100644"
+    },
+    {
+      "path": "README.ja.md",
+      "gitBlobSha1": "4630c566f2ff7f15d364ab252831474d8d3dac66",
+      "sha256": "64c8b102a9ab741e1667f6b2d3fee18c7902c77d6264a7b9d31801a70fa17de9",
+      "bytes": 3070,
+      "mode": "100644"
+    },
+    {
+      "path": "README.ko.md",
+      "gitBlobSha1": "79e6ef4df4626cee115f5ef1bf29b6f73e9a229e",
+      "sha256": "0564875ccf995c9b1902ce8b041af2631105e1ad75f77f9904c720fd707cf3f9",
+      "bytes": 2773,
+      "mode": "100644"
+    },
+    {
+      "path": "README.md",
+      "gitBlobSha1": "14a97d554fa4c1b9c79fae2864c89e4317ce8995",
+      "sha256": "9169efaecaaa32f0a647fe382049bc882f1344d9794d86af8f58ac6dabf19fb7",
+      "bytes": 2390,
+      "mode": "100644"
+    },
+    {
+      "path": "README.pt-BR.md",
+      "gitBlobSha1": "21e28573bd7b3173b3d1c68cb24a108740243244",
+      "sha256": "5f17f6b7b9e715d026d00274c7e743702eddd5c4ad852a546f42671a7b2ee8ff",
+      "bytes": 2597,
+      "mode": "100644"
+    },
+    {
+      "path": "README.ru.md",
+      "gitBlobSha1": "a47d2eea18eaaf22b755b6167f57bc3fc97ede04",
+      "sha256": "404b3d8656a1c3b5329cd2fa8fae699d988dc170727cdba9eaa819a51b55f109",
+      "bytes": 3736,
+      "mode": "100644"
+    },
+    {
+      "path": "README.zh-CN.md",
+      "gitBlobSha1": "4fcc16ee944ec282f4e888cf81033553883d1a01",
+      "sha256": "585ef3fbc0c4367e8a30576b8f370490c3d14e05d9e6a2d41a9af00201bf47c6",
+      "bytes": 2454,
+      "mode": "100644"
+    },
+    {
+      "path": "media/plan-progress.gif",
+      "gitBlobSha1": "6b86e13bf11c486f3e15df38b487481fe05989e0",
+      "sha256": "49f09d1600b02c7a3bdcb770ed1ff53150813f9e6d95035053c2c3e38554efc5",
+      "bytes": 1232238,
+      "mode": "100644"
+    },
+    {
+      "path": "media/plan-progress.mp4",
+      "gitBlobSha1": "f5f304ce03ca984a7f78c0c145f9fd69650e76e0",
+      "sha256": "42f3580f3ab6413e8ae0b4ef0b2ad7d281f4badcc990964e32a6388c32fcdd6c",
+      "bytes": 705068,
+      "mode": "100644"
+    },
+    {
+      "path": "plugins/plan-progress/.claude-plugin/plugin.json",
+      "gitBlobSha1": "6f9309c3ce3daad4e1266873d4416c2f43b1d2a0",
+      "sha256": "b30928909eea6dc8171a29b38075a1e2dd4ad56c6927c04d27baa4b77a3bb3fc",
+      "bytes": 330,
+      "mode": "100644"
+    },
+    {
+      "path": "plugins/plan-progress/hooks/hooks.json",
+      "gitBlobSha1": "5a63f649593a5d89af8775a8e3d12db0f0940b12",
+      "sha256": "d842d789476d67282d0f04b7e5fdc68a3d981ccec65dd79cfa2d11eed13fb828",
+      "bytes": 34,
+      "mode": "100644"
+    },
+    {
+      "path": "plugins/plan-progress/hooks/register.tsx",
+      "gitBlobSha1": "e7830abafb9f02f21280f8e38b72ade3124ad5b1",
+      "sha256": "8944f1d6bb67f6a4614fc4154d7cedb171164d2675615cbd391bc2724f2aff40",
+      "bytes": 84844,
+      "mode": "100644"
+    },
+    {
+      "path": "plugins/plan-progress/skills/plan-progress/SKILL.md",
+      "gitBlobSha1": "a74186bdfefb1670bc4380514ea5cf24e9dc71a7",
+      "sha256": "7329575f13d70d5d9e95c0c23ced6a6ca5b318b7260858e9c9b7e745ec97e4e3",
+      "bytes": 1499,
+      "mode": "100644"
+    },
+    {
+      "path": "plugins/plan-progress/sounds/decision.wav",
+      "gitBlobSha1": "6d7785773cd023fadc254d80b9a1bd74be6d19f8",
+      "sha256": "3ef9e1dd530d7a401f6380af8e56b9453890a528961ce21d014a449e579a40a8",
+      "bytes": 54728,
+      "mode": "100644"
+    },
+    {
+      "path": "plugins/plan-progress/sounds/done.wav",
+      "gitBlobSha1": "150b643dc439637f66886dd71189495592d9db04",
+      "sha256": "ca1c26c793dcd41aae5b55b145e01914c1ea395805941370d6ed67d7572dd6c7",
+      "bytes": 54728,
+      "mode": "100644"
+    },
+    {
+      "path": "plugins/plan-progress/sounds/error.wav",
+      "gitBlobSha1": "83ee0451fe10a68a5999a76310df087a69bd22ac",
+      "sha256": "b3dfa066c66e3501786466b739d521c51cc10f19dc2ed682c99e7d64523db749",
+      "bytes": 54728,
+      "mode": "100644"
+    },
+    {
+      "path": "plugins/plan-progress/tests/README.md",
+      "gitBlobSha1": "8ee6155a8ce5657d65614c1abd591ee5fc4140cb",
+      "sha256": "7087f850a09c111b189fc12c387d430e84937c04d525345f046eec7ed5ec4364",
+      "bytes": 2203,
+      "mode": "100644"
+    },
+    {
+      "path": "plugins/plan-progress/tests/compile.cjs",
+      "gitBlobSha1": "68a7196e71bf5f6fef6f71c34c4710538c9d57d4",
+      "sha256": "c36d0b22b0f192fc8902b9d4a895ed9a1f9f4b83081e12eae289dfb764dd319e",
+      "bytes": 557,
+      "mode": "100644"
+    },
+    {
+      "path": "plugins/plan-progress/tests/engine.mjs",
+      "gitBlobSha1": "6bbebcfa947ab3da16a8864c780db97750ae6f2a",
+      "sha256": "d6a371a91b40b7695d00bb9ba271840a8cf73c031e07ded5983767477f3ab211",
+      "bytes": 9725,
+      "mode": "100644"
+    },
+    {
+      "path": "plugins/plan-progress/tests/look.mjs",
+      "gitBlobSha1": "20736db222c0a12e703f72cd8a8d87227eca0769",
+      "sha256": "897cefeffca02fb2c28ec462682e0605a2ab7bca7babf1a1555babee7f2734aa",
+      "bytes": 1736,
+      "mode": "100644"
+    },
+    {
+      "path": "plugins/plan-progress/tests/regress.mjs",
+      "gitBlobSha1": "9e24f04e312a1d3fed776fb68f5a0fa549a4493b",
+      "sha256": "bdc3f5df895b7aedd5b4a121b5307a41ed3c40375c288d5d5ba363280c98aa2b",
+      "bytes": 25217,
+      "mode": "100644"
+    },
+    {
+      "path": "plugins/plan-progress/tests/scenarios.mjs",
+      "gitBlobSha1": "1cd34ce021fe634e9ce4fc2d34e1a8b75caaecac",
+      "sha256": "20ec0ad38e29959e6ac9c3b4baea62f07855a94bafba81e0830bae8c87f99754",
+      "bytes": 12696,
+      "mode": "100644"
+    },
+    {
+      "path": "plugins/plan-progress/tests/stub.mjs",
+      "gitBlobSha1": "3a37a89574e94f88315398557f09d761a2a2536b",
+      "sha256": "7b0f39ef25558c4ad7e1a2142dadc0b94ea8769dca89f9c44ba61eb323d3186b",
+      "bytes": 164,
+      "mode": "100644"
+    },
+    {
+      "path": "plugins/plan-progress/types/index.d.ts",
+      "gitBlobSha1": "35d40e09f785aa3e246e87c45417c390ba920100",
+      "sha256": "661bff1c34d06b3cb58f41e212c635788093c12e585f5e5a5524443682ddaf19",
+      "bytes": 1464,
+      "mode": "100644"
+    }
+  ],
+  "discoveredCandidates": [
+    {
+      "id": "zycck/claude-mods:plugins/plan-progress",
+      "path": "plugins/plan-progress",
+      "discoveryCommit": "e56018a17f403939979730cdb6d4aac4a96b72a2",
+      "discoveryLicense": "MIT",
+      "sameRevisionAsImport": false
+    }
+  ]
+}

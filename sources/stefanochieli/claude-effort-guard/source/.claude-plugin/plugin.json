@@ -1,0 +1,9 @@
+{
+  "name": "effort-guard",
+  "version": "0.1.1",
+  "description": "Claude Code mod: context/token band, escalation signals and per-turn effort log.",
+  "author": {
+    "name": "Stefano Chieli"
+  },
+  "types": "./types/index.d.ts"
+}

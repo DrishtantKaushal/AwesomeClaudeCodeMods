@@ -1,0 +1,10 @@
+{
+  "name": "merge-gate",
+  "version": "0.1.4",
+  "description": "Holds `gh pr merge` until CI passes and one Codex review (OpenAI's luna model) has run. A PR line above the prompt, and /gate shows the PR's status.",
+  "author": {
+    "name": "Hamza Zafar",
+    "url": "https://github.com/hamzafer"
+  },
+  "types": "./types/index.d.ts"
+}

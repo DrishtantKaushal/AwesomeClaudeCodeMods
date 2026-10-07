@@ -1,0 +1,15 @@
+{
+  "name": "cache-ttl-timer",
+  "displayName": "Cache TTL Timer",
+  "version": "1.0.0",
+  "description": "A prompt-cache countdown in the prompt footer, beside the model and effort: how long until your next message has to re-cache the whole conversation.",
+  "author": {
+    "name": "Seongje Hong",
+    "url": "https://github.com/WQGGSEY"
+  },
+  "homepage": "https://github.com/WQGGSEY/cache-ttl-timer",
+  "repository": "https://github.com/WQGGSEY/cache-ttl-timer",
+  "license": "MIT",
+  "keywords": ["prompt-cache", "cache", "ttl", "countdown", "mod", "status"],
+  "types": "./types/index.d.ts"
+}
